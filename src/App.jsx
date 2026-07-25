@@ -14,7 +14,7 @@ export default function App() {
 
       <main className="app-content">
         {activeTab === 'self_talk' && <SelfTalkView />}
-        {activeTab === 'vocabulary' && <VocabularyView />}
+        {activeTab === 'vocabulary' && <VocabularyView onGoHome={() => setActiveTab('self_talk')} />}
         {activeTab === 'pinyin' && <PinyinView />}
       </main>
 

@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, RotateCcw } from 'lucide-react';
+import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, RotateCcw, Home } from 'lucide-react';
 import { vocabularyList } from '../data/vocabularyData';
 import { speakChinese } from '../utils/speech';
-import { getWordProgress, markWordProgress, getMemoryStats, getDueWords } from '../utils/srsEngine';
+import { getWordProgress, markWordProgress, getMemoryStats } from '../utils/srsEngine';
 
-export default function VocabularyView() {
+export default function VocabularyView({ onGoHome }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [viewMode, setViewMode] = useState('flashcard');
+  const [sessionOffset, setSessionOffset] = useState(0);
   const [flashcardIndex, setFlashcardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [sessionCompleted, setSessionCompleted] = useState(false);
@@ -16,7 +17,7 @@ export default function VocabularyView() {
   // Overall Memory Stats
   const globalStats = getMemoryStats(vocabularyList);
 
-  // Dynamic Auto-Queue Deck: Filtered by search or seamless full list
+  // Filtered full list
   const filteredVocab = vocabularyList.filter(item => {
     const q = searchQuery.toLowerCase().trim();
     if (!q) return true;
@@ -27,7 +28,9 @@ export default function VocabularyView() {
     );
   });
 
-  const currentFlashcard = filteredVocab[flashcardIndex] || null;
+  // Current 10-Word Bite-Sized Session Deck
+  const sessionCards = filteredVocab.slice(sessionOffset, sessionOffset + 10);
+  const currentFlashcard = sessionCards[flashcardIndex] || null;
 
   const handleSRSMark = (wordId, remembered) => {
     markWordProgress(wordId, remembered);
@@ -39,14 +42,23 @@ export default function VocabularyView() {
       forgotten: !remembered ? prev.forgotten + 1 : prev.forgotten
     }));
 
-    if (flashcardIndex + 1 >= filteredVocab.length) {
+    if (flashcardIndex + 1 >= sessionCards.length) {
       setSessionCompleted(true);
     } else {
       setFlashcardIndex(prev => prev + 1);
     }
   };
 
-  const resetSession = () => {
+  const restartCurrentSession = () => {
+    setFlashcardIndex(0);
+    setIsFlipped(false);
+    setSessionCompleted(false);
+    setSessionStats({ remembered: 0, forgotten: 0 });
+  };
+
+  const handleNext10Words = () => {
+    const nextOffset = sessionOffset + 10 >= filteredVocab.length ? 0 : sessionOffset + 10;
+    setSessionOffset(nextOffset);
     setFlashcardIndex(0);
     setIsFlipped(false);
     setSessionCompleted(false);
@@ -122,11 +134,12 @@ export default function VocabularyView() {
           <Search size={16} className="search-icon" />
           <input
             type="text"
-            placeholder="ค้นคำศัพท์, พินอิน หรือคำแปล..."
+            placeholder="ค้นคำศัพท์ 1,000 คำ..."
             value={searchQuery}
             onChange={(e) => {
               setSearchQuery(e.target.value);
-              resetSession();
+              setSessionOffset(0);
+              restartCurrentSession();
             }}
           />
         </div>
@@ -147,10 +160,14 @@ export default function VocabularyView() {
 
       {/* Section Title & Progress Indicator */}
       <div className="section-title">
-        <span>{viewMode === 'flashcard' ? 'บัตรคำศัพท์ความจำ (Auto-Queue Deck)' : 'รายการคำศัพท์ทั้งหมด'}</span>
+        <span>
+          {viewMode === 'flashcard'
+            ? `ทบทวนครั้งละ 10 คำ (คำที่ ${sessionOffset + 1} - ${Math.min(sessionOffset + 10, filteredVocab.length)})`
+            : `รายการคำศัพท์ทั้งหมด (1,000 คำ)`}
+        </span>
         <span className="count-badge">
           {viewMode === 'flashcard'
-            ? `คำที่ ${Math.min(flashcardIndex + 1, filteredVocab.length)} / ${filteredVocab.length}`
+            ? `คำที่ ${Math.min(flashcardIndex + 1, sessionCards.length)} / ${sessionCards.length}`
             : `แสดง ${filteredVocab.length} คำ`}
         </span>
       </div>
@@ -160,9 +177,9 @@ export default function VocabularyView() {
           ไม่พบคำศัพท์ที่ตรงกับการค้นหา
         </div>
       ) : viewMode === 'flashcard' ? (
-        /* --- CONTINUOUS SRS FLASHCARD DECK --- */
+        /* --- 10-WORD SESSION FLASHCARD GAME MODE --- */
         sessionCompleted ? (
-          /* --- SESSION VICTORY SUMMARY CARD --- */
+          /* --- SESSION COMPLETION SUMMARY SCREEN --- */
           <div className="card" style={{ textAlign: 'center', padding: '24px 18px', backgroundColor: 'var(--bg-subtle)', gap: '16px' }}>
             <div style={{ display: 'inline-flex', alignSelf: 'center', backgroundColor: '#EEF2FF', padding: '12px', borderRadius: 'var(--radius-full)' }}>
               <Award size={36} color="var(--accent-primary)" />
@@ -170,10 +187,10 @@ export default function VocabularyView() {
 
             <div>
               <h3 style={{ fontSize: '1.25rem', fontWeight: '800', color: 'var(--text-main)' }}>
-                เยี่ยมมาก! ทบทวนครบทุกคำในสำรับแล้ว
+                เก่งมาก! เรียนจบเซกชัน 10 คำแล้ว
               </h3>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '4px' }}>
-                คำที่จำได้แล้วจะขยับไปอยู่ในกล่องความจำระยะยาวโดยอัตโนมัติ
+                (คำที่ {sessionOffset + 1} - {sessionOffset + sessionCards.length} จากทั้งหมด {filteredVocab.length} คำ)
               </p>
             </div>
 
@@ -192,18 +209,43 @@ export default function VocabularyView() {
               </div>
             </div>
 
-            <button
-              type="button"
-              className="pill-btn active"
-              onClick={resetSession}
-              style={{ padding: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px', fontSize: '0.9rem', marginTop: '6px' }}
-            >
-              <RotateCcw size={16} />
-              <span>เริ่มทบทวนสำรับอีกครั้ง</span>
-            </button>
+            {/* Action Buttons: Next 10 Words, Restart 10 Words, Back to Home */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '6px' }}>
+              <button
+                type="button"
+                className="pill-btn active"
+                onClick={handleNext10Words}
+                style={{ padding: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px', fontSize: '0.9rem' }}
+              >
+                <span>เรียน 10 คำถัดไป</span>
+                <ArrowRight size={16} />
+              </button>
+
+              <button
+                type="button"
+                className="pill-btn"
+                onClick={restartCurrentSession}
+                style={{ padding: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px', fontSize: '0.85rem' }}
+              >
+                <RotateCcw size={14} />
+                <span>เริ่มใหม่ (ทวน 10 คำนี้อีกครั้ง)</span>
+              </button>
+
+              {onGoHome && (
+                <button
+                  type="button"
+                  className="pill-btn"
+                  onClick={onGoHome}
+                  style={{ padding: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px', fontSize: '0.85rem', backgroundColor: '#F3F4F6', color: '#374151' }}
+                >
+                  <Home size={14} />
+                  <span>กลับหน้าหลัก (เลขาภาษาจีน)</span>
+                </button>
+              )}
+            </div>
           </div>
         ) : (
-          /* --- FLASHCARD ITEM CARD (Pinyin + Hanzi ONLY) --- */
+          /* --- FLASHCARD ITEM CARD --- */
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
             <div className="flashcard-wrapper">
               <div className="flashcard" onClick={() => setIsFlipped(!isFlipped)}>
