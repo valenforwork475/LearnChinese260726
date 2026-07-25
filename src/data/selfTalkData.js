@@ -1,14 +1,12 @@
-// Extremely Natural Spoken Chinese Self-Talk Sentences + Complete Time Pronunciation Converter
+// Direct Practical Self-Talk Routine Sentences for Daily Speaking Practice
 
 export const SELF_TALK_CATEGORIES = [
   { id: 'all', label: 'ทั้งหมด' },
-  { id: 'morning', label: 'ตอนตื่นเช้า' },
-  { id: 'commute', label: 'ออกจากบ้าน/เดินทาง' },
-  { id: 'work_study', label: 'ทำงาน/เรียน' },
-  { id: 'meal', label: 'หิวข้าว/กินข้าว' },
-  { id: 'evening', label: 'กลับบ้าน/พักผ่อน' },
-  { id: 'night', label: 'ตอนดึก/เข้านอน' },
-  { id: 'mindset', label: 'พึมพำกับตัวเอง' }
+  { id: 'morning', label: 'กิจวัตรเช้า' },
+  { id: 'dressing', label: 'แต่งตัว' },
+  { id: 'commute', label: 'เดินทาง/ทำงาน' },
+  { id: 'meals', label: 'อาหาร/เครื่องดื่ม' },
+  { id: 'evening_night', label: 'เย็น/ก่อนนอน' }
 ];
 
 export const selfTalkSentences = [
@@ -16,271 +14,300 @@ export const selfTalkSentences = [
   {
     id: 'm1',
     category: 'morning',
-    context: 'เพิ่งลืมตาตื่น',
-    hanzi: '起床了... 几点了？',
-    pinyin: 'Qǐchuáng le... jǐ diǎn le?',
-    thaiReading: 'ฉี่ฉวง เลอ... จี่ เตี่ยน เลอ?',
-    thaiMeaning: 'ตื่นแล้ว... กี่โมงแล้วเนี่ย?',
+    context: '8 โมงตื่นนอน',
+    hanzi: '八点起床。',
+    pinyin: 'Bā diǎn qǐchuáng.',
+    thaiReading: 'ปา เตี่ยน ฉี่ฉวง',
+    thaiMeaning: '8 โมงตื่นนอน',
     words: [
-      { hanzi: '起床', pinyin: 'qǐchuáng', thaiReading: 'ฉี่ฉวง', thaiMeaning: 'ตื่นนอน' },
-      { hanzi: '几点', pinyin: 'jǐ diǎn', thaiReading: 'จี่ เตี่ยน', thaiMeaning: 'กี่โมง' }
+      { hanzi: '八点', pinyin: 'bā diǎn', thaiReading: 'ปา เตี่ยน', thaiMeaning: '8 โมง' },
+      { hanzi: '起床', pinyin: 'qǐchuáng', thaiReading: 'ฉี่ฉวง', thaiMeaning: 'ตื่นนอน' }
     ]
   },
   {
     id: 'm2',
     category: 'morning',
-    context: 'ขอนอนต่ออีกนิด',
-    hanzi: '太困了... 再睡五分钟吧。',
-    pinyin: 'Tài kùn le... zài shuì wǔ fēnzhōng ba.',
-    thaiReading: 'ไท่ คุ่น เลอ... จ้าย ชุ่ย อู่ เฟินจง ปา',
-    thaiMeaning: 'ง่วงจัง... ขอสโนออซนอนต่ออีก 5 นาทีนะ',
+    context: 'ไปแปรงฟัน',
+    hanzi: '去刷牙。',
+    pinyin: 'Qù shuāyá.',
+    thaiReading: 'ชวี่ ชวาหยา',
+    thaiMeaning: 'ไปแปรงฟัน',
     words: [
-      { hanzi: '太困了', pinyin: 'tài kùn le', thaiReading: 'ไท่ คุ่น เลอ', thaiMeaning: 'ง่วงมาก' },
-      { hanzi: '五分钟', pinyin: 'wǔ fēnzhōng', thaiReading: 'อู่ เฟินจง', thaiMeaning: '5 นาที' }
+      { hanzi: '去', pinyin: 'qù', thaiReading: 'ชวี่', thaiMeaning: 'ไป' },
+      { hanzi: '刷牙', pinyin: 'shuāyá', thaiReading: 'ชวาหยา', thaiMeaning: 'แปรงฟัน' }
     ]
   },
   {
     id: 'm3',
     category: 'morning',
-    context: 'ลุกไปห้องน้ำ',
-    hanzi: '起来，先去刷牙洗脸。',
-    pinyin: 'Qǐlái, xiān qù shuāyá xǐliǎn.',
-    thaiReading: 'ฉี่ไล, เซียน ชวี่ ชวาหยา สีเหลี่ยน',
-    thaiMeaning: 'ลุกก่อน ไปแปรงฟันล้างหน้าก่อนดีกว่า',
+    context: 'ล้างหน้า',
+    hanzi: '洗脸。',
+    pinyin: 'Xǐliǎn.',
+    thaiReading: 'สีเหลี่ยน',
+    thaiMeaning: 'ล้างหน้า',
     words: [
-      { hanzi: '刷牙', pinyin: 'shuāyá', thaiReading: 'ชวาหยา', thaiMeaning: 'แปรงฟัน' },
       { hanzi: '洗脸', pinyin: 'xǐliǎn', thaiReading: 'สีเหลี่ยน', thaiMeaning: 'ล้างหน้า' }
     ]
   },
   {
     id: 'm4',
     category: 'morning',
-    context: 'คอแห้งหิวน้ำ',
-    hanzi: '好渴啊，先喝口水。',
-    pinyin: 'Hǎo kě a, xiān hē kǒu shuǐ.',
-    thaiReading: 'ห่าว เข่อ อา, เซียน เฮอ โข่ว สุ่ย',
-    thaiMeaning: 'หิวน้ำจัง ดื่มน้ำสักจิบก่อน',
+    context: 'อาบน้ำ',
+    hanzi: '洗澡。',
+    pinyin: 'Xǐzǎo.',
+    thaiReading: 'สีเจ้า',
+    thaiMeaning: 'อาบน้ำ',
     words: [
-      { hanzi: '好渴', pinyin: 'hǎo kě', thaiReading: 'ห่าว เข่อ', thaiMeaning: 'หิวน้ำมาก' },
-      { hanzi: '喝水', pinyin: 'hē shuǐ', thaiReading: 'เฮอ สุ่ย', thaiMeaning: 'ดื่มน้ำ' }
-    ]
-  },
-  {
-    id: 'm5',
-    category: 'morning',
-    context: 'ส่องตู้เสื้อผ้า',
-    hanzi: '今天穿什么呢...',
-    pinyin: 'Jīntiān chuān shénme ne...',
-    thaiReading: 'จินเทียน ชวน เสินเมอ เนอะ...',
-    thaiMeaning: 'วันนี้ใส่ชุดไหนดีหว่า...',
-    words: [
-      { hanzi: '今天', pinyin: 'jīntiān', thaiReading: 'จินเทียน', thaiMeaning: 'วันนี้' },
-      { hanzi: '穿', pinyin: 'chuān', thaiReading: 'ชวน', thaiMeaning: 'ใส่/สวม' }
-    ]
-  },
-  {
-    id: 'm6',
-    category: 'morning',
-    context: 'ชงกาแฟปลุกตัวเอง',
-    hanzi: '冲杯咖啡，清醒一下。',
-    pinyin: 'Chōng bēi kāfēi, qīngxǐng yíxià.',
-    thaiReading: 'ชง เปย คาเฟย, ชิงสิ่ง อี๋เซีย',
-    thaiMeaning: 'ชงกาแฟสักแก้ว ให้ตาสว่างหน่อย',
-    words: [
-      { hanzi: '咖啡', pinyin: 'kāfēi', thaiReading: 'คาเฟย', thaiMeaning: 'กาแฟ' },
-      { hanzi: '清醒', pinyin: 'qīngxǐng', thaiReading: 'ชิงสิ่ง', thaiMeaning: 'ตื่นตัว/สว่าง' }
+      { hanzi: '洗澡', pinyin: 'xǐzǎo', thaiReading: 'สีเจ้า', thaiMeaning: 'อาบน้ำ' }
     ]
   },
 
-  // --- COMMUTE ---
+  // --- DRESSING ---
+  {
+    id: 'd1',
+    category: 'dressing',
+    context: 'แต่งตัว',
+    hanzi: '换衣服。',
+    pinyin: 'Huàn yīfu.',
+    thaiReading: 'หว่าง อีฝู่',
+    thaiMeaning: 'แต่งตัว / เปลี่ยนเสื้อผ้า',
+    words: [
+      { hanzi: '换', pinyin: 'huàn', thaiReading: 'หว่าง', thaiMeaning: 'เปลี่ยน' },
+      { hanzi: '衣服', pinyin: 'yīfu', thaiReading: 'อีฝู่', thaiMeaning: 'เสื้อผ้า' }
+    ]
+  },
+  {
+    id: 'd2',
+    category: 'dressing',
+    context: 'ใส่เสื้อ',
+    hanzi: '穿上衣。',
+    pinyin: 'Chuān shàngyī.',
+    thaiReading: 'ชวน ช่างอี',
+    thaiMeaning: 'ใส่เสื้อ',
+    words: [
+      { hanzi: '穿', pinyin: 'chuān', thaiReading: 'ชวน', thaiMeaning: 'ใส่/สวม' },
+      { hanzi: '上衣', pinyin: 'shàngyī', thaiReading: 'ช่างอี', thaiMeaning: 'เสื้อ' }
+    ]
+  },
+  {
+    id: 'd3',
+    category: 'dressing',
+    context: 'ใส่กางเกง',
+    hanzi: '穿裤子。',
+    pinyin: 'Chuān kùzi.',
+    thaiReading: 'ชวน ขู้จือ',
+    thaiMeaning: 'ใส่กางเกง',
+    words: [
+      { hanzi: '穿', pinyin: 'chuān', thaiReading: 'ชวน', thaiMeaning: 'ใส่/สวม' },
+      { hanzi: '裤子', pinyin: 'kùzi', thaiReading: 'ขู้จือ', thaiMeaning: 'กางเกง' }
+    ]
+  },
+  {
+    id: 'd4',
+    category: 'dressing',
+    context: 'ใส่รองเท้า',
+    hanzi: '穿鞋子。',
+    pinyin: 'Chuān xiézi.',
+    thaiReading: 'ชวน เสียจือ',
+    thaiMeaning: 'ใส่รองเท้า',
+    words: [
+      { hanzi: '鞋子', pinyin: 'xiézi', thaiReading: 'เสียจือ', thaiMeaning: 'รองเท้า' }
+    ]
+  },
+
+  // --- COMMUTE & WORK ---
   {
     id: 'c1',
     category: 'commute',
-    context: 'หากุญแจ',
-    hanzi: '钥匙在哪里... 哦，在这里。',
-    pinyin: 'Yàoshi zài nǎlǐ... ó, zài zhèlǐ.',
-    thaiReading: 'เย่าสือ จ้าย น่าหลี... โอ๊ะ, จ้าย เจ้อหลี',
-    thaiMeaning: 'กุญแจอยู่ไหนเนี่ย... อ่อ อยู่นี่เอง',
+    context: 'ออกจากบ้าน',
+    hanzi: '出门。',
+    pinyin: 'Chūmén.',
+    thaiReading: 'ชูเหมิน',
+    thaiMeaning: 'ออกจากบ้าน',
     words: [
-      { hanzi: '钥匙', pinyin: 'yàoshi', thaiReading: 'เย่าสือ', thaiMeaning: 'กุญแจ' },
-      { hanzi: '在哪里', pinyin: 'zài nǎlǐ', thaiReading: 'จ้าย น่าหลี', thaiMeaning: 'อยู่ที่ไหน' }
+      { hanzi: '出门', pinyin: 'chūmén', thaiReading: 'ชูเหมิน', thaiMeaning: 'ออกจากบ้าน' }
     ]
   },
   {
     id: 'c2',
     category: 'commute',
-    context: 'เช็กของก่อนออกบ้าน',
-    hanzi: '拿包、拿手机... 好，齐了！',
-    pinyin: 'Ná bāo, ná shǒujī... hǎo, qí le!',
-    thaiReading: 'หนา เปา, หนา โหย่วจี... ห่าว, ฉี เลอ!',
-    thaiMeaning: 'หยิบกระเป๋า หยิบมือถือ... โอเค ครบแล้ว!',
+    context: 'ขึ้นรถ',
+    hanzi: '坐车。',
+    pinyin: 'Zuò chē.',
+    thaiReading: 'จั้ว เชอ',
+    thaiMeaning: 'ขึ้นรถ / นั่งรถ',
     words: [
-      { hanzi: '手机', pinyin: 'shǒujī', thaiReading: 'โหย่วจี', thaiMeaning: 'โทรศัพท์' },
-      { hanzi: '齐了', pinyin: 'qí le', thaiReading: 'ฉี เลอ', thaiMeaning: 'ครบถ้วนแล้ว' }
+      { hanzi: '坐', pinyin: 'zuò', thaiReading: 'จั้ว', thaiMeaning: 'นั่ง/ขึ้น' },
+      { hanzi: '车', pinyin: 'chē', thaiReading: 'เชอ', thaiMeaning: 'รถ' }
     ]
   },
   {
     id: 'c3',
     category: 'commute',
-    context: 'เร่งรีบ',
-    hanzi: '快一点，要迟到了！',
-    pinyin: 'Kuài yìdiǎn, yào chídào le!',
-    thaiReading: 'ไค่ว อี๋เตี่ยน, เย่า ฉือเต้า เลอ!',
-    thaiMeaning: 'รีบหน่อย เดี๋ยวสายแล้ว!',
+    context: 'ไปทำงาน',
+    hanzi: '去上班。',
+    pinyin: 'Qù shàngbān.',
+    thaiReading: 'ชวี่ ช่างปาน',
+    thaiMeaning: 'ไปทำงาน',
     words: [
-      { hanzi: '迟到', pinyin: 'chídào', thaiReading: 'ฉือเต้า', thaiMeaning: 'มาสาย' }
+      { hanzi: '去', pinyin: 'qù', thaiReading: 'ชวี่', thaiMeaning: 'ไป' },
+      { hanzi: '上班', pinyin: 'shàngbān', thaiReading: 'ช่างปาน', thaiMeaning: 'ทำงาน' }
     ]
   },
   {
     id: 'c4',
     category: 'commute',
-    context: 'เจอรถติด',
-    hanzi: '哎呀，又堵车了。',
-    pinyin: 'Āiyā, yòu dǔchē le.',
-    thaiReading: 'ไอ๋ยา, โย่ว ตู่เชอ เลอ',
-    thaiMeaning: 'โอย รถติดอีกละ',
+    context: 'วันนี้มาทำงานสาย',
+    hanzi: '今天上班迟到了。',
+    pinyin: 'Jīntiān shàngbān chídào le.',
+    thaiReading: 'จินเทียน ช่างปาน ฉือเต้า เลอ',
+    thaiMeaning: 'วันนี้มาทำงานสาย',
     words: [
-      { hanzi: '堵车', pinyin: 'dǔchē', thaiReading: 'ตู่เชอ', thaiMeaning: 'รถติด' }
+      { hanzi: '今天', pinyin: 'jīntiān', thaiReading: 'จินเทียน', thaiMeaning: 'วันนี้' },
+      { hanzi: '上班', pinyin: 'shàngbān', thaiReading: 'ช่างปาน', thaiMeaning: 'ทำงาน' },
+      { hanzi: '迟到', pinyin: 'chídào', thaiReading: 'ฉือเต้า', thaiMeaning: 'มาสาย' }
     ]
   },
-
-  // --- WORK & STUDY ---
   {
-    id: 'w1',
-    category: 'work_study',
-    context: 'ถึงที่ทำงาน',
-    hanzi: '到公司了... 加油干吧！',
-    pinyin: 'Dào gōngsī le... jiāyóu gàn ba!',
-    thaiReading: 'เต้า กงซือ เลอ... เจียโหยว ก้าน ปา!',
-    thaiMeaning: 'ถึงบริษัทละ... ลุยงานกัน!',
+    id: 'c5',
+    category: 'commute',
+    context: 'ถึงบริษัทแล้ว',
+    hanzi: '到公司了。',
+    pinyin: 'Dào gōngsī le.',
+    thaiReading: 'เต้า กงซือ เลอ',
+    thaiMeaning: 'ถึงบริษัทแล้ว',
     words: [
+      { hanzi: '到', pinyin: 'dào', thaiReading: 'เต้า', thaiMeaning: 'ถึง' },
       { hanzi: '公司', pinyin: 'gōngsī', thaiReading: 'กงซือ', thaiMeaning: 'บริษัท' }
     ]
   },
   {
-    id: 'w2',
-    category: 'work_study',
-    context: 'เริ่มเปิดคอม',
-    hanzi: '先开电脑，稍等一下。',
-    pinyin: 'Xiān kāi diànnǎo, shāo děng yíxià.',
-    thaiReading: 'เซียน ไค เตี้ยนเหน่า, ซาว เติ่ง อี๋เซีย',
-    thaiMeaning: 'เปิดคอมก่อน แป๊บนึงนะ',
+    id: 'c6',
+    category: 'commute',
+    context: 'เริ่มทำงาน',
+    hanzi: '开始工作。',
+    pinyin: 'Kāishǐ gōngzuò.',
+    thaiReading: 'ไคสื่อ กงจั้ว',
+    thaiMeaning: 'เริ่มทำงาน',
     words: [
-      { hanzi: '电脑', pinyin: 'diànnǎo', thaiReading: 'เตี้ยนเหน่า', thaiMeaning: 'คอมพิวเตอร์' }
-    ]
-  },
-  {
-    id: 'w3',
-    category: 'work_study',
-    context: 'ขมวดคิ้วคิดงาน',
-    hanzi: '这个怎么做呢...',
-    pinyin: 'Zhège zěnme zuò ne...',
-    thaiReading: 'เจ้อเก้อ เจิ่นเมอ จั้ว เนอะ...',
-    thaiMeaning: 'งานนี้ต้องทำยังไงดีหว่า...',
-    words: [
-      { hanzi: '怎么做', pinyin: 'zěnme zuò', thaiReading: 'เจิ่นเมอ จั้ว', thaiMeaning: 'ทำอย่างไร' }
-    ]
-  },
-  {
-    id: 'w4',
-    category: 'work_study',
-    context: 'เมื่อยตาบ่ายๆ',
-    hanzi: '眼睛有点酸，休息一下。',
-    pinyin: 'Yǎnjīng yǒudiǎnr suān, xiūxi yíxià.',
-    thaiReading: 'เหยี่ยนจิง โหย่วเตี่ยนร์ ซวน, ซิวสิ อี๋เซีย',
-    thaiMeaning: 'ตาเริ่มพร่าๆ ละ พักสายตาแป๊บ',
-    words: [
-      { hanzi: '眼睛', pinyin: 'yǎnjīng', thaiReading: 'เหยี่ยนจิง', thaiMeaning: 'ดวงตา' }
+      { hanzi: '开始', pinyin: 'kāishǐ', thaiReading: 'ไคสื่อ', thaiMeaning: 'เริ่ม' },
+      { hanzi: '工作', pinyin: 'gōngzuò', thaiReading: 'กงจั้ว', thaiMeaning: 'ทำงาน' }
     ]
   },
 
   // --- MEALS & DRINKS ---
   {
     id: 'f1',
-    category: 'meal',
-    context: 'ถึงเวลาเที่ยง',
-    hanzi: '十二点了！吃什么呢？',
-    pinyin: 'Shí\'èr diǎn le! Chī shénme ne?',
-    thaiReading: 'สือเอ้อร์ เตี่ยน เลอ! ชือ เสินเมอ เนอะ?',
-    thaiMeaning: 'เที่ยงแล้ว! กินอะไรดีนะ?',
+    category: 'meals',
+    context: 'กินข้าวเช้า',
+    hanzi: '吃早餐。',
+    pinyin: 'Chī zǎocān.',
+    thaiReading: 'ชือ เจ้าซาน',
+    thaiMeaning: 'กินข้าวเช้า',
     words: [
-      { hanzi: '十二点', pinyin: 'shí\'èr diǎn', thaiReading: 'สือเอ้อร์ เตี่ยน', thaiMeaning: '12 โมง/เที่ยง' }
+      { hanzi: '吃', pinyin: 'chī', thaiReading: 'ชือ', thaiMeaning: 'กิน' },
+      { hanzi: '早餐', pinyin: 'zǎocān', thaiReading: 'เจ้าซาน', thaiMeaning: 'อาหารเช้า' }
     ]
   },
   {
     id: 'f2',
-    category: 'meal',
-    context: 'ท้องร้อง',
-    hanzi: '肚子都饿得咕咕叫了。',
-    pinyin: 'Dùzi dōu è de gūgū jiào le.',
-    thaiReading: 'ตู้จือ โตว เอ้อ เตอ กูกู เจี้ยว เลอ',
-    thaiMeaning: 'หิวจนท้องร้องจ๊อกๆ แล้วเนี่ย',
+    category: 'meals',
+    context: 'ดื่มน้ำ',
+    hanzi: '喝水。',
+    pinyin: 'Hē shuǐ.',
+    thaiReading: 'เฮอ สุ่ย',
+    thaiMeaning: 'ดื่มน้ำ',
     words: [
-      { hanzi: '肚子', pinyin: 'dùzi', thaiReading: 'ตู้จือ', thaiMeaning: 'ท้อง' }
+      { hanzi: '喝水', pinyin: 'hē shuǐ', thaiReading: 'เฮอ สุ่ย', thaiMeaning: 'ดื่มน้ำ' }
     ]
   },
   {
     id: 'f3',
-    category: 'meal',
-    context: 'กินเสร็จหนังตาหย่อน',
-    hanzi: '吃饱了，有点想睡了。',
-    pinyin: 'Chī bǎo le, yǒudiǎnr xiǎng shuì le.',
-    thaiReading: 'ชือ เป่า เลอ, โหย่วเตี่ยนร์ เสียง ชุ่ย เลอ',
-    thaiMeaning: 'อิ่มจัง หนังท้องตึงหนังตาเริ่มหย่อนละ',
+    category: 'meals',
+    context: 'ชงกาแฟ',
+    hanzi: '泡咖啡。',
+    pinyin: 'Pào kāfēi.',
+    thaiReading: 'พ่าว คาเฟย',
+    thaiMeaning: 'ชงกาแฟ',
     words: [
-      { hanzi: '吃饱', pinyin: 'chī bǎo', thaiReading: 'ชือ เป่า', thaiMeaning: 'กินอิ่ม' }
+      { hanzi: '泡', pinyin: 'pào', thaiReading: 'พ่าว', thaiMeaning: 'ชง/แช่' },
+      { hanzi: '咖啡', pinyin: 'kāfēi', thaiReading: 'คาเฟย', thaiMeaning: 'กาแฟ' }
+    ]
+  },
+  {
+    id: 'f4',
+    category: 'meals',
+    context: 'พักเที่ยง',
+    hanzi: '午休。',
+    pinyin: 'Wǔxiū.',
+    thaiReading: 'อู่ซิว',
+    thaiMeaning: 'พักเที่ยง',
+    words: [
+      { hanzi: '午休', pinyin: 'wǔxiū', thaiReading: 'อู่ซิว', thaiMeaning: 'พักเที่ยง' }
+    ]
+  },
+  {
+    id: 'f5',
+    category: 'meals',
+    context: 'กินข้าวเที่ยง',
+    hanzi: '吃午饭。',
+    pinyin: 'Chī wǔfàn.',
+    thaiReading: 'ชือ อู่ฝ้าน',
+    thaiMeaning: 'กินข้าวเที่ยง',
+    words: [
+      { hanzi: '吃', pinyin: 'chī', thaiReading: 'ชือ', thaiMeaning: 'กิน' },
+      { hanzi: '午饭', pinyin: 'wǔfàn', thaiReading: 'อู่ฝ้าน', thaiMeaning: 'อาหารเที่ยง' }
     ]
   },
 
-  // --- EVENING ---
+  // --- EVENING & NIGHT ---
   {
     id: 'e1',
-    category: 'evening',
-    context: 'เลิกงานเสร็จ',
-    hanzi: '太好了！下班回家！',
-    pinyin: 'Tài hǎo le! Xiàbān huíjiā!',
-    thaiReading: 'ไท่ ห่าว เลอ! เซี่ยปาน หุยเจีย!',
-    thaiMeaning: 'เย้ดีจัง! เลิกงานกลับบ้าน!',
+    category: 'evening_night',
+    context: 'เลิกงานแล้ว',
+    hanzi: '下班了。',
+    pinyin: 'Xiàbān le.',
+    thaiReading: 'เซี่ยปาน เลอ',
+    thaiMeaning: 'เลิกงานแล้ว',
     words: [
       { hanzi: '下班', pinyin: 'xiàbān', thaiReading: 'เซี่ยปาน', thaiMeaning: 'เลิกงาน' }
     ]
   },
   {
     id: 'e2',
-    category: 'evening',
-    context: 'ทิ้งตัวที่บ้าน',
-    hanzi: '终于到家了... 累死了。',
-    pinyin: 'Zhōngyú dào jiā le... lèi sǐ le.',
-    thaiReading: 'จงยวี เต้า เจีย เลอ... เล่ย สื่อ เลอ',
-    thaiMeaning: 'ในที่สุดก็ถึงบ้านสักที... เหนื่อยเป็นบ้าเลย',
+    category: 'evening_night',
+    context: 'กลับบ้าน',
+    hanzi: '回家。',
+    pinyin: 'Huíjiā.',
+    thaiReading: 'หุยเจีย',
+    thaiMeaning: 'กลับบ้าน',
     words: [
-      { hanzi: '到家', pinyin: 'dào jiā', thaiReading: 'เต้า เจีย', thaiMeaning: 'ถึงบ้าน' }
-    ]
-  },
-
-  // --- NIGHT ---
-  {
-    id: 'n1',
-    category: 'night',
-    context: 'เล่นโทรศัพท์เพลิน',
-    hanzi: '看手机忘了时间... 都这么晚了。',
-    pinyin: 'Kàn shǒujī wàng le shíjiān... dōu zhème wǎn le.',
-    thaiReading: 'คั่น โหย่วจี หว่าง เลอ สือเจียน... โตว เจื้อเมอ หวั่น เลอ',
-    thaiMeaning: 'ไถมือถือเพลินลืมดูเวลา... ดึกขนาดนี้แล้วเหรอเนี่ย',
-    words: [
-      { hanzi: '看手机', pinyin: 'kàn shǒujī', thaiReading: 'คั่น โหย่วจี', thaiMeaning: 'ดูโทรศัพท์' }
+      { hanzi: '回家', pinyin: 'huíjiā', thaiReading: 'หุยเจีย', thaiMeaning: 'กลับบ้าน' }
     ]
   },
   {
-    id: 'n2',
-    category: 'night',
-    context: 'บอกตัวเองก่อนนอน',
-    hanzi: '睡觉吧，明天要早起。晚安！',
-    pinyin: 'Shuìjiào ba, míngtiān yào zǎoqǐ. Wǎn\'ān!',
-    thaiReading: 'ชุ่ยเจี้ยว ปา, หมิงเทียน เย่า เจ้าฉี่. หวั่นอาน!',
-    thaiMeaning: 'นอนเหอะ พรุ่งนี้ต้องตื่นเช้า ฝันดีนะ!',
+    id: 'e3',
+    category: 'evening_night',
+    context: 'กินข้าวเย็น',
+    hanzi: '吃晚饭。',
+    pinyin: 'Chī wǎnfàn.',
+    thaiReading: 'ชือ หวั่นฝ้าน',
+    thaiMeaning: 'กินข้าวเย็น',
     words: [
-      { hanzi: '晚安', pinyin: 'wǎn\'ān', thaiReading: 'หวั่นอาน', thaiMeaning: 'ราตรีสวัสดิ์' }
+      { hanzi: '吃晚饭', pinyin: 'chī wǎnfàn', thaiReading: 'ชือ หวั่นฝ้าน', thaiMeaning: 'กินอาหารค่ำ' }
+    ]
+  },
+  {
+    id: 'e4',
+    category: 'evening_night',
+    context: 'เตรียมตัวนอน',
+    hanzi: '准备睡觉。',
+    pinyin: 'Zhǔnbèi shuìjiào.',
+    thaiReading: 'จุ่นเป่ย ชุ่ยเจี้ยว',
+    thaiMeaning: 'เตรียมตัวนอน',
+    words: [
+      { hanzi: '准备', pinyin: 'zhǔnbèi', thaiReading: 'จุ่นเป่ย', thaiMeaning: 'เตรียมตัว' },
+      { hanzi: '睡觉', pinyin: 'shuìjiào', thaiReading: 'ชุ่ยเจี้ยว', thaiMeaning: 'เข้านอน' }
     ]
   }
 ];
@@ -340,10 +367,10 @@ export function generateDynamicTimeSentence(date = new Date()) {
 
   const padMin = rawMinutes < 10 ? `0${rawMinutes}` : `${rawMinutes}`;
 
-  const hanzi = `现在是${periodZh}${hObj.zh}点${rawMinutes === 0 ? '整' : mObj.zh + '分'}。`;
-  const pinyin = `Xiànzài shì ${periodPy} ${hObj.py} diǎn ${rawMinutes === 0 ? 'zhěng' : mObj.py + ' fēn'}.`;
-  const thaiReading = `เซี่ยนจ้าย ซื่อ ${periodTh} ${hObj.th} เตี่ยน ${rawMinutes === 0 ? 'เจิ้ง' : mObj.th + ' เฟิน'}`;
-  const thaiMeaning = `ตอนนี้เวลา ${rawHours}:${padMin} น. (${periodMeaning})`;
+  const hanzi = `${hObj.zh}点${rawMinutes === 0 ? '整' : mObj.zh + '分'}起床。`;
+  const pinyin = `${hObj.py} diǎn ${rawMinutes === 0 ? 'zhěng' : mObj.py + ' fēn'} qǐchuáng.`;
+  const thaiReading = `${hObj.th} เตี่ยน ${rawMinutes === 0 ? 'เจิ้ง' : mObj.th + ' เฟิน'} ฉี่ฉวง`;
+  const thaiMeaning = `${rawHours}:${padMin} น. ตื่นนอน`;
 
   return {
     id: 'dynamic_time',
@@ -354,10 +381,9 @@ export function generateDynamicTimeSentence(date = new Date()) {
     thaiReading,
     thaiMeaning,
     words: [
-      { hanzi: '现在', pinyin: 'xiànzài', thaiReading: 'เซี่ยนจ้าย', thaiMeaning: 'ตอนนี้' },
-      { hanzi: periodZh, pinyin: periodPy, thaiReading: periodTh, thaiMeaning: periodMeaning },
       { hanzi: hObj.zh + '点', pinyin: hObj.py + ' diǎn', thaiReading: hObj.th + ' เตี่ยน', thaiMeaning: `${rawHours} โมง/นาฬิกา` },
-      { hanzi: mObj.zh + '分', pinyin: mObj.py + ' fēn', thaiReading: mObj.th + ' เฟิน', thaiMeaning: `${rawMinutes} นาที` }
+      { hanzi: mObj.zh + '分', pinyin: mObj.py + ' fēn', thaiReading: mObj.th + ' เฟิน', thaiMeaning: `${rawMinutes} นาที` },
+      { hanzi: '起床', pinyin: 'qǐchuáng', thaiReading: 'ฉี่ฉวง', thaiMeaning: 'ตื่นนอน' }
     ]
   };
 }

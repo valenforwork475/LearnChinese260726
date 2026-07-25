@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { RefreshCw, Volume2, Sparkles, Sliders } from 'lucide-react';
+import { RefreshCw, Volume2, Sparkles, Gauge } from 'lucide-react';
 import { SELF_TALK_CATEGORIES, selfTalkSentences, generateDynamicTimeSentence } from '../data/selfTalkData';
 import SentenceCard from './SentenceCard';
 import { speakChinese } from '../utils/speech';
 
 export default function SelfTalkView() {
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [audioRate, setAudioRate] = useState(0.9);
+  const [audioRate, setAudioRate] = useState(0.8);
   const [dynamicTimeObj, setDynamicTimeObj] = useState(generateDynamicTimeSentence());
 
   useEffect(() => {
@@ -29,7 +29,7 @@ export default function SelfTalkView() {
       {/* Real-time Dynamic Time Self-Talk Banner */}
       <div className="clock-banner">
         <div className="clock-banner-header">
-          <span>ประโยคบอกเวลาปัจจุบัน (พูดกับตัวเอง)</span>
+          <span>เวลาเครื่องปัจจุบัน (ฝึกพูดบอกเวลา)</span>
           <button type="button" className="refresh-clock-btn" onClick={refreshTime}>
             <RefreshCw size={12} />
             <span>อัปเดตเวลา</span>
@@ -39,7 +39,7 @@ export default function SelfTalkView() {
         <div className="clock-banner-hanzi">{dynamicTimeObj.hanzi}</div>
         <div className="clock-banner-pinyin">{dynamicTimeObj.pinyin}</div>
         <div className="clock-banner-thai">คำอ่าน: {dynamicTimeObj.thaiReading}</div>
-        <div style={{ fontSize: '0.8rem', color: '#CBD5E1' }}>คำแปล: {dynamicTimeObj.thaiMeaning}</div>
+        <div style={{ fontSize: '0.85rem', color: '#CBD5E1', fontWeight: '500' }}>แปล: {dynamicTimeObj.thaiMeaning}</div>
 
         <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '4px' }}>
           <button
@@ -54,29 +54,38 @@ export default function SelfTalkView() {
       </div>
 
       {/* Speed Selector & Header Title */}
-      <div className="section-title">
+      <div className="section-title" style={{ gap: '8px', flexWrap: 'wrap' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-          <Sparkles size={16} color="var(--accent-primary)" />
-          <span>ประโยคฝึกพูดกิจวัตรประจำวัน</span>
+          <Sparkles size={18} color="var(--accent-primary)" />
+          <span>ประโยคสั้นฝึกพูดประจำวัน</span>
         </div>
 
-        <div className="speed-toggle-bar">
-          <Sliders size={14} />
-          <span>สปีดเสียง:</span>
-          <button
-            type="button"
-            className={`speed-btn ${audioRate === 0.7 ? 'active' : ''}`}
-            onClick={() => setAudioRate(0.7)}
-          >
-            0.7x ช้า
-          </button>
-          <button
-            type="button"
-            className={`speed-btn ${audioRate === 0.9 ? 'active' : ''}`}
-            onClick={() => setAudioRate(0.9)}
-          >
-            1.0x ปกติ
-          </button>
+        {/* Modern Segmented Capsule Speed Controller */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <Gauge size={14} color="var(--text-muted)" />
+          <div className="segmented-speed-control">
+            <button
+              type="button"
+              className={`segmented-speed-btn ${audioRate === 0.6 ? 'active' : ''}`}
+              onClick={() => setAudioRate(0.6)}
+            >
+              0.6x
+            </button>
+            <button
+              type="button"
+              className={`segmented-speed-btn ${audioRate === 0.8 ? 'active' : ''}`}
+              onClick={() => setAudioRate(0.8)}
+            >
+              0.8x
+            </button>
+            <button
+              type="button"
+              className={`segmented-speed-btn ${audioRate === 1.0 ? 'active' : ''}`}
+              onClick={() => setAudioRate(1.0)}
+            >
+              1.0x
+            </button>
+          </div>
         </div>
       </div>
 
