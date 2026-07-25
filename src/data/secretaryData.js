@@ -4,7 +4,6 @@ export function getSecretaryCheckIn(date = new Date(), schedule = { wakeTime: '0
   const hours = date.getHours();
   const minutes = date.getMinutes();
 
-  // Convert bedtime and wakeTime strings (HH:mm) to hour values
   const [bedHour] = schedule.bedTime.split(':').map(Number);
   const [wakeHour] = schedule.wakeTime.split(':').map(Number);
 
@@ -20,7 +19,7 @@ export function getSecretaryCheckIn(date = new Date(), schedule = { wakeTime: '0
       secretaryPrompt: {
         hanzi: `太晚了，怎么还没睡觉呢？在干嘛？`,
         pinyin: `Tài wǎn le, zěnme hái méi shuìjiào ne? Zài gàn ma?`,
-        thaiMeaning: `ดึกขนาดนี้แล้ว (${hours}:${pad(minutes)} น.) ทำไมยังไม่นอนอีกเนี่ย? ทำอะไรอยู่อยู่เหรอ?`
+        thaiMeaning: `ดึกขนาดนี้แล้ว (${hours}:${pad(minutes)} น.) ทำไมยังไม่นอนอีกเนี่ย? ทำอะไรอยู่เหรอ?`
       },
       replies: [
         {
@@ -42,7 +41,7 @@ export function getSecretaryCheckIn(date = new Date(), schedule = { wakeTime: '0
     };
   }
 
-  // Morning Wakeup Check (wakeHour to wakeHour + 2)
+  // Morning Wakeup Check
   if (hours >= wakeHour && hours < wakeHour + 2) {
     return {
       id: 'morning_wake',
@@ -72,7 +71,7 @@ export function getSecretaryCheckIn(date = new Date(), schedule = { wakeTime: '0
     };
   }
 
-  // Morning Commute / Leaving (08:30 to 11:00)
+  // Morning Commute / Leaving
   if (hours >= wakeHour + 2 && hours < 11) {
     return {
       id: 'morning_work',
@@ -102,7 +101,7 @@ export function getSecretaryCheckIn(date = new Date(), schedule = { wakeTime: '0
     };
   }
 
-  // Lunch Time (11:00 to 14:00)
+  // Lunch Time
   if (hours >= 11 && hours < 14) {
     return {
       id: 'lunch_time',
@@ -132,7 +131,7 @@ export function getSecretaryCheckIn(date = new Date(), schedule = { wakeTime: '0
     };
   }
 
-  // Afternoon Work Check (14:00 to 17:30)
+  // Afternoon Work Check
   if (hours >= 14 && hours < 18) {
     return {
       id: 'afternoon_work',
@@ -162,7 +161,7 @@ export function getSecretaryCheckIn(date = new Date(), schedule = { wakeTime: '0
     };
   }
 
-  // Evening Off Work (18:00 to 22:00)
+  // Evening Off Work
   return {
     id: 'evening_off',
     timeLabel: `${hours}:${pad(minutes)} น. (ช่วงค่ำ)`,

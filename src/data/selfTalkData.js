@@ -69,11 +69,11 @@ export const selfTalkSentences = [
     context: 'แต่งตัว',
     hanzi: '换衣服。',
     pinyin: 'Huàn yīfu.',
-    thaiReading: 'หว่าง อีฝู่',
+    thaiReading: 'ฮว่าน อีฝู',
     thaiMeaning: 'แต่งตัว / เปลี่ยนเสื้อผ้า',
     words: [
-      { hanzi: '换', pinyin: 'huàn', thaiReading: 'หว่าง', thaiMeaning: 'เปลี่ยน' },
-      { hanzi: '衣服', pinyin: 'yīfu', thaiReading: 'อีฝู่', thaiMeaning: 'เสื้อผ้า' }
+      { hanzi: '换', pinyin: 'huàn', thaiReading: 'ฮว่าน', thaiMeaning: 'เปลี่ยน' },
+      { hanzi: '衣服', pinyin: 'yīfu', thaiReading: 'อีฝู', thaiMeaning: 'เสื้อผ้า' }
     ]
   },
   {
@@ -95,11 +95,11 @@ export const selfTalkSentences = [
     context: 'ใส่กางเกง',
     hanzi: '穿裤子。',
     pinyin: 'Chuān kùzi.',
-    thaiReading: 'ชวน ขู้จือ',
+    thaiReading: 'ชวน คู้จือ',
     thaiMeaning: 'ใส่กางเกง',
     words: [
       { hanzi: '穿', pinyin: 'chuān', thaiReading: 'ชวน', thaiMeaning: 'ใส่/สวม' },
-      { hanzi: '裤子', pinyin: 'kùzi', thaiReading: 'ขู้จือ', thaiMeaning: 'กางเกง' }
+      { hanzi: '裤子', pinyin: 'kùzi', thaiReading: 'คู้จือ', thaiMeaning: 'กางเกง' }
     ]
   },
   {
