@@ -89,8 +89,8 @@ export default function SelfTalkView() {
         </div>
       </div>
 
-      {/* Category Pills Filter */}
-      <div className="category-scroll">
+      {/* Clean Category Grid (Fits Mobile Screen Perfectly) */}
+      <div className="category-grid">
         {SELF_TALK_CATEGORIES.map(cat => (
           <button
             key={cat.id}

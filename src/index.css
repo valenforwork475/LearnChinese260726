@@ -202,30 +202,28 @@ html, body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
 }
 
-/* Category & Set Pills */
-.category-scroll {
-  display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  padding-bottom: 4px;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.category-scroll::-webkit-scrollbar {
-  display: none;
+/* Clean Responsive Mobile Category Grid (Fits screen perfectly without horizontal scroll) */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  width: 100%;
 }
 
 .pill-btn {
+  width: 100%;
+  text-align: center;
   white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
   background-color: var(--bg-card);
   border: 1px solid var(--border-light);
   color: var(--text-muted);
   font-family: var(--font-main);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 600;
-  padding: 8px 16px;
-  border-radius: var(--radius-full);
+  padding: 7px 6px;
+  border-radius: var(--radius-md);
   cursor: pointer;
   transition: all 0.15s ease;
   box-shadow: var(--shadow-sm);
@@ -236,7 +234,7 @@ html, body {
   color: #FFFFFF;
   border-color: #4338CA;
   font-weight: 700;
-  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.25);
+  box-shadow: 0 3px 10px rgba(79, 70, 229, 0.22);
 }
 
 /* Cards & Modules */

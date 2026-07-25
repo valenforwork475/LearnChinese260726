@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Search, Volume2, Layers, List, Brain, Check, RefreshCw, Award, ArrowRight, Play, RotateCcw } from 'lucide-react';
+import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, RotateCcw } from 'lucide-react';
 import { VOCAB_SETS, vocabularyList } from '../data/vocabularyData';
 import { speakChinese } from '../utils/speech';
 import { getWordProgress, markWordProgress, getMemoryStats } from '../utils/srsEngine';
 
 export default function VocabularyView() {
-  const [selectedSet, setSelectedSet] = useState('set_1'); // Default to Set 1 (10 words)
+  const [selectedSet, setSelectedSet] = useState('set_1');
   const [searchQuery, setSearchQuery] = useState('');
-  const [viewMode, setViewMode] = useState('flashcard'); // 'flashcard' | 'list'
+  const [viewMode, setViewMode] = useState('flashcard');
   const [flashcardIndex, setFlashcardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [sessionCompleted, setSessionCompleted] = useState(false);
@@ -17,7 +17,7 @@ export default function VocabularyView() {
   // Overall Memory Stats
   const globalStats = getMemoryStats(vocabularyList);
 
-  // Filter vocabulary list by selected set (default 10 words per set)
+  // Filter vocabulary list by selected set (10 words per set)
   const setVocabList = vocabularyList.filter(item => {
     if (selectedSet === 'all') return true;
     return item.setId === selectedSet;
@@ -29,7 +29,6 @@ export default function VocabularyView() {
     return (
       item.hanzi.includes(q) ||
       item.pinyin.toLowerCase().includes(q) ||
-      item.thaiReading.includes(q) ||
       item.thaiMeaning.includes(q)
     );
   });
@@ -41,13 +40,11 @@ export default function VocabularyView() {
     setSrsTick(prev => prev + 1);
     setIsFlipped(false);
 
-    // Update Session Stats
     setSessionStats(prev => ({
       remembered: remembered ? prev.remembered + 1 : prev.remembered,
       forgotten: !remembered ? prev.forgotten + 1 : prev.forgotten
     }));
 
-    // Check if finished current 10-word session
     if (flashcardIndex + 1 >= filteredVocab.length) {
       setSessionCompleted(true);
     } else {
@@ -64,7 +61,7 @@ export default function VocabularyView() {
   };
 
   const handleNextSet = () => {
-    const sets = ['set_1', 'set_2', 'set_3'];
+    const sets = ['set_1', 'set_2', 'set_3', 'set_4', 'set_5'];
     const currIndex = sets.indexOf(selectedSet);
     const nextIndex = (currIndex + 1) % sets.length;
     resetSession(sets[nextIndex]);
@@ -74,11 +71,11 @@ export default function VocabularyView() {
     const prog = getWordProgress(wordId);
     const lvl = prog.level;
     const labels = [
-      { text: 'คำใหม่/ลืม', bg: '#FFE4E6', color: '#BE123C' },
-      { text: 'ทวนถัดไป 1 วัน', bg: '#FEF3C7', color: '#B45309' },
-      { text: 'ทวนถัดไป 3 วัน', bg: '#E0F2FE', color: '#0369A1' },
-      { text: 'ทวนถัดไป 7 วัน', bg: '#D1FAE5', color: '#047857' },
-      { text: 'จำแม่นยำ (14 วัน)', bg: '#DCFCE7', color: '#15803D' }
+      { text: 'คำใหม่', bg: '#FFE4E6', color: '#BE123C' },
+      { text: '1 วัน', bg: '#FEF3C7', color: '#B45309' },
+      { text: '3 วัน', bg: '#E0F2FE', color: '#0369A1' },
+      { text: '7 วัน', bg: '#D1FAE5', color: '#047857' },
+      { text: 'แม่นยำ', bg: '#DCFCE7', color: '#15803D' }
     ];
     const badge = labels[lvl] || labels[0];
 
@@ -103,10 +100,10 @@ export default function VocabularyView() {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontWeight: '700', fontSize: '0.95rem' }}>
             <Award size={18} color="#6EE7B7" />
-            <span>พัฒนาการความจำรวม (Memory Tracker)</span>
+            <span>ความก้าวหน้าความจำ ({vocabularyList.length} คำ)</span>
           </div>
           <span style={{ fontSize: '0.85rem', fontWeight: '800', color: '#6EE7B7' }}>
-            {globalStats.progressPercent}% สำเร็จ
+            {globalStats.progressPercent}%
           </span>
         </div>
 
@@ -120,15 +117,15 @@ export default function VocabularyView() {
         <div className="stat-chip-grid">
           <div className="stat-chip">
             <span className="stat-chip-val" style={{ color: '#34D399' }}>{globalStats.masteredCount}</span>
-            <span className="stat-chip-lbl">จำได้แม่นยำ</span>
+            <span className="stat-chip-lbl">จำได้แล้ว</span>
           </div>
           <div className="stat-chip">
             <span className="stat-chip-val" style={{ color: '#FBBF24' }}>{globalStats.learningCount}</span>
-            <span className="stat-chip-lbl">กำลังฝึกฝน</span>
+            <span className="stat-chip-lbl">กำลังเรียน</span>
           </div>
           <div className="stat-chip">
             <span className="stat-chip-val" style={{ color: '#F87171' }}>{globalStats.newOrHardCount}</span>
-            <span className="stat-chip-lbl">ยังจำไม่ได้/คำใหม่</span>
+            <span className="stat-chip-lbl">ยังไม่ได้</span>
           </div>
         </div>
       </div>
@@ -155,15 +152,15 @@ export default function VocabularyView() {
             setViewMode(viewMode === 'flashcard' ? 'list' : 'flashcard');
             setIsFlipped(false);
           }}
-          title={viewMode === 'flashcard' ? 'สลับเป็นโหมดรายการคำศัพท์' : 'สลับเป็นโหมด Flashcards'}
+          title={viewMode === 'flashcard' ? 'สลับเป็นรายการคำศัพท์' : 'สลับเป็น Flashcards'}
           style={{ borderRadius: 'var(--radius-md)', width: '44px', height: '44px', flexShrink: 0 }}
         >
           {viewMode === 'flashcard' ? <List size={18} /> : <Layers size={18} />}
         </button>
       </div>
 
-      {/* 10-Word Set Selector Pills */}
-      <div className="category-scroll">
+      {/* 10-Word Set Selector Responsive Grid (Fits Mobile Perfectly) */}
+      <div className="category-grid">
         {VOCAB_SETS.map(s => (
           <button
             key={s.id}
@@ -178,11 +175,11 @@ export default function VocabularyView() {
 
       {/* Section Title & Session Progress */}
       <div className="section-title">
-        <span>{viewMode === 'flashcard' ? 'เกมฝึกคำศัพท์ 10 คำ' : 'รายการคำศัพท์ทั้งหมด'}</span>
+        <span>{viewMode === 'flashcard' ? 'บัตรคำศัพท์ 10 คำ' : 'รายการคำศัพท์ทั้งหมด'}</span>
         <span className="count-badge">
           {viewMode === 'flashcard'
             ? `คำที่ ${Math.min(flashcardIndex + 1, filteredVocab.length)} / ${filteredVocab.length}`
-            : `ทั้งหมด ${filteredVocab.length} คำ`}
+            : `แสดง ${filteredVocab.length} คำ`}
         </span>
       </div>
 
@@ -201,10 +198,10 @@ export default function VocabularyView() {
 
             <div>
               <h3 style={{ fontSize: '1.25rem', fontWeight: '800', color: 'var(--text-main)' }}>
-                เก่งมาก! จบการฝึก 10 คำแล้ว
+                จบเซกชัน 10 คำแล้ว!
               </h3>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '4px' }}>
-                ทบทวนรอบนี้ช่วยเพิ่มความจำในสมองอย่างยั่งยืน
+                สรุปผลการทบทวนรอบนี้
               </p>
             </div>
 
@@ -219,7 +216,7 @@ export default function VocabularyView() {
                 <div style={{ fontSize: '1.4rem', fontWeight: '800', color: 'var(--accent-rose)' }}>
                   {sessionStats.forgotten} คำ
                 </div>
-                <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>ต้องฝึกซ้ำ</div>
+                <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>จำไม่ได้</div>
               </div>
             </div>
 
@@ -230,7 +227,7 @@ export default function VocabularyView() {
                 onClick={handleNextSet}
                 style={{ padding: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px', fontSize: '0.9rem' }}
               >
-                <span>ลุยเซกชันถัดไป (10 คำถัดไป)</span>
+                <span>เซกชันถัดไป (10 คำถัดไป)</span>
                 <ArrowRight size={16} />
               </button>
 
@@ -241,39 +238,36 @@ export default function VocabularyView() {
                 style={{ padding: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px', fontSize: '0.85rem' }}
               >
                 <RotateCcw size={14} />
-                <span>เล่นซ้ำ 10 คำนี้อีกครั้ง</span>
+                <span>ทวน 10 คำนี้อีกครั้ง</span>
               </button>
             </div>
           </div>
         ) : (
-          /* --- FLASHCARD ITEM CARD (Pinyin & Thai Phonetics ON FRONT) --- */
+          /* --- FLASHCARD ITEM CARD (Pinyin + Hanzi ONLY) --- */
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
             <div className="flashcard-wrapper">
               <div className="flashcard" onClick={() => setIsFlipped(!isFlipped)}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', alignItems: 'center' }}>
                   <span className="flashcard-hint">
-                    {isFlipped ? 'แตะเพื่อซ่อนคำแปล' : 'แตะเพื่อดูคำแปลไทย'}
+                    {isFlipped ? 'แตะเพื่อซ่อนคำแปล' : 'แตะเพื่อดูคำแปล'}
                   </span>
                   {currentFlashcard && renderLevelBadge(currentFlashcard.id)}
                 </div>
 
-                {/* --- FRONT OF CARD (Shows Hanzi + Pinyin + Thai Reading) --- */}
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px', margin: '10px 0' }}>
-                  <div style={{ fontSize: '2.5rem', fontFamily: 'var(--font-chinese)', fontWeight: '600', color: 'var(--text-main)' }}>
+                {/* --- FRONT OF CARD (Hanzi + Pinyin ONLY) --- */}
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px', margin: '14px 0' }}>
+                  <div style={{ fontSize: '2.6rem', fontFamily: 'var(--font-chinese)', fontWeight: '600', color: 'var(--text-main)' }}>
                     {currentFlashcard.hanzi}
                   </div>
-                  <div className="pinyin-text" style={{ fontSize: '1.3rem', fontWeight: '700' }}>
+                  <div className="pinyin-text" style={{ fontSize: '1.35rem', fontWeight: '700' }}>
                     {currentFlashcard.pinyin}
-                  </div>
-                  <div className="thai-reading-text" style={{ fontSize: '1.05rem', fontWeight: '600' }}>
-                    คำอ่าน: {currentFlashcard.thaiReading}
                   </div>
                 </div>
 
-                {/* --- BACK OF CARD (Flips to show Meaning & Example) --- */}
+                {/* --- BACK OF CARD (Thai Meaning + Example) --- */}
                 {isFlipped ? (
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', animation: 'fadeIn 0.2s ease', width: '100%' }}>
-                    <div style={{ fontSize: '1.2rem', fontWeight: '800', color: 'var(--text-main)', backgroundColor: '#EEF2FF', padding: '6px 12px', borderRadius: 'var(--radius-sm)' }}>
+                    <div style={{ fontSize: '1.25rem', fontWeight: '800', color: 'var(--text-main)', backgroundColor: '#EEF2FF', padding: '8px 14px', borderRadius: 'var(--radius-sm)' }}>
                       แปลว่า: {currentFlashcard.thaiMeaning}
                     </div>
 
@@ -281,14 +275,13 @@ export default function VocabularyView() {
                       <div style={{ marginTop: '8px', fontSize: '0.84rem', background: 'var(--bg-subtle)', padding: '10px 14px', borderRadius: 'var(--radius-sm)', textAlign: 'left', border: '1px solid var(--border-light)' }}>
                         <div style={{ fontFamily: 'var(--font-chinese)', color: 'var(--text-main)', fontWeight: '600' }}>{currentFlashcard.example.hanzi}</div>
                         <div style={{ color: 'var(--accent-blue)', fontWeight: '600' }}>{currentFlashcard.example.pinyin}</div>
-                        <div style={{ color: 'var(--accent-emerald)', fontWeight: '500' }}>คำอ่าน: {currentFlashcard.example.thaiReading}</div>
                         <div style={{ color: 'var(--text-muted)', marginTop: '2px' }}>แปล: {currentFlashcard.example.thaiMeaning}</div>
                       </div>
                     )}
                   </div>
                 ) : (
                   <div style={{ fontSize: '0.82rem', color: 'var(--text-subtle)' }}>
-                    (แตะการ์ดเพื่อเปิดดูคำแปลและประโยคตัวอย่าง)
+                    (แตะการ์ดเพื่อเปิดดูคำแปล)
                   </div>
                 )}
 
@@ -305,7 +298,7 @@ export default function VocabularyView() {
               </div>
             </div>
 
-            {/* SRS Memory Marking Action Buttons */}
+            {/* Clean SRS Memory Marking Action Buttons (No (+ระดับ) text) */}
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginTop: '4px' }}>
               <button
                 type="button"
@@ -324,7 +317,7 @@ export default function VocabularyView() {
                 }}
               >
                 <RefreshCw size={14} />
-                <span>ยังจำไม่ได้ (ทวนซ้ำ)</span>
+                <span>จำไม่ได้</span>
               </button>
 
               <button
@@ -344,7 +337,7 @@ export default function VocabularyView() {
                 }}
               >
                 <Check size={16} />
-                <span>จำได้แล้ว! (+ระดับ)</span>
+                <span>จำได้แล้ว</span>
               </button>
             </div>
           </div>
@@ -373,7 +366,6 @@ export default function VocabularyView() {
                 </button>
               </div>
 
-              <div className="thai-reading-text">อ่าน: {item.thaiReading}</div>
               <div className="thai-meaning-text">แปล: {item.thaiMeaning}</div>
 
               {item.example && (
@@ -381,7 +373,7 @@ export default function VocabularyView() {
                   <span style={{ fontWeight: '600', color: 'var(--text-muted)' }}>ตัวอย่าง: </span>
                   <span style={{ fontFamily: 'var(--font-chinese)', fontWeight: '600' }}>{item.example.hanzi}</span>
                   <span style={{ color: 'var(--accent-blue)', marginLeft: '6px' }}>({item.example.pinyin})</span>
-                  <div style={{ color: 'var(--text-muted)', marginTop: '2px' }}>คำอ่าน: {item.example.thaiReading} — {item.example.thaiMeaning}</div>
+                  <div style={{ color: 'var(--text-muted)', marginTop: '2px' }}>แปล: {item.example.thaiMeaning}</div>
                 </div>
               )}
             </div>
