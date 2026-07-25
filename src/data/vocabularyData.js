@@ -1,4 +1,4 @@
-// Expanded Vocabulary Data (50 Words in 5 Sets of 10 Words Each)
+// Expanded Vocabulary Data (150 Words Total in 15 Sets)
 
 export const VOCAB_SETS = [
   { id: 'all', label: 'ทั้งหมด' },
@@ -6,417 +6,197 @@ export const VOCAB_SETS = [
   { id: 'set_2', label: 'เซกชัน 2 (11-20)' },
   { id: 'set_3', label: 'เซกชัน 3 (21-30)' },
   { id: 'set_4', label: 'เซกชัน 4 (31-40)' },
-  { id: 'set_5', label: 'เซกชัน 5 (41-50)' }
+  { id: 'set_5', label: 'เซกชัน 5 (41-50)' },
+  { id: 'set_6', label: 'เซกชัน 6 (51-60)' },
+  { id: 'set_7', label: 'เซกชัน 7 (61-70)' },
+  { id: 'set_8', label: 'เซกชัน 8 (71-80)' },
+  { id: 'set_9', label: 'เซกชัน 9 (81-90)' },
+  { id: 'set_10', label: 'เซกชัน 10 (91-100)' },
+  { id: 'set_11', label: 'เซกชัน 11 (101-110)' },
+  { id: 'set_12', label: 'เซกชัน 12 (111-120)' },
+  { id: 'set_13', label: 'เซกชัน 13 (121-130)' },
+  { id: 'set_14', label: 'เซกชัน 14 (131-140)' },
+  { id: 'set_15', label: 'เซกชัน 15 (141-150)' }
 ];
 
 export const vocabularyList = [
   // --- SET 1 (1-10) ---
-  {
-    id: 'v1',
-    setId: 'set_1',
-    hanzi: '起床',
-    pinyin: 'qǐchuáng',
-    thaiMeaning: 'ตื่นนอน',
-    example: { hanzi: '八点起床。', pinyin: 'Bā diǎn qǐchuáng.', thaiMeaning: '8 โมงตื่นนอน' }
-  },
-  {
-    id: 'v2',
-    setId: 'set_1',
-    hanzi: '刷牙',
-    pinyin: 'shuāyá',
-    thaiMeaning: 'แปรงฟัน',
-    example: { hanzi: '去刷牙。', pinyin: 'Qù shuāyá.', thaiMeaning: 'ไปแปรงฟัน' }
-  },
-  {
-    id: 'v3',
-    setId: 'set_1',
-    hanzi: '洗脸',
-    pinyin: 'xǐliǎn',
-    thaiMeaning: 'ล้างหน้า',
-    example: { hanzi: '洗脸。', pinyin: 'Xǐliǎn.', thaiMeaning: 'ล้างหน้า' }
-  },
-  {
-    id: 'v4',
-    setId: 'set_1',
-    hanzi: '洗澡',
-    pinyin: 'xǐzǎo',
-    thaiMeaning: 'อาบน้ำ',
-    example: { hanzi: '洗澡。', pinyin: 'Xǐzǎo.', thaiMeaning: 'อาบน้ำ' }
-  },
-  {
-    id: 'v5',
-    setId: 'set_1',
-    hanzi: '出门',
-    pinyin: 'chūmén',
-    thaiMeaning: 'ออกจากบ้าน',
-    example: { hanzi: '出门。', pinyin: 'Chūmén.', thaiMeaning: 'ออกจากบ้าน' }
-  },
-  {
-    id: 'v6',
-    setId: 'set_1',
-    hanzi: '回家',
-    pinyin: 'huíjiā',
-    thaiMeaning: 'กลับบ้าน',
-    example: { hanzi: '回家。', pinyin: 'Huíjiā.', thaiMeaning: 'กลับบ้าน' }
-  },
-  {
-    id: 'v7',
-    setId: 'set_1',
-    hanzi: '睡觉',
-    pinyin: 'shuìjiào',
-    thaiMeaning: 'เข้านอน',
-    example: { hanzi: '准备睡觉。', pinyin: 'Zhǔnbèi shuìjiào.', thaiMeaning: 'เตรียมตัวนอน' }
-  },
-  {
-    id: 'v8',
-    setId: 'set_1',
-    hanzi: '手机',
-    pinyin: 'shǒujī',
-    thaiMeaning: 'โทรศัพท์มือถือ',
-    example: { hanzi: '看手机。', pinyin: 'Kàn shǒujī.', thaiMeaning: 'ดูโทรศัพท์' }
-  },
-  {
-    id: 'v9',
-    setId: 'set_1',
-    hanzi: '钥匙',
-    pinyin: 'yàoshi',
-    thaiMeaning: 'กุญแจ',
-    example: { hanzi: '拿钥匙。', pinyin: 'Ná yàoshi.', thaiMeaning: 'หยิบกุญแจ' }
-  },
-  {
-    id: 'v10',
-    setId: 'set_1',
-    hanzi: '现在',
-    pinyin: 'xiànzài',
-    thaiMeaning: 'ตอนนี้ / ขณะนี้',
-    example: { hanzi: '现在几点？', pinyin: 'Xiànzài jǐ diǎn?', thaiMeaning: 'ตอนนี้กี่โมง' }
-  },
+  { id: 'v1', setId: 'set_1', hanzi: '起床', pinyin: 'qǐchuáng', thaiMeaning: 'ตื่นนอน', example: { hanzi: '八点起床。', pinyin: 'Bā diǎn qǐchuáng.', thaiMeaning: '8 โมงตื่นนอน' } },
+  { id: 'v2', setId: 'set_1', hanzi: '刷牙', pinyin: 'shuāyá', thaiMeaning: 'แปรงฟัน', example: { hanzi: '去刷牙。', pinyin: 'Qù shuāyá.', thaiMeaning: 'ไปแปรงฟัน' } },
+  { id: 'v3', setId: 'set_1', hanzi: '洗脸', pinyin: 'xǐliǎn', thaiMeaning: 'ล้างหน้า', example: { hanzi: '洗脸。', pinyin: 'Xǐliǎn.', thaiMeaning: 'ล้างหน้า' } },
+  { id: 'v4', setId: 'set_1', hanzi: '洗澡', pinyin: 'xǐzǎo', thaiMeaning: 'อาบน้ำ', example: { hanzi: '洗澡。', pinyin: 'Xǐzǎo.', thaiMeaning: 'อาบน้ำ' } },
+  { id: 'v5', setId: 'set_1', hanzi: '出门', pinyin: 'chūmén', thaiMeaning: 'ออกจากบ้าน', example: { hanzi: '出门。', pinyin: 'Chūmén.', thaiMeaning: 'ออกจากบ้าน' } },
+  { id: 'v6', setId: 'set_1', hanzi: '回家', pinyin: 'huíjiā', thaiMeaning: 'กลับบ้าน', example: { hanzi: '回家。', pinyin: 'Huíjiā.', thaiMeaning: 'กลับบ้าน' } },
+  { id: 'v7', setId: 'set_1', hanzi: '睡觉', pinyin: 'shuìjiào', thaiMeaning: 'เข้านอน', example: { hanzi: '准备睡觉。', pinyin: 'Zhǔnbèi shuìjiào.', thaiMeaning: 'เตรียมตัวนอน' } },
+  { id: 'v8', setId: 'set_1', hanzi: '手机', pinyin: 'shǒujī', thaiMeaning: 'โทรศัพท์มือถือ', example: { hanzi: '看手机。', pinyin: 'Kàn shǒujī.', thaiMeaning: 'ดูโทรศัพท์' } },
+  { id: 'v9', setId: 'set_1', hanzi: '钥匙', pinyin: 'yàoshi', thaiMeaning: 'กุญแจ', example: { hanzi: '拿钥匙。', pinyin: 'Ná yàoshi.', thaiMeaning: 'หยิบกุญแจ' } },
+  { id: 'v10', setId: 'set_1', hanzi: '现在', pinyin: 'xiànzài', thaiMeaning: 'ตอนนี้ / ขณะนี้', example: { hanzi: '现在几点？', pinyin: 'Xiànzài jǐ diǎn?', thaiMeaning: 'ตอนนี้กี่โมง' } },
 
   // --- SET 2 (11-20) ---
-  {
-    id: 'v11',
-    setId: 'set_2',
-    hanzi: '工作',
-    pinyin: 'gōngzuò',
-    thaiMeaning: 'ทำงาน / งาน',
-    example: { hanzi: '开始工作。', pinyin: 'Kāishǐ gōngzuò.', thaiMeaning: 'เริ่มทำงาน' }
-  },
-  {
-    id: 'v12',
-    setId: 'set_2',
-    hanzi: '公司',
-    pinyin: 'gōngsī',
-    thaiMeaning: 'บริษัท / ที่ทำงาน',
-    example: { hanzi: '到公司了。', pinyin: 'Dào gōngsī le.', thaiMeaning: 'ถึงบริษัทแล้ว' }
-  },
-  {
-    id: 'v13',
-    setId: 'set_2',
-    hanzi: '水',
-    pinyin: 'shuǐ',
-    thaiMeaning: 'น้ำ',
-    example: { hanzi: '喝水。', pinyin: 'Hē shuǐ.', thaiMeaning: 'ดื่มน้ำ' }
-  },
-  {
-    id: 'v14',
-    setId: 'set_2',
-    hanzi: '咖啡',
-    pinyin: 'kāfēi',
-    thaiMeaning: 'กาแฟ',
-    example: { hanzi: '泡咖啡。', pinyin: 'Pào kāfēi.', thaiMeaning: 'ชงกาแฟ' }
-  },
-  {
-    id: 'v15',
-    setId: 'set_2',
-    hanzi: '吃饭',
-    pinyin: 'chīfàn',
-    thaiMeaning: 'กินข้าว',
-    example: { hanzi: '去吃饭。', pinyin: 'Qù chīfàn.', thaiMeaning: 'ไปกินข้าว' }
-  },
-  {
-    id: 'v16',
-    setId: 'set_2',
-    hanzi: '肚子',
-    pinyin: 'dùzi',
-    thaiMeaning: 'ท้อง',
-    example: { hanzi: '肚子饿。', pinyin: 'Dùzi è.', thaiMeaning: 'ท้องหิว' }
-  },
-  {
-    id: 'v17',
-    setId: 'set_2',
-    hanzi: '时间',
-    pinyin: 'shíjiān',
-    thaiMeaning: 'เวลา',
-    example: { hanzi: '没时间。', pinyin: 'Méi shíjiān.', thaiMeaning: 'ไม่มีเวลา' }
-  },
-  {
-    id: 'v18',
-    setId: 'set_2',
-    hanzi: '今天',
-    pinyin: 'jīntiān',
-    thaiMeaning: 'วันนี้',
-    example: { hanzi: '今天去上班。', pinyin: 'Jīntiān qù shàngbān.', thaiMeaning: 'วันนี้ไปทำงาน' }
-  },
-  {
-    id: 'v19',
-    setId: 'set_2',
-    hanzi: '明天',
-    pinyin: 'míngtiān',
-    thaiMeaning: 'พรุ่งนี้',
-    example: { hanzi: '明天早起。', pinyin: 'Míngtiān zǎoqǐ.', thaiMeaning: 'พรุ่งนี้ตื่นเช้า' }
-  },
-  {
-    id: 'v20',
-    setId: 'set_2',
-    hanzi: '准备',
-    pinyin: 'zhǔnbèi',
-    thaiMeaning: 'เตรียมตัว',
-    example: { hanzi: '准备好了。', pinyin: 'Zhǔnbèi hǎo le.', thaiMeaning: 'เตรียมพร้อมแล้ว' }
-  },
+  { id: 'v11', setId: 'set_2', hanzi: '工作', pinyin: 'gōngzuò', thaiMeaning: 'ทำงาน / งาน', example: { hanzi: '开始工作。', pinyin: 'Kāishǐ gōngzuò.', thaiMeaning: 'เริ่มทำงาน' } },
+  { id: 'v12', setId: 'set_2', hanzi: '公司', pinyin: 'gōngsī', thaiMeaning: 'บริษัท / ที่ทำงาน', example: { hanzi: '到公司了。', pinyin: 'Dào gōngsī le.', thaiMeaning: 'ถึงบริษัทแล้ว' } },
+  { id: 'v13', setId: 'set_2', hanzi: '水', pinyin: 'shuǐ', thaiMeaning: 'น้ำ', example: { hanzi: '喝水。', pinyin: 'Hē shuǐ.', thaiMeaning: 'ดื่มน้ำ' } },
+  { id: 'v14', setId: 'set_2', hanzi: '咖啡', pinyin: 'kāfēi', thaiMeaning: 'กาแฟ', example: { hanzi: '泡咖啡。', pinyin: 'Pào kāfēi.', thaiMeaning: 'ชงกาแฟ' } },
+  { id: 'v15', setId: 'set_2', hanzi: '吃饭', pinyin: 'chīfàn', thaiMeaning: 'กินข้าว', example: { hanzi: '去吃饭。', pinyin: 'Qù chīfàn.', thaiMeaning: 'ไปกินข้าว' } },
+  { id: 'v16', setId: 'set_2', hanzi: '肚子', pinyin: 'dùzi', thaiMeaning: 'ท้อง', example: { hanzi: '肚子饿。', pinyin: 'Dùzi è.', thaiMeaning: 'ท้องหิว' } },
+  { id: 'v17', setId: 'set_2', hanzi: '时间', pinyin: 'shíjiān', thaiMeaning: 'เวลา', example: { hanzi: '没时间。', pinyin: 'Méi shíjiān.', thaiMeaning: 'ไม่มีเวลา' } },
+  { id: 'v18', setId: 'set_2', hanzi: '今天', pinyin: 'jīntiān', thaiMeaning: 'วันนี้', example: { hanzi: '今天去上班。', pinyin: 'Jīntiān qù shàngbān.', thaiMeaning: 'วันนี้ไปทำงาน' } },
+  { id: 'v19', setId: 'set_2', hanzi: '明天', pinyin: 'míngtiān', thaiMeaning: 'พรุ่งนี้', example: { hanzi: '明天早起。', pinyin: 'Míngtiān zǎoqǐ.', thaiMeaning: 'พรุ่งนี้ตื่นเช้า' } },
+  { id: 'v20', setId: 'set_2', hanzi: '准备', pinyin: 'zhǔnbèi', thaiMeaning: 'เตรียมตัว', example: { hanzi: '准备好了。', pinyin: 'Zhǔnbèi hǎo le.', thaiMeaning: 'เตรียมพร้อมแล้ว' } },
 
   // --- SET 3 (21-30) ---
-  {
-    id: 'v21',
-    setId: 'set_3',
-    hanzi: '累',
-    pinyin: 'lèi',
-    thaiMeaning: 'เหนื่อย',
-    example: { hanzi: '有点累。', pinyin: 'Yǒudiǎnr lèi.', thaiMeaning: 'เหนื่อยนิดหน่อย' }
-  },
-  {
-    id: 'v22',
-    setId: 'set_3',
-    hanzi: '困',
-    pinyin: 'kùn',
-    thaiMeaning: 'ง่วง',
-    example: { hanzi: '太困了。', pinyin: 'Tài kùn le.', thaiMeaning: 'ง่วงมาก' }
-  },
-  {
-    id: 'v23',
-    setId: 'set_3',
-    hanzi: '舒服',
-    pinyin: 'shūfu',
-    thaiMeaning: 'สบายตัว',
-    example: { hanzi: '很舒服。', pinyin: 'Hěn shūfu.', thaiMeaning: 'สบายมาก' }
-  },
-  {
-    id: 'v24',
-    setId: 'set_3',
-    hanzi: '堵车',
-    pinyin: 'dǔchē',
-    thaiMeaning: 'รถติด',
-    example: { hanzi: '路上堵车。', pinyin: 'Lùshang dǔchē.', thaiMeaning: 'บนถนนรถติด' }
-  },
-  {
-    id: 'v25',
-    setId: 'set_3',
-    hanzi: '迟到',
-    pinyin: 'chídào',
-    thaiMeaning: 'มาสาย',
-    example: { hanzi: '上班迟到。', pinyin: 'Shàngbān chídào.', thaiMeaning: 'ทำงานสาย' }
-  },
-  {
-    id: 'v26',
-    setId: 'set_3',
-    hanzi: '休息',
-    pinyin: 'xiūxi',
-    thaiMeaning: 'พักผ่อน',
-    example: { hanzi: '休息一下。', pinyin: 'Xiūxi yíxià.', thaiMeaning: 'พักแป๊บนึง' }
-  },
-  {
-    id: 'v27',
-    setId: 'set_3',
-    hanzi: '加油',
-    pinyin: 'jiāyóu',
-    thaiMeaning: 'สู้ๆ',
-    example: { hanzi: '加油！', pinyin: 'Jiāyóu!', thaiMeaning: 'สู้ๆ!' }
-  },
-  {
-    id: 'v28',
-    setId: 'set_3',
-    hanzi: '没关系',
-    pinyin: 'méi guānxi',
-    thaiMeaning: 'ไม่เป็นไร',
-    example: { hanzi: '没关系。', pinyin: 'Méi guānxi.', thaiMeaning: 'ไม่เป็นไร' }
-  },
-  {
-    id: 'v29',
-    setId: 'set_3',
-    hanzi: '晚安',
-    pinyin: 'wǎn\'ān',
-    thaiMeaning: 'ฝันดี / ราตรีสวัสดิ์',
-    example: { hanzi: '晚安。', pinyin: 'Wǎn\'ān.', thaiMeaning: 'ฝันดี' }
-  },
-  {
-    id: 'v30',
-    setId: 'set_3',
-    hanzi: '衣服',
-    pinyin: 'yīfu',
-    thaiMeaning: 'เสื้อผ้า',
-    example: { hanzi: '换衣服。', pinyin: 'Huàn yīfu.', thaiMeaning: 'เปลี่ยนเสื้อผ้า' }
-  },
+  { id: 'v21', setId: 'set_3', hanzi: '累', pinyin: 'lèi', thaiMeaning: 'เหนื่อย', example: { hanzi: '有点累。', pinyin: 'Yǒudiǎnr lèi.', thaiMeaning: 'เหนื่อยนิดหน่อย' } },
+  { id: 'v22', setId: 'set_3', hanzi: '困', pinyin: 'kùn', thaiMeaning: 'ง่วง', example: { hanzi: '太困了。', pinyin: 'Tài kùn le.', thaiMeaning: 'ง่วงมาก' } },
+  { id: 'v23', setId: 'set_3', hanzi: '舒服', pinyin: 'shūfu', thaiMeaning: 'สบายตัว', example: { hanzi: '很舒服。', pinyin: 'Hěn shūfu.', thaiMeaning: 'สบายมาก' } },
+  { id: 'v24', setId: 'set_3', hanzi: '堵车', pinyin: 'dǔchē', thaiMeaning: 'รถติด', example: { hanzi: '路上堵车。', pinyin: 'Lùshang dǔchē.', thaiMeaning: 'บนถนนรถติด' } },
+  { id: 'v25', setId: 'set_3', hanzi: '迟到', pinyin: 'chídào', thaiMeaning: 'มาสาย', example: { hanzi: '上班迟到。', pinyin: 'Shàngbān chídào.', thaiMeaning: 'ทำงานสาย' } },
+  { id: 'v26', setId: 'set_3', hanzi: '休息', pinyin: 'xiūxi', thaiMeaning: 'พักผ่อน', example: { hanzi: '休息一下。', pinyin: 'Xiūxi yíxià.', thaiMeaning: 'พักแป๊บนึง' } },
+  { id: 'v27', setId: 'set_3', hanzi: '加油', pinyin: 'jiāyóu', thaiMeaning: 'สู้ๆ', example: { hanzi: '加油！', pinyin: 'Jiāyóu!', thaiMeaning: 'สู้ๆ!' } },
+  { id: 'v28', setId: 'set_3', hanzi: '没关系', pinyin: 'méi guānxi', thaiMeaning: 'ไม่เป็นไร', example: { hanzi: '没关系。', pinyin: 'Méi guānxi.', thaiMeaning: 'ไม่เป็นไร' } },
+  { id: 'v29', setId: 'set_3', hanzi: '晚安', pinyin: 'wǎn\'ān', thaiMeaning: 'ฝันดี / ราตรีสวัสดิ์', example: { hanzi: '晚安。', pinyin: 'Wǎn\'ān.', thaiMeaning: 'ฝันดี' } },
+  { id: 'v30', setId: 'set_3', hanzi: '衣服', pinyin: 'yīfu', thaiMeaning: 'เสื้อผ้า', example: { hanzi: '换衣服。', pinyin: 'Huàn yīfu.', thaiMeaning: 'เปลี่ยนเสื้อผ้า' } },
 
   // --- SET 4 (31-40) ---
-  {
-    id: 'v31',
-    setId: 'set_4',
-    hanzi: '裤子',
-    pinyin: 'kùzi',
-    thaiMeaning: 'กางเกง',
-    example: { hanzi: '穿裤子。', pinyin: 'Chuān kùzi.', thaiMeaning: 'ใส่กางเกง' }
-  },
-  {
-    id: 'v32',
-    setId: 'set_4',
-    hanzi: '鞋子',
-    pinyin: 'xiézi',
-    thaiMeaning: 'รองเท้า',
-    example: { hanzi: '穿鞋子。', pinyin: 'Chuān xiézi.', thaiMeaning: 'ใส่รองเท้า' }
-  },
-  {
-    id: 'v33',
-    setId: 'set_4',
-    hanzi: '上班',
-    pinyin: 'shàngbān',
-    thaiMeaning: 'ทำงาน / เข้างาน',
-    example: { hanzi: '去上班。', pinyin: 'Qù shàngbān.', thaiMeaning: 'ไปทำงาน' }
-  },
-  {
-    id: 'v34',
-    setId: 'set_4',
-    hanzi: '下班',
-    pinyin: 'xiàbān',
-    thaiMeaning: 'เลิกงาน',
-    example: { hanzi: '下班了。', pinyin: 'Xiàbān le.', thaiMeaning: 'เลิกงานแล้ว' }
-  },
-  {
-    id: 'v35',
-    setId: 'set_4',
-    hanzi: '午休',
-    pinyin: 'wǔxiū',
-    thaiMeaning: 'พักเที่ยง',
-    example: { hanzi: '午休时间。', pinyin: 'Wǔxiū shíjiān.', thaiMeaning: 'เวลาพักเที่ยง' }
-  },
-  {
-    id: 'v36',
-    setId: 'set_4',
-    hanzi: '早餐',
-    pinyin: 'zǎocān',
-    thaiMeaning: 'อาหารเช้า',
-    example: { hanzi: '吃早餐。', pinyin: 'Chī zǎocān.', thaiMeaning: 'กินข้าวเช้า' }
-  },
-  {
-    id: 'v37',
-    setId: 'set_4',
-    hanzi: '午饭',
-    pinyin: 'wǔfàn',
-    thaiMeaning: 'อาหารเที่ยง',
-    example: { hanzi: '吃午饭。', pinyin: 'Chī wǔfàn.', thaiMeaning: 'กินข้าวเที่ยง' }
-  },
-  {
-    id: 'v38',
-    setId: 'set_4',
-    hanzi: '晚饭',
-    pinyin: 'wǎnfàn',
-    thaiMeaning: 'อาหารเย็น',
-    example: { hanzi: '吃晚饭。', pinyin: 'Chī wǎnfàn.', thaiMeaning: 'กินข้าวเย็น' }
-  },
-  {
-    id: 'v39',
-    setId: 'set_4',
-    hanzi: '电脑',
-    pinyin: 'diànnǎo',
-    thaiMeaning: 'คอมพิวเตอร์',
-    example: { hanzi: '开电脑。', pinyin: 'Kāi diànnǎo.', thaiMeaning: 'เปิดคอม' }
-  },
-  {
-    id: 'v40',
-    setId: 'set_4',
-    hanzi: '钱',
-    pinyin: 'qián',
-    thaiMeaning: 'เงิน / สตางค์',
-    example: { hanzi: '带钱。', pinyin: 'Dài qián.', thaiMeaning: 'พกเงิน' }
-  },
+  { id: 'v31', setId: 'set_4', hanzi: '裤子', pinyin: 'kùzi', thaiMeaning: 'กางเกง', example: { hanzi: '穿裤子。', pinyin: 'Chuān kùzi.', thaiMeaning: 'ใส่กางเกง' } },
+  { id: 'v32', setId: 'set_4', hanzi: '鞋子', pinyin: 'xiézi', thaiMeaning: 'รองเท้า', example: { hanzi: '穿鞋子。', pinyin: 'Chuān xiézi.', thaiMeaning: 'ใส่รองเท้า' } },
+  { id: 'v33', setId: 'set_4', hanzi: '上班', pinyin: 'shàngbān', thaiMeaning: 'ทำงาน / เข้างาน', example: { hanzi: '去上班。', pinyin: 'Qù shàngbān.', thaiMeaning: 'ไปทำงาน' } },
+  { id: 'v34', setId: 'set_4', hanzi: '下班', pinyin: 'xiàbān', thaiMeaning: 'เลิกงาน', example: { hanzi: '下班了。', pinyin: 'Xiàbān le.', thaiMeaning: 'เลิกงานแล้ว' } },
+  { id: 'v35', setId: 'set_4', hanzi: '午休', pinyin: 'wǔxiū', thaiMeaning: 'พักเที่ยง', example: { hanzi: '午休时间。', pinyin: 'Wǔxiū shíjiān.', thaiMeaning: 'เวลาพักเที่ยง' } },
+  { id: 'v36', setId: 'set_4', hanzi: '早餐', pinyin: 'zǎocān', thaiMeaning: 'อาหารเช้า', example: { hanzi: '吃早餐。', pinyin: 'Chī zǎocān.', thaiMeaning: 'กินข้าวเช้า' } },
+  { id: 'v37', setId: 'set_4', hanzi: '午饭', pinyin: 'wǔfàn', thaiMeaning: 'อาหารเที่ยง', example: { hanzi: '吃午饭。', pinyin: 'Chī wǔfàn.', thaiMeaning: 'กินข้าวเที่ยง' } },
+  { id: 'v38', setId: 'set_4', hanzi: '晚饭', pinyin: 'wǎnfàn', thaiMeaning: 'อาหารเย็น', example: { hanzi: '吃晚饭。', pinyin: 'Chī wǎnfàn.', thaiMeaning: 'กินข้าวเย็น' } },
+  { id: 'v39', setId: 'set_4', hanzi: '电脑', pinyin: 'diànnǎo', thaiMeaning: 'คอมพิวเตอร์', example: { hanzi: '开电脑。', pinyin: 'Kāi diànnǎo.', thaiMeaning: 'เปิดคอม' } },
+  { id: 'v40', setId: 'set_4', hanzi: '钱', pinyin: 'qián', thaiMeaning: 'เงิน / สตางค์', example: { hanzi: '带钱。', pinyin: 'Dài qián.', thaiMeaning: 'พกเงิน' } },
 
   // --- SET 5 (41-50) ---
-  {
-    id: 'v41',
-    setId: 'set_5',
-    hanzi: '买',
-    pinyin: 'mǎi',
-    thaiMeaning: 'ซื้อ',
-    example: { hanzi: '买东西。', pinyin: 'Mǎi dōngxi.', thaiMeaning: 'ซื้อของ' }
-  },
-  {
-    id: 'v42',
-    setId: 'set_5',
-    hanzi: '开门',
-    pinyin: 'kāimén',
-    thaiMeaning: 'เปิดประตู',
-    example: { hanzi: '开门。', pinyin: 'Kāimén.', thaiMeaning: 'เปิดประตู' }
-  },
-  {
-    id: 'v43',
-    setId: 'set_5',
-    hanzi: '关门',
-    pinyin: 'guānmén',
-    thaiMeaning: 'ปิดประตู',
-    example: { hanzi: '关门。', pinyin: 'Guānmén.', thaiMeaning: 'ปิดประตู' }
-  },
-  {
-    id: 'v44',
-    setId: 'set_5',
-    hanzi: '快',
-    pinyin: 'kuài',
-    thaiMeaning: 'เร็ว / เร่งด่วน',
-    example: { hanzi: '快一点。', pinyin: 'Kuài yìdiǎn.', thaiMeaning: 'เร็วหน่อย' }
-  },
-  {
-    id: 'v45',
-    setId: 'set_5',
-    hanzi: '慢',
-    pinyin: 'màn',
-    thaiMeaning: 'ช้า / ค่อยๆ',
-    example: { hanzi: '慢一点。', pinyin: 'Màn yìdiǎn.', thaiMeaning: 'ช้าหน่อย' }
-  },
-  {
-    id: 'v46',
-    setId: 'set_5',
-    hanzi: '好',
-    pinyin: 'hǎo',
-    thaiMeaning: 'ดี / โอเค',
-    example: { hanzi: '很好。', pinyin: 'Hěn hǎo.', thaiMeaning: 'ดีมาก' }
-  },
-  {
-    id: 'v47',
-    setId: 'set_5',
-    hanzi: '热',
-    pinyin: 'rè',
-    thaiMeaning: 'ร้อน',
-    example: { hanzi: '天气热。', pinyin: 'Tiānqì rè.', thaiMeaning: 'อากาศร้อน' }
-  },
-  {
-    id: 'v48',
-    setId: 'set_5',
-    hanzi: '冷',
-    pinyin: 'lěng',
-    thaiMeaning: 'หนาว / เย็น',
-    example: { hanzi: '有点冷。', pinyin: 'Yǒudiǎnr lěng.', thaiMeaning: 'หนาวนิดหน่อย' }
-  },
-  {
-    id: 'v49',
-    setId: 'set_5',
-    hanzi: '开心',
-    pinyin: 'kāixīn',
-    thaiMeaning: 'มีความสุข / ดีใจ',
-    example: { hanzi: '很开心。', pinyin: 'Hěn kāixīn.', thaiMeaning: 'มีความสุขมาก' }
-  },
-  {
-    id: 'v50',
-    setId: 'set_5',
-    hanzi: '再见',
-    pinyin: 'zàijiàn',
-    thaiMeaning: 'ลาก่อน / ไว้เจอกันใหม่',
-    example: { hanzi: '明天再见。', pinyin: 'Míngtiān zàijiàn.', thaiMeaning: 'พรุ่งนี้เจอกันใหม่' }
-  }
+  { id: 'v41', setId: 'set_5', hanzi: '买', pinyin: 'mǎi', thaiMeaning: 'ซื้อ', example: { hanzi: '买东西。', pinyin: 'Mǎi dōngxi.', thaiMeaning: 'ซื้อของ' } },
+  { id: 'v42', setId: 'set_5', hanzi: '开门', pinyin: 'kāimén', thaiMeaning: 'เปิดประตู', example: { hanzi: '开门。', pinyin: 'Kāimén.', thaiMeaning: 'เปิดประตู' } },
+  { id: 'v43', setId: 'set_5', hanzi: '关门', pinyin: 'guānmén', thaiMeaning: 'ปิดประตู', example: { hanzi: '关门。', pinyin: 'Guānmén.', thaiMeaning: 'ปิดประตู' } },
+  { id: 'v44', setId: 'set_5', hanzi: '快', pinyin: 'kuài', thaiMeaning: 'เร็ว / เร่งด่วน', example: { hanzi: '快一点。', pinyin: 'Kuài yìdiǎn.', thaiMeaning: 'เร็วหน่อย' } },
+  { id: 'v45', setId: 'set_5', hanzi: '慢', pinyin: 'màn', thaiMeaning: 'ช้า / ค่อยๆ', example: { hanzi: '慢一点。', pinyin: 'Màn yìdiǎn.', thaiMeaning: 'ช้าหน่อย' } },
+  { id: 'v46', setId: 'set_5', hanzi: '好', pinyin: 'hǎo', thaiMeaning: 'ดี / โอเค', example: { hanzi: '很好。', pinyin: 'Hěn hǎo.', thaiMeaning: 'ดีมาก' } },
+  { id: 'v47', setId: 'set_5', hanzi: '热', pinyin: 'rè', thaiMeaning: 'ร้อน', example: { hanzi: '天气热。', pinyin: 'Tiānqì rè.', thaiMeaning: 'อากาศร้อน' } },
+  { id: 'v48', setId: 'set_5', hanzi: '冷', pinyin: 'lěng', thaiMeaning: 'หนาว / เย็น', example: { hanzi: '有点冷。', pinyin: 'Yǒudiǎnr lěng.', thaiMeaning: 'หนาวนิดหน่อย' } },
+  { id: 'v49', setId: 'set_5', hanzi: '开心', pinyin: 'kāixīn', thaiMeaning: 'มีความสุข / ดีใจ', example: { hanzi: '很开心。', pinyin: 'Hěn kāixīn.', thaiMeaning: 'มีความสุขมาก' } },
+  { id: 'v50', setId: 'set_5', hanzi: '再见', pinyin: 'zàijiàn', thaiMeaning: 'ลาก่อน / ไว้เจอกันใหม่', example: { hanzi: '明天再见。', pinyin: 'Míngtiān zàijiàn.', thaiMeaning: 'พรุ่งนี้เจอกันใหม่' } },
+
+  // --- SET 6 (51-60) DIRECTION & MOVEMENT ---
+  { id: 'v51', setId: 'set_6', hanzi: '左', pinyin: 'zuǒ', thaiMeaning: 'ซ้าย', example: { hanzi: '往左走。', pinyin: 'Wǎng zuǒ zǒu.', thaiMeaning: 'เดินไปทางซ้าย' } },
+  { id: 'v52', setId: 'set_6', hanzi: '右', pinyin: 'yòu', thaiMeaning: 'ขวา', example: { hanzi: '往右转。', pinyin: 'Wǎng yòu zhuǎn.', thaiMeaning: 'เลี้ยวขวา' } },
+  { id: 'v53', setId: 'set_6', hanzi: '前', pinyin: 'qián', thaiMeaning: 'หน้า / ข้างหน้า', example: { hanzi: '往前走。', pinyin: 'Wǎng qián zǒu.', thaiMeaning: 'เดินไปข้างหน้า' } },
+  { id: 'v54', setId: 'set_6', hanzi: '后', pinyin: 'hòu', thaiMeaning: 'หลัง / ข้างหลัง', example: { hanzi: '在后面。', pinyin: 'Zài hòumiàn.', thaiMeaning: 'อยู่ข้างหลัง' } },
+  { id: 'v55', setId: 'set_6', hanzi: '进', pinyin: 'jìn', thaiMeaning: 'เข้า / เข้ามา', example: { hanzi: '请进。', pinyin: 'Qǐng jìn.', thaiMeaning: 'เชิญเข้าด้านใน' } },
+  { id: 'v56', setId: 'set_6', hanzi: '出', pinyin: 'chū', thaiMeaning: 'ออก', example: { hanzi: '出去。', pinyin: 'Chūqù.', thaiMeaning: 'ออกไป' } },
+  { id: 'v57', setId: 'set_6', hanzi: '上', pinyin: 'shàng', thaiMeaning: 'บน / ขึ้น', example: { hanzi: '上楼。', pinyin: 'Shàng lóu.', thaiMeaning: 'ขึ้นชั้นบน' } },
+  { id: 'v58', setId: 'set_6', hanzi: '下', pinyin: 'xià', thaiMeaning: 'ล่าง / ลง', example: { hanzi: '下车。', pinyin: 'Xià chē.', thaiMeaning: 'ลงจากรถ' } },
+  { id: 'v59', setId: 'set_6', hanzi: '走', pinyin: 'zǒu', thaiMeaning: 'เดิน / ไป', example: { hanzi: '慢慢走。', pinyin: 'Mànmàn zǒu.', thaiMeaning: 'ค่อยๆ เดิน' } },
+  { id: 'v60', setId: 'set_6', hanzi: '跑', pinyin: 'pǎo', thaiMeaning: 'วิ่ง', example: { hanzi: '快跑。', pinyin: 'Kuài pǎo.', thaiMeaning: 'รีบวิ่ง' } },
+
+  // --- SET 7 (61-70) OBJECTS & SHOPPING ---
+  { id: 'v61', setId: 'set_7', hanzi: '东西', pinyin: 'dōngxi', thaiMeaning: 'สิ่งของ / ของ', example: { hanzi: '买东西。', pinyin: 'Mǎi dōngxi.', thaiMeaning: 'ซื้อของ' } },
+  { id: 'v62', setId: 'set_7', hanzi: '包', pinyin: 'bāo', thaiMeaning: 'กระเป๋า', example: { hanzi: '带包。', pinyin: 'Dài bāo.', thaiMeaning: 'สะพายกระเป๋า' } },
+  { id: 'v63', setId: 'set_7', hanzi: '纸', pinyin: 'zhǐ', thaiMeaning: 'กระดาษ / ทิชชู', example: { hanzi: '拿张纸。', pinyin: 'Ná zhāng zhǐ.', thaiMeaning: 'ขอหยิบกระดาษหน่อย' } },
+  { id: 'v64', setId: 'set_7', hanzi: '笔', pinyin: 'bǐ', thaiMeaning: 'ปากกา / ดินสอ', example: { hanzi: '借支笔。', pinyin: 'Jiè zhī bǐ.', thaiMeaning: 'ขอยืมปากกาหน่อย' } },
+  { id: 'v65', setId: 'set_7', hanzi: '桌子', pinyin: 'zhuōzi', thaiMeaning: 'โต๊ะ', example: { hanzi: '在桌子上。', pinyin: 'Zài zhuōzi shang.', thaiMeaning: 'วางบนโต๊ะ' } },
+  { id: 'v66', setId: 'set_7', hanzi: '椅子', pinyin: 'yǐzi', thaiMeaning: 'เก้าอี้', example: { hanzi: '坐椅子。', pinyin: 'Zuò yǐzi.', thaiMeaning: 'นั่งเก้าอี้' } },
+  { id: 'v67', setId: 'set_7', hanzi: '多少钱', pinyin: 'duōshǎo qián', thaiMeaning: 'ราคาเท่าไหร่', example: { hanzi: '这个多少钱？', pinyin: 'Zhège duōshǎo qián?', thaiMeaning: 'อันนี้ราคาเท่าไหร่' } },
+  { id: 'v68', setId: 'set_7', hanzi: '贵', pinyin: 'guì', thaiMeaning: 'แพง', example: { hanzi: '太贵了。', pinyin: 'Tài guì le.', thaiMeaning: 'แพงเกินไป' } },
+  { id: 'v69', setId: 'set_7', hanzi: '便宜', pinyin: 'piányi', thaiMeaning: 'ถูก / ไม่แพง', example: { hanzi: '便宜一点。', pinyin: 'Piányi yìdiǎn.', thaiMeaning: 'ถูกลงหน่อย' } },
+  { id: 'v70', setId: 'set_7', hanzi: '发票', pinyin: 'fāpiào', thaiMeaning: 'ใบเสร็จ / ใบกำกับ', example: { hanzi: '要发票。', pinyin: 'Yào fāpiào.', thaiMeaning: 'ขอใบเสร็จด้วย' } },
+
+  // --- SET 8 (71-80) TIME & DAYS ---
+  { id: 'v71', setId: 'set_8', hanzi: '早上', pinyin: 'zǎoshang', thaiMeaning: 'เช้า / ตอนเช้า', example: { hanzi: '早上好。', pinyin: 'Zǎoshang hǎo.', thaiMeaning: 'อรุณสวัสดิ์' } },
+  { id: 'v72', setId: 'set_8', hanzi: '中午', pinyin: 'zhōngwǔ', thaiMeaning: 'เที่ยง / ตอนเที่ยง', example: { hanzi: '中午吃什么？', pinyin: 'Zhōngwǔ chī shénme?', thaiMeaning: 'เที่ยงนี้กินอะไร' } },
+  { id: 'v73', setId: 'set_8', hanzi: '下午', pinyin: 'xiàwǔ', thaiMeaning: 'บ่าย / ตอนบ่าย', example: { hanzi: '下午开会。', pinyin: 'Xiàwǔ kāihuì.', thaiMeaning: 'ตอนบ่ายมีประชุม' } },
+  { id: 'v74', setId: 'set_8', hanzi: '晚上', pinyin: 'wǎnshang', thaiMeaning: 'เย็น / ค่ำ', example: { hanzi: '晚上见。', pinyin: 'Wǎnshang jiàn.', thaiMeaning: 'เจอกันตอนค่ำ' } },
+  { id: 'v75', setId: 'set_8', hanzi: '昨天', pinyin: 'zuótiān', thaiMeaning: 'เมื่อวาน', example: { hanzi: '昨天没空。', pinyin: 'Zuótiān méi kòng.', thaiMeaning: 'เมื่อวานไม่ว่าง' } },
+  { id: 'v76', setId: 'set_8', hanzi: '星期一', pinyin: 'xīngqīyī', thaiMeaning: 'วันจันทร์', example: { hanzi: '星期一上班。', pinyin: 'Xīngqīyī shàngbān.', thaiMeaning: 'วันจันทร์ทำงาน' } },
+  { id: 'v77', setId: 'set_8', hanzi: '周末', pinyin: 'zhōumò', thaiMeaning: 'สุดสัปดาห์', example: { hanzi: '周末休息。', pinyin: 'Zhōumò xiūxi.', thaiMeaning: 'เสาร์อาทิตย์พักผ่อน' } },
+  { id: 'v78', setId: 'set_8', hanzi: '点', pinyin: 'diǎn', thaiMeaning: 'โมง / นาฬิกา', example: { hanzi: '九点。', pinyin: 'Jiǔ diǎn.', thaiMeaning: '9 โมง' } },
+  { id: 'v79', setId: 'set_8', hanzi: '分', pinyin: 'fēn', thaiMeaning: 'นาที', example: { hanzi: '三十分。', pinyin: 'Sānshí fēn.', thaiMeaning: '30 นาที' } },
+  { id: 'v80', setId: 'set_8', hanzi: '秒', pinyin: 'miǎo', thaiMeaning: 'วินาที', example: { hanzi: '等几秒。', pinyin: 'Děng jǐ miǎo.', thaiMeaning: 'รอไม่กี่วินาที' } },
+
+  // --- SET 9 (81-90) FOOD & DRINK ---
+  { id: 'v81', setId: 'set_9', hanzi: '米饭', pinyin: 'mǐfàn', thaiMeaning: 'ข้าวสวย', example: { hanzi: '吃米饭。', pinyin: 'Chī mǐfàn.', thaiMeaning: 'กินข้าวสวย' } },
+  { id: 'v82', setId: 'set_9', hanzi: '面条', pinyin: 'miàntiáo', thaiMeaning: 'ก๋วยเตี๋ยว / บะหมี่', example: { hanzi: '吃面条。', pinyin: 'Chī miàntiáo.', thaiMeaning: 'กินบะหมี่' } },
+  { id: 'v83', setId: 'set_9', hanzi: '菜', pinyin: 'cài', thaiMeaning: 'ผัก / กับข้าว', example: { hanzi: '点菜。', pinyin: 'Diǎn cài.', thaiMeaning: 'สั่งกับข้าว' } },
+  { id: 'v84', setId: 'set_9', hanzi: '水果', pinyin: 'shuǐguǒ', thaiMeaning: 'ผลไม้', example: { hanzi: '买水果。', pinyin: 'Mǎi shuǐguǒ.', thaiMeaning: 'ซื้อผลไม้' } },
+  { id: 'v85', setId: 'set_9', hanzi: '苹果', pinyin: 'píngguǒ', thaiMeaning: 'แอปเปิ้ล', example: { hanzi: '吃苹果。', pinyin: 'Chī píngguǒ.', thaiMeaning: 'กินแอปเปิ้ล' } },
+  { id: 'v86', setId: 'set_9', hanzi: '牛肉', pinyin: 'niúròu', thaiMeaning: 'เนื้อวัว', example: { hanzi: '吃牛肉。', pinyin: 'Chī niúròu.', thaiMeaning: 'กินเนื้อวัว' } },
+  { id: 'v87', setId: 'set_9', hanzi: '鸡肉', pinyin: 'jīròu', thaiMeaning: 'เนื้อไก่', example: { hanzi: '吃鸡肉。', pinyin: 'Chī jīròu.', thaiMeaning: 'กินเนื้อไก่' } },
+  { id: 'v88', setId: 'set_9', hanzi: '鱼', pinyin: 'yú', thaiMeaning: 'ปลา', example: { hanzi: '吃鱼。', pinyin: 'Chī yú.', thaiMeaning: 'กินปลา' } },
+  { id: 'v89', setId: 'set_9', hanzi: '茶', pinyin: 'chá', thaiMeaning: 'ชา / น้ำชา', example: { hanzi: '喝绿茶。', pinyin: 'Hē lǜchá.', thaiMeaning: 'ดื่มชาเขียว' } },
+  { id: 'v90', setId: 'set_9', hanzi: '牛奶', pinyin: 'niúnǎi', thaiMeaning: 'นมสด', example: { hanzi: '喝牛奶。', pinyin: 'Hē niúnǎi.', thaiMeaning: 'ดื่มนมสด' } },
+
+  // --- SET 10 (91-100) PLACES & TRANSPORT ---
+  { id: 'v91', setId: 'set_10', hanzi: '医院', pinyin: 'yīyuàn', thaiMeaning: 'โรงพยาบาล', example: { hanzi: '去医院。', pinyin: 'Qù yīyuàn.', thaiMeaning: 'ไปโรงพยาบาล' } },
+  { id: 'v92', setId: 'set_10', hanzi: '车站', pinyin: 'chēzhàn', thaiMeaning: 'สถานีรถ', example: { hanzi: '在车站。', pinyin: 'Zài chēzhàn.', thaiMeaning: 'อยู่ที่สถานี' } },
+  { id: 'v93', setId: 'set_10', hanzi: '机场', pinyin: 'jīchǎng', thaiMeaning: 'สนามบิน', example: { hanzi: '去机场。', pinyin: 'Qù jīchǎng.', thaiMeaning: 'ไปสนามบิน' } },
+  { id: 'v94', setId: 'set_10', hanzi: '酒店', pinyin: 'jiǔdiàn', thaiMeaning: 'โรงแรม', example: { hanzi: '住酒店。', pinyin: 'Zhù jiǔdiàn.', thaiMeaning: 'พักโรงแรม' } },
+  { id: 'v95', setId: 'set_10', hanzi: '饭店', pinyin: 'fàndiàn', thaiMeaning: 'ร้านอาหาร', example: { hanzi: '去饭店。', pinyin: 'Qù fàndiàn.', thaiMeaning: 'ไปร้านอาหาร' } },
+  { id: 'v96', setId: 'set_10', hanzi: '商店', pinyin: 'shāngdiàn', thaiMeaning: 'ร้านค้า', example: { hanzi: '逛商店。', pinyin: 'Guàng shāngdiàn.', thaiMeaning: 'เดินดูร้านค้า' } },
+  { id: 'v97', setId: 'set_10', hanzi: '学校', pinyin: 'xuéxiào', thaiMeaning: 'โรงเรียน', example: { hanzi: '去学校。', pinyin: 'Qù xuéxiào.', thaiMeaning: 'ไปโรงเรียน' } },
+  { id: 'v98', setId: 'set_10', hanzi: '车', pinyin: 'chē', thaiMeaning: 'รถยนต์', example: { hanzi: '开车。', pinyin: 'Kāi chē.', thaiMeaning: 'ขับรถ' } },
+  { id: 'v99', setId: 'set_10', hanzi: '飞机', pinyin: 'fēijī', thaiMeaning: 'เครื่องบิน', example: { hanzi: '坐飞机。', pinyin: 'Zuò fēijī.', thaiMeaning: 'นั่งเครื่องบิน' } },
+  { id: 'v100', setId: 'set_10', hanzi: '出租车', pinyin: 'chūzūchē', thaiMeaning: 'รถแท็กซี่', example: { hanzi: '打出租车。', pinyin: 'Dǎ chūzūchē.', thaiMeaning: 'เรียกแท็กซี่' } },
+
+  // --- SET 11 (101-110) PEOPLE & FAMILY ---
+  { id: 'v101', setId: 'set_11', hanzi: '人', pinyin: 'rén', thaiMeaning: 'คน / มนุษย์', example: { hanzi: '很多人。', pinyin: 'Hěn duō rén.', thaiMeaning: 'คนเยอะมาก' } },
+  { id: 'v102', setId: 'set_11', hanzi: '朋友', pinyin: 'péngyou', thaiMeaning: 'เพื่อน', example: { hanzi: '找朋友。', pinyin: 'Zhǎo péngyou.', thaiMeaning: 'หาเพื่อน' } },
+  { id: 'v103', setId: 'set_11', hanzi: '老师', pinyin: 'lǎoshī', thaiMeaning: 'คุณครู / อาจารย์', example: { hanzi: '老师好。', pinyin: 'Lǎoshī hǎo.', thaiMeaning: 'สวัสดีครับครู' } },
+  { id: 'v104', setId: 'set_11', hanzi: '学生', pinyin: 'xuésheng', thaiMeaning: 'นักเรียน / นักศึกษา', example: { hanzi: '我是学生。', pinyin: 'Wǒ shì xuésheng.', thaiMeaning: 'ฉันเป็นนักเรียน' } },
+  { id: 'v105', setId: 'set_11', hanzi: '医生', pinyin: 'yīshēng', thaiMeaning: 'หมอ / แพทย์', example: { hanzi: '看医生。', pinyin: 'Kàn yīshēng.', thaiMeaning: 'ไปหาหมอ' } },
+  { id: 'v106', setId: 'set_11', hanzi: '爸爸', pinyin: 'bàba', thaiMeaning: 'คุณพ่อ', example: { hanzi: '我爸爸。', pinyin: 'Wǒ bàba.', thaiMeaning: 'พ่อของฉัน' } },
+  { id: 'v107', setId: 'set_11', hanzi: '妈妈', pinyin: 'māma', thaiMeaning: 'คุณแม่', example: { hanzi: '我妈妈。', pinyin: 'Wǒ māma.', thaiMeaning: 'แม่ของฉัน' } },
+  { id: 'v108', setId: 'set_11', hanzi: '哥哥', pinyin: 'gēge', thaiMeaning: 'พี่ชาย', example: { hanzi: '我哥哥。', pinyin: 'Wǒ gēge.', thaiMeaning: 'พี่ชายฉัน' } },
+  { id: 'v109', setId: 'set_11', hanzi: '姐姐', pinyin: 'jiějie', thaiMeaning: 'พี่สาว', example: { hanzi: '我姐姐。', pinyin: 'Wǒ jiějie.', thaiMeaning: 'พี่สาวฉัน' } },
+  { id: 'v110', setId: 'set_11', hanzi: '弟弟', pinyin: 'dìdi', thaiMeaning: 'น้องชาย', example: { hanzi: '我弟弟。', pinyin: 'Wǒ dìdi.', thaiMeaning: 'น้องชายฉัน' } },
+
+  // --- SET 12 (111-120) DAILY VERBS ---
+  { id: 'v111', setId: 'set_12', hanzi: '看', pinyin: 'kàn', thaiMeaning: 'มอง / ดู / อ่าน', example: { hanzi: '看书。', pinyin: 'Kàn shū.', thaiMeaning: 'อ่านหนังสือ' } },
+  { id: 'v112', setId: 'set_12', hanzi: '听', pinyin: 'tīng', thaiMeaning: 'ฟัง', example: { hanzi: '听音乐。', pinyin: 'Tīng yīnyuè.', thaiMeaning: 'ฟังเพลง' } },
+  { id: 'v113', setId: 'set_12', hanzi: '说', pinyin: 'shuō', thaiMeaning: 'พูด / บอก', example: { hanzi: '说话。', pinyin: 'Shuōhuà.', thaiMeaning: 'พูดคุย' } },
+  { id: 'v114', setId: 'set_12', hanzi: '写', pinyin: 'xiě', thaiMeaning: 'เขียน', example: { hanzi: '写字。', pinyin: 'Xiě zì.', thaiMeaning: 'เขียนหนังสือ' } },
+  { id: 'v115', setId: 'set_12', hanzi: '想', pinyin: 'xiǎng', thaiMeaning: 'อยาก / คิด', example: { hanzi: '你想吃什么？', pinyin: 'Nǐ xiǎng chī shénme?', thaiMeaning: 'คุณอยากกินอะไร' } },
+  { id: 'v116', setId: 'set_12', hanzi: '知道', pinyin: 'zhīdào', thaiMeaning: 'รู้ / ทราบ', example: { hanzi: '我知道了。', pinyin: 'Wǒ zhīdào le.', thaiMeaning: 'ฉันรู้แล้ว' } },
+  { id: 'v117', setId: 'set_12', hanzi: '认识', pinyin: 'rènshi', thaiMeaning: 'รู้จัก', example: { hanzi: '很高兴认识你。', pinyin: 'Hěn gāoxìng rènshi nǐ.', thaiMeaning: 'ดีใจที่ได้รู้จักคุณ' } },
+  { id: 'v118', setId: 'set_12', hanzi: '听懂', pinyin: 'tīngdǒng', thaiMeaning: 'ฟังเข้าใจ', example: { hanzi: '听懂了。', pinyin: 'Tīngdǒng le.', thaiMeaning: 'ฟังเข้าใจแล้ว' } },
+  { id: 'v119', setId: 'set_12', hanzi: '帮助', pinyin: 'bāngzhù', thaiMeaning: 'ช่วยเหลือ / ช่วย', example: { hanzi: '需要帮助。', pinyin: 'Xūyào bāngzhù.', thaiMeaning: 'ต้องการความช่วยเหลือ' } },
+  { id: 'v120', setId: 'set_12', hanzi: '找', pinyin: 'zhǎo', thaiMeaning: 'หา / ตามหา', example: { hanzi: '找东西。', pinyin: 'Zhǎo dōngxi.', thaiMeaning: 'หาของ' } },
+
+  // --- SET 13 (121-130) COMMON ADJECTIVES ---
+  { id: 'v121', setId: 'set_13', hanzi: '大', pinyin: 'dà', thaiMeaning: 'ใหญ่', example: { hanzi: '很大。', pinyin: 'Hěn dà.', thaiMeaning: 'ใหญ่มาก' } },
+  { id: 'v122', setId: 'set_13', hanzi: '小', pinyin: 'xiǎo', thaiMeaning: 'เล็ก', example: { hanzi: '太小了。', pinyin: 'Tài xiǎo le.', thaiMeaning: 'เล็กเกินไป' } },
+  { id: 'v123', setId: 'set_13', hanzi: '多', pinyin: 'duō', thaiMeaning: 'มาก / เยอะ', example: { hanzi: '很多。', pinyin: 'Hěn duō.', thaiMeaning: 'เยอะมาก' } },
+  { id: 'v124', setId: 'set_13', hanzi: '少', pinyin: 'shǎo', thaiMeaning: 'น้อย', example: { hanzi: '减少。', pinyin: 'Jiǎnshǎo.', thaiMeaning: 'ลดน้อยลง' } },
+  { id: 'v125', setId: 'set_13', hanzi: '高', pinyin: 'gāo', thaiMeaning: 'สูง', example: { hanzi: '很高。', pinyin: 'Hěn gāo.', thaiMeaning: 'สูงมาก' } },
+  { id: 'v126', setId: 'set_13', hanzi: '矮', pinyin: 'ǎi', thaiMeaning: 'เตี้ย', example: { hanzi: '有点矮。', pinyin: 'Yǒudiǎnr ǎi.', thaiMeaning: 'ค่อนข้างเตี้ย' } },
+  { id: 'v127', setId: 'set_13', hanzi: '重', pinyin: 'zhòng', thaiMeaning: 'หนัก', example: { hanzi: '太重了。', pinyin: 'Tài zhòng le.', thaiMeaning: 'หนักเกินไป' } },
+  { id: 'v128', setId: 'set_13', hanzi: '轻', pinyin: 'qīng', thaiMeaning: 'เบา', example: { hanzi: '很轻。', pinyin: 'Hěn qīng.', thaiMeaning: 'เบามาก' } },
+  { id: 'v129', setId: 'set_13', hanzi: '新', pinyin: 'xīn', thaiMeaning: 'ใหม่', example: { hanzi: '买新书。', pinyin: 'Mǎi xīn shū.', thaiMeaning: 'ซื้อหนังสือใหม่' } },
+  { id: 'v130', setId: 'set_13', hanzi: '旧', pinyin: 'jiù', thaiMeaning: 'เก่า', example: { hanzi: '旧鞋子。', pinyin: 'Jiù xiézi.', thaiMeaning: 'รองเท้าเก่า' } },
+
+  // --- SET 14 (131-140) PRONOUNS & QUESTIONS ---
+  { id: 'v131', setId: 'set_14', hanzi: '我', pinyin: 'wǒ', thaiMeaning: 'ฉัน / ผม', example: { hanzi: '我是。', pinyin: 'Wǒ shì.', thaiMeaning: 'ฉันคือ' } },
+  { id: 'v132', setId: 'set_14', hanzi: '你', pinyin: 'nǐ', thaiMeaning: 'คุณ / เธอ', example: { hanzi: '你好。', pinyin: 'Nǐ hǎo.', thaiMeaning: 'สวัสดีคุณ' } },
+  { id: 'v133', setId: 'set_14', hanzi: '他', pinyin: 'tā', thaiMeaning: 'เขา (ผู้ชาย)', example: { hanzi: '他是。', pinyin: 'Tā shì.', thaiMeaning: 'เขาคือ' } },
+  { id: 'v134', setId: 'set_14', hanzi: '她', pinyin: 'tā', thaiMeaning: 'เธอ (ผู้หญิง)', example: { hanzi: '她是。', pinyin: 'Tā shì.', thaiMeaning: 'เธอคือ' } },
+  { id: 'v135', setId: 'set_14', hanzi: '我们', pinyin: 'wǒmen', thaiMeaning: 'พวกเรา', example: { hanzi: '我们走。', pinyin: 'Wǒmen zǒu.', thaiMeaning: 'พวกเราไปกัน' } },
+  { id: 'v136', setId: 'set_14', hanzi: '什么', pinyin: 'shénme', thaiMeaning: 'อะไร', example: { hanzi: '这是什么？', pinyin: 'Zhè shì shénme?', thaiMeaning: 'นี่คืออะไร' } },
+  { id: 'v137', setId: 'set_14', hanzi: '谁', pinyin: 'shéi', thaiMeaning: 'ใคร', example: { hanzi: '他是谁？', pinyin: 'Tā shì shéi?', thaiMeaning: 'เขาคือใคร' } },
+  { id: 'v138', setId: 'set_14', hanzi: '怎么', pinyin: 'zěnme', thaiMeaning: 'อย่างไร / ยังไง', example: { hanzi: '怎么走？', pinyin: 'Zěnme zǒu?', thaiMeaning: 'ไปยังไง' } },
+  { id: 'v139', setId: 'set_14', hanzi: '为什么', pinyin: 'wèishénme', thaiMeaning: 'ทำไม', example: { hanzi: '为什么？', pinyin: 'Wèishénme?', thaiMeaning: 'ทำไมล่ะ' } },
+  { id: 'v140', setId: 'set_14', hanzi: '哪儿', pinyin: 'nǎr', thaiMeaning: 'ที่ไหน', example: { hanzi: '去哪儿？', pinyin: 'Qù nǎr?', thaiMeaning: 'ไปที่ไหน' } },
+
+  // --- SET 15 (141-150) SOCIAL & COURTESY ---
+  { id: 'v141', setId: 'set_15', hanzi: '谢谢', pinyin: 'xièxie', thaiMeaning: 'ขอบคุณ', example: { hanzi: '谢谢你。', pinyin: 'Xièxie nǐ.', thaiMeaning: 'ขอบคุณนะ' } },
+  { id: 'v142', setId: 'set_15', hanzi: '不客气', pinyin: 'bú kèqi', thaiMeaning: 'ด้วยความยินดี / ไม่เป็นไร', example: { hanzi: '不用谢，不客气。', pinyin: 'Bú yòng xiè, bú kèqi.', thaiMeaning: 'ไม่ต้องขอบคุณ ด้วยความยินดี' } },
+  { id: 'v143', setId: 'set_15', hanzi: '对不起', pinyin: 'duìbuqǐ', thaiMeaning: 'ขอโทษ', example: { hanzi: '对不起，我迟到了。', pinyin: 'Duìbuqǐ, wǒ chídào le.', thaiMeaning: 'ขอโทษด้วย ฉันมาสาย' } },
+  { id: 'v144', setId: 'set_15', hanzi: '请', pinyin: 'qǐng', thaiMeaning: 'เชิญ / กรุณา', example: { hanzi: '请坐。', pinyin: 'Qǐng zuò.', thaiMeaning: 'เชิญนั่ง' } },
+  { id: 'v145', setId: 'set_15', hanzi: '欢迎', pinyin: 'huānyíng', thaiMeaning: 'ยินดีต้อนรับ', example: { hanzi: '欢迎光临。', pinyin: 'Huānyíng guānglín.', thaiMeaning: 'ยินดีต้อนรับครับ' } },
+  { id: 'v146', setId: 'set_15', hanzi: '当然', pinyin: 'dāngrán', thaiMeaning: 'แน่นอน', example: { hanzi: '当然可以。', pinyin: 'Dāngrán kěyǐ.', thaiMeaning: 'ย่อมได้แน่นอน' } },
+  { id: 'v147', setId: 'set_15', hanzi: '可以', pinyin: 'kěyǐ', thaiMeaning: 'ได้ / สามารถ', example: { hanzi: '没问题，可以。', pinyin: 'Méi wèntí, kěyǐ.', thaiMeaning: 'ไม่มีปัญหา ได้เลย' } },
+  { id: 'v148', setId: 'set_15', hanzi: '没问题', pinyin: 'méi wèntí', thaiMeaning: 'ไม่มีปัญหา', example: { hanzi: '好的，没问题。', pinyin: 'Hǎo de, méi wèntí.', thaiMeaning: 'โอเค ไม่มีปัญหา' } },
+  { id: 'v149', setId: 'set_15', hanzi: '干杯', pinyin: 'gānbēi', thaiMeaning: 'ชนแก้ว / ดื่มหมดแก้ว', example: { hanzi: '大家干杯！', pinyin: 'Dàjiā gānbēi!', thaiMeaning: 'ทุกคนชนแก้ว!' } },
+  { id: 'v150', setId: 'set_15', hanzi: '保重', pinyin: 'bǎozhòng', thaiMeaning: 'ดูแลตัวเองด้วย / รักษาสุขภาพ', example: { hanzi: '多保重。', pinyin: 'Duō bǎozhòng.', thaiMeaning: 'ดูแลตัวเองด้วยนะ' } }
 ];
