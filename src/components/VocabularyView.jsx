@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, RotateCcw } from 'lucide-react';
-import { VOCAB_SETS, vocabularyList } from '../data/vocabularyData';
+import { vocabularyList } from '../data/vocabularyData';
 import { speakChinese } from '../utils/speech';
-import { getWordProgress, markWordProgress, getMemoryStats } from '../utils/srsEngine';
+import { getWordProgress, markWordProgress, getMemoryStats, getDueWords } from '../utils/srsEngine';
 
 export default function VocabularyView() {
-  const [selectedSet, setSelectedSet] = useState('set_1');
   const [searchQuery, setSearchQuery] = useState('');
   const [viewMode, setViewMode] = useState('flashcard');
   const [flashcardIndex, setFlashcardIndex] = useState(0);
@@ -17,13 +16,8 @@ export default function VocabularyView() {
   // Overall Memory Stats
   const globalStats = getMemoryStats(vocabularyList);
 
-  // Filter vocabulary list by selected set (10 words per set)
-  const setVocabList = vocabularyList.filter(item => {
-    if (selectedSet === 'all') return true;
-    return item.setId === selectedSet;
-  });
-
-  const filteredVocab = setVocabList.filter(item => {
+  // Dynamic Auto-Queue Deck: Filtered by search or seamless full list
+  const filteredVocab = vocabularyList.filter(item => {
     const q = searchQuery.toLowerCase().trim();
     if (!q) return true;
     return (
@@ -52,19 +46,11 @@ export default function VocabularyView() {
     }
   };
 
-  const resetSession = (newSetId = selectedSet) => {
-    setSelectedSet(newSetId);
+  const resetSession = () => {
     setFlashcardIndex(0);
     setIsFlipped(false);
     setSessionCompleted(false);
     setSessionStats({ remembered: 0, forgotten: 0 });
-  };
-
-  const handleNextSet = () => {
-    const sets = ['set_1', 'set_2', 'set_3', 'set_4', 'set_5'];
-    const currIndex = sets.indexOf(selectedSet);
-    const nextIndex = (currIndex + 1) % sets.length;
-    resetSession(sets[nextIndex]);
   };
 
   const renderLevelBadge = (wordId) => {
@@ -140,7 +126,7 @@ export default function VocabularyView() {
             value={searchQuery}
             onChange={(e) => {
               setSearchQuery(e.target.value);
-              resetSession(selectedSet);
+              resetSession();
             }}
           />
         </div>
@@ -159,23 +145,9 @@ export default function VocabularyView() {
         </button>
       </div>
 
-      {/* 10-Word Set Selector Responsive Grid (Fits Mobile Perfectly) */}
-      <div className="category-grid">
-        {VOCAB_SETS.map(s => (
-          <button
-            key={s.id}
-            type="button"
-            className={`pill-btn ${selectedSet === s.id ? 'active' : ''}`}
-            onClick={() => resetSession(s.id)}
-          >
-            {s.label}
-          </button>
-        ))}
-      </div>
-
-      {/* Section Title & Session Progress */}
+      {/* Section Title & Progress Indicator */}
       <div className="section-title">
-        <span>{viewMode === 'flashcard' ? 'บัตรคำศัพท์ 10 คำ' : 'รายการคำศัพท์ทั้งหมด'}</span>
+        <span>{viewMode === 'flashcard' ? 'บัตรคำศัพท์ความจำ (Auto-Queue Deck)' : 'รายการคำศัพท์ทั้งหมด'}</span>
         <span className="count-badge">
           {viewMode === 'flashcard'
             ? `คำที่ ${Math.min(flashcardIndex + 1, filteredVocab.length)} / ${filteredVocab.length}`
@@ -185,10 +157,10 @@ export default function VocabularyView() {
 
       {filteredVocab.length === 0 ? (
         <div className="card" style={{ textAlign: 'center', padding: '30px 16px', color: 'var(--text-muted)' }}>
-          ไม่พบคำศัพท์ในเซกชันนี้
+          ไม่พบคำศัพท์ที่ตรงกับการค้นหา
         </div>
       ) : viewMode === 'flashcard' ? (
-        /* --- 10-WORD SESSION FLASHCARD GAME MODE --- */
+        /* --- CONTINUOUS SRS FLASHCARD DECK --- */
         sessionCompleted ? (
           /* --- SESSION VICTORY SUMMARY CARD --- */
           <div className="card" style={{ textAlign: 'center', padding: '24px 18px', backgroundColor: 'var(--bg-subtle)', gap: '16px' }}>
@@ -198,10 +170,10 @@ export default function VocabularyView() {
 
             <div>
               <h3 style={{ fontSize: '1.25rem', fontWeight: '800', color: 'var(--text-main)' }}>
-                จบเซกชัน 10 คำแล้ว!
+                เยี่ยมมาก! ทบทวนครบทุกคำในสำรับแล้ว
               </h3>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '4px' }}>
-                สรุปผลการทบทวนรอบนี้
+                คำที่จำได้แล้วจะขยับไปอยู่ในกล่องความจำระยะยาวโดยอัตโนมัติ
               </p>
             </div>
 
@@ -220,27 +192,15 @@ export default function VocabularyView() {
               </div>
             </div>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '6px' }}>
-              <button
-                type="button"
-                className="pill-btn active"
-                onClick={handleNextSet}
-                style={{ padding: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px', fontSize: '0.9rem' }}
-              >
-                <span>เซกชันถัดไป (10 คำถัดไป)</span>
-                <ArrowRight size={16} />
-              </button>
-
-              <button
-                type="button"
-                className="pill-btn"
-                onClick={() => resetSession(selectedSet)}
-                style={{ padding: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px', fontSize: '0.85rem' }}
-              >
-                <RotateCcw size={14} />
-                <span>ทวน 10 คำนี้อีกครั้ง</span>
-              </button>
-            </div>
+            <button
+              type="button"
+              className="pill-btn active"
+              onClick={resetSession}
+              style={{ padding: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px', fontSize: '0.9rem', marginTop: '6px' }}
+            >
+              <RotateCcw size={16} />
+              <span>เริ่มทบทวนสำรับอีกครั้ง</span>
+            </button>
           </div>
         ) : (
           /* --- FLASHCARD ITEM CARD (Pinyin + Hanzi ONLY) --- */
@@ -298,7 +258,7 @@ export default function VocabularyView() {
               </div>
             </div>
 
-            {/* Clean SRS Memory Marking Action Buttons (No (+ระดับ) text) */}
+            {/* Clean SRS Memory Marking Action Buttons */}
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginTop: '4px' }}>
               <button
                 type="button"
