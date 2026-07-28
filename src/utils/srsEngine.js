@@ -71,26 +71,32 @@ export function markWordProgress(wordId, remembered) {
 
 export function getMemoryStats(vocabList) {
   const data = getSRSData();
+  let rememberedCount = 0; // Level >= 1 (Any remembered word)
   let masteredCount = 0; // Level 3 & 4
   let learningCount = 0; // Level 1 & 2
   let newOrHardCount = 0; // Level 0 or not started
 
   vocabList.forEach(item => {
     const prog = data[item.id];
-    if (!prog || prog.level === 0) {
+    const lvl = prog ? prog.level : 0;
+    if (lvl === 0) {
       newOrHardCount++;
-    } else if (prog.level >= 3) {
-      masteredCount++;
     } else {
-      learningCount++;
+      rememberedCount++;
+      if (lvl >= 3) {
+        masteredCount++;
+      } else {
+        learningCount++;
+      }
     }
   });
 
   const total = vocabList.length || 1;
-  const progressPercent = Math.round((masteredCount / total) * 100);
+  const progressPercent = Math.round((rememberedCount / total) * 100);
 
   return {
     total: vocabList.length,
+    rememberedCount,
     masteredCount,
     learningCount,
     newOrHardCount,

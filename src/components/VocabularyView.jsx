@@ -1,36 +1,113 @@
-import React, { useState } from 'react';
-import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, RotateCcw, Home } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, RotateCcw, Home, BookOpen, Filter } from 'lucide-react';
 import { vocabularyList } from '../data/vocabularyData';
 import { speakChinese } from '../utils/speech';
 import { getWordProgress, markWordProgress, getMemoryStats } from '../utils/srsEngine';
 
 export default function VocabularyView({ onGoHome }) {
   const [searchQuery, setSearchQuery] = useState('');
-  const [viewMode, setViewMode] = useState('flashcard');
-  const [sessionOffset, setSessionOffset] = useState(0);
-  const [flashcardIndex, setFlashcardIndex] = useState(0);
+  
+  // Persist View Mode, Filter Category, Session Offset, and Flashcard Index in localStorage
+  const [viewMode, setViewMode] = useState(() => {
+    return localStorage.getItem('sinostep_vocab_view_mode') || 'flashcard';
+  });
+
+  const [filterCategory, setFilterCategory] = useState(() => {
+    return localStorage.getItem('sinostep_vocab_filter_category') || 'all'; // 'all' | 'remembered' | 'learning' | 'new'
+  });
+
+  const [sessionOffset, setSessionOffset] = useState(() => {
+    const saved = localStorage.getItem('sinostep_vocab_session_offset');
+    return saved !== null ? Math.max(0, parseInt(saved, 10)) : 0;
+  });
+
+  const [flashcardIndex, setFlashcardIndex] = useState(() => {
+    const saved = localStorage.getItem('sinostep_vocab_flashcard_index');
+    return saved !== null ? Math.max(0, parseInt(saved, 10)) : 0;
+  });
+
   const [isFlipped, setIsFlipped] = useState(false);
   const [sessionCompleted, setSessionCompleted] = useState(false);
   const [sessionStats, setSessionStats] = useState({ remembered: 0, forgotten: 0 });
   const [srsTick, setSrsTick] = useState(0);
 
+  // Sync state to localStorage whenever state changes
+  useEffect(() => {
+    localStorage.setItem('sinostep_vocab_view_mode', viewMode);
+  }, [viewMode]);
+
+  useEffect(() => {
+    localStorage.setItem('sinostep_vocab_filter_category', filterCategory);
+  }, [filterCategory]);
+
+  useEffect(() => {
+    localStorage.setItem('sinostep_vocab_session_offset', sessionOffset.toString());
+  }, [sessionOffset]);
+
+  useEffect(() => {
+    localStorage.setItem('sinostep_vocab_flashcard_index', flashcardIndex.toString());
+  }, [flashcardIndex]);
+
   // Overall Memory Stats
   const globalStats = getMemoryStats(vocabularyList);
 
-  // Filtered full list
+  // Filtered list based on Search Query AND Filter Category (All / Remembered / Learning / New)
   const filteredVocab = vocabularyList.filter(item => {
+    // 1. Search Query filter
     const q = searchQuery.toLowerCase().trim();
-    if (!q) return true;
-    return (
-      item.hanzi.includes(q) ||
-      item.pinyin.toLowerCase().includes(q) ||
-      item.thaiMeaning.includes(q)
-    );
+    if (q) {
+      const matchSearch = (
+        item.hanzi.includes(q) ||
+        item.pinyin.toLowerCase().includes(q) ||
+        item.thaiMeaning.includes(q)
+      );
+      if (!matchSearch) return false;
+    }
+
+    // 2. Filter Category match (Remembered: level >= 1, Learning: level 1-2, New: level 0)
+    const prog = getWordProgress(item.id);
+    const lvl = prog ? prog.level : 0;
+
+    if (filterCategory === 'remembered') {
+      return lvl >= 1; // Words marked remembered at least once
+    }
+    if (filterCategory === 'learning') {
+      return lvl >= 1 && lvl < 3; // Words being learned
+    }
+    if (filterCategory === 'new') {
+      return lvl === 0; // New or hard words
+    }
+    return true; // 'all'
   });
 
-  // Current 10-Word Bite-Sized Session Deck
-  const sessionCards = filteredVocab.slice(sessionOffset, sessionOffset + 10);
-  const currentFlashcard = sessionCards[flashcardIndex] || null;
+  // Safe offset & card index bounds
+  const maxOffset = Math.max(0, Math.floor(Math.max(0, filteredVocab.length - 1) / 10) * 10);
+  const safeSessionOffset = Math.min(sessionOffset, maxOffset);
+  const sessionCards = filteredVocab.slice(safeSessionOffset, safeSessionOffset + 10);
+  const safeFlashcardIndex = Math.min(flashcardIndex, Math.max(0, sessionCards.length - 1));
+  const currentFlashcard = sessionCards[safeFlashcardIndex] || null;
+
+  // Change Filter Category Handler
+  const handleSelectFilter = (category) => {
+    setFilterCategory(category);
+    setSessionOffset(0);
+    setFlashcardIndex(0);
+    setIsFlipped(false);
+    setSessionCompleted(false);
+    setSessionStats({ remembered: 0, forgotten: 0 });
+  };
+
+  // Helper to get 2-3 examples array
+  const getExamples = (word) => {
+    if (!word) return [];
+    if (Array.isArray(word.examples) && word.examples.length > 0) {
+      return word.examples;
+    }
+    if (word.example) {
+      return [word.example];
+    }
+    return [];
+  };
 
   const handleSRSMark = (wordId, remembered) => {
     markWordProgress(wordId, remembered);
@@ -42,7 +119,7 @@ export default function VocabularyView({ onGoHome }) {
       forgotten: !remembered ? prev.forgotten + 1 : prev.forgotten
     }));
 
-    if (flashcardIndex + 1 >= sessionCards.length) {
+    if (safeFlashcardIndex + 1 >= sessionCards.length) {
       setSessionCompleted(true);
     } else {
       setFlashcardIndex(prev => prev + 1);
@@ -56,8 +133,16 @@ export default function VocabularyView({ onGoHome }) {
     setSessionStats({ remembered: 0, forgotten: 0 });
   };
 
+  const resetToFirstWord = () => {
+    setSessionOffset(0);
+    setFlashcardIndex(0);
+    setIsFlipped(false);
+    setSessionCompleted(false);
+    setSessionStats({ remembered: 0, forgotten: 0 });
+  };
+
   const handleNext10Words = () => {
-    const nextOffset = sessionOffset + 10 >= filteredVocab.length ? 0 : sessionOffset + 10;
+    const nextOffset = safeSessionOffset + 10 >= filteredVocab.length ? 0 : safeSessionOffset + 10;
     setSessionOffset(nextOffset);
     setFlashcardIndex(0);
     setIsFlipped(false);
@@ -91,9 +176,20 @@ export default function VocabularyView({ onGoHome }) {
     );
   };
 
+  const currentGlobalWordIndex = safeSessionOffset + safeFlashcardIndex + 1;
+
+  const getFilterCategoryTitle = () => {
+    switch (filterCategory) {
+      case 'remembered': return `หมวดทบทวนคำศัพท์ที่จำได้แล้ว (${filteredVocab.length} คำ)`;
+      case 'learning': return `หมวดคำศัพท์กำลังเรียน (${filteredVocab.length} คำ)`;
+      case 'new': return `หมวดคำศัพท์ยังไม่ได้ / คำใหม่ (${filteredVocab.length} คำ)`;
+      default: return `คำศัพท์ทั้งหมด (${vocabularyList.length} คำ)`;
+    }
+  };
+
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-      {/* Overall Progress Tracker Banner */}
+      {/* Overall Progress Tracker Banner with Interactive Stat Chips */}
       <div className="memory-dashboard">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontWeight: '700', fontSize: '0.95rem' }}>
@@ -112,20 +208,144 @@ export default function VocabularyView({ onGoHome }) {
           />
         </div>
 
+        {/* Interactive Stat Chips: Tap to filter */}
         <div className="stat-chip-grid">
-          <div className="stat-chip">
-            <span className="stat-chip-val" style={{ color: '#34D399' }}>{globalStats.masteredCount}</span>
-            <span className="stat-chip-lbl">จำได้แล้ว</span>
+          <div
+            className={`stat-chip ${filterCategory === 'remembered' ? 'active' : ''}`}
+            onClick={() => handleSelectFilter('remembered')}
+            style={{
+              cursor: 'pointer',
+              border: filterCategory === 'remembered' ? '2px solid #34D399' : '1px solid transparent',
+              backgroundColor: filterCategory === 'remembered' ? 'rgba(52, 211, 153, 0.15)' : 'rgba(255, 255, 255, 0.05)',
+              transition: 'all 0.15s ease'
+            }}
+            title="กดเพื่อดู/ทบทวนคำศัพท์ที่จำได้แล้ว"
+          >
+            <span className="stat-chip-val" style={{ color: '#34D399' }}>{globalStats.rememberedCount}</span>
+            <span className="stat-chip-lbl">จำได้แล้ว (กดทบทวน)</span>
           </div>
-          <div className="stat-chip">
+
+          <div
+            className={`stat-chip ${filterCategory === 'learning' ? 'active' : ''}`}
+            onClick={() => handleSelectFilter('learning')}
+            style={{
+              cursor: 'pointer',
+              border: filterCategory === 'learning' ? '2px solid #FBBF24' : '1px solid transparent',
+              backgroundColor: filterCategory === 'learning' ? 'rgba(251, 191, 36, 0.15)' : 'rgba(255, 255, 255, 0.05)',
+              transition: 'all 0.15s ease'
+            }}
+            title="กดเพื่อดูคำศัพท์กำลังเรียน"
+          >
             <span className="stat-chip-val" style={{ color: '#FBBF24' }}>{globalStats.learningCount}</span>
             <span className="stat-chip-lbl">กำลังเรียน</span>
           </div>
-          <div className="stat-chip">
+
+          <div
+            className={`stat-chip ${filterCategory === 'new' ? 'active' : ''}`}
+            onClick={() => handleSelectFilter('new')}
+            style={{
+              cursor: 'pointer',
+              border: filterCategory === 'new' ? '2px solid #F87171' : '1px solid transparent',
+              backgroundColor: filterCategory === 'new' ? 'rgba(248, 113, 113, 0.15)' : 'rgba(255, 255, 255, 0.05)',
+              transition: 'all 0.15s ease'
+            }}
+            title="กดเพื่อดูคำศัพท์ยังไม่ได้"
+          >
             <span className="stat-chip-val" style={{ color: '#F87171' }}>{globalStats.newOrHardCount}</span>
             <span className="stat-chip-lbl">ยังไม่ได้</span>
           </div>
         </div>
+      </div>
+
+      {/* Resume Progress Status Indicator Banner */}
+      <div className="card" style={{ backgroundColor: '#EEF2FF', border: '1px solid #C7D2FE', padding: '10px 14px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.82rem', color: 'var(--accent-primary)', fontWeight: '600' }}>
+          <BookOpen size={16} />
+          <span>{getFilterCategoryTitle()} - เรียนถึงคำที่ <strong>{currentGlobalWordIndex}</strong> / {filteredVocab.length || 1}</span>
+        </div>
+        {currentGlobalWordIndex > 1 && (
+          <button
+            type="button"
+            onClick={resetToFirstWord}
+            style={{ border: 'none', background: 'transparent', color: '#6366F1', fontSize: '0.78rem', fontWeight: '700', textDecoration: 'underline', cursor: 'pointer' }}
+          >
+            เริ่มจากคำที่ 1
+          </button>
+        )}
+      </div>
+
+      {/* Filter Mode Selector Pills */}
+      <div style={{ display: 'flex', gap: '6px', overflowX: 'auto', paddingBottom: '4px' }}>
+        <button
+          type="button"
+          className={`pill-btn ${filterCategory === 'all' ? 'active' : ''}`}
+          onClick={() => handleSelectFilter('all')}
+          style={{ padding: '6px 12px', fontSize: '0.8rem', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: '4px' }}
+        >
+          <span>ทั้งหมด ({vocabularyList.length})</span>
+        </button>
+
+        <button
+          type="button"
+          className={`pill-btn ${filterCategory === 'remembered' ? 'active' : ''}`}
+          onClick={() => handleSelectFilter('remembered')}
+          style={{
+            padding: '6px 12px',
+            fontSize: '0.8rem',
+            whiteSpace: 'nowrap',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '4px',
+            backgroundColor: filterCategory === 'remembered' ? '#D1FAE5' : '#F3F4F6',
+            color: filterCategory === 'remembered' ? '#047857' : '#374151',
+            borderColor: filterCategory === 'remembered' ? '#6EE7B7' : 'transparent',
+            fontWeight: filterCategory === 'remembered' ? '700' : '500'
+          }}
+        >
+          <Check size={14} />
+          <span>จำได้แล้ว ({globalStats.rememberedCount})</span>
+        </button>
+
+        <button
+          type="button"
+          className={`pill-btn ${filterCategory === 'learning' ? 'active' : ''}`}
+          onClick={() => handleSelectFilter('learning')}
+          style={{
+            padding: '6px 12px',
+            fontSize: '0.8rem',
+            whiteSpace: 'nowrap',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '4px',
+            backgroundColor: filterCategory === 'learning' ? '#FEF3C7' : '#F3F4F6',
+            color: filterCategory === 'learning' ? '#B45309' : '#374151',
+            borderColor: filterCategory === 'learning' ? '#FCD34D' : 'transparent',
+            fontWeight: filterCategory === 'learning' ? '700' : '500'
+          }}
+        >
+          <RefreshCw size={14} />
+          <span>กำลังเรียน ({globalStats.learningCount})</span>
+        </button>
+
+        <button
+          type="button"
+          className={`pill-btn ${filterCategory === 'new' ? 'active' : ''}`}
+          onClick={() => handleSelectFilter('new')}
+          style={{
+            padding: '6px 12px',
+            fontSize: '0.8rem',
+            whiteSpace: 'nowrap',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '4px',
+            backgroundColor: filterCategory === 'new' ? '#FFE4E6' : '#F3F4F6',
+            color: filterCategory === 'new' ? '#BE123C' : '#374151',
+            borderColor: filterCategory === 'new' ? '#FDA4AF' : 'transparent',
+            fontWeight: filterCategory === 'new' ? '700' : '500'
+          }}
+        >
+          <span>ยังไม่ได้ ({globalStats.newOrHardCount})</span>
+        </button>
       </div>
 
       {/* Search & View Mode Switcher */}
@@ -162,19 +382,38 @@ export default function VocabularyView({ onGoHome }) {
       <div className="section-title">
         <span>
           {viewMode === 'flashcard'
-            ? `ทบทวนครั้งละ 10 คำ (คำที่ ${sessionOffset + 1} - ${Math.min(sessionOffset + 10, filteredVocab.length)})`
-            : `รายการคำศัพท์ทั้งหมด (1,000 คำ)`}
+            ? `ทบทวนครั้งละ 10 คำ (คำที่ ${safeSessionOffset + 1} - ${Math.min(safeSessionOffset + 10, filteredVocab.length)})`
+            : `รายการคำศัพท์ (แสดง ${filteredVocab.length} คำ)`}
         </span>
         <span className="count-badge">
           {viewMode === 'flashcard'
-            ? `คำที่ ${Math.min(flashcardIndex + 1, sessionCards.length)} / ${sessionCards.length}`
+            ? `คำที่ ${Math.min(safeFlashcardIndex + 1, sessionCards.length)} / ${sessionCards.length}`
             : `แสดง ${filteredVocab.length} คำ`}
         </span>
       </div>
 
       {filteredVocab.length === 0 ? (
-        <div className="card" style={{ textAlign: 'center', padding: '30px 16px', color: 'var(--text-muted)' }}>
-          ไม่พบคำศัพท์ที่ตรงกับการค้นหา
+        <div className="card" style={{ textAlign: 'center', padding: '30px 16px', color: 'var(--text-muted)', gap: '12px' }}>
+          {filterCategory === 'remembered' ? (
+            <>
+              <div style={{ fontSize: '1.1rem', fontWeight: '700', color: 'var(--text-main)' }}>
+                ยังไม่มีคำศัพท์ในหมวด "จำได้แล้ว"
+              </div>
+              <p style={{ fontSize: '0.85rem' }}>
+                เมื่อคุณทบทวนคำศัพท์และกดปุ่ม <span style={{ color: '#047857', fontWeight: '700' }}>"จำได้แล้ว"</span> คำศัพท์เหล่านั้นจะถูกบันทึกไว้ที่นี่เพื่อให้คุณกลับมาทบทวนซ้ำได้ทุกเวลา!
+              </p>
+              <button
+                type="button"
+                className="pill-btn active"
+                onClick={() => handleSelectFilter('all')}
+                style={{ padding: '8px 16px', alignSelf: 'center', marginTop: '4px' }}
+              >
+                ดูคำศัพท์ทั้งหมดเพื่อเริ่มเรียน
+              </button>
+            </>
+          ) : (
+            <span>ไม่พบคำศัพท์ที่ตรงกับการค้นหา</span>
+          )}
         </div>
       ) : viewMode === 'flashcard' ? (
         /* --- 10-WORD SESSION FLASHCARD GAME MODE --- */
@@ -190,7 +429,7 @@ export default function VocabularyView({ onGoHome }) {
                 เก่งมาก! เรียนจบเซกชัน 10 คำแล้ว
               </h3>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '4px' }}>
-                (คำที่ {sessionOffset + 1} - {sessionOffset + sessionCards.length} จากทั้งหมด {filteredVocab.length} คำ)
+                (คำที่ {safeSessionOffset + 1} - {safeSessionOffset + sessionCards.length} จากทั้งหมด {filteredVocab.length} คำ)
               </p>
             </div>
 
@@ -251,7 +490,7 @@ export default function VocabularyView({ onGoHome }) {
               <div className="flashcard" onClick={() => setIsFlipped(!isFlipped)}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', alignItems: 'center' }}>
                   <span className="flashcard-hint">
-                    {isFlipped ? 'แตะเพื่อซ่อนคำแปล' : 'แตะเพื่อดูคำแปล'}
+                    {isFlipped ? 'แตะเพื่อซ่อนคำแปล' : 'แตะเพื่อดูคำแปล & ตัวอย่าง'}
                   </span>
                   {currentFlashcard && renderLevelBadge(currentFlashcard.id)}
                 </div>
@@ -266,24 +505,69 @@ export default function VocabularyView({ onGoHome }) {
                   </div>
                 </div>
 
-                {/* --- BACK OF CARD (Thai Meaning + Example) --- */}
+                {/* --- BACK OF CARD (Thai Meaning + Multi-Context Examples) --- */}
                 {isFlipped ? (
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', animation: 'fadeIn 0.2s ease', width: '100%' }}>
-                    <div style={{ fontSize: '1.25rem', fontWeight: '800', color: 'var(--text-main)', backgroundColor: '#EEF2FF', padding: '8px 14px', borderRadius: 'var(--radius-sm)' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', animation: 'fadeIn 0.2s ease', width: '100%' }}>
+                    <div style={{ fontSize: '1.2rem', fontWeight: '800', color: 'var(--text-main)', backgroundColor: '#EEF2FF', padding: '8px 14px', borderRadius: 'var(--radius-sm)', textAlign: 'center' }}>
                       แปลว่า: {currentFlashcard.thaiMeaning}
                     </div>
 
-                    {currentFlashcard.example && (
-                      <div style={{ marginTop: '8px', fontSize: '0.84rem', background: 'var(--bg-subtle)', padding: '10px 14px', borderRadius: 'var(--radius-sm)', textAlign: 'left', border: '1px solid var(--border-light)' }}>
-                        <div style={{ fontFamily: 'var(--font-chinese)', color: 'var(--text-main)', fontWeight: '600' }}>{currentFlashcard.example.hanzi}</div>
-                        <div style={{ color: 'var(--accent-blue)', fontWeight: '600' }}>{currentFlashcard.example.pinyin}</div>
-                        <div style={{ color: 'var(--text-muted)', marginTop: '2px' }}>แปล: {currentFlashcard.example.thaiMeaning}</div>
+                    {getExamples(currentFlashcard).length > 0 && (
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '2px' }}>
+                        <div style={{ fontSize: '0.82rem', fontWeight: '700', color: 'var(--accent-blue)', textAlign: 'left' }}>
+                          ตัวอย่างประโยค ({getExamples(currentFlashcard).length} บริบท):
+                        </div>
+
+                        {getExamples(currentFlashcard).map((ex, exIdx) => (
+                          <div
+                            key={exIdx}
+                            style={{
+                              fontSize: '0.84rem',
+                              background: 'var(--bg-subtle)',
+                              padding: '10px 12px',
+                              borderRadius: 'var(--radius-sm)',
+                              textAlign: 'left',
+                              border: '1px solid var(--border-light)',
+                              display: 'flex',
+                              flexDirection: 'column',
+                              gap: '3px'
+                            }}
+                          >
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                              <span style={{ fontSize: '0.72rem', fontWeight: '700', color: '#4F46E5', backgroundColor: '#EEF2FF', padding: '2px 6px', borderRadius: '4px' }}>
+                                บริบทที่ {exIdx + 1}
+                              </span>
+                              <button
+                                type="button"
+                                className="icon-btn"
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  speakChinese(ex.hanzi, 0.8);
+                                }}
+                                title="ฟังเสียงอ่านประโยคตัวอย่างนี้"
+                                style={{ width: '28px', height: '28px' }}
+                              >
+                                <Volume2 size={14} />
+                              </button>
+                            </div>
+
+                            <div style={{ fontFamily: 'var(--font-chinese)', color: 'var(--text-main)', fontWeight: '600', fontSize: '1.02rem', marginTop: '2px' }}>
+                              {ex.hanzi}
+                            </div>
+                            <div style={{ color: 'var(--accent-blue)', fontWeight: '600', fontSize: '0.86rem' }}>
+                              {ex.pinyin}
+                            </div>
+                            <div style={{ color: 'var(--text-muted)', fontSize: '0.82rem' }}>
+                              แปล: {ex.thaiMeaning}
+                            </div>
+                          </div>
+                        ))}
                       </div>
                     )}
                   </div>
                 ) : (
                   <div style={{ fontSize: '0.82rem', color: 'var(--text-subtle)' }}>
-                    (แตะการ์ดเพื่อเปิดดูคำแปล)
+                    (แตะการ์ดเพื่อดูคำแปลและตัวอย่างประโยค 2-3 บริบท)
                   </div>
                 )}
 
@@ -370,12 +654,30 @@ export default function VocabularyView({ onGoHome }) {
 
               <div className="thai-meaning-text">แปล: {item.thaiMeaning}</div>
 
-              {item.example && (
-                <div style={{ borderTop: '1px dashed var(--border-light)', paddingTop: '8px', fontSize: '0.82rem' }}>
-                  <span style={{ fontWeight: '600', color: 'var(--text-muted)' }}>ตัวอย่าง: </span>
-                  <span style={{ fontFamily: 'var(--font-chinese)', fontWeight: '600' }}>{item.example.hanzi}</span>
-                  <span style={{ color: 'var(--accent-blue)', marginLeft: '6px' }}>({item.example.pinyin})</span>
-                  <div style={{ color: 'var(--text-muted)', marginTop: '2px' }}>แปล: {item.example.thaiMeaning}</div>
+              {getExamples(item).length > 0 && (
+                <div style={{ borderTop: '1px dashed var(--border-light)', paddingTop: '10px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                  <div style={{ fontSize: '0.78rem', fontWeight: '700', color: 'var(--accent-blue)' }}>
+                    ตัวอย่างประโยค ({getExamples(item).length} บริบท):
+                  </div>
+                  {getExamples(item).map((ex, exIdx) => (
+                    <div key={exIdx} style={{ backgroundColor: 'var(--bg-subtle)', padding: '8px 10px', borderRadius: 'var(--radius-sm)', fontSize: '0.82rem', display: 'flex', flexDirection: 'column', gap: '2px', border: '1px solid var(--border-light)' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <span style={{ fontSize: '0.7rem', fontWeight: '700', color: '#4F46E5' }}>บริบทที่ {exIdx + 1}</span>
+                        <button
+                          type="button"
+                          className="icon-btn"
+                          onClick={() => speakChinese(ex.hanzi, 0.8)}
+                          title="ฟังเสียงตัวอย่าง"
+                          style={{ width: '24px', height: '24px' }}
+                        >
+                          <Volume2 size={12} />
+                        </button>
+                      </div>
+                      <div style={{ fontFamily: 'var(--font-chinese)', fontWeight: '600', fontSize: '0.98rem' }}>{ex.hanzi}</div>
+                      <div style={{ color: 'var(--accent-blue)', fontSize: '0.84rem' }}>{ex.pinyin}</div>
+                      <div style={{ color: 'var(--text-muted)' }}>แปล: {ex.thaiMeaning}</div>
+                    </div>
+                  ))}
                 </div>
               )}
             </div>
