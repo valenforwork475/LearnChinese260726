@@ -1,5 +1,5 @@
 // Vocabulary Dataset - 1,000 Words
-// Each word uses its reviewed primary example. Generated template examples were removed.
+// Polysemous direction and movement words include reviewed situational examples.
 
 export const VOCAB_SETS = [
   { id: 'all', label: 'ทั้งหมด (1,000 คำ)' }
@@ -918,9 +918,22 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "hanzi": "往左走。",
-        "pinyin": "Wǎng zuǒ zǒu.",
-        "thaiMeaning": "เดินไปทางซ้าย"
+        "scenario": "เดินกับเพื่อนแล้วบอกทางที่สี่แยก",
+        "hanzi": "到前面的路口往左转。",
+        "pinyin": "Dào qiánmiàn de lùkǒu wǎng zuǒ zhuǎn.",
+        "thaiMeaning": "ถึงสี่แยกข้างหน้าแล้วเลี้ยวซ้าย"
+      },
+      {
+        "scenario": "บอกตำแหน่งของร้านในห้าง",
+        "hanzi": "洗手间在咖啡店的左边。",
+        "pinyin": "Xǐshǒujiān zài kāfēidiàn de zuǒbian.",
+        "thaiMeaning": "ห้องน้ำอยู่ทางซ้ายของร้านกาแฟ"
+      },
+      {
+        "scenario": "ครูบอกให้นักเรียนยกมือ",
+        "hanzi": "请举起你的左手。",
+        "pinyin": "Qǐng jǔqǐ nǐ de zuǒshǒu.",
+        "thaiMeaning": "กรุณายกมือซ้ายขึ้น"
       }
     ]
   },
@@ -936,9 +949,22 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "hanzi": "往右转。",
-        "pinyin": "Wǎng yòu zhuǎn.",
-        "thaiMeaning": "เลี้ยวขวา"
+        "scenario": "นั่งรถแล้วบอกคนขับให้เลี้ยว",
+        "hanzi": "前面往右转就到了。",
+        "pinyin": "Qiánmiàn wǎng yòu zhuǎn jiù dào le.",
+        "thaiMeaning": "ข้างหน้าเลี้ยวขวาก็ถึงแล้ว"
+      },
+      {
+        "scenario": "บอกตำแหน่งของธนาคาร",
+        "hanzi": "银行就在超市的右边。",
+        "pinyin": "Yínháng jiù zài chāoshì de yòubian.",
+        "thaiMeaning": "ธนาคารอยู่ทางขวาของซูเปอร์มาร์เก็ต"
+      },
+      {
+        "scenario": "พยาบาลบอกตำแหน่งที่จะฉีดยา",
+        "hanzi": "今天在右手打针。",
+        "pinyin": "Jīntiān zài yòushǒu dǎzhēn.",
+        "thaiMeaning": "วันนี้ฉีดยาที่แขนขวา"
       }
     ]
   },
@@ -954,9 +980,22 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "hanzi": "往前走。",
-        "pinyin": "Wǎng qián zǒu.",
-        "thaiMeaning": "เดินไปข้างหน้า"
+        "scenario": "เดินหาอาคารแล้วเพื่อนบอกทาง",
+        "hanzi": "再往前走五分钟就到了。",
+        "pinyin": "Zài wǎng qián zǒu wǔ fēnzhōng jiù dào le.",
+        "thaiMeaning": "เดินตรงไปข้างหน้าอีกห้านาทีก็ถึงแล้ว"
+      },
+      {
+        "scenario": "นัดเจอกันบริเวณหน้าโรงเรียน",
+        "hanzi": "我在学校前面等你。",
+        "pinyin": "Wǒ zài xuéxiào qiánmiàn děng nǐ.",
+        "thaiMeaning": "ฉันรอคุณอยู่หน้าโรงเรียน"
+      },
+      {
+        "scenario": "บอกสิ่งที่ต้องทำก่อนรับประทานอาหาร",
+        "hanzi": "吃饭前要先洗手。",
+        "pinyin": "Chīfàn qián yào xiān xǐshǒu.",
+        "thaiMeaning": "ก่อนกินข้าวต้องล้างมือก่อน"
       }
     ]
   },
@@ -972,9 +1011,22 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "hanzi": "在后面。",
-        "pinyin": "Zài hòumiàn.",
-        "thaiMeaning": "อยู่ข้างหลัง"
+        "scenario": "บอกเพื่อนว่ามีคนยืนอยู่ด้านหลัง",
+        "hanzi": "你后面有人，请让一下。",
+        "pinyin": "Nǐ hòumiàn yǒu rén, qǐng ràng yīxià.",
+        "thaiMeaning": "ข้างหลังคุณมีคนอยู่ กรุณาหลีกทางหน่อย"
+      },
+      {
+        "scenario": "นัดทำกิจกรรมหลังเลิกงาน",
+        "hanzi": "下班后我们一起吃饭吧。",
+        "pinyin": "Xiàbān hòu wǒmen yīqǐ chīfàn ba.",
+        "thaiMeaning": "หลังเลิกงานเราไปกินข้าวด้วยกันนะ"
+      },
+      {
+        "scenario": "บอกลำดับคิวของตัวเอง",
+        "hanzi": "我在他后面。",
+        "pinyin": "Wǒ zài tā hòumiàn.",
+        "thaiMeaning": "ฉันอยู่ข้างหลังเขา"
       }
     ]
   },
@@ -990,9 +1042,22 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "hanzi": "请进。",
-        "pinyin": "Qǐng jìn.",
-        "thaiMeaning": "เชิญเข้าด้านใน"
+        "scenario": "เปิดประตูต้อนรับแขก",
+        "hanzi": "外面很热，快进来吧！",
+        "pinyin": "Wàimiàn hěn rè, kuài jìnlái ba!",
+        "thaiMeaning": "ข้างนอกร้อนมาก รีบเข้ามาข้างในเถอะ!"
+      },
+      {
+        "scenario": "พนักงานบอกว่าสามารถเข้าไปในห้องได้",
+        "hanzi": "门开着，你可以进去。",
+        "pinyin": "Mén kāizhe, nǐ kěyǐ jìnqù.",
+        "thaiMeaning": "ประตูเปิดอยู่ คุณเข้าไปได้"
+      },
+      {
+        "scenario": "เล่าว่าเพิ่งเข้าทำงานที่บริษัท",
+        "hanzi": "我去年进了这家公司。",
+        "pinyin": "Wǒ qùnián jìn le zhè jiā gōngsī.",
+        "thaiMeaning": "ปีที่แล้วฉันเข้าทำงานที่บริษัทนี้"
       }
     ]
   },
@@ -1008,9 +1073,22 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "hanzi": "出去。",
-        "pinyin": "Chūqù.",
-        "thaiMeaning": "ออกไป"
+        "scenario": "เรียกเพื่อนให้ออกมาจากห้อง",
+        "hanzi": "我们到了，你快出来吧！",
+        "pinyin": "Wǒmen dào le, nǐ kuài chūlái ba!",
+        "thaiMeaning": "พวกเรามาถึงแล้ว รีบออกมานะ!"
+      },
+      {
+        "scenario": "บอกว่าจะออกไปซื้อของ",
+        "hanzi": "我出去买点东西，马上回来。",
+        "pinyin": "Wǒ chūqù mǎi diǎn dōngxi, mǎshàng huílái.",
+        "thaiMeaning": "ฉันออกไปซื้อของนิดหน่อย เดี๋ยวกลับมา"
+      },
+      {
+        "scenario": "ถามทางออกจากสถานีรถไฟ",
+        "hanzi": "请问，从哪个出口出去？",
+        "pinyin": "Qǐngwèn, cóng nǎge chūkǒu chūqù?",
+        "thaiMeaning": "ขอถามหน่อย ต้องออกทางออกไหน?"
       }
     ]
   },
@@ -1026,9 +1104,22 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "hanzi": "上楼。",
-        "pinyin": "Shàng lóu.",
-        "thaiMeaning": "ขึ้นชั้นบน"
+        "scenario": "ชวนเพื่อนขึ้นไปชั้นสอง",
+        "hanzi": "我们上楼看看吧。",
+        "pinyin": "Wǒmen shàng lóu kànkan ba.",
+        "thaiMeaning": "พวกเราขึ้นไปดูชั้นบนกันเถอะ"
+      },
+      {
+        "scenario": "บอกตำแหน่งโทรศัพท์ที่กำลังหา",
+        "hanzi": "你的手机在桌子上。",
+        "pinyin": "Nǐ de shǒujī zài zhuōzi shàng.",
+        "thaiMeaning": "โทรศัพท์ของคุณอยู่บนโต๊ะ"
+      },
+      {
+        "scenario": "กำลังเดินทางและบอกให้เพื่อนขึ้นรถ",
+        "hanzi": "车来了，快上车！",
+        "pinyin": "Chē lái le, kuài shàng chē!",
+        "thaiMeaning": "รถมาแล้ว รีบขึ้นรถ!"
       }
     ]
   },
@@ -1044,9 +1135,28 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "hanzi": "下车。",
-        "pinyin": "Xià chē.",
-        "thaiMeaning": "ลงจากรถ"
+        "scenario": "ถึงป้ายแล้วบอกเพื่อนให้ลงจากรถ",
+        "hanzi": "到站了，我们下车吧。",
+        "pinyin": "Dào zhàn le, wǒmen xià chē ba.",
+        "thaiMeaning": "ถึงป้ายแล้ว พวกเราลงจากรถกันเถอะ"
+      },
+      {
+        "scenario": "บอกตำแหน่งรองเท้าที่กำลังหา",
+        "hanzi": "你的鞋在桌子下面。",
+        "pinyin": "Nǐ de xié zài zhuōzi xiàmiàn.",
+        "thaiMeaning": "รองเท้าของคุณอยู่ใต้โต๊ะ"
+      },
+      {
+        "scenario": "ฝนเริ่มตกขณะกำลังจะออกจากบ้าน",
+        "hanzi": "外面下雨了，带把伞吧。",
+        "pinyin": "Wàimiàn xiàyǔ le, dài bǎ sǎn ba.",
+        "thaiMeaning": "ข้างนอกฝนตกแล้ว เอาร่มไปด้วยนะ"
+      },
+      {
+        "scenario": "นัดหมายกันใหม่ในครั้งถัดไป",
+        "hanzi": "这次没时间，我们下次再去。",
+        "pinyin": "Zhè cì méi shíjiān, wǒmen xià cì zài qù.",
+        "thaiMeaning": "ครั้งนี้ไม่มีเวลา ไว้คราวหน้าพวกเราค่อยไป"
       }
     ]
   },
@@ -1062,9 +1172,22 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "hanzi": "慢慢走。",
-        "pinyin": "Mànmàn zǒu.",
-        "thaiMeaning": "ค่อยๆ เดิน"
+        "scenario": "เดินกับผู้สูงอายุจึงบอกให้ค่อยๆ เดิน",
+        "hanzi": "路很滑，慢慢走。",
+        "pinyin": "Lù hěn huá, mànmàn zǒu.",
+        "thaiMeaning": "ถนนลื่น ค่อยๆ เดินนะ"
+      },
+      {
+        "scenario": "กำลังจะกลับและบอกลาเพื่อน",
+        "hanzi": "时间不早了，我先走了。",
+        "pinyin": "Shíjiān bù zǎo le, wǒ xiān zǒu le.",
+        "thaiMeaning": "ดึกแล้ว ฉันขอตัวไปก่อนนะ"
+      },
+      {
+        "scenario": "ชวนเพื่อนออกเดินทางทันที",
+        "hanzi": "大家都准备好了，我们走吧！",
+        "pinyin": "Dàjiā dōu zhǔnbèi hǎo le, wǒmen zǒu ba!",
+        "thaiMeaning": "ทุกคนเตรียมพร้อมแล้ว พวกเราไปกันเถอะ!"
       }
     ]
   },
