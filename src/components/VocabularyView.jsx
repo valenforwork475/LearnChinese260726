@@ -97,14 +97,16 @@ export default function VocabularyView({ onGoHome }) {
     setSessionStats({ remembered: 0, forgotten: 0 });
   };
 
-  // Helper to get 2-3 examples array
+  // Use the curated example attached to each word.
+  // Generated template examples are ignored because they can be grammatically
+  // incorrect when the vocabulary item is a different part of speech.
   const getExamples = (word) => {
     if (!word) return [];
-    if (Array.isArray(word.examples) && word.examples.length > 0) {
-      return word.examples;
-    }
     if (word.example) {
       return [word.example];
+    }
+    if (Array.isArray(word.examples) && word.examples.length > 0) {
+      return [word.examples[0]];
     }
     return [];
   };
@@ -515,7 +517,7 @@ export default function VocabularyView({ onGoHome }) {
                     {getExamples(currentFlashcard).length > 0 && (
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '2px' }}>
                         <div style={{ fontSize: '0.82rem', fontWeight: '700', color: 'var(--accent-blue)', textAlign: 'left' }}>
-                          📍 ตัวอย่างสถานการณ์จริง ({getExamples(currentFlashcard).length} บริบท):
+                          📍 ตัวอย่างประโยค:
                         </div>
 
                         {getExamples(currentFlashcard).map((ex, exIdx) => (
@@ -535,7 +537,7 @@ export default function VocabularyView({ onGoHome }) {
                           >
                             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '6px' }}>
                               <span style={{ fontSize: '0.72rem', fontWeight: '700', color: '#4F46E5', backgroundColor: '#EEF2FF', padding: '3px 8px', borderRadius: '4px', lineHeight: '1.4', flex: 1 }}>
-                                🎬 {ex.scenario || `สถานการณ์ที่ ${exIdx + 1}`}
+                                ตัวอย่างที่ {exIdx + 1}
                               </span>
                               <button
                                 type="button"
@@ -567,7 +569,7 @@ export default function VocabularyView({ onGoHome }) {
                   </div>
                 ) : (
                   <div style={{ fontSize: '0.82rem', color: 'var(--text-subtle)' }}>
-                    (แตะการ์ดเพื่อดูคำแปล + ตัวอย่างจากสถานการณ์จริง 3 สถานการณ์)
+                    (แตะการ์ดเพื่อดูคำแปลและตัวอย่างประโยค)
                   </div>
                 )}
 
@@ -657,12 +659,12 @@ export default function VocabularyView({ onGoHome }) {
               {getExamples(item).length > 0 && (
                 <div style={{ borderTop: '1px dashed var(--border-light)', paddingTop: '10px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
                   <div style={{ fontSize: '0.78rem', fontWeight: '700', color: 'var(--accent-blue)' }}>
-                    📍 ตัวอย่างสถานการณ์จริง ({getExamples(item).length} สถานการณ์):
+                    📍 ตัวอย่างประโยค:
                   </div>
                   {getExamples(item).map((ex, exIdx) => (
                     <div key={exIdx} style={{ backgroundColor: 'var(--bg-subtle)', padding: '8px 10px', borderRadius: 'var(--radius-sm)', fontSize: '0.82rem', display: 'flex', flexDirection: 'column', gap: '2px', border: '1px solid var(--border-light)' }}>
                       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '4px' }}>
-                        <span style={{ fontSize: '0.7rem', fontWeight: '700', color: '#4F46E5', flex: 1, lineHeight: '1.4' }}>🎬 {ex.scenario || `สถานการณ์ที่ ${exIdx + 1}`}</span>
+                        <span style={{ fontSize: '0.7rem', fontWeight: '700', color: '#4F46E5', flex: 1, lineHeight: '1.4' }}>ตัวอย่างที่ {exIdx + 1}</span>
                         <button
                           type="button"
                           className="icon-btn"

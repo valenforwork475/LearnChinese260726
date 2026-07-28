@@ -1,5 +1,5 @@
-// Vocabulary Dataset - 1,000 Words - Smart Scenario Examples v2
-// All examples use authentic, natural, contextually appropriate sentences
+// Vocabulary Dataset - 1,000 Words
+// Each word uses its reviewed primary example. Generated template examples were removed.
 
 export const VOCAB_SETS = [
   { id: 'all', label: 'ทั้งหมด (1,000 คำ)' }
@@ -18,22 +18,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตื่นนอนตอนเช้าแล้วบ่นให้แฟนฟัง",
-        "hanzi": "早上好，我刚起床，还有点困。",
-        "pinyin": "Zǎoshang hǎo, wǒ gāng qǐchuáng, hái yǒudiǎn kùn.",
-        "thaiMeaning": "อรุณสวัสดิ์ เพิ่งตื่นนอน ยังงัวเงียอยู่นิดหน่อย"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าตื่นสายเพราะเผลอหลับ",
-        "hanzi": "今天起床晚了，结果上班迟到了。",
-        "pinyin": "Jīntiān qǐchuáng wǎn le, jiéguǒ shàngbān chídào le.",
-        "thaiMeaning": "วันนี้ตื่นนอนสาย เลยทำให้ไปทำงานสาย"
-      },
-      {
-        "scenario": "เตือนลูกหรือน้องให้ตื่นนอนก่อนถึงเวลาไปเรียน",
-        "hanzi": "该起床了，不然上学要迟到了！",
-        "pinyin": "Gāi qǐchuáng le, bùrán shàngxué yào chídào le!",
-        "thaiMeaning": "ถึงเวลาตื่นนอนแล้ว ไม่งั้นไปเรียนสายนะ!"
+        "hanzi": "八点起床。",
+        "pinyin": "Bā diǎn qǐchuáng.",
+        "thaiMeaning": "8 โมงตื่นนอน"
       }
     ]
   },
@@ -49,22 +36,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เตือนลูกให้แปรงฟันก่อนนอนทุกคืน",
-        "hanzi": "睡觉之前，记得去刷牙！",
-        "pinyin": "Shuìjiào zhīqián, jìde qù shuāyá!",
-        "thaiMeaning": "ก่อนนอนอย่าลืมไปแปรงฟันด้วยนะ!"
-      },
-      {
-        "scenario": "บอกหมอฟันว่าแปรงฟันบ่อยแค่ไหน",
-        "hanzi": "我每天早晚刷两次牙，但牙还是有点痛。",
-        "pinyin": "Wǒ měitiān zǎo wǎn shuā liǎng cì yá, dàn yá hái shì yǒudiǎn tòng.",
-        "thaiMeaning": "ฉันแปรงฟันวันละสองครั้งเช้าเย็น แต่ฟันยังปวดอยู่นิดหน่อย"
-      },
-      {
-        "scenario": "พูดเรื่องกิจวัตรตอนเช้าให้เพื่อนฟัง",
-        "hanzi": "我起床之后，先刷牙洗脸，然后再吃早饭。",
-        "pinyin": "Wǒ qǐchuáng zhīhòu, xiān shuāyá xǐliǎn, rán hòu zài chī zǎofàn.",
-        "thaiMeaning": "หลังตื่นนอน ฉันแปรงฟันล้างหน้าก่อน แล้วค่อยกินข้าวเช้า"
+        "hanzi": "去刷牙。",
+        "pinyin": "Qù shuāyá.",
+        "thaiMeaning": "ไปแปรงฟัน"
       }
     ]
   },
@@ -80,22 +54,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกลูกหรือน้องให้ล้างหน้าก่อนออกไปโรงเรียน",
-        "hanzi": "出门前，先去洗脸！看看镜子。",
-        "pinyin": "Chūmén qián, xiān qù xǐliǎn! Kàn kàn jìngzi.",
-        "thaiMeaning": "ก่อนออกไปข้างนอก ไปล้างหน้าก่อน! ดูหน้าในกระจกด้วย"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องสกินแคร์ตอนเช้า",
-        "hanzi": "我每天洗脸后都要擦保养品，皮肤才不会干。",
-        "pinyin": "Wǒ měitiān xǐliǎn hòu dōu yào cā bǎoyǎng pǐn, pífū cái bù huì gān.",
-        "thaiMeaning": "ทุกวันหลังล้างหน้าฉันทาครีมบำรุงด้วย ผิวจะได้ไม่แห้ง"
-      },
-      {
-        "scenario": "พูดเรื่องกิจวัตรเช้าก่อนไปทำงาน",
-        "hanzi": "我通常起床后先洗脸刷牙，再去准备上班。",
-        "pinyin": "Wǒ tōngcháng qǐchuáng hòu xiān xǐliǎn shuāyá, zài qù zhǔnbèi shàngbān.",
-        "thaiMeaning": "ปกติตื่นนอนฉันล้างหน้าแปรงฟันก่อน แล้วค่อยเตรียมตัวไปทำงาน"
+        "hanzi": "洗脸。",
+        "pinyin": "Xǐliǎn.",
+        "thaiMeaning": "ล้างหน้า"
       }
     ]
   },
@@ -111,22 +72,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกคนที่บ้านว่ากำลังจะอาบน้ำ ห้ามรบกวน",
-        "hanzi": "我要去洗澡了，十分钟后出来。",
-        "pinyin": "Wǒ yào qù xǐzǎo le, shí fēnzhōng hòu chūlái.",
-        "thaiMeaning": "ฉันจะไปอาบน้ำแล้ว สิบนาทีออกมา"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบอาบน้ำตอนไหน",
-        "hanzi": "我习惯下班后马上洗澡，洗完觉得很轻松。",
-        "pinyin": "Wǒ xíguàn xiàbān hòu mǎshàng xǐzǎo, xǐ wán juéde hěn qīngsōng.",
-        "thaiMeaning": "ฉันเคยชินกับการอาบน้ำทันทีหลังเลิกงาน อาบเสร็จรู้สึกสบายมาก"
-      },
-      {
-        "scenario": "บอกแฟนหรือเพื่อนร่วมห้องว่าห้องน้ำว่างหรือยัง",
-        "hanzi": "你先洗澡吧，我还不急。",
-        "pinyin": "Nǐ xiān xǐzǎo ba, wǒ hái bù jí.",
-        "thaiMeaning": "คุณอาบน้ำก่อนได้เลย ฉันยังไม่รีบ"
+        "hanzi": "洗澡。",
+        "pinyin": "Xǐzǎo.",
+        "thaiMeaning": "อาบน้ำ"
       }
     ]
   },
@@ -142,22 +90,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกคนที่บ้านก่อนออกจากบ้านไปทำงาน",
-        "hanzi": "我要出门了，晚上见！",
-        "pinyin": "Wǒ yào chūmén le, wǎnshang jiàn!",
-        "thaiMeaning": "ฉันจะออกจากบ้านแล้ว เจอกันตอนเย็น!"
-      },
-      {
-        "scenario": "เตือนตัวเองก่อนออกไปข้างนอกว่าอย่าลืมของ",
-        "hanzi": "出门之前，记得检查一下手机和钥匙。",
-        "pinyin": "Chūmén zhīqián, jìde jiǎnchá yīxià shǒujī hé yàoshi.",
-        "thaiMeaning": "ก่อนออกจากบ้าน อย่าลืมเช็กโทรศัพท์กับกุญแจด้วย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่ากำลังจะออกจากบ้านมาเจอกัน",
-        "hanzi": "我现在出门了，大概十分钟后到你那边。",
-        "pinyin": "Wǒ xiànzài chūmén le, dàgài shí fēnzhōng hòu dào nǐ nàbian.",
-        "thaiMeaning": "ออกจากบ้านแล้วนะ ประมาณสิบนาทีถึงบ้านแก"
+        "hanzi": "出门。",
+        "pinyin": "Chūmén.",
+        "thaiMeaning": "ออกจากบ้าน"
       }
     ]
   },
@@ -173,22 +108,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ส่งข้อความให้ครอบครัวรู้ว่ากำลังเดินทางกลับบ้าน",
-        "hanzi": "我下班了，现在在路上，快回家了。",
-        "pinyin": "Wǒ xiàbān le, xiànzài zài lùshàng, kuài huíjiā le.",
-        "thaiMeaning": "เลิกงานแล้ว ตอนนี้อยู่บนทาง กลับบ้านแล้ว"
-      },
-      {
-        "scenario": "แจ้งให้แฟนหรือพ่อแม่เปิดประตูรอหรือเตรียมอาหาร",
-        "hanzi": "我快回家了，能帮我准备一下吗？",
-        "pinyin": "Wǒ kuài huíjiā le, néng bāng wǒ zhǔnbèi yīxià ma?",
-        "thaiMeaning": "ใกล้ถึงบ้านแล้ว ช่วยเตรียมให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าไม่ไปงานเลี้ยงเพราะอยากกลับบ้าน",
-        "hanzi": "今天太累了，我想直接回家休息。",
-        "pinyin": "Jīntiān tài lèi le, wǒ xiǎng zhíjiē huíjiā xiūxi.",
-        "thaiMeaning": "วันนี้เหนื่อยมากเลย อยากกลับบ้านพักตรงๆ"
+        "hanzi": "回家。",
+        "pinyin": "Huíjiā.",
+        "thaiMeaning": "กลับบ้าน"
       }
     ]
   },
@@ -204,22 +126,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกเพื่อนในกลุ่มแชทว่ากำลังจะเข้านอน",
-        "hanzi": "太晚了，我要去睡觉了，晚安！",
-        "pinyin": "Tài wǎn le, wǒ yào qù shuìjiào le, wǎn'ān!",
-        "thaiMeaning": "ดึกแล้ว ฉันจะเข้านอนแล้ว ราตรีสวัสดิ์!"
-      },
-      {
-        "scenario": "อธิบายนิสัยการนอนให้แฟนหรือเพื่อนรู้",
-        "hanzi": "我平时十一点睡觉，六点起床。",
-        "pinyin": "Wǒ píngshí shíyī diǎn shuìjiào, liù diǎn qǐchuáng.",
-        "thaiMeaning": "ปกติฉันเข้านอนตีสิบเอ็ด ตื่นหกโมงเช้า"
-      },
-      {
-        "scenario": "บอกหมอเรื่องปัญหาการนอนหลับ",
-        "hanzi": "医生，我最近睡觉睡不好，经常半夜醒来。",
-        "pinyin": "Yīshēng, wǒ zuìjìn shuìjiào shuì bù hǎo, jīngcháng bànyè xǐng lái.",
-        "thaiMeaning": "หมอคะ ช่วงนี้ฉันนอนหลับไม่ค่อยหลับ ตื่นกลางดึกบ่อยๆ"
+        "hanzi": "准备睡觉。",
+        "pinyin": "Zhǔnbèi shuìjiào.",
+        "thaiMeaning": "เตรียมตัวนอน"
       }
     ]
   },
@@ -235,22 +144,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "แจ้งให้แฟนรู้ว่าโทรศัพท์กำลังจะหมดแบต",
-        "hanzi": "我手机快没电了，如果联系不上我，别担心。",
-        "pinyin": "Wǒ shǒujī kuài méi diàn le, rúguǒ liánxì bù shàng wǒ, bié dānxīn.",
-        "thaiMeaning": "โทรศัพท์ฉันใกล้หมดแบตแล้ว ถ้าติดต่อไม่ได้อย่าเพิ่งเป็นห่วงนะ"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าลืมโทรศัพท์ไว้ที่ไหน",
-        "hanzi": "糟糕，我把手机忘在公司了！",
-        "pinyin": "Zāogāo, wǒ bǎ shǒujī wàng zài gōngsī le!",
-        "thaiMeaning": "ตายแล้ว ฉันลืมโทรศัพท์ทิ้งไว้ที่บริษัท!"
-      },
-      {
-        "scenario": "ถามเพื่อนว่ายืมโทรศัพท์โทรสักสายได้ไหม",
-        "hanzi": "我手机没带，能借你的手机打一个电话吗？",
-        "pinyin": "Wǒ shǒujī méi dài, néng jiè nǐ de shǒujī dǎ yī gè diànhuà ma?",
-        "thaiMeaning": "ฉันไม่ได้พกโทรศัพท์มา ขอยืมโทรศัพท์คุณโทรสายนึงได้ไหม?"
+        "hanzi": "看手机。",
+        "pinyin": "Kàn shǒujī.",
+        "thaiMeaning": "ดูโทรศัพท์"
       }
     ]
   },
@@ -266,22 +162,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตะโกนถามคนที่บ้านว่ากุญแจอยู่ที่ไหน",
-        "hanzi": "我的钥匙在哪里？我找不到了！",
-        "pinyin": "Wǒ de yàoshi zài nǎlǐ? Wǒ zhǎo bù dào le!",
-        "thaiMeaning": "กุญแจฉันอยู่ที่ไหน หาไม่เจอเลย!"
-      },
-      {
-        "scenario": "ฝากกุญแจให้แฟนหรือเพื่อนร่วมห้องก่อนไปทำงาน",
-        "hanzi": "钥匙放在桌上了，你回家的时候用这个开门。",
-        "pinyin": "Yàoshi fàng zài zhuō shàng le, nǐ huíjiā de shíhou yòng zhège kāimén.",
-        "thaiMeaning": "วางกุญแจไว้บนโต๊ะแล้ว ตอนกลับบ้านใช้อันนี้เปิดประตูได้เลย"
-      },
-      {
-        "scenario": "บอกช่างหรือบริการให้ทำกุญแจสำรองไว้",
-        "hanzi": "我想多配一把钥匙，以防万一。",
-        "pinyin": "Wǒ xiǎng duō pèi yī bǎ yàoshi, yǐ fáng wànyī.",
-        "thaiMeaning": "ฉันอยากทำกุญแจสำรองไว้อีกอันนึง เผื่อฉุกเฉิน"
+        "hanzi": "拿钥匙。",
+        "pinyin": "Ná yàoshi.",
+        "thaiMeaning": "หยิบกุญแจ"
       }
     ]
   },
@@ -297,22 +180,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนว่าตอนนี้อยู่ที่ไหนหรือทำอะไรอยู่",
-        "hanzi": "你现在在哪里？要不要一起吃饭？",
-        "pinyin": "Nǐ xiànzài zài nǎlǐ? Yào bù yào yīqǐ chī fàn?",
-        "thaiMeaning": "ตอนนี้แกอยู่ที่ไหน? ไปกินข้าวด้วยกันไหม?"
-      },
-      {
-        "scenario": "บอกสถานการณ์ปัจจุบันให้คนอื่นรู้",
-        "hanzi": "我现在有点忙，等一下再回你消息。",
-        "pinyin": "Wǒ xiànzài yǒudiǎn máng, děng yīxià zài huí nǐ xiāoxi.",
-        "thaiMeaning": "ตอนนี้ฉันยุ่งนิดหน่อย เดี๋ยวค่อยตอบข้อความแก"
-      },
-      {
-        "scenario": "เน้นย้ำว่าต้องทำสิ่งนั้นในตอนนี้ทันที",
-        "hanzi": "现在不做，以后来不及了！",
-        "pinyin": "Xiànzài bù zuò, yǐhòu lái bù jí le!",
-        "thaiMeaning": "ถ้าไม่ทำตอนนี้ ต่อไปก็ไม่ทันแล้ว!"
+        "hanzi": "现在几点？",
+        "pinyin": "Xiànzài jǐ diǎn?",
+        "thaiMeaning": "ตอนนี้กี่โมง"
       }
     ]
   },
@@ -328,22 +198,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกคนรู้จักใหม่ว่าตัวเองทำงานอะไร",
-        "hanzi": "我目前的工作是在一家贸易公司上班。",
-        "pinyin": "Wǒ mùqián de gōngzuò shì zài yī jiā màoyì gōngsī shàngbān.",
-        "thaiMeaning": "ตอนนี้ฉันทำงานอยู่ที่บริษัทการค้าแห่งหนึ่ง"
-      },
-      {
-        "scenario": "คุยกับแฟนเรื่องความเครียดจากงาน",
-        "hanzi": "最近工作压力好大，晚上睡不着。",
-        "pinyin": "Zuìjìn gōngzuò yālì hǎo dà, wǎnshang shuì bù zháo.",
-        "thaiMeaning": "ช่วงนี้แรงกดดันจากงานหนักมาก ตอนกลางคืนนอนไม่หลับเลย"
-      },
-      {
-        "scenario": "ถามเพื่อนเรื่องการหางานหรือเปลี่ยนงาน",
-        "hanzi": "你找到新工作了吗？薪水怎么样？",
-        "pinyin": "Nǐ zhǎodào xīn gōngzuò le ma? Xīnshuǐ zěnmeyàng?",
-        "thaiMeaning": "คุณหางานใหม่ได้แล้วเหรอ? เงินเดือนเป็นยังไงบ้าง?"
+        "hanzi": "开始工作。",
+        "pinyin": "Kāishǐ gōngzuò.",
+        "thaiMeaning": "เริ่มทำงาน"
       }
     ]
   },
@@ -359,22 +216,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนหรือคนแปลกหน้าถึงที่ตั้งสถานที่",
-        "hanzi": "请问附近有公司吗？我要去找一下。",
-        "pinyin": "Qǐngwèn fùjìn yǒu 公司 ma? Wǒ yào qù zhǎo yīxià.",
-        "thaiMeaning": "ขอถามหน่อย แถวนี้มีบริษัทไหม? ฉันอยากไปหาดู"
-      },
-      {
-        "scenario": "นัดหมายให้เพื่อนมาเจอกันที่สถานที่นั้น",
-        "hanzi": "我们在公司门口见面，三点怎么样？",
-        "pinyin": "Wǒmen zài 公司 ménkǒu jiànmiàn, sān diǎn zěnmeyàng?",
-        "thaiMeaning": "นัดเจอกันที่หน้าบริษัท สามโมงตรงเป็นยังไง?"
-      },
-      {
-        "scenario": "แชร์รีวิวหรือประสบการณ์เกี่ยวกับสถานที่นั้น",
-        "hanzi": "这家公司的服务很好，下次还想来。",
-        "pinyin": "Zhè jiā 公司 de fúwù hěn hǎo, xià cì hái xiǎng lái.",
-        "thaiMeaning": "บริษัทที่นี่บริการดีมาก อยากกลับมาอีกเลย"
+        "hanzi": "到公司了。",
+        "pinyin": "Dào gōngsī le.",
+        "thaiMeaning": "ถึงบริษัทแล้ว"
       }
     ]
   },
@@ -390,22 +234,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอน้ำจากพนักงานในร้านอาหาร",
-        "hanzi": "不好意思，能给我一杯水吗？",
-        "pinyin": "Bù hǎoyìsi, néng gěi wǒ yī bēi shuǐ ma?",
-        "thaiMeaning": "ขอโทษค่ะ ขอน้ำสักแก้วได้ไหมคะ?"
-      },
-      {
-        "scenario": "เตือนเพื่อนให้ดื่มน้ำเยอะๆ ในวันที่อากาศร้อน",
-        "hanzi": "今天很热，要多喝水，不然容易中暑。",
-        "pinyin": "Jīntiān hěn rè, yào duō hē shuǐ, bùrán róngyì zhòngshǔ.",
-        "thaiMeaning": "วันนี้ร้อนมาก ต้องดื่มน้ำเยอะๆ ไม่งั้นเป็นลมง่าย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าน้ำหมดแล้วหรือยังมีเหลือไหม",
-        "hanzi": "瓶子里的水喝完了，再去买一瓶吧。",
-        "pinyin": "Píngzi lǐ de shuǐ hē wán le, zài qù mǎi yī píng ba.",
-        "thaiMeaning": "น้ำในขวดหมดแล้ว ไปซื้ออีกขวดนึงเถอะ"
+        "hanzi": "喝水。",
+        "pinyin": "Hē shuǐ.",
+        "thaiMeaning": "ดื่มน้ำ"
       }
     ]
   },
@@ -421,22 +252,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个咖啡，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 咖啡, xièxie!",
-        "thaiMeaning": "ขอสั่งกาแฟหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的咖啡，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 咖啡, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองกาแฟที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃咖啡，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 咖啡, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินกาแฟมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "泡咖啡。",
+        "pinyin": "Pào kāfēi.",
+        "thaiMeaning": "ชงกาแฟ"
       }
     ]
   },
@@ -452,22 +270,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กินข้าว\"",
-        "hanzi": "好啊！我们去去吃饭吧。",
-        "pinyin": "Hǎo a! Wǒmen qù Qù chīfàn ba.",
-        "thaiMeaning": "โอเค! พวกเราไปไปกินข้าวกันเถอะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กินข้าว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有吃饭的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu chīfàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกินข้าวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กินข้าว\"",
-        "hanzi": "对我来说，吃饭是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, chīfàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กินข้าวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "去吃饭。",
+        "pinyin": "Qù chīfàn.",
+        "thaiMeaning": "ไปกินข้าว"
       }
     ]
   },
@@ -483,22 +288,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的肚子从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 肚子 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "ท้องของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的肚子很有特色，很容易认出他。",
-        "pinyin": "Tā de 肚子 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "ท้องของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的肚子，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 肚子, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลท้องของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "肚子饿。",
+        "pinyin": "Dùzi è.",
+        "thaiMeaning": "ท้องหิว"
       }
     ]
   },
@@ -514,22 +306,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们时间三点见面，不见不散！",
-        "pinyin": "Wǒmen 时间 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันเวลาสามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "时间我有空，你想做什么就安排吧。",
-        "pinyin": "时间 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "เวลาฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "时间时间不够了，我们快一点吧！",
-        "pinyin": "时间 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "เวลาเวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "没时间。",
+        "pinyin": "Méi shíjiān.",
+        "thaiMeaning": "ไม่มีเวลา"
       }
     ]
   },
@@ -545,22 +324,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们今天三点见面，不见不散！",
-        "pinyin": "Wǒmen 今天 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันวันนี้สามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "今天我有空，你想做什么就安排吧。",
-        "pinyin": "今天 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "วันนี้ฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "今天时间不够了，我们快一点吧！",
-        "pinyin": "今天 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "วันนี้เวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "今天去上班。",
+        "pinyin": "Jīntiān qù shàngbān.",
+        "thaiMeaning": "วันนี้ไปทำงาน"
       }
     ]
   },
@@ -576,22 +342,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们明天三点见面，不见不散！",
-        "pinyin": "Wǒmen 明天 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันพรุ่งนี้สามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "明天我有空，你想做什么就安排吧。",
-        "pinyin": "明天 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "พรุ่งนี้ฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "明天时间不够了，我们快一点吧！",
-        "pinyin": "明天 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "พรุ่งนี้เวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "明天早起。",
+        "pinyin": "Míngtiān zǎoqǐ.",
+        "thaiMeaning": "พรุ่งนี้ตื่นเช้า"
       }
     ]
   },
@@ -607,22 +360,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เตรียมตัว\"",
         "hanzi": "准备好了。",
         "pinyin": "Zhǔnbèi hǎo le.",
         "thaiMeaning": "เตรียมพร้อมแล้ว"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เตรียมตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有准备的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhǔnbèi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเตรียมตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เตรียมตัว\"",
-        "hanzi": "对我来说，准备是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhǔnbèi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เตรียมตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -638,22 +378,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很累。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 累.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกเหนื่อยมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很累，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 累, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณเหนื่อยมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点累，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 累, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะเหนื่อยนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "有点累。",
+        "pinyin": "Yǒudiǎnr lèi.",
+        "thaiMeaning": "เหนื่อยนิดหน่อย"
       }
     ]
   },
@@ -669,22 +396,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很困。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 困.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกง่วงมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很困，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 困, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณง่วงมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点困，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 困, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะง่วงนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "太困了。",
+        "pinyin": "Tài kùn le.",
+        "thaiMeaning": "ง่วงมาก"
       }
     ]
   },
@@ -700,22 +414,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很舒服。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 舒服.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกสบายตัวมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很舒服，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 舒服, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณสบายตัวมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点舒服，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 舒服, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะสบายตัวนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "很舒服。",
+        "pinyin": "Hěn shūfu.",
+        "thaiMeaning": "สบายมาก"
       }
     ]
   },
@@ -731,22 +432,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "แจ้งให้เพื่อนหรือหัวหน้ารู้ว่ามาสายเพราะรถติด",
-        "hanzi": "不好意思，路上堵车，我会晚一点到。",
-        "pinyin": "Bù hǎoyìsi, lùshàng dǔchē, wǒ huì wǎn yīdiǎn dào.",
-        "thaiMeaning": "ขอโทษนะ ถนนรถติดมาก ฉันจะไปถึงช้าหน่อย"
-      },
-      {
-        "scenario": "บ่นกับเพื่อนเรื่องรถติดหนักในชั่วโมงเร่งด่วน",
-        "hanzi": "今天堵车堵得太严重了，在路上堵了一个小时！",
-        "pinyin": "Jīntiān dǔchē dǔ de tài yánzhòng le, zài lùshàng dǔ le yī gè xiǎoshí!",
-        "thaiMeaning": "วันนี้รถติดหนักมากเลย ติดอยู่บนถนนหนึ่งชั่วโมงเลย!"
-      },
-      {
-        "scenario": "แนะนำเส้นทางเลี่ยงรถติดให้เพื่อน",
-        "hanzi": "走那条路会堵车，建议你走另一边。",
-        "pinyin": "Zǒu nà tiáo lù huì dǔchē, jiànyì nǐ zǒu lìng yībiān.",
-        "thaiMeaning": "เดินทางสายนั้นจะติดรถ แนะนำให้เลี่ยงไปทางอื่น"
+        "hanzi": "路上堵车。",
+        "pinyin": "Lùshang dǔchē.",
+        "thaiMeaning": "บนถนนรถติด"
       }
     ]
   },
@@ -762,22 +450,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ส่งข้อความแจ้งเพื่อนว่าจะไปถึงที่นัดช้ากว่าเวลา",
-        "hanzi": "对不起，我今天迟到了，你先等我一下。",
-        "pinyin": "Duìbuqǐ, wǒ jīntiān chídào le, nǐ xiān děng wǒ yīxià.",
-        "thaiMeaning": "ขอโทษ วันนี้ฉันสาย รอฉันสักครู่ก่อนนะ"
-      },
-      {
-        "scenario": "บอกหัวหน้าหรือเพื่อนร่วมงานว่ามาสาย",
-        "hanzi": "我今天因为堵车迟到了，非常抱歉。",
-        "pinyin": "Wǒ jīntiān yīnwèi dǔchē chídào le, fēicháng bàoqiàn.",
-        "thaiMeaning": "วันนี้ฉันสายเพราะรถติด ขอโทษมากๆ เลย"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าสายเพราะอะไร",
-        "hanzi": "我今天迟到了，因为早上闹钟没响。",
-        "pinyin": "Wǒ jīntiān chídào le, yīnwèi zǎoshang nǎozhōng méi xiǎng.",
-        "thaiMeaning": "วันนี้ฉันสายเพราะตอนเช้านาฬิกาปลุกไม่ดัง"
+        "hanzi": "上班迟到。",
+        "pinyin": "Shàngbān chídào.",
+        "thaiMeaning": "ทำงานสาย"
       }
     ]
   },
@@ -793,22 +468,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"พักผ่อน\"",
         "hanzi": "休息一下。",
         "pinyin": "Xiūxi yíxià.",
         "thaiMeaning": "พักแป๊บนึง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"พักผ่อน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有休息的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūxi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องพักผ่อนไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"พักผ่อน\"",
-        "hanzi": "对我来说，休息是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūxi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว พักผ่อนเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -824,22 +486,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เชียร์เพื่อนก่อนสอบหรือนำเสนองานสำคัญ",
-        "hanzi": "你准备得很好，相信自己，加油！",
-        "pinyin": "Nǐ zhǔnbèi de hěn hǎo, xiāngxìn zìjǐ, jiāyóu!",
-        "thaiMeaning": "คุณเตรียมตัวมาดีมาก เชื่อมั่นในตัวเอง สู้ๆ!"
-      },
-      {
-        "scenario": "ส่งข้อความให้กำลังใจเพื่อนที่เครียดเรื่องงาน",
-        "hanzi": "我知道你很累，但你能做到的，加油！",
-        "pinyin": "Wǒ zhīdào nǐ hěn lèi, dàn nǐ néng zuòdào de, jiāyóu!",
-        "thaiMeaning": "ฉันรู้ว่าคุณเหนื่อย แต่คุณทำได้แน่ๆ สู้ๆ!"
-      },
-      {
-        "scenario": "เชียร์นักกีฬาหรือทีมที่ชื่นชอบระหว่างแข่งขัน",
-        "hanzi": "快追上了！加油！加油！",
-        "pinyin": "Kuài zhuīshàng le! Jiāyóu! Jiāyóu!",
-        "thaiMeaning": "ใกล้แล้ว! สู้ๆ! สู้ๆ!"
+        "hanzi": "加油！",
+        "pinyin": "Jiāyóu!",
+        "thaiMeaning": "สู้ๆ!"
       }
     ]
   },
@@ -855,22 +504,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "รับคำขอโทษจากเพื่อนที่เดินชนหรือทำอะไรผิดพลาด",
-        "hanzi": "没关系，你又不是故意的。",
-        "pinyin": "Méiguānxi, nǐ yòu bù shì gùyì de.",
-        "thaiMeaning": "ไม่เป็นไรหรอก แกไม่ได้ตั้งใจนี่"
-      },
-      {
-        "scenario": "ปลอบใจลูกน้องหรือเพื่อนที่ทำงานผิดพลาดเล็กน้อย",
-        "hanzi": "这次没做好没关系，下次注意就好了。",
-        "pinyin": "Zhè cì méi zuò hǎo méiguānxi, xià cì zhùyì jiù hǎo le.",
-        "thaiMeaning": "ครั้งนี้ทำไม่ดีก็ไม่เป็นไร แค่คราวหน้าระวังให้มากขึ้นก็พอ"
-      },
-      {
-        "scenario": "บอกคนที่รู้สึกผิดว่าไม่ต้องกังวล",
-        "hanzi": "真的没关系，我没有生气。",
-        "pinyin": "Zhēn de méiguānxi, wǒ méiyǒu shēngqì.",
-        "thaiMeaning": "จริงๆ ไม่เป็นไรเลย ฉันไม่ได้โกรธ"
+        "hanzi": "没关系。",
+        "pinyin": "Méi guānxi.",
+        "thaiMeaning": "ไม่เป็นไร"
       }
     ]
   },
@@ -886,22 +522,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ส่งข้อความราตรีสวัสดิ์ให้แฟนก่อนนอน",
-        "hanzi": "今天辛苦了，晚安，好梦！",
-        "pinyin": "Jīntiān xīnkǔ le, wǎn'ān, hǎo mèng!",
-        "thaiMeaning": "วันนี้เหนื่อยมากนะ ราตรีสวัสดิ์ ฝันดีด้วย!"
-      },
-      {
-        "scenario": "ปิดท้ายวิดีโอคอลกับครอบครัวที่อยู่ต่างเมือง",
-        "hanzi": "好了，太晚了，我先去睡了。晚安！",
-        "pinyin": "Hǎo le, tài wǎn le, wǒ xiān qù shuì le. Wǎn'ān!",
-        "thaiMeaning": "โอเค ดึกแล้ว ฉันไปนอนก่อนนะ ราตรีสวัสดิ์!"
-      },
-      {
-        "scenario": "พูดลาก่อนนอนกับเพื่อนร่วมหอหลังดูซีรีส์ด้วยกัน",
-        "hanzi": "明天还要早起，晚安，明天见！",
-        "pinyin": "Míngtiān hái yào zǎoqǐ, wǎn'ān, míngtiān jiàn!",
-        "thaiMeaning": "พรุ่งนี้ต้องตื่นเช้าอีก ราตรีสวัสดิ์ เจอกันพรุ่งนี้!"
+        "hanzi": "晚安。",
+        "pinyin": "Wǎn'ān.",
+        "thaiMeaning": "ฝันดี"
       }
     ]
   },
@@ -917,22 +540,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เสื้อผ้า\"",
         "hanzi": "换衣服。",
         "pinyin": "Huàn yīfu.",
         "thaiMeaning": "เปลี่ยนเสื้อผ้า"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เสื้อผ้า\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有衣服的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yīfu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเสื้อผ้าไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เสื้อผ้า\"",
-        "hanzi": "对我来说，衣服是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yīfu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เสื้อผ้าเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -948,22 +558,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กางเกง\"",
         "hanzi": "穿裤子。",
         "pinyin": "Chuān kùzi.",
         "thaiMeaning": "ใส่กางเกง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กางเกง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有裤子的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu kùzi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกางเกงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กางเกง\"",
-        "hanzi": "对我来说，裤子是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, kùzi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กางเกงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -979,22 +576,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的鞋子从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 鞋子 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "รองเท้าของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的鞋子很有特色，很容易认出他。",
-        "pinyin": "Tā de 鞋子 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "รองเท้าของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的鞋子，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 鞋子, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลรองเท้าของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "穿鞋子。",
+        "pinyin": "Chuān xiézi.",
+        "thaiMeaning": "ใส่รองเท้า"
       }
     ]
   },
@@ -1010,22 +594,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "คุยกับแฟนตอนเช้าก่อนแยกกันไปทำงาน",
-        "hanzi": "我要去上班了，中午再联系你。",
-        "pinyin": "Wǒ yào qù shàngbān le, zhōngwǔ zài liánxì nǐ.",
-        "thaiMeaning": "ฉันต้องไปทำงานแล้ว ตอนเที่ยงค่อยติดต่อกันใหม่นะ"
-      },
-      {
-        "scenario": "บอกสถานะในกลุ่มงานว่าถึงออฟฟิศแล้ว",
-        "hanzi": "我到了，刚刚开始上班，有什么事找我。",
-        "pinyin": "Wǒ dào le, gānggāng kāishǐ shàngbān, yǒu shénme shì zhǎo wǒ.",
-        "thaiMeaning": "ถึงแล้ว เพิ่งเริ่มทำงาน มีอะไรตามหาได้เลย"
-      },
-      {
-        "scenario": "อธิบายตารางชีวิตประจำวันให้เพื่อนต่างชาติฟัง",
-        "hanzi": "我每天八点上班，下午六点下班。",
-        "pinyin": "Wǒ měitiān bā diǎn shàngbān, xiàwǔ liù diǎn xiàbān.",
-        "thaiMeaning": "ฉันทำงานทุกวันตั้งแต่แปดโมงเช้าถึงหกโมงเย็น"
+        "hanzi": "去上班。",
+        "pinyin": "Qù shàngbān.",
+        "thaiMeaning": "ไปทำงาน"
       }
     ]
   },
@@ -1041,22 +612,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ส่งข้อความชวนเพื่อนไปกินข้าวหลังเลิกงาน",
-        "hanzi": "下班了！要不要一起去吃饭？",
-        "pinyin": "Xiàbān le! Yào bù yào yīqǐ qù chī fàn?",
-        "thaiMeaning": "เลิกงานแล้ว! ไปกินข้าวด้วยกันไหม?"
-      },
-      {
-        "scenario": "บอกแฟนที่บ้านว่าเลิกงานแล้วกำลังเดินทางกลับ",
-        "hanzi": "我刚下班，在路上了，大概七点到家。",
-        "pinyin": "Wǒ gāng xiàbān, zài lùshàng le, dàgài qī diǎn dào jiā.",
-        "thaiMeaning": "เพิ่งเลิกงาน อยู่บนทางแล้ว ประมาณทุ่มนึงถึงบ้าน"
-      },
-      {
-        "scenario": "ตอบเพื่อนที่ถามว่าว่างไหมช่วงเย็น",
-        "hanzi": "我六点才下班，下班后有空，到时候联系我吧。",
-        "pinyin": "Wǒ liù diǎn cái xiàbān, xiàbān hòu yǒu kòng, dào shíhou liánxì wǒ ba.",
-        "thaiMeaning": "ฉันเลิกงานตอนหกโมง หลังเลิกงานว่าง ตอนนั้นค่อยติดต่อมานะ"
+        "hanzi": "下班了。",
+        "pinyin": "Xiàbān le.",
+        "thaiMeaning": "เลิกงานแล้ว"
       }
     ]
   },
@@ -1072,22 +630,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกเพื่อนร่วมงานว่ากำลังพักเที่ยงและไปกินข้าว",
-        "hanzi": "午休了，我们去外面吃吧？",
-        "pinyin": "Wǔxiū le, wǒmen qù wàimiàn chī ba?",
-        "thaiMeaning": "พักเที่ยงแล้ว ออกไปกินข้างนอกกันไหม?"
-      },
-      {
-        "scenario": "ส่งข้อความหาเพื่อนในช่วงพักกลางวัน",
-        "hanzi": "我正在午休，下午再联系你。",
-        "pinyin": "Wǒ zhèngzài wǔxiū, xiàwǔ zài liánxì nǐ.",
-        "thaiMeaning": "ฉันกำลังพักเที่ยงอยู่ บ่ายค่อยติดต่อกันใหม่นะ"
-      },
-      {
-        "scenario": "วางแผนช่วงพักเที่ยงกับเพื่อนร่วมงาน",
-        "hanzi": "午休的时候，我喜欢找个安静的地方休息一下。",
-        "pinyin": "Wǔxiū de shíhou, wǒ xǐhuan zhǎo gè ānjìng de dìfang xiūxi yīxià.",
-        "thaiMeaning": "ตอนพักเที่ยง ฉันชอบหาที่เงียบๆ นั่งพักสักหน่อย"
+        "hanzi": "午休时间。",
+        "pinyin": "Wǔxiū shíjiān.",
+        "thaiMeaning": "เวลาพักเที่ยง"
       }
     ]
   },
@@ -1103,22 +648,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个早餐，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 早餐, xièxie!",
-        "thaiMeaning": "ขอสั่งอาหารเช้าหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的早餐，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 早餐, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองอาหารเช้าที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃早餐，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 早餐, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินอาหารเช้ามากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "吃早餐。",
+        "pinyin": "Chī zǎocān.",
+        "thaiMeaning": "กินข้าวเช้า"
       }
     ]
   },
@@ -1134,22 +666,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个午饭，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 午饭, xièxie!",
-        "thaiMeaning": "ขอสั่งอาหารเที่ยงหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的午饭，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 午饭, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองอาหารเที่ยงที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃午饭，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 午饭, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินอาหารเที่ยงมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "吃午饭。",
+        "pinyin": "Chī wǔfàn.",
+        "thaiMeaning": "กินข้าวเที่ยง"
       }
     ]
   },
@@ -1165,22 +684,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个晚饭，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 晚饭, xièxie!",
-        "thaiMeaning": "ขอสั่งอาหารเย็นหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的晚饭，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 晚饭, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองอาหารเย็นที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃晚饭，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 晚饭, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินอาหารเย็นมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "吃晚饭。",
+        "pinyin": "Chī wǎnfàn.",
+        "thaiMeaning": "กินข้าวเย็น"
       }
     ]
   },
@@ -1196,22 +702,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的电脑从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 电脑 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "คอมพิวเตอร์ของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的电脑很有特色，很容易认出他。",
-        "pinyin": "Tā de 电脑 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "คอมพิวเตอร์ของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的电脑，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 电脑, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลคอมพิวเตอร์ของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "开电脑。",
+        "pinyin": "Kāi diànnǎo.",
+        "thaiMeaning": "เปิดคอม"
       }
     ]
   },
@@ -1227,22 +720,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงิน\"",
-        "hanzi": "这个钱多少钱？",
-        "pinyin": "Zhège qián duōshǎo qián?",
-        "thaiMeaning": "อันนี้เงินเท่าไหร่?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงิน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有钱的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu qián de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงินไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงิน\"",
-        "hanzi": "对我来说，钱是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, qián shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงินเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "带钱。",
+        "pinyin": "Dài qián.",
+        "thaiMeaning": "พกเงิน"
       }
     ]
   },
@@ -1258,22 +738,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามราคาสินค้าในร้านสะดวกซื้อหรือตลาด",
-        "hanzi": "请问这个多少钱？我想买一个。",
-        "pinyin": "Qǐngwèn zhège duōshǎo qián? Wǒ xiǎng mǎi yī gè.",
-        "thaiMeaning": "ขอถามว่าอันนี้ราคาเท่าไหร่? อยากซื้อสักอันนึง"
-      },
-      {
-        "scenario": "ชวนเพื่อนไปช็อปปิ้งในวันหยุดสุดสัปดาห์",
-        "hanzi": "周末要不要一起去买东西？",
-        "pinyin": "Zhōumò yào bù yào yīqǐ qù mǎi dōngxi?",
-        "thaiMeaning": "สุดสัปดาห์ไปซื้อของด้วยกันไหม?"
-      },
-      {
-        "scenario": "บอกแฟนว่าซื้ออะไรมาฝากกลับบ้าน",
-        "hanzi": "我下班的时候帮你买了你最喜欢吃的东西。",
-        "pinyin": "Wǒ xiàbān de shíhou bāng nǐ mǎi le nǐ zuì xǐhuan chī de dōngxi.",
-        "thaiMeaning": "ตอนเลิกงานฉันซื้อของที่คุณชอบกินมาฝากแล้ว"
+        "hanzi": "买东西。",
+        "pinyin": "Mǎi dōngxi.",
+        "thaiMeaning": "ซื้อของ"
       }
     ]
   },
@@ -1289,22 +756,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตะโกนเรียกให้คนในบ้านมาเปิดประตู",
-        "hanzi": "我回来了，帮我开门！",
-        "pinyin": "Wǒ huílái le, bāng wǒ kāimén!",
-        "thaiMeaning": "ฉันกลับมาแล้ว ช่วยเปิดประตูให้ด้วย!"
-      },
-      {
-        "scenario": "บอกแขกหรือลูกค้าที่มาก่อนร้านเปิด",
-        "hanzi": "我们九点才开门，请稍等一下。",
-        "pinyin": "Wǒmen jiǔ diǎn cái kāimén, qǐng shāo děng yīxià.",
-        "thaiMeaning": "เราเปิดร้านเก้าโมง รบกวนรอสักครู่ด้วยนะคะ"
-      },
-      {
-        "scenario": "ถามเพื่อนร่วมงานให้ช่วยเปิดประตูออฟฟิศตอนมือเต็ม",
-        "hanzi": "我手里拿着东西，能帮我开门吗？",
-        "pinyin": "Wǒ shǒu lǐ náizhe dōngxi, néng bāng wǒ kāimén ma?",
-        "thaiMeaning": "ฉันมือถือของอยู่ ช่วยเปิดประตูให้หน่อยได้ไหม?"
+        "hanzi": "开门。",
+        "pinyin": "Kāimén.",
+        "thaiMeaning": "เปิดประตู"
       }
     ]
   },
@@ -1320,22 +774,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เตือนให้ปิดประตูก่อนออกจากบ้าน",
-        "hanzi": "出门之前记得关门，别让猫跑出去。",
-        "pinyin": "Chūmén zhīqián jìde guānmén, bié ràng māo pǎo chūqù.",
-        "thaiMeaning": "ก่อนออกจากบ้านอย่าลืมปิดประตู อย่าให้แมววิ่งออกไปได้"
-      },
-      {
-        "scenario": "บอกให้พนักงานหรือเพื่อนร่วมงานปิดร้านก่อนกลับ",
-        "hanzi": "今天谁最后走，记得把门关好。",
-        "pinyin": "Jīntiān shuí zuìhòu zǒu, jìde bǎ mén guān hǎo.",
-        "thaiMeaning": "วันนี้ใครออกคนสุดท้าย อย่าลืมปิดประตูให้ดีด้วย"
-      },
-      {
-        "scenario": "ขอให้คนในห้องปิดประตูเพื่อความเป็นส่วนตัว",
-        "hanzi": "能帮我把门关上吗？我想专心工作。",
-        "pinyin": "Néng bāng wǒ bǎ mén guānshàng ma? Wǒ xiǎng zhuānxīn gōngzuò.",
-        "thaiMeaning": "ช่วยปิดประตูให้หน่อยได้ไหม? ฉันอยากตั้งใจทำงาน"
+        "hanzi": "关门。",
+        "pinyin": "Guānmén.",
+        "thaiMeaning": "ปิดประตู"
       }
     ]
   },
@@ -1351,22 +792,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很快，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 快, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้เร็วจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个快多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 快 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นเร็วกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太快了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 快 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้เร็วเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "快一点。",
+        "pinyin": "Kuài yìdiǎn.",
+        "thaiMeaning": "เร็วหน่อย"
       }
     ]
   },
@@ -1382,22 +810,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很慢，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 慢, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้ช้าจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个慢多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 慢 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นช้ากว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太慢了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 慢 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้ช้าเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "慢一点。",
+        "pinyin": "Màn yìdiǎn.",
+        "thaiMeaning": "ช้าหน่อย"
       }
     ]
   },
@@ -1413,22 +828,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很好，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 好, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้ดีจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个好多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 好 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นดีกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太好了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 好 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้ดีเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "很好。",
+        "pinyin": "Hěn hǎo.",
+        "thaiMeaning": "ดีมาก"
       }
     ]
   },
@@ -1444,22 +846,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很热，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 热, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้ร้อนจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个热多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 热 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นร้อนกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太热了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 热 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้ร้อนเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "天气热。",
+        "pinyin": "Tiānqì rè.",
+        "thaiMeaning": "อากาศร้อน"
       }
     ]
   },
@@ -1475,22 +864,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很冷，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 冷, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้หนาวจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个冷多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 冷 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นหนาวกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太冷了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 冷 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้หนาวเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "有点冷。",
+        "pinyin": "Yǒudiǎnr lěng.",
+        "thaiMeaning": "หนาวนิดหน่อย"
       }
     ]
   },
@@ -1506,22 +882,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很开心。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 开心.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกมีความสุขมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很开心，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 开心, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณมีความสุขมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点开心，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 开心, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะมีความสุขนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "很开心。",
+        "pinyin": "Hěn kāixīn.",
+        "thaiMeaning": "มีความสุขมาก"
       }
     ]
   },
@@ -1537,22 +900,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกลาเพื่อนหลังเลิกงานตอนเย็น",
-        "hanzi": "今天辛苦了，再见，明天见！",
-        "pinyin": "Jīntiān xīnkǔ le, zàijiàn, míngtiān jiàn!",
-        "thaiMeaning": "วันนี้เหนื่อยมากนะ ลาก่อน เจอกันพรุ่งนี้!"
-      },
-      {
-        "scenario": "วางโทรศัพท์หลังคุยกับแม่หรือคนที่บ้านเสร็จ",
-        "hanzi": "好，我知道了。再见，爱你！",
-        "pinyin": "Hǎo, wǒ zhīdào le. Zàijiàn, ài nǐ!",
-        "thaiMeaning": "โอเค รู้แล้ว ลาก่อน รักนะ!"
-      },
-      {
-        "scenario": "ส่งแขกหรือลูกค้าออกจากร้านหรือออฟฟิศ",
-        "hanzi": "欢迎下次再来，再见！",
-        "pinyin": "Huānyíng xià cì zài lái, zàijiàn!",
-        "thaiMeaning": "ยินดีต้อนรับให้กลับมาอีกนะครับ ลาก่อน!"
+        "hanzi": "明天再见。",
+        "pinyin": "Míngtiān zàijiàn.",
+        "thaiMeaning": "พรุ่งนี้เจอกันใหม่"
       }
     ]
   },
@@ -1568,22 +918,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกทิศทางให้คนแปลกหน้าที่ถามเส้นทาง",
-        "hanzi": "从这里往左走，就能看到了。",
-        "pinyin": "Cóng zhèlǐ wǎng 左 zǒu, jiù néng kàn dào le.",
-        "thaiMeaning": "จากตรงนี้เดินไปทางซ้าย ก็จะเห็นแล้ว"
-      },
-      {
-        "scenario": "อธิบายตำแหน่งสิ่งของหรือสถานที่ในอาคาร",
-        "hanzi": "会议室在电梯的左边。",
-        "pinyin": "Huìyìshì zài diàntī de 左 biān.",
-        "thaiMeaning": "ห้องประชุมอยู่ทางซ้ายของลิฟต์"
-      },
-      {
-        "scenario": "บอกตำแหน่งที่จอดรถหรือสถานที่นัดพบ",
-        "hanzi": "我在大楼的左面等你，你来了告诉我。",
-        "pinyin": "Wǒ zài dàlóu de 左 miàn děng nǐ, nǐ lái le gàosu wǒ.",
-        "thaiMeaning": "ฉันรออยู่ด้านซ้ายของตึก มาแล้วบอกด้วยนะ"
+        "hanzi": "往左走。",
+        "pinyin": "Wǎng zuǒ zǒu.",
+        "thaiMeaning": "เดินไปทางซ้าย"
       }
     ]
   },
@@ -1599,22 +936,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกทิศทางให้คนแปลกหน้าที่ถามเส้นทาง",
-        "hanzi": "从这里往右走，就能看到了。",
-        "pinyin": "Cóng zhèlǐ wǎng 右 zǒu, jiù néng kàn dào le.",
-        "thaiMeaning": "จากตรงนี้เดินไปทางขวา ก็จะเห็นแล้ว"
-      },
-      {
-        "scenario": "อธิบายตำแหน่งสิ่งของหรือสถานที่ในอาคาร",
-        "hanzi": "会议室在电梯的右边。",
-        "pinyin": "Huìyìshì zài diàntī de 右 biān.",
-        "thaiMeaning": "ห้องประชุมอยู่ทางขวาของลิฟต์"
-      },
-      {
-        "scenario": "บอกตำแหน่งที่จอดรถหรือสถานที่นัดพบ",
-        "hanzi": "我在大楼的右面等你，你来了告诉我。",
-        "pinyin": "Wǒ zài dàlóu de 右 miàn děng nǐ, nǐ lái le gàosu wǒ.",
-        "thaiMeaning": "ฉันรออยู่ด้านขวาของตึก มาแล้วบอกด้วยนะ"
+        "hanzi": "往右转。",
+        "pinyin": "Wǎng yòu zhuǎn.",
+        "thaiMeaning": "เลี้ยวขวา"
       }
     ]
   },
@@ -1630,22 +954,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หน้า\"",
-        "hanzi": "请问前怎么走？",
-        "pinyin": "Qǐngwèn qián zěnme zǒu?",
-        "thaiMeaning": "ขอถามหน่อยนะ ไปหน้าเดินยังไง?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หน้า\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有前的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu qián de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหน้าไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หน้า\"",
-        "hanzi": "对我来说，前是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, qián shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หน้าเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "往前走。",
+        "pinyin": "Wǎng qián zǒu.",
+        "thaiMeaning": "เดินไปข้างหน้า"
       }
     ]
   },
@@ -1661,22 +972,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的后从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 后 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "หลังของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的后很有特色，很容易认出他。",
-        "pinyin": "Tā de 后 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "หลังของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的后，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 后, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลหลังของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "在后面。",
+        "pinyin": "Zài hòumiàn.",
+        "thaiMeaning": "อยู่ข้างหลัง"
       }
     ]
   },
@@ -1692,22 +990,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เข้า\"",
-        "hanzi": "请问进怎么走？",
-        "pinyin": "Qǐngwèn jìn zěnme zǒu?",
-        "thaiMeaning": "ขอถามหน่อยนะ ไปเข้าเดินยังไง?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เข้า\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有进的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jìn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเข้าไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เข้า\"",
-        "hanzi": "对我来说，进是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jìn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เข้าเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "请进。",
+        "pinyin": "Qǐng jìn.",
+        "thaiMeaning": "เชิญเข้าด้านใน"
       }
     ]
   },
@@ -1723,22 +1008,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的出从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 出 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "ออกของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的出很有特色，很容易认出他。",
-        "pinyin": "Tā de 出 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "ออกของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的出，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 出, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลออกของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "出去。",
+        "pinyin": "Chūqù.",
+        "thaiMeaning": "ออกไป"
       }
     ]
   },
@@ -1754,22 +1026,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"บน\"",
-        "hanzi": "请问上怎么走？",
-        "pinyin": "Qǐngwèn shàng zěnme zǒu?",
-        "thaiMeaning": "ขอถามหน่อยนะ ไปบนเดินยังไง?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"บน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有上的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shàng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องบนไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"บน\"",
-        "hanzi": "对我来说，上是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shàng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว บนเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "上楼。",
+        "pinyin": "Shàng lóu.",
+        "thaiMeaning": "ขึ้นชั้นบน"
       }
     ]
   },
@@ -1785,22 +1044,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ล่าง\"",
-        "hanzi": "请问下怎么走？",
-        "pinyin": "Qǐngwèn xià zěnme zǒu?",
-        "thaiMeaning": "ขอถามหน่อยนะ ไปล่างเดินยังไง?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ล่าง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有下的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xià de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องล่างไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ล่าง\"",
-        "hanzi": "对我来说，下是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xià shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ล่างเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "下车。",
+        "pinyin": "Xià chē.",
+        "thaiMeaning": "ลงจากรถ"
       }
     ]
   },
@@ -1816,22 +1062,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢走，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 走, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบเดินมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去走吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 走 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปเดินด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多走，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 走, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันเดินบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "慢慢走。",
+        "pinyin": "Mànmàn zǒu.",
+        "thaiMeaning": "ค่อยๆ เดิน"
       }
     ]
   },
@@ -1847,22 +1080,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢跑，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 跑, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบวิ่งมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去跑吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 跑 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปวิ่งด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多跑，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 跑, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันวิ่งบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "快跑。",
+        "pinyin": "Kuài pǎo.",
+        "thaiMeaning": "รีบวิ่ง"
       }
     ]
   },
@@ -1878,22 +1098,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สิ่งของ\"",
         "hanzi": "买东西。",
         "pinyin": "Mǎi dōngxi.",
         "thaiMeaning": "ซื้อของ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สิ่งของ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有东西的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dōngxi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสิ่งของไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สิ่งของ\"",
-        "hanzi": "对我来说，东西是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dōngxi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สิ่งของเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -1909,22 +1116,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的包能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 包 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมกระเป๋าของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有包，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 包, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีกระเป๋า ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的包，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 包, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อกระเป๋าใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "带包。",
+        "pinyin": "Dài bāo.",
+        "thaiMeaning": "สะพายกระเป๋า"
       }
     ]
   },
@@ -1940,22 +1134,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กระดาษ\"",
         "hanzi": "拿张纸。",
         "pinyin": "Ná zhāng zhǐ.",
         "thaiMeaning": "ขอหยิบกระดาษหน่อย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กระดาษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有纸的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกระดาษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กระดาษ\"",
-        "hanzi": "对我来说，纸是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กระดาษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -1971,22 +1152,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的笔从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 笔 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "ปากกาของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的笔很有特色，很容易认出他。",
-        "pinyin": "Tā de 笔 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "ปากกาของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的笔，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 笔, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลปากกาของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "借支笔。",
+        "pinyin": "Jiè zhī bǐ.",
+        "thaiMeaning": "ขอยืมปากกาหน่อย"
       }
     ]
   },
@@ -2002,22 +1170,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的桌子能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 桌子 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมโต๊ะของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有桌子，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 桌子, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีโต๊ะ ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的桌子，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 桌子, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อโต๊ะใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "在桌子上。",
+        "pinyin": "Zài zhuōzi shang.",
+        "thaiMeaning": "วางบนโต๊ะ"
       }
     ]
   },
@@ -2033,22 +1188,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的椅子能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 椅子 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมเก้าอี้ของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有椅子，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 椅子, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีเก้าอี้ ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的椅子，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 椅子, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อเก้าอี้ใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "坐椅子。",
+        "pinyin": "Zuò yǐzi.",
+        "thaiMeaning": "นั่งเก้าอี้"
       }
     ]
   },
@@ -2064,22 +1206,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ราคาเท่าไหร่\"",
-        "hanzi": "这个多少钱多少钱？",
-        "pinyin": "Zhège duōshǎo qián duōshǎo qián?",
-        "thaiMeaning": "อันนี้ราคาเท่าไหร่เท่าไหร่?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ราคาเท่าไหร่\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有多少钱的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu duōshǎo qián de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องราคาเท่าไหร่ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ราคาเท่าไหร่\"",
-        "hanzi": "对我来说，多少钱是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, duōshǎo qián shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ราคาเท่าไหร่เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "这个多少钱？",
+        "pinyin": "Zhège duōshǎo qián?",
+        "thaiMeaning": "อันนี้ราคาเท่าไหร่"
       }
     ]
   },
@@ -2095,22 +1224,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很贵，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 贵, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้แพงจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个贵多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 贵 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นแพงกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太贵了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 贵 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้แพงเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "太贵了。",
+        "pinyin": "Tài guì le.",
+        "thaiMeaning": "แพงเกินไป"
       }
     ]
   },
@@ -2126,22 +1242,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很便宜，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 便宜, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้ถูกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个便宜多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 便宜 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นถูกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太便宜了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 便宜 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้ถูกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "便宜一点。",
+        "pinyin": "Piányi yìdiǎn.",
+        "thaiMeaning": "ถูกลงหน่อย"
       }
     ]
   },
@@ -2157,22 +1260,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ใบเสร็จ\"",
         "hanzi": "要发票。",
         "pinyin": "Yào fāpiào.",
         "thaiMeaning": "ขอใบเสร็จด้วย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ใบเสร็จ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有发票的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fāpiào de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องใบเสร็จไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ใบเสร็จ\"",
-        "hanzi": "对我来说，发票是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fāpiào shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ใบเสร็จเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -2188,22 +1278,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们早上三点见面，不见不散！",
-        "pinyin": "Wǒmen 早上 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันเช้าสามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "早上我有空，你想做什么就安排吧。",
-        "pinyin": "早上 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "เช้าฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "早上时间不够了，我们快一点吧！",
-        "pinyin": "早上 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "เช้าเวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "早上好。",
+        "pinyin": "Zǎoshang hǎo.",
+        "thaiMeaning": "อรุณสวัสดิ์"
       }
     ]
   },
@@ -2219,22 +1296,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เที่ยง\"",
-        "hanzi": "中午吃什么。",
-        "pinyin": "Zhōngwǔ chī shénme.",
+        "hanzi": "中午吃什么？",
+        "pinyin": "Zhōngwǔ chī shénme?",
         "thaiMeaning": "เที่ยงนี้กินอะไร"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เที่ยง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有中午的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhōngwǔ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเที่ยงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เที่ยง\"",
-        "hanzi": "对我来说，中午是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhōngwǔ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เที่ยงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -2250,22 +1314,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们下午三点见面，不见不散！",
-        "pinyin": "Wǒmen 下午 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันบ่ายสามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "下午我有空，你想做什么就安排吧。",
-        "pinyin": "下午 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "บ่ายฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "下午时间不够了，我们快一点吧！",
-        "pinyin": "下午 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "บ่ายเวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "下午开会。",
+        "pinyin": "Xiàwǔ kāihuì.",
+        "thaiMeaning": "ตอนบ่ายมีประชุม"
       }
     ]
   },
@@ -2281,22 +1332,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很晚上，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 晚上, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้เย็นจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个晚上多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 晚上 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นเย็นกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太晚上了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 晚上 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้เย็นเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "晚上见。",
+        "pinyin": "Wǎnshang jiàn.",
+        "thaiMeaning": "เจอกันตอนค่ำ"
       }
     ]
   },
@@ -2312,22 +1350,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们昨天三点见面，不见不散！",
-        "pinyin": "Wǒmen 昨天 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันเมื่อวานสามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "昨天我有空，你想做什么就安排吧。",
-        "pinyin": "昨天 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "เมื่อวานฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "昨天时间不够了，我们快一点吧！",
-        "pinyin": "昨天 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "เมื่อวานเวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "昨天没空。",
+        "pinyin": "Zuótiān méi kòng.",
+        "thaiMeaning": "เมื่อวานไม่ว่าง"
       }
     ]
   },
@@ -2343,22 +1368,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们星期一三点见面，不见不散！",
-        "pinyin": "Wǒmen 星期一 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันวันจันทร์สามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "星期一我有空，你想做什么就安排吧。",
-        "pinyin": "星期一 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "วันจันทร์ฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "星期一时间不够了，我们快一点吧！",
-        "pinyin": "星期一 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "วันจันทร์เวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "星期一上班。",
+        "pinyin": "Xīngqīyī shàngbān.",
+        "thaiMeaning": "วันจันทร์ทำงาน"
       }
     ]
   },
@@ -2374,22 +1386,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们周末三点见面，不见不散！",
-        "pinyin": "Wǒmen 周末 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันสุดสัปดาห์สามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "周末我有空，你想做什么就安排吧。",
-        "pinyin": "周末 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "สุดสัปดาห์ฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "周末时间不够了，我们快一点吧！",
-        "pinyin": "周末 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "สุดสัปดาห์เวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "周末休息。",
+        "pinyin": "Zhōumò xiūxi.",
+        "thaiMeaning": "เสาร์อาทิตย์พักผ่อน"
       }
     ]
   },
@@ -2405,22 +1404,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们点三点见面，不见不散！",
-        "pinyin": "Wǒmen 点 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันโมงสามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "点我有空，你想做什么就安排吧。",
-        "pinyin": "点 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "โมงฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "点时间不够了，我们快一点吧！",
-        "pinyin": "点 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "โมงเวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "九点。",
+        "pinyin": "Jiǔ diǎn.",
+        "thaiMeaning": "9 โมง"
       }
     ]
   },
@@ -2436,22 +1422,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们分三点见面，不见不散！",
-        "pinyin": "Wǒmen 分 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันนาทีสามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "分我有空，你想做什么就安排吧。",
-        "pinyin": "分 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "นาทีฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "分时间不够了，我们快一点吧！",
-        "pinyin": "分 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "นาทีเวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "三十分。",
+        "pinyin": "Sānshí fēn.",
+        "thaiMeaning": "30 นาที"
       }
     ]
   },
@@ -2467,22 +1440,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们秒三点见面，不见不散！",
-        "pinyin": "Wǒmen 秒 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันวินาทีสามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "秒我有空，你想做什么就安排吧。",
-        "pinyin": "秒 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "วินาทีฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "秒时间不够了，我们快一点吧！",
-        "pinyin": "秒 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "วินาทีเวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "等几秒。",
+        "pinyin": "Děng jǐ miǎo.",
+        "thaiMeaning": "รอไม่กี่วินาที"
       }
     ]
   },
@@ -2498,22 +1458,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个米饭，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 米饭, xièxie!",
-        "thaiMeaning": "ขอสั่งข้าวสวยหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的米饭，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 米饭, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองข้าวสวยที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃米饭，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 米饭, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินข้าวสวยมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "吃米饭。",
+        "pinyin": "Chī mǐfàn.",
+        "thaiMeaning": "กินข้าวสวย"
       }
     ]
   },
@@ -2529,22 +1476,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个面条，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 面条, xièxie!",
-        "thaiMeaning": "ขอสั่งก๋วยเตี๋ยวหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的面条，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 面条, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองก๋วยเตี๋ยวที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃面条，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 面条, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินก๋วยเตี๋ยวมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "吃面条。",
+        "pinyin": "Chī miàntiáo.",
+        "thaiMeaning": "กินบะหมี่"
       }
     ]
   },
@@ -2560,22 +1494,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个菜，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 菜, xièxie!",
-        "thaiMeaning": "ขอสั่งผักหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的菜，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 菜, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองผักที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃菜，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 菜, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินผักมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "点菜。",
+        "pinyin": "Diǎn cài.",
+        "thaiMeaning": "สั่งกับข้าว"
       }
     ]
   },
@@ -2591,22 +1512,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个水果，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 水果, xièxie!",
-        "thaiMeaning": "ขอสั่งผลไม้หนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的水果，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 水果, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองผลไม้ที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃水果，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 水果, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินผลไม้มากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "买水果。",
+        "pinyin": "Mǎi shuǐguǒ.",
+        "thaiMeaning": "ซื้อผลไม้"
       }
     ]
   },
@@ -2622,22 +1530,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个苹果，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 苹果, xièxie!",
-        "thaiMeaning": "ขอสั่งแอปเปิ้ลหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的苹果，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 苹果, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองแอปเปิ้ลที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃苹果，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 苹果, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินแอปเปิ้ลมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "吃苹果。",
+        "pinyin": "Chī píngguǒ.",
+        "thaiMeaning": "กินแอปเปิ้ล"
       }
     ]
   },
@@ -2653,22 +1548,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个牛肉，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 牛肉, xièxie!",
-        "thaiMeaning": "ขอสั่งเนื้อวัวหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的牛肉，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 牛肉, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองเนื้อวัวที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃牛肉，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 牛肉, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินเนื้อวัวมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "吃牛肉。",
+        "pinyin": "Chī niúròu.",
+        "thaiMeaning": "กินเนื้อวัว"
       }
     ]
   },
@@ -2684,22 +1566,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个鸡肉，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 鸡肉, xièxie!",
-        "thaiMeaning": "ขอสั่งเนื้อไก่หนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的鸡肉，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 鸡肉, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองเนื้อไก่ที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃鸡肉，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 鸡肉, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินเนื้อไก่มากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "吃鸡肉。",
+        "pinyin": "Chī jīròu.",
+        "thaiMeaning": "กินเนื้อไก่"
       }
     ]
   },
@@ -2715,22 +1584,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个鱼，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 鱼, xièxie!",
-        "thaiMeaning": "ขอสั่งปลาหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的鱼，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 鱼, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองปลาที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃鱼，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 鱼, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินปลามากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "吃鱼。",
+        "pinyin": "Chī yú.",
+        "thaiMeaning": "กินปลา"
       }
     ]
   },
@@ -2746,22 +1602,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个茶，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 茶, xièxie!",
-        "thaiMeaning": "ขอสั่งชาหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的茶，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 茶, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองชาที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃茶，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 茶, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินชามากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "喝绿茶。",
+        "pinyin": "Hē lǜchá.",
+        "thaiMeaning": "ดื่มชาเขียว"
       }
     ]
   },
@@ -2777,22 +1620,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个牛奶，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 牛奶, xièxie!",
-        "thaiMeaning": "ขอสั่งนมสดหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的牛奶，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 牛奶, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองนมสดที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃牛奶，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 牛奶, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินนมสดมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "喝牛奶。",
+        "pinyin": "Hē niúnǎi.",
+        "thaiMeaning": "ดื่มนมสด"
       }
     ]
   },
@@ -2808,22 +1638,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนหรือคนแปลกหน้าถึงที่ตั้งสถานที่",
-        "hanzi": "请问附近有医院吗？我要去找一下。",
-        "pinyin": "Qǐngwèn fùjìn yǒu 医院 ma? Wǒ yào qù zhǎo yīxià.",
-        "thaiMeaning": "ขอถามหน่อย แถวนี้มีโรงพยาบาลไหม? ฉันอยากไปหาดู"
-      },
-      {
-        "scenario": "นัดหมายให้เพื่อนมาเจอกันที่สถานที่นั้น",
-        "hanzi": "我们在医院门口见面，三点怎么样？",
-        "pinyin": "Wǒmen zài 医院 ménkǒu jiànmiàn, sān diǎn zěnmeyàng?",
-        "thaiMeaning": "นัดเจอกันที่หน้าโรงพยาบาล สามโมงตรงเป็นยังไง?"
-      },
-      {
-        "scenario": "แชร์รีวิวหรือประสบการณ์เกี่ยวกับสถานที่นั้น",
-        "hanzi": "这家医院的服务很好，下次还想来。",
-        "pinyin": "Zhè jiā 医院 de fúwù hěn hǎo, xià cì hái xiǎng lái.",
-        "thaiMeaning": "โรงพยาบาลที่นี่บริการดีมาก อยากกลับมาอีกเลย"
+        "hanzi": "去医院。",
+        "pinyin": "Qù yīyuàn.",
+        "thaiMeaning": "ไปโรงพยาบาล"
       }
     ]
   },
@@ -2839,22 +1656,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนหรือคนแปลกหน้าถึงที่ตั้งสถานที่",
-        "hanzi": "请问附近有车站吗？我要去找一下。",
-        "pinyin": "Qǐngwèn fùjìn yǒu 车站 ma? Wǒ yào qù zhǎo yīxià.",
-        "thaiMeaning": "ขอถามหน่อย แถวนี้มีสถานีรถไหม? ฉันอยากไปหาดู"
-      },
-      {
-        "scenario": "นัดหมายให้เพื่อนมาเจอกันที่สถานที่นั้น",
-        "hanzi": "我们在车站门口见面，三点怎么样？",
-        "pinyin": "Wǒmen zài 车站 ménkǒu jiànmiàn, sān diǎn zěnmeyàng?",
-        "thaiMeaning": "นัดเจอกันที่หน้าสถานีรถ สามโมงตรงเป็นยังไง?"
-      },
-      {
-        "scenario": "แชร์รีวิวหรือประสบการณ์เกี่ยวกับสถานที่นั้น",
-        "hanzi": "这家车站的服务很好，下次还想来。",
-        "pinyin": "Zhè jiā 车站 de fúwù hěn hǎo, xià cì hái xiǎng lái.",
-        "thaiMeaning": "สถานีรถที่นี่บริการดีมาก อยากกลับมาอีกเลย"
+        "hanzi": "在车站。",
+        "pinyin": "Zài chēzhàn.",
+        "thaiMeaning": "อยู่ที่สถานี"
       }
     ]
   },
@@ -2870,22 +1674,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢机场，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 机场, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบสนามบินมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去机场吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 机场 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปสนามบินด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多机场，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 机场, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันสนามบินบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "去机场。",
+        "pinyin": "Qù jīchǎng.",
+        "thaiMeaning": "ไปสนามบิน"
       }
     ]
   },
@@ -2901,22 +1692,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนหรือคนแปลกหน้าถึงที่ตั้งสถานที่",
-        "hanzi": "请问附近有酒店吗？我要去找一下。",
-        "pinyin": "Qǐngwèn fùjìn yǒu 酒店 ma? Wǒ yào qù zhǎo yīxià.",
-        "thaiMeaning": "ขอถามหน่อย แถวนี้มีโรงแรมไหม? ฉันอยากไปหาดู"
-      },
-      {
-        "scenario": "นัดหมายให้เพื่อนมาเจอกันที่สถานที่นั้น",
-        "hanzi": "我们在酒店门口见面，三点怎么样？",
-        "pinyin": "Wǒmen zài 酒店 ménkǒu jiànmiàn, sān diǎn zěnmeyàng?",
-        "thaiMeaning": "นัดเจอกันที่หน้าโรงแรม สามโมงตรงเป็นยังไง?"
-      },
-      {
-        "scenario": "แชร์รีวิวหรือประสบการณ์เกี่ยวกับสถานที่นั้น",
-        "hanzi": "这家酒店的服务很好，下次还想来。",
-        "pinyin": "Zhè jiā 酒店 de fúwù hěn hǎo, xià cì hái xiǎng lái.",
-        "thaiMeaning": "โรงแรมที่นี่บริการดีมาก อยากกลับมาอีกเลย"
+        "hanzi": "住酒店。",
+        "pinyin": "Zhù jiǔdiàn.",
+        "thaiMeaning": "พักโรงแรม"
       }
     ]
   },
@@ -2932,22 +1710,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนหรือคนแปลกหน้าถึงที่ตั้งสถานที่",
-        "hanzi": "请问附近有饭店吗？我要去找一下。",
-        "pinyin": "Qǐngwèn fùjìn yǒu 饭店 ma? Wǒ yào qù zhǎo yīxià.",
-        "thaiMeaning": "ขอถามหน่อย แถวนี้มีร้านอาหารไหม? ฉันอยากไปหาดู"
-      },
-      {
-        "scenario": "นัดหมายให้เพื่อนมาเจอกันที่สถานที่นั้น",
-        "hanzi": "我们在饭店门口见面，三点怎么样？",
-        "pinyin": "Wǒmen zài 饭店 ménkǒu jiànmiàn, sān diǎn zěnmeyàng?",
-        "thaiMeaning": "นัดเจอกันที่หน้าร้านอาหาร สามโมงตรงเป็นยังไง?"
-      },
-      {
-        "scenario": "แชร์รีวิวหรือประสบการณ์เกี่ยวกับสถานที่นั้น",
-        "hanzi": "这家饭店的服务很好，下次还想来。",
-        "pinyin": "Zhè jiā 饭店 de fúwù hěn hǎo, xià cì hái xiǎng lái.",
-        "thaiMeaning": "ร้านอาหารที่นี่บริการดีมาก อยากกลับมาอีกเลย"
+        "hanzi": "去饭店。",
+        "pinyin": "Qù fàndiàn.",
+        "thaiMeaning": "ไปร้านอาหาร"
       }
     ]
   },
@@ -2963,22 +1728,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนหรือคนแปลกหน้าถึงที่ตั้งสถานที่",
-        "hanzi": "请问附近有商店吗？我要去找一下。",
-        "pinyin": "Qǐngwèn fùjìn yǒu 商店 ma? Wǒ yào qù zhǎo yīxià.",
-        "thaiMeaning": "ขอถามหน่อย แถวนี้มีร้านค้าไหม? ฉันอยากไปหาดู"
-      },
-      {
-        "scenario": "นัดหมายให้เพื่อนมาเจอกันที่สถานที่นั้น",
-        "hanzi": "我们在商店门口见面，三点怎么样？",
-        "pinyin": "Wǒmen zài 商店 ménkǒu jiànmiàn, sān diǎn zěnmeyàng?",
-        "thaiMeaning": "นัดเจอกันที่หน้าร้านค้า สามโมงตรงเป็นยังไง?"
-      },
-      {
-        "scenario": "แชร์รีวิวหรือประสบการณ์เกี่ยวกับสถานที่นั้น",
-        "hanzi": "这家商店的服务很好，下次还想来。",
-        "pinyin": "Zhè jiā 商店 de fúwù hěn hǎo, xià cì hái xiǎng lái.",
-        "thaiMeaning": "ร้านค้าที่นี่บริการดีมาก อยากกลับมาอีกเลย"
+        "hanzi": "逛商店。",
+        "pinyin": "Guàng shāngdiàn.",
+        "thaiMeaning": "เดินดูร้านค้า"
       }
     ]
   },
@@ -2994,22 +1746,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนหรือคนแปลกหน้าถึงที่ตั้งสถานที่",
-        "hanzi": "请问附近有学校吗？我要去找一下。",
-        "pinyin": "Qǐngwèn fùjìn yǒu 学校 ma? Wǒ yào qù zhǎo yīxià.",
-        "thaiMeaning": "ขอถามหน่อย แถวนี้มีโรงเรียนไหม? ฉันอยากไปหาดู"
-      },
-      {
-        "scenario": "นัดหมายให้เพื่อนมาเจอกันที่สถานที่นั้น",
-        "hanzi": "我们在学校门口见面，三点怎么样？",
-        "pinyin": "Wǒmen zài 学校 ménkǒu jiànmiàn, sān diǎn zěnmeyàng?",
-        "thaiMeaning": "นัดเจอกันที่หน้าโรงเรียน สามโมงตรงเป็นยังไง?"
-      },
-      {
-        "scenario": "แชร์รีวิวหรือประสบการณ์เกี่ยวกับสถานที่นั้น",
-        "hanzi": "这家学校的服务很好，下次还想来。",
-        "pinyin": "Zhè jiā 学校 de fúwù hěn hǎo, xià cì hái xiǎng lái.",
-        "thaiMeaning": "โรงเรียนที่นี่บริการดีมาก อยากกลับมาอีกเลย"
+        "hanzi": "去学校。",
+        "pinyin": "Qù xuéxiào.",
+        "thaiMeaning": "ไปโรงเรียน"
       }
     ]
   },
@@ -3025,22 +1764,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เรียกรถหรือถามบริการเดินทาง",
-        "hanzi": "麻烦帮我叫一辆车，我要去市中心。",
-        "pinyin": "Máfan bāng wǒ jiào yī liàng 车, wǒ yào qù shì zhōngxīn.",
-        "thaiMeaning": "ช่วยเรียกรถยนต์ให้ด้วยนะ ฉันต้องไปใจกลางเมือง"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องการเดินทางที่ผ่านมา",
-        "hanzi": "上次我坐车去旅行，体验很不错！",
-        "pinyin": "Shàng cì wǒ zuò 车 qù lǚxíng, tǐyàn hěn bùcuò!",
-        "thaiMeaning": "ครั้งที่แล้วฉันนั่งรถยนต์ไปเที่ยว ประสบการณ์ดีมากเลย!"
-      },
-      {
-        "scenario": "ถามเพื่อนเรื่องวิธีเดินทางไปสถานที่นั้น",
-        "hanzi": "从这里坐车到机场要多久？大概多少钱？",
-        "pinyin": "Cóng zhèlǐ zuò 车 dào jīchǎng yào duōjiǔ? Dàgài duōshǎo qián?",
-        "thaiMeaning": "นั่งรถยนต์จากที่นี่ไปสนามบินใช้เวลาเท่าไหร่? ราคาประมาณเท่าไหร่?"
+        "hanzi": "开车。",
+        "pinyin": "Kāi chē.",
+        "thaiMeaning": "ขับรถ"
       }
     ]
   },
@@ -3056,22 +1782,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢飞机，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 飞机, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบเครื่องบินมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去飞机吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 飞机 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปเครื่องบินด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多飞机，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 飞机, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันเครื่องบินบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "坐飞机。",
+        "pinyin": "Zuò fēijī.",
+        "thaiMeaning": "นั่งเครื่องบิน"
       }
     ]
   },
@@ -3087,22 +1800,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เรียกรถหรือถามบริการเดินทาง",
-        "hanzi": "麻烦帮我叫一辆出租车，我要去市中心。",
-        "pinyin": "Máfan bāng wǒ jiào yī liàng 出租车, wǒ yào qù shì zhōngxīn.",
-        "thaiMeaning": "ช่วยเรียกรถแท็กซี่ให้ด้วยนะ ฉันต้องไปใจกลางเมือง"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องการเดินทางที่ผ่านมา",
-        "hanzi": "上次我坐出租车去旅行，体验很不错！",
-        "pinyin": "Shàng cì wǒ zuò 出租车 qù lǚxíng, tǐyàn hěn bùcuò!",
-        "thaiMeaning": "ครั้งที่แล้วฉันนั่งรถแท็กซี่ไปเที่ยว ประสบการณ์ดีมากเลย!"
-      },
-      {
-        "scenario": "ถามเพื่อนเรื่องวิธีเดินทางไปสถานที่นั้น",
-        "hanzi": "从这里坐出租车到机场要多久？大概多少钱？",
-        "pinyin": "Cóng zhèlǐ zuò 出租车 dào jīchǎng yào duōjiǔ? Dàgài duōshǎo qián?",
-        "thaiMeaning": "นั่งรถแท็กซี่จากที่นี่ไปสนามบินใช้เวลาเท่าไหร่? ราคาประมาณเท่าไหร่?"
+        "hanzi": "打出租车。",
+        "pinyin": "Dǎ chūzūchē.",
+        "thaiMeaning": "เรียกแท็กซี่"
       }
     ]
   },
@@ -3118,22 +1818,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คน\"",
         "hanzi": "很多人。",
         "pinyin": "Hěn duō rén.",
         "thaiMeaning": "คนเยอะมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有人的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rén de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคนไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คน\"",
-        "hanzi": "对我来说，人是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rén shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คนเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -3149,22 +1836,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "พูดถึงบุคคลสำคัญนั้นในการสนทนาประจำวัน",
-        "hanzi": "我的朋友对我影响很大，我很感激。",
-        "pinyin": "Wǒ de 朋友 duì wǒ yǐngxiǎng hěn dà, wǒ hěn gǎnjī.",
-        "thaiMeaning": "เพื่อนของฉันมีอิทธิพลต่อฉันมาก ฉันรู้สึกซาบซึ้งมาก"
-      },
-      {
-        "scenario": "เล่าให้คนอื่นฟังเกี่ยวกับความสัมพันธ์กับบุคคลนั้น",
-        "hanzi": "我和我的朋友关系很好，经常一起出去玩。",
-        "pinyin": "Wǒ hé wǒ de 朋友 guānxi hěn hǎo, jīngcháng yīqǐ chūqù wán.",
-        "thaiMeaning": "ฉันกับเพื่อนสนิทกันมาก ชอบออกไปเที่ยวด้วยกันบ่อยๆ"
-      },
-      {
-        "scenario": "ถามสอบถามสารทุกข์สุกดิบของบุคคลนั้น",
-        "hanzi": "你的朋友最近怎么样？有没有问题？",
-        "pinyin": "Nǐ de 朋友 zuìjìn zěnmeyàng? Yǒu méiyǒu wèntí?",
-        "thaiMeaning": "เพื่อนของคุณช่วงนี้เป็นยังไงบ้าง? มีปัญหาอะไรไหม?"
+        "hanzi": "找朋友。",
+        "pinyin": "Zhǎo péngyou.",
+        "thaiMeaning": "หาเพื่อน"
       }
     ]
   },
@@ -3180,22 +1854,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "พูดถึงบุคคลสำคัญนั้นในการสนทนาประจำวัน",
-        "hanzi": "我的老师对我影响很大，我很感激。",
-        "pinyin": "Wǒ de 老师 duì wǒ yǐngxiǎng hěn dà, wǒ hěn gǎnjī.",
-        "thaiMeaning": "คุณครูของฉันมีอิทธิพลต่อฉันมาก ฉันรู้สึกซาบซึ้งมาก"
-      },
-      {
-        "scenario": "เล่าให้คนอื่นฟังเกี่ยวกับความสัมพันธ์กับบุคคลนั้น",
-        "hanzi": "我和我的老师关系很好，经常一起出去玩。",
-        "pinyin": "Wǒ hé wǒ de 老师 guānxi hěn hǎo, jīngcháng yīqǐ chūqù wán.",
-        "thaiMeaning": "ฉันกับคุณครูสนิทกันมาก ชอบออกไปเที่ยวด้วยกันบ่อยๆ"
-      },
-      {
-        "scenario": "ถามสอบถามสารทุกข์สุกดิบของบุคคลนั้น",
-        "hanzi": "你的老师最近怎么样？有没有问题？",
-        "pinyin": "Nǐ de 老师 zuìjìn zěnmeyàng? Yǒu méiyǒu wèntí?",
-        "thaiMeaning": "คุณครูของคุณช่วงนี้เป็นยังไงบ้าง? มีปัญหาอะไรไหม?"
+        "hanzi": "老师好。",
+        "pinyin": "Lǎoshī hǎo.",
+        "thaiMeaning": "สวัสดีครับครู"
       }
     ]
   },
@@ -3211,22 +1872,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "พูดถึงบุคคลสำคัญนั้นในการสนทนาประจำวัน",
-        "hanzi": "我的学生对我影响很大，我很感激。",
-        "pinyin": "Wǒ de 学生 duì wǒ yǐngxiǎng hěn dà, wǒ hěn gǎnjī.",
-        "thaiMeaning": "นักเรียนของฉันมีอิทธิพลต่อฉันมาก ฉันรู้สึกซาบซึ้งมาก"
-      },
-      {
-        "scenario": "เล่าให้คนอื่นฟังเกี่ยวกับความสัมพันธ์กับบุคคลนั้น",
-        "hanzi": "我和我的学生关系很好，经常一起出去玩。",
-        "pinyin": "Wǒ hé wǒ de 学生 guānxi hěn hǎo, jīngcháng yīqǐ chūqù wán.",
-        "thaiMeaning": "ฉันกับนักเรียนสนิทกันมาก ชอบออกไปเที่ยวด้วยกันบ่อยๆ"
-      },
-      {
-        "scenario": "ถามสอบถามสารทุกข์สุกดิบของบุคคลนั้น",
-        "hanzi": "你的学生最近怎么样？有没有问题？",
-        "pinyin": "Nǐ de 学生 zuìjìn zěnmeyàng? Yǒu méiyǒu wèntí?",
-        "thaiMeaning": "นักเรียนของคุณช่วงนี้เป็นยังไงบ้าง? มีปัญหาอะไรไหม?"
+        "hanzi": "我是学生。",
+        "pinyin": "Wǒ shì xuésheng.",
+        "thaiMeaning": "ฉันเป็นนักเรียน"
       }
     ]
   },
@@ -3242,22 +1890,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการให้เพื่อนหรือคนในครอบครัวรับรู้",
-        "hanzi": "我今天有点医生，不太舒服。",
-        "pinyin": "Wǒ jīntiān yǒudiǎn 医生, bù tài shūfu.",
-        "thaiMeaning": "วันนี้ฉันหมอนิดหน่อย รู้สึกไม่ค่อยสบายเลย"
-      },
-      {
-        "scenario": "ขอลาหยุดเพราะไม่สบาย",
-        "hanzi": "我今天医生很严重，想请假休息一天。",
-        "pinyin": "Wǒ jīntiān 医生 hěn yánzhòng, xiǎng qǐngjià xiūxi yī tiān.",
-        "thaiMeaning": "วันนี้ฉันหมอหนักมาก อยากขอลาหยุดพักหนึ่งวัน"
-      },
-      {
-        "scenario": "ปรึกษาแพทย์หรืออธิบายอาการในโรงพยาบาล",
-        "hanzi": "医生，我从昨天开始医生，您帮我看看吧。",
-        "pinyin": "Yīshēng, wǒ cóng zuótiān kāishǐ 医生, nín bāng wǒ kàn kàn ba.",
-        "thaiMeaning": "หมอคะ ฉันเริ่มหมอมาตั้งแต่เมื่อวาน รบกวนช่วยตรวจให้ด้วยนะ"
+        "hanzi": "看医生。",
+        "pinyin": "Kàn yīshēng.",
+        "thaiMeaning": "ไปหาหมอ"
       }
     ]
   },
@@ -3273,22 +1908,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "พูดถึงบุคคลสำคัญนั้นในการสนทนาประจำวัน",
-        "hanzi": "我的爸爸对我影响很大，我很感激。",
-        "pinyin": "Wǒ de 爸爸 duì wǒ yǐngxiǎng hěn dà, wǒ hěn gǎnjī.",
-        "thaiMeaning": "คุณพ่อของฉันมีอิทธิพลต่อฉันมาก ฉันรู้สึกซาบซึ้งมาก"
-      },
-      {
-        "scenario": "เล่าให้คนอื่นฟังเกี่ยวกับความสัมพันธ์กับบุคคลนั้น",
-        "hanzi": "我和我的爸爸关系很好，经常一起出去玩。",
-        "pinyin": "Wǒ hé wǒ de 爸爸 guānxi hěn hǎo, jīngcháng yīqǐ chūqù wán.",
-        "thaiMeaning": "ฉันกับคุณพ่อสนิทกันมาก ชอบออกไปเที่ยวด้วยกันบ่อยๆ"
-      },
-      {
-        "scenario": "ถามสอบถามสารทุกข์สุกดิบของบุคคลนั้น",
-        "hanzi": "你的爸爸最近怎么样？有没有问题？",
-        "pinyin": "Nǐ de 爸爸 zuìjìn zěnmeyàng? Yǒu méiyǒu wèntí?",
-        "thaiMeaning": "คุณพ่อของคุณช่วงนี้เป็นยังไงบ้าง? มีปัญหาอะไรไหม?"
+        "hanzi": "我爸爸。",
+        "pinyin": "Wǒ bàba.",
+        "thaiMeaning": "พ่อของฉัน"
       }
     ]
   },
@@ -3304,22 +1926,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "พูดถึงบุคคลสำคัญนั้นในการสนทนาประจำวัน",
-        "hanzi": "我的妈妈对我影响很大，我很感激。",
-        "pinyin": "Wǒ de 妈妈 duì wǒ yǐngxiǎng hěn dà, wǒ hěn gǎnjī.",
-        "thaiMeaning": "คุณแม่ของฉันมีอิทธิพลต่อฉันมาก ฉันรู้สึกซาบซึ้งมาก"
-      },
-      {
-        "scenario": "เล่าให้คนอื่นฟังเกี่ยวกับความสัมพันธ์กับบุคคลนั้น",
-        "hanzi": "我和我的妈妈关系很好，经常一起出去玩。",
-        "pinyin": "Wǒ hé wǒ de 妈妈 guānxi hěn hǎo, jīngcháng yīqǐ chūqù wán.",
-        "thaiMeaning": "ฉันกับคุณแม่สนิทกันมาก ชอบออกไปเที่ยวด้วยกันบ่อยๆ"
-      },
-      {
-        "scenario": "ถามสอบถามสารทุกข์สุกดิบของบุคคลนั้น",
-        "hanzi": "你的妈妈最近怎么样？有没有问题？",
-        "pinyin": "Nǐ de 妈妈 zuìjìn zěnmeyàng? Yǒu méiyǒu wèntí?",
-        "thaiMeaning": "คุณแม่ของคุณช่วงนี้เป็นยังไงบ้าง? มีปัญหาอะไรไหม?"
+        "hanzi": "我妈妈。",
+        "pinyin": "Wǒ māma.",
+        "thaiMeaning": "แม่ของฉัน"
       }
     ]
   },
@@ -3335,22 +1944,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个哥哥，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 哥哥, xièxie!",
-        "thaiMeaning": "ขอสั่งพี่ชายหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的哥哥，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 哥哥, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองพี่ชายที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃哥哥，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 哥哥, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินพี่ชายมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "我哥哥。",
+        "pinyin": "Wǒ gēge.",
+        "thaiMeaning": "พี่ชายฉัน"
       }
     ]
   },
@@ -3366,22 +1962,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "พูดถึงบุคคลสำคัญนั้นในการสนทนาประจำวัน",
-        "hanzi": "我的姐姐对我影响很大，我很感激。",
-        "pinyin": "Wǒ de 姐姐 duì wǒ yǐngxiǎng hěn dà, wǒ hěn gǎnjī.",
-        "thaiMeaning": "พี่สาวของฉันมีอิทธิพลต่อฉันมาก ฉันรู้สึกซาบซึ้งมาก"
-      },
-      {
-        "scenario": "เล่าให้คนอื่นฟังเกี่ยวกับความสัมพันธ์กับบุคคลนั้น",
-        "hanzi": "我和我的姐姐关系很好，经常一起出去玩。",
-        "pinyin": "Wǒ hé wǒ de 姐姐 guānxi hěn hǎo, jīngcháng yīqǐ chūqù wán.",
-        "thaiMeaning": "ฉันกับพี่สาวสนิทกันมาก ชอบออกไปเที่ยวด้วยกันบ่อยๆ"
-      },
-      {
-        "scenario": "ถามสอบถามสารทุกข์สุกดิบของบุคคลนั้น",
-        "hanzi": "你的姐姐最近怎么样？有没有问题？",
-        "pinyin": "Nǐ de 姐姐 zuìjìn zěnmeyàng? Yǒu méiyǒu wèntí?",
-        "thaiMeaning": "พี่สาวของคุณช่วงนี้เป็นยังไงบ้าง? มีปัญหาอะไรไหม?"
+        "hanzi": "我姐姐。",
+        "pinyin": "Wǒ jiějie.",
+        "thaiMeaning": "พี่สาวฉัน"
       }
     ]
   },
@@ -3397,22 +1980,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个弟弟，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 弟弟, xièxie!",
-        "thaiMeaning": "ขอสั่งน้องชายหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的弟弟，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 弟弟, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองน้องชายที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃弟弟，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 弟弟, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินน้องชายมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "我弟弟。",
+        "pinyin": "Wǒ dìdi.",
+        "thaiMeaning": "น้องชายฉัน"
       }
     ]
   },
@@ -3428,22 +1998,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"มอง\"",
         "hanzi": "看书。",
         "pinyin": "Kàn shū.",
         "thaiMeaning": "อ่านหนังสือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"มอง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有看的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu kàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องมองไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"มอง\"",
-        "hanzi": "对我来说，看是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, kàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว มองเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -3459,22 +2016,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ฟัง\"",
-        "hanzi": "请你用中文听给我。",
-        "pinyin": "Qǐng nǐ yòng zhōngwén tīng gěi wǒ.",
-        "thaiMeaning": "ช่วยฟังให้ฉันเป็นภาษาจีนหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ฟัง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有听的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tīng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องฟังไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ฟัง\"",
-        "hanzi": "对我来说，听是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tīng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ฟังเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "听音乐。",
+        "pinyin": "Tīng yīnyuè.",
+        "thaiMeaning": "ฟังเพลง"
       }
     ]
   },
@@ -3490,22 +2034,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"พูด\"",
-        "hanzi": "请你用中文说给我。",
-        "pinyin": "Qǐng nǐ yòng zhōngwén shuō gěi wǒ.",
-        "thaiMeaning": "ช่วยพูดให้ฉันเป็นภาษาจีนหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"พูด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有说的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shuō de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องพูดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"พูด\"",
-        "hanzi": "对我来说，说是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shuō shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว พูดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "说话。",
+        "pinyin": "Shuōhuà.",
+        "thaiMeaning": "พูดคุย"
       }
     ]
   },
@@ -3521,22 +2052,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เขียน\"",
-        "hanzi": "请你用中文写给我。",
-        "pinyin": "Qǐng nǐ yòng zhōngwén xiě gěi wǒ.",
-        "thaiMeaning": "ช่วยเขียนให้ฉันเป็นภาษาจีนหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เขียน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有写的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiě de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเขียนไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เขียน\"",
-        "hanzi": "对我来说，写是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiě shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เขียนเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "写字。",
+        "pinyin": "Xiě zì.",
+        "thaiMeaning": "เขียนหนังสือ"
       }
     ]
   },
@@ -3552,22 +2070,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการให้เพื่อนหรือคนในครอบครัวรับรู้",
-        "hanzi": "我今天有点想，不太舒服。",
-        "pinyin": "Wǒ jīntiān yǒudiǎn 想, bù tài shūfu.",
-        "thaiMeaning": "วันนี้ฉันอยากนิดหน่อย รู้สึกไม่ค่อยสบายเลย"
-      },
-      {
-        "scenario": "ขอลาหยุดเพราะไม่สบาย",
-        "hanzi": "我今天想很严重，想请假休息一天。",
-        "pinyin": "Wǒ jīntiān 想 hěn yánzhòng, xiǎng qǐngjià xiūxi yī tiān.",
-        "thaiMeaning": "วันนี้ฉันอยากหนักมาก อยากขอลาหยุดพักหนึ่งวัน"
-      },
-      {
-        "scenario": "ปรึกษาแพทย์หรืออธิบายอาการในโรงพยาบาล",
-        "hanzi": "医生，我从昨天开始想，您帮我看看吧。",
-        "pinyin": "Yīshēng, wǒ cóng zuótiān kāishǐ 想, nín bāng wǒ kàn kàn ba.",
-        "thaiMeaning": "หมอคะ ฉันเริ่มอยากมาตั้งแต่เมื่อวาน รบกวนช่วยตรวจให้ด้วยนะ"
+        "hanzi": "你想吃什么？",
+        "pinyin": "Nǐ xiǎng chī shénme?",
+        "thaiMeaning": "คุณอยากกินอะไร"
       }
     ]
   },
@@ -3583,22 +2088,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"รู้\"",
         "hanzi": "我知道了。",
         "pinyin": "Wǒ zhīdào le.",
         "thaiMeaning": "ฉันรู้แล้ว"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"รู้\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有知道的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhīdào de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องรู้ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"รู้\"",
-        "hanzi": "对我来说，知道是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhīdào shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว รู้เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -3614,22 +2106,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"รู้จัก\"",
         "hanzi": "很高兴认识你。",
         "pinyin": "Hěn gāoxìng rènshi nǐ.",
         "thaiMeaning": "ดีใจที่ได้รู้จักคุณ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"รู้จัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有认识的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènshi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องรู้จักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"รู้จัก\"",
-        "hanzi": "对我来说，认识是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènshi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว รู้จักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -3645,22 +2124,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ฟังเข้าใจ\"",
-        "hanzi": "请你用中文听懂给我。",
-        "pinyin": "Qǐng nǐ yòng zhōngwén tīngdǒng gěi wǒ.",
-        "thaiMeaning": "ช่วยฟังเข้าใจให้ฉันเป็นภาษาจีนหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ฟังเข้าใจ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有听懂的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tīngdǒng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องฟังเข้าใจไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ฟังเข้าใจ\"",
-        "hanzi": "对我来说，听懂是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tīngdǒng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ฟังเข้าใจเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "听懂了。",
+        "pinyin": "Tīngdǒng le.",
+        "thaiMeaning": "ฟังเข้าใจแล้ว"
       }
     ]
   },
@@ -3676,22 +2142,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ช่วยเหลือ\"",
         "hanzi": "需要帮助。",
         "pinyin": "Xūyào bāngzhù.",
         "thaiMeaning": "ต้องการความช่วยเหลือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ช่วยเหลือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有帮助的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bāngzhù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องช่วยเหลือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ช่วยเหลือ\"",
-        "hanzi": "对我来说，帮助是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bāngzhù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ช่วยเหลือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -3707,22 +2160,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หา\"",
         "hanzi": "找东西。",
         "pinyin": "Zhǎo dōngxi.",
         "thaiMeaning": "หาของ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หา\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有找的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหาไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หา\"",
-        "hanzi": "对我来说，找是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หาเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -3738,22 +2178,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很大，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 大, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้ใหญ่จริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个大多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 大 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นใหญ่กว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太大了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 大 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้ใหญ่เกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "很大。",
+        "pinyin": "Hěn dà.",
+        "thaiMeaning": "ใหญ่มาก"
       }
     ]
   },
@@ -3769,22 +2196,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很小，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 小, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้เล็กจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个小多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 小 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นเล็กกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太小了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 小 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้เล็กเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "太小了。",
+        "pinyin": "Tài xiǎo le.",
+        "thaiMeaning": "เล็กเกินไป"
       }
     ]
   },
@@ -3800,22 +2214,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"มาก\"",
         "hanzi": "很多。",
         "pinyin": "Hěn duō.",
         "thaiMeaning": "เยอะมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"มาก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有多的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu duō de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องมากไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"มาก\"",
-        "hanzi": "对我来说，多是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, duō shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว มากเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -3831,22 +2232,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"น้อย\"",
         "hanzi": "减少。",
         "pinyin": "Jiǎnshǎo.",
         "thaiMeaning": "ลดน้อยลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"น้อย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องน้อยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"น้อย\"",
-        "hanzi": "对我来说，少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว น้อยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -3862,22 +2250,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很高，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 高, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สูงจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个高多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 高 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสูงกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太高了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 高 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สูงเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "很高。",
+        "pinyin": "Hěn gāo.",
+        "thaiMeaning": "สูงมาก"
       }
     ]
   },
@@ -3893,22 +2268,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很矮，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 矮, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้เตี้ยจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个矮多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 矮 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นเตี้ยกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太矮了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 矮 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้เตี้ยเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "有点矮。",
+        "pinyin": "Yǒudiǎnr ǎi.",
+        "thaiMeaning": "ค่อนข้างเตี้ย"
       }
     ]
   },
@@ -3924,22 +2286,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很重，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 重, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้หนักจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个重多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 重 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นหนักกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太重了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 重 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้หนักเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "太重了。",
+        "pinyin": "Tài zhòng le.",
+        "thaiMeaning": "หนักเกินไป"
       }
     ]
   },
@@ -3955,22 +2304,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很轻，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 轻, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้เบาจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个轻多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 轻 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นเบากว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太轻了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 轻 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้เบาเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "很轻。",
+        "pinyin": "Hěn qīng.",
+        "thaiMeaning": "เบามาก"
       }
     ]
   },
@@ -3986,22 +2322,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很新，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 新, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้ใหม่จริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个新多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 新 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นใหม่กว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太新了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 新 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้ใหม่เกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "买新书。",
+        "pinyin": "Mǎi xīn shū.",
+        "thaiMeaning": "ซื้อหนังสือใหม่"
       }
     ]
   },
@@ -4017,22 +2340,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很旧，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 旧, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้เก่าจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个旧多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 旧 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นเก่ากว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太旧了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 旧 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้เก่าเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "旧鞋子。",
+        "pinyin": "Jiù xiézi.",
+        "thaiMeaning": "รองเท้าเก่า"
       }
     ]
   },
@@ -4048,22 +2358,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ฉัน\"",
-        "hanzi": "我的我对我影响很大。",
-        "pinyin": "Wǒ de wǒ duì wǒ yǐngxiǎng hěn dà.",
-        "thaiMeaning": "ฉันของฉันมีอิทธิพลต่อฉันมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ฉัน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有我的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu wǒ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องฉันไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ฉัน\"",
-        "hanzi": "对我来说，我是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, wǒ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ฉันเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "我是。",
+        "pinyin": "Wǒ shì.",
+        "thaiMeaning": "ฉันคือ"
       }
     ]
   },
@@ -4079,22 +2376,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คุณ\"",
-        "hanzi": "我的你对我影响很大。",
-        "pinyin": "Wǒ de nǐ duì wǒ yǐngxiǎng hěn dà.",
-        "thaiMeaning": "คุณของฉันมีอิทธิพลต่อฉันมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คุณ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有你的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu nǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคุณไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คุณ\"",
-        "hanzi": "对我来说，你是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, nǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คุณเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "你好。",
+        "pinyin": "Nǐ hǎo.",
+        "thaiMeaning": "สวัสดีคุณ"
       }
     ]
   },
@@ -4110,22 +2394,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的他从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 他 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "เขา (ผู้ชาย)ของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的他很有特色，很容易认出他。",
-        "pinyin": "Tā de 他 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "เขา (ผู้ชาย)ของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的他，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 他, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลเขา (ผู้ชาย)ของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "他是。",
+        "pinyin": "Tā shì.",
+        "thaiMeaning": "เขาคือ"
       }
     ]
   },
@@ -4141,22 +2412,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เธอ (ผู้หญิง)\"",
-        "hanzi": "我的她对我影响很大。",
-        "pinyin": "Wǒ de tā duì wǒ yǐngxiǎng hěn dà.",
-        "thaiMeaning": "เธอ (ผู้หญิง)ของฉันมีอิทธิพลต่อฉันมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เธอ (ผู้หญิง)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有她的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเธอ (ผู้หญิง)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เธอ (ผู้หญิง)\"",
-        "hanzi": "对我来说，她是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เธอ (ผู้หญิง)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "她是。",
+        "pinyin": "Tā shì.",
+        "thaiMeaning": "เธอคือ"
       }
     ]
   },
@@ -4172,22 +2430,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"พวกเรา\"",
-        "hanzi": "我的我们对我影响很大。",
-        "pinyin": "Wǒ de wǒmen duì wǒ yǐngxiǎng hěn dà.",
-        "thaiMeaning": "พวกเราของฉันมีอิทธิพลต่อฉันมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"พวกเรา\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有我们的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu wǒmen de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องพวกเราไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"พวกเรา\"",
-        "hanzi": "对我来说，我们是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, wǒmen shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว พวกเราเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "我们走。",
+        "pinyin": "Wǒmen zǒu.",
+        "thaiMeaning": "พวกเราไปกัน"
       }
     ]
   },
@@ -4203,22 +2448,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อะไร\"",
-        "hanzi": "这是什么。",
-        "pinyin": "Zhè shì shénme.",
+        "hanzi": "这是什么？",
+        "pinyin": "Zhè shì shénme?",
         "thaiMeaning": "นี่คืออะไร"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อะไร\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有什么的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shénme de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอะไรไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อะไร\"",
-        "hanzi": "对我来说，什么是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shénme shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อะไรเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -4234,22 +2466,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ใคร\"",
-        "hanzi": "他是谁。",
-        "pinyin": "Tā shì shéi.",
+        "hanzi": "他是谁？",
+        "pinyin": "Tā shì shéi?",
         "thaiMeaning": "เขาคือใคร"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ใคร\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有谁的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shéi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องใครไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ใคร\"",
-        "hanzi": "对我来说，谁是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shéi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ใครเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -4265,22 +2484,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อย่างไร\"",
-        "hanzi": "怎么走。",
-        "pinyin": "Zěnme zǒu.",
+        "hanzi": "怎么走？",
+        "pinyin": "Zěnme zǒu?",
         "thaiMeaning": "ไปยังไง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อย่างไร\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有怎么的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zěnme de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอย่างไรไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อย่างไร\"",
-        "hanzi": "对我来说，怎么是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zěnme shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อย่างไรเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -4296,22 +2502,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำไม\"",
-        "hanzi": "为什么。",
-        "pinyin": "Wèishénme.",
+        "hanzi": "为什么？",
+        "pinyin": "Wèishénme?",
         "thaiMeaning": "ทำไมล่ะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำไม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有为什么的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu wèishénme de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำไมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำไม\"",
-        "hanzi": "对我来说，为什么是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, wèishénme shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำไมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -4327,22 +2520,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ที่ไหน\"",
-        "hanzi": "去哪儿。",
-        "pinyin": "Qù nǎr.",
+        "hanzi": "去哪儿？",
+        "pinyin": "Qù nǎr?",
         "thaiMeaning": "ไปที่ไหน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ที่ไหน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有哪儿的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu nǎr de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องที่ไหนไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ที่ไหน\"",
-        "hanzi": "对我来说，哪儿是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, nǎr shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ที่ไหนเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -4358,22 +2538,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอบคุณเพื่อนที่ช่วยยกของหนักหรือช่วยงาน",
-        "hanzi": "帮了我这么多，真的谢谢你！",
-        "pinyin": "Bāng le wǒ zhème duō, zhēn de xièxie nǐ!",
-        "thaiMeaning": "ช่วยฉันเยอะมากเลย ขอบคุณมากๆ จริงๆ!"
-      },
-      {
-        "scenario": "รับของขวัญหรือสิ่งที่คนอื่นซื้อมาฝาก",
-        "hanzi": "哇，你买了这个给我？谢谢，我很喜欢！",
-        "pinyin": "Wā, nǐ mǎi le zhège gěi wǒ? Xièxie, wǒ hěn xǐhuan!",
-        "thaiMeaning": "ว้าว คุณซื้อสิ่งนี้มาให้ฉันเหรอ? ขอบคุณ ชอบมากๆ เลย!"
-      },
-      {
-        "scenario": "ขอบคุณพนักงานร้านหรือแม่ค้าหลังรับสินค้า",
-        "hanzi": "好了，我拿到了，谢谢你！",
-        "pinyin": "Hǎo le, wǒ ná dào le, xièxie nǐ!",
-        "thaiMeaning": "โอเค ได้รับแล้ว ขอบคุณนะ!"
+        "hanzi": "谢谢你。",
+        "pinyin": "Xièxie nǐ.",
+        "thaiMeaning": "ขอบคุณนะ"
       }
     ]
   },
@@ -4389,22 +2556,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ด้วยความยินดี\"",
         "hanzi": "不用谢，不客气。",
         "pinyin": "Bú yòng xiè, bú kèqi.",
         "thaiMeaning": "ไม่ต้องขอบคุณ ด้วยความยินดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ด้วยความยินดี\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有不客气的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bú kèqi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องด้วยความยินดีไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ด้วยความยินดี\"",
-        "hanzi": "对我来说，不客气是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bú kèqi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ด้วยความยินดีเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -4420,22 +2574,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอโทษที่มาสายนัดหรือประชุม",
-        "hanzi": "对不起，我今天堵车，来晚了。",
-        "pinyin": "Duìbuqǐ, wǒ jīntiān dǔchē, lái wǎn le.",
-        "thaiMeaning": "ขอโทษนะ วันนี้รถติด เลยมาสาย"
-      },
-      {
-        "scenario": "ขอโทษที่ทำของเพื่อนหาย พัง หรือเสียหาย",
-        "hanzi": "真的对不起，我不小心弄坏了你的东西。",
-        "pinyin": "Zhēn de duìbuqǐ, wǒ bù xiǎoxīn nòng huài le nǐ de dōngxi.",
-        "thaiMeaning": "ขอโทษจริงๆ ฉันไม่ระวังทำของของคุณพัง"
-      },
-      {
-        "scenario": "ขอโทษเพื่อนที่พูดอะไรบางอย่างแล้วทำให้เจ็บใจ",
-        "hanzi": "我说错话了，对不起，我不是那个意思。",
-        "pinyin": "Wǒ shuō cuò huà le, duìbuqǐ, wǒ bù shì nàge yìsi.",
-        "thaiMeaning": "ฉันพูดผิดไป ขอโทษ ฉันไม่ได้หมายความแบบนั้น"
+        "hanzi": "对不起，我迟到了。",
+        "pinyin": "Duìbuqǐ, wǒ chídào le.",
+        "thaiMeaning": "ขอโทษด้วย ฉันมาสาย"
       }
     ]
   },
@@ -4451,22 +2592,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เชิญ\"",
         "hanzi": "请坐。",
         "pinyin": "Qǐng zuò.",
         "thaiMeaning": "เชิญนั่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เชิญ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有请的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu qǐng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเชิญไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เชิญ\"",
-        "hanzi": "对我来说，请是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, qǐng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เชิญเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -4482,22 +2610,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "欢迎，你太客气了！",
-        "pinyin": "huānyíng, nǐ tài kèqi le!",
-        "thaiMeaning": "ยินดีต้อนรับ คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得欢迎！",
-        "pinyin": "Shuō zhēn de, wǒ juéde huānyíng!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกยินดีต้อนรับ เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，欢迎！你说得对。",
-        "pinyin": "En, huānyíng! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม ยินดีต้อนรับ! คุณพูดถูก"
+        "hanzi": "欢迎光临。",
+        "pinyin": "Huānyíng guānglín.",
+        "thaiMeaning": "ยินดีต้อนรับครับ"
       }
     ]
   },
@@ -4513,22 +2628,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "当然，你太客气了！",
-        "pinyin": "dāngrán, nǐ tài kèqi le!",
-        "thaiMeaning": "แน่นอน คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得当然！",
-        "pinyin": "Shuō zhēn de, wǒ juéde dāngrán!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกแน่นอน เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，当然！你说得对。",
-        "pinyin": "En, dāngrán! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม แน่นอน! คุณพูดถูก"
+        "hanzi": "当然可以。",
+        "pinyin": "Dāngrán kěyǐ.",
+        "thaiMeaning": "ย่อมได้แน่นอน"
       }
     ]
   },
@@ -4544,22 +2646,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ได้\"",
         "hanzi": "没问题，可以。",
         "pinyin": "Méi wèntí, kěyǐ.",
         "thaiMeaning": "ไม่มีปัญหา ได้เลย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ได้\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有可以的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu kěyǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องได้ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ได้\"",
-        "hanzi": "对我来说，可以是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, kěyǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ได้เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -4575,22 +2664,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "没问题，你太客气了！",
-        "pinyin": "méi wèntí, nǐ tài kèqi le!",
-        "thaiMeaning": "ไม่มีปัญหา คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得没问题！",
-        "pinyin": "Shuō zhēn de, wǒ juéde méi wèntí!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกไม่มีปัญหา เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，没问题！你说得对。",
-        "pinyin": "En, méi wèntí! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม ไม่มีปัญหา! คุณพูดถูก"
+        "hanzi": "好的，没问题。",
+        "pinyin": "Hǎo de, méi wèntí.",
+        "thaiMeaning": "โอเค ไม่มีปัญหา"
       }
     ]
   },
@@ -4606,22 +2682,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชนแก้ว\"",
-        "hanzi": "可以借我你的干杯用一下吗？",
-        "pinyin": "Kěyǐ jiè wǒ nǐ de gānbēi yòng yīxià ma?",
-        "thaiMeaning": "ขอยืมชนแก้วของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชนแก้ว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有干杯的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu gānbēi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชนแก้วไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชนแก้ว\"",
-        "hanzi": "对我来说，干杯是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, gānbēi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชนแก้วเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "大家干杯！",
+        "pinyin": "Dàjiā gānbēi!",
+        "thaiMeaning": "ทุกคนชนแก้ว!"
       }
     ]
   },
@@ -4637,22 +2700,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ดูแลตัวเองด้วย\"",
         "hanzi": "多保重。",
         "pinyin": "Duō bǎozhòng.",
         "thaiMeaning": "ดูแลตัวเองด้วยนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ดูแลตัวเองด้วย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有保重的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bǎozhòng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องดูแลตัวเองด้วยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ดูแลตัวเองด้วย\"",
-        "hanzi": "对我来说，保重是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bǎozhòng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ดูแลตัวเองด้วยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -4668,22 +2718,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ฟ้า\"",
         "hanzi": "晴天。",
         "pinyin": "Qíngtiān.",
         "thaiMeaning": "ท้องฟ้าแจ่มใส"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ฟ้า\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有天的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tiān de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องฟ้าไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ฟ้า\"",
-        "hanzi": "对我来说，天是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tiān shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ฟ้าเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -4699,22 +2736,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"พระอาทิตย์\"",
-        "hanzi": "今天有太阳，记得带好雨伞。",
-        "pinyin": "Jīntiān yǒu tàiyáng, jìde dài hǎo yǔsǎn.",
-        "thaiMeaning": "วันนี้มีพระอาทิตย์ อย่าลืมพกร่มไปด้วยนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"พระอาทิตย์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有太阳的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàiyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องพระอาทิตย์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"พระอาทิตย์\"",
-        "hanzi": "对我来说，太阳是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàiyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว พระอาทิตย์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "太阳升起。",
+        "pinyin": "Tàiyáng shēngqǐ.",
+        "thaiMeaning": "ดวงอาทิตย์ขึ้น"
       }
     ]
   },
@@ -4730,22 +2754,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"พระจันทร์\"",
-        "hanzi": "今天有月亮，记得带好雨伞。",
-        "pinyin": "Jīntiān yǒu yuèliang, jìde dài hǎo yǔsǎn.",
-        "thaiMeaning": "วันนี้มีพระจันทร์ อย่าลืมพกร่มไปด้วยนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"พระจันทร์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有月亮的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yuèliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องพระจันทร์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"พระจันทร์\"",
-        "hanzi": "对我来说，月亮是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yuèliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว พระจันทร์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "月亮很圆。",
+        "pinyin": "Yuèliang hěn yuán.",
+        "thaiMeaning": "พระจันทร์กลมโต"
       }
     ]
   },
@@ -4761,22 +2772,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลม\"",
-        "hanzi": "今天有风，记得带好雨伞。",
-        "pinyin": "Jīntiān yǒu fēng, jìde dài hǎo yǔsǎn.",
-        "thaiMeaning": "วันนี้มีลม อย่าลืมพกร่มไปด้วยนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有风的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลม\"",
-        "hanzi": "对我来说，风是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "刮风了。",
+        "pinyin": "Guāfēng le.",
+        "thaiMeaning": "ลมพัดแล้ว"
       }
     ]
   },
@@ -4792,22 +2790,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ฝน\"",
-        "hanzi": "今天有雨，记得带好雨伞。",
-        "pinyin": "Jīntiān yǒu yǔ, jìde dài hǎo yǔsǎn.",
-        "thaiMeaning": "วันนี้มีฝน อย่าลืมพกร่มไปด้วยนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ฝน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有雨的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yǔ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องฝนไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ฝน\"",
-        "hanzi": "对我来说，雨是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yǔ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ฝนเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "下雨了。",
+        "pinyin": "Xiàyǔ le.",
+        "thaiMeaning": "ฝนตกแล้ว"
       }
     ]
   },
@@ -4823,22 +2808,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หิมะ\"",
-        "hanzi": "今天有雪，记得带好雨伞。",
-        "pinyin": "Jīntiān yǒu xuě, jìde dài hǎo yǔsǎn.",
-        "thaiMeaning": "วันนี้มีหิมะ อย่าลืมพกร่มไปด้วยนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หิมะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有雪的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xuě de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหิมะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หิมะ\"",
-        "hanzi": "对我来说，雪是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xuě shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หิมะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "下雪了。",
+        "pinyin": "Xiàxuě le.",
+        "thaiMeaning": "หิมะตกแล้ว"
       }
     ]
   },
@@ -4854,22 +2826,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ก้อนเมฆ\"",
-        "hanzi": "今天有云，记得带好雨伞。",
-        "pinyin": "Jīntiān yǒu yún, jìde dài hǎo yǔsǎn.",
-        "thaiMeaning": "วันนี้มีก้อนเมฆ อย่าลืมพกร่มไปด้วยนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ก้อนเมฆ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有云的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yún de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องก้อนเมฆไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ก้อนเมฆ\"",
-        "hanzi": "对我来说，云是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yún shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ก้อนเมฆเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "白云。",
+        "pinyin": "Bái yún.",
+        "thaiMeaning": "เมฆสีขาว"
       }
     ]
   },
@@ -4885,22 +2844,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的花从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 花 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "ดอกไม้ของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的花很有特色，很容易认出他。",
-        "pinyin": "Tā de 花 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "ดอกไม้ของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的花，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 花, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลดอกไม้ของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "看花。",
+        "pinyin": "Kàn huā.",
+        "thaiMeaning": "ชมดอกไม้"
       }
     ]
   },
@@ -4916,22 +2862,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หญ้า\"",
         "hanzi": "绿草。",
         "pinyin": "Lǜ cǎo.",
         "thaiMeaning": "หญ้าสีเขียว"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หญ้า\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有草的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu cǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหญ้าไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หญ้า\"",
-        "hanzi": "对我来说，草是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, cǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หญ้าเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -4947,22 +2880,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ต้นไม้\"",
         "hanzi": "大树。",
         "pinyin": "Dà shù.",
         "thaiMeaning": "ต้นไม้ใหญ่"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ต้นไม้\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有树的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องต้นไม้ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ต้นไม้\"",
-        "hanzi": "对我来说，树是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ต้นไม้เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -4978,22 +2898,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องสัตว์เลี้ยงที่บ้าน",
-        "hanzi": "我家有一只狗，它超级可爱！",
-        "pinyin": "Wǒ jiā yǒu yī zhī 狗, tā chāojí kě'ài!",
-        "thaiMeaning": "บ้านฉันมีสุนัขตัวนึง น่ารักมากเลย!"
-      },
-      {
-        "scenario": "คุยกับเด็กหรืออธิบายสัตว์ให้คนอื่นรู้จัก",
-        "hanzi": "你看那只狗！它在那边跑来跑去。",
-        "pinyin": "Nǐ kàn nà zhī 狗! Tā zài nàbian pǎo lái pǎo qù.",
-        "thaiMeaning": "ดูสิ สุนัขตัวนั้น! มันวิ่งไปวิ่งมาอยู่ตรงโน้น"
-      },
-      {
-        "scenario": "แนะนำเมนูอาหารที่ทำจากเนื้อสัตว์นั้น",
-        "hanzi": "这道菜用狗做的，味道很好，你要不要试试？",
-        "pinyin": "Zhè dào cài yòng 狗 zuò de, wèidào hěn hǎo, nǐ yào bù yào shìshi?",
-        "thaiMeaning": "เมนูนี้ทำจากสุนัข รสชาติดีมาก อยากลองไหม?"
+        "hanzi": "小狗。",
+        "pinyin": "Xiǎo gǒu.",
+        "thaiMeaning": "ลูกหมา"
       }
     ]
   },
@@ -5009,22 +2916,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องสัตว์เลี้ยงที่บ้าน",
-        "hanzi": "我家有一只猫，它超级可爱！",
-        "pinyin": "Wǒ jiā yǒu yī zhī 猫, tā chāojí kě'ài!",
-        "thaiMeaning": "บ้านฉันมีแมวตัวนึง น่ารักมากเลย!"
-      },
-      {
-        "scenario": "คุยกับเด็กหรืออธิบายสัตว์ให้คนอื่นรู้จัก",
-        "hanzi": "你看那只猫！它在那边跑来跑去。",
-        "pinyin": "Nǐ kàn nà zhī 猫! Tā zài nàbian pǎo lái pǎo qù.",
-        "thaiMeaning": "ดูสิ แมวตัวนั้น! มันวิ่งไปวิ่งมาอยู่ตรงโน้น"
-      },
-      {
-        "scenario": "แนะนำเมนูอาหารที่ทำจากเนื้อสัตว์นั้น",
-        "hanzi": "这道菜用猫做的，味道很好，你要不要试试？",
-        "pinyin": "Zhè dào cài yòng 猫 zuò de, wèidào hěn hǎo, nǐ yào bù yào shìshi?",
-        "thaiMeaning": "เมนูนี้ทำจากแมว รสชาติดีมาก อยากลองไหม?"
+        "hanzi": "养猫。",
+        "pinyin": "Yǎng māo.",
+        "thaiMeaning": "เลี้ยงแมว"
       }
     ]
   },
@@ -5040,22 +2934,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องสัตว์เลี้ยงที่บ้าน",
-        "hanzi": "我家有一只鸟，它超级可爱！",
-        "pinyin": "Wǒ jiā yǒu yī zhī 鸟, tā chāojí kě'ài!",
-        "thaiMeaning": "บ้านฉันมีนกตัวนึง น่ารักมากเลย!"
-      },
-      {
-        "scenario": "คุยกับเด็กหรืออธิบายสัตว์ให้คนอื่นรู้จัก",
-        "hanzi": "你看那只鸟！它在那边跑来跑去。",
-        "pinyin": "Nǐ kàn nà zhī 鸟! Tā zài nàbian pǎo lái pǎo qù.",
-        "thaiMeaning": "ดูสิ นกตัวนั้น! มันวิ่งไปวิ่งมาอยู่ตรงโน้น"
-      },
-      {
-        "scenario": "แนะนำเมนูอาหารที่ทำจากเนื้อสัตว์นั้น",
-        "hanzi": "这道菜用鸟做的，味道很好，你要不要试试？",
-        "pinyin": "Zhè dào cài yòng 鸟 zuò de, wèidào hěn hǎo, nǐ yào bù yào shìshi?",
-        "thaiMeaning": "เมนูนี้ทำจากนก รสชาติดีมาก อยากลองไหม?"
+        "hanzi": "飞鸟。",
+        "pinyin": "Fēi niǎo.",
+        "thaiMeaning": "นกบิน"
       }
     ]
   },
@@ -5071,22 +2952,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个猪，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 猪, xièxie!",
-        "thaiMeaning": "ขอสั่งหมูหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的猪，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 猪, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองหมูที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃猪，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 猪, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินหมูมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "猪肉。",
+        "pinyin": "Zhūròu.",
+        "thaiMeaning": "เนื้อหมู"
       }
     ]
   },
@@ -5102,22 +2970,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องสัตว์เลี้ยงที่บ้าน",
-        "hanzi": "我家有一只牛，它超级可爱！",
-        "pinyin": "Wǒ jiā yǒu yī zhī 牛, tā chāojí kě'ài!",
-        "thaiMeaning": "บ้านฉันมีวัวตัวนึง น่ารักมากเลย!"
-      },
-      {
-        "scenario": "คุยกับเด็กหรืออธิบายสัตว์ให้คนอื่นรู้จัก",
-        "hanzi": "你看那只牛！它在那边跑来跑去。",
-        "pinyin": "Nǐ kàn nà zhī 牛! Tā zài nàbian pǎo lái pǎo qù.",
-        "thaiMeaning": "ดูสิ วัวตัวนั้น! มันวิ่งไปวิ่งมาอยู่ตรงโน้น"
-      },
-      {
-        "scenario": "แนะนำเมนูอาหารที่ทำจากเนื้อสัตว์นั้น",
-        "hanzi": "这道菜用牛做的，味道很好，你要不要试试？",
-        "pinyin": "Zhè dào cài yòng 牛 zuò de, wèidào hěn hǎo, nǐ yào bù yào shìshi?",
-        "thaiMeaning": "เมนูนี้ทำจากวัว รสชาติดีมาก อยากลองไหม?"
+        "hanzi": "黄牛。",
+        "pinyin": "Huángniú.",
+        "thaiMeaning": "วัว"
       }
     ]
   },
@@ -5133,22 +2988,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องสัตว์เลี้ยงที่บ้าน",
-        "hanzi": "我家有一只羊，它超级可爱！",
-        "pinyin": "Wǒ jiā yǒu yī zhī 羊, tā chāojí kě'ài!",
-        "thaiMeaning": "บ้านฉันมีแกะตัวนึง น่ารักมากเลย!"
-      },
-      {
-        "scenario": "คุยกับเด็กหรืออธิบายสัตว์ให้คนอื่นรู้จัก",
-        "hanzi": "你看那只羊！它在那边跑来跑去。",
-        "pinyin": "Nǐ kàn nà zhī 羊! Tā zài nàbian pǎo lái pǎo qù.",
-        "thaiMeaning": "ดูสิ แกะตัวนั้น! มันวิ่งไปวิ่งมาอยู่ตรงโน้น"
-      },
-      {
-        "scenario": "แนะนำเมนูอาหารที่ทำจากเนื้อสัตว์นั้น",
-        "hanzi": "这道菜用羊做的，味道很好，你要不要试试？",
-        "pinyin": "Zhè dào cài yòng 羊 zuò de, wèidào hěn hǎo, nǐ yào bù yào shìshi?",
-        "thaiMeaning": "เมนูนี้ทำจากแกะ รสชาติดีมาก อยากลองไหม?"
+        "hanzi": "羊肉。",
+        "pinyin": "Yángròu.",
+        "thaiMeaning": "เนื้อแกะ"
       }
     ]
   },
@@ -5164,22 +3006,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องสัตว์เลี้ยงที่บ้าน",
-        "hanzi": "我家有一只马，它超级可爱！",
-        "pinyin": "Wǒ jiā yǒu yī zhī 马, tā chāojí kě'ài!",
-        "thaiMeaning": "บ้านฉันมีม้าตัวนึง น่ารักมากเลย!"
-      },
-      {
-        "scenario": "คุยกับเด็กหรืออธิบายสัตว์ให้คนอื่นรู้จัก",
-        "hanzi": "你看那只马！它在那边跑来跑去。",
-        "pinyin": "Nǐ kàn nà zhī 马! Tā zài nàbian pǎo lái pǎo qù.",
-        "thaiMeaning": "ดูสิ ม้าตัวนั้น! มันวิ่งไปวิ่งมาอยู่ตรงโน้น"
-      },
-      {
-        "scenario": "แนะนำเมนูอาหารที่ทำจากเนื้อสัตว์นั้น",
-        "hanzi": "这道菜用马做的，味道很好，你要不要试试？",
-        "pinyin": "Zhè dào cài yòng 马 zuò de, wèidào hěn hǎo, nǐ yào bù yào shìshi?",
-        "thaiMeaning": "เมนูนี้ทำจากม้า รสชาติดีมาก อยากลองไหม?"
+        "hanzi": "骑马。",
+        "pinyin": "Qí mǎ.",
+        "thaiMeaning": "ขี่ม้า"
       }
     ]
   },
@@ -5195,22 +3024,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个鸭，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 鸭, xièxie!",
-        "thaiMeaning": "ขอสั่งเป็ดหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的鸭，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 鸭, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองเป็ดที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃鸭，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 鸭, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินเป็ดมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "烤鸭。",
+        "pinyin": "Kǎoyā.",
+        "thaiMeaning": "เป็ดย่าง"
       }
     ]
   },
@@ -5226,22 +3042,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的头从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 头 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "ศีรษะของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的头很有特色，很容易认出他。",
-        "pinyin": "Tā de 头 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "ศีรษะของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的头，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 头, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลศีรษะของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "低头。",
+        "pinyin": "Dī tóu.",
+        "thaiMeaning": "ก้มหัว"
       }
     ]
   },
@@ -5257,22 +3060,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的眼睛从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 眼睛 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "ดวงตาของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的眼睛很有特色，很容易认出他。",
-        "pinyin": "Tā de 眼睛 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "ดวงตาของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的眼睛，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 眼睛, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลดวงตาของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "大眼睛。",
+        "pinyin": "Dà yǎnjīng.",
+        "thaiMeaning": "ตากลมโต"
       }
     ]
   },
@@ -5288,22 +3078,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的耳朵从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 耳朵 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "หูของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的耳朵很有特色，很容易认出他。",
-        "pinyin": "Tā de 耳朵 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "หูของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的耳朵，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 耳朵, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลหูของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "听耳朵。",
+        "pinyin": "Tīng ěrduo.",
+        "thaiMeaning": "ฟังด้วยหู"
       }
     ]
   },
@@ -5319,22 +3096,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的鼻子从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 鼻子 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "จมูกของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的鼻子很有特色，很容易认出他。",
-        "pinyin": "Tā de 鼻子 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "จมูกของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的鼻子，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 鼻子, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลจมูกของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "高鼻子。",
+        "pinyin": "Gāo bízi.",
+        "thaiMeaning": "จมูกโด่ง"
       }
     ]
   },
@@ -5350,22 +3114,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的嘴巴从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 嘴巴 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "ปากของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的嘴巴很有特色，很容易认出他。",
-        "pinyin": "Tā de 嘴巴 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "ปากของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的嘴巴，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 嘴巴, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลปากของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "张嘴。",
+        "pinyin": "Zhāng zuǐ.",
+        "thaiMeaning": "อ้าปาก"
       }
     ]
   },
@@ -5381,22 +3132,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的手从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 手 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "มือของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的手很有特色，很容易认出他。",
-        "pinyin": "Tā de 手 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "มือของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的手，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 手, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลมือของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "洗手。",
+        "pinyin": "Xǐ shǒu.",
+        "thaiMeaning": "ล้างมือ"
       }
     ]
   },
@@ -5412,22 +3150,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的脚从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 脚 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "เท้าของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的脚很有特色，很容易认出他。",
-        "pinyin": "Tā de 脚 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "เท้าของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的脚，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 脚, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลเท้าของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "洗脚。",
+        "pinyin": "Xǐ jiǎo.",
+        "thaiMeaning": "ล้างเท้า"
       }
     ]
   },
@@ -5443,22 +3168,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的头发从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 头发 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "เส้นผมของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的头发很有特色，很容易认出他。",
-        "pinyin": "Tā de 头发 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "เส้นผมของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的头发，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 头发, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลเส้นผมของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "洗头发。",
+        "pinyin": "Xǐ tóufa.",
+        "thaiMeaning": "สระผม"
       }
     ]
   },
@@ -5474,22 +3186,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的牙齿从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 牙齿 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "ฟันของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的牙齿很有特色，很容易认出他。",
-        "pinyin": "Tā de 牙齿 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "ฟันของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的牙齿，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 牙齿, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลฟันของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "刷牙齿。",
+        "pinyin": "Shuā yáchǐ.",
+        "thaiMeaning": "แปรงฟัน"
       }
     ]
   },
@@ -5505,22 +3204,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的脸从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 脸 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "ใบหน้าของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的脸很有特色，很容易认出他。",
-        "pinyin": "Tā de 脸 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "ใบหน้าของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的脸，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 脸, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลใบหน้าของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "洗脸。",
+        "pinyin": "Xǐ liǎn.",
+        "thaiMeaning": "ล้างหน้า"
       }
     ]
   },
@@ -5536,22 +3222,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的门能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 门 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมประตูของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有门，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 门, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีประตู ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的门，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 门, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อประตูใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "推门。",
+        "pinyin": "Tuī mén.",
+        "thaiMeaning": "ผลักประตู"
       }
     ]
   },
@@ -5567,22 +3240,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的窗户能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 窗户 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมหน้าต่างของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有窗户，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 窗户, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีหน้าต่าง ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的窗户，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 窗户, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อหน้าต่างใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "开窗户。",
+        "pinyin": "Kāi chuānghu.",
+        "thaiMeaning": "เปิดหน้าต่าง"
       }
     ]
   },
@@ -5598,22 +3258,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的床能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 床 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมเตียงนอนของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有床，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 床, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีเตียงนอน ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的床，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 床, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อเตียงนอนใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "躺上床。",
+        "pinyin": "Tǎng shàng chuáng.",
+        "thaiMeaning": "นอนบนเตียง"
       }
     ]
   },
@@ -5629,22 +3276,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的沙发能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 沙发 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมโซฟาของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有沙发，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 沙发, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีโซฟา ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的沙发，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 沙发, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อโซฟาใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "坐沙发。",
+        "pinyin": "Zuò shāfā.",
+        "thaiMeaning": "นั่งโซฟา"
       }
     ]
   },
@@ -5660,22 +3294,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"โทรทัศน์\"",
-        "hanzi": "请你用中文电视给我。",
-        "pinyin": "Qǐng nǐ yòng zhōngwén diànshì gěi wǒ.",
-        "thaiMeaning": "ช่วยโทรทัศน์ให้ฉันเป็นภาษาจีนหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"โทรทัศน์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有电视的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu diànshì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องโทรทัศน์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"โทรทัศน์\"",
-        "hanzi": "对我来说，电视是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, diànshì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว โทรทัศน์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "看电视。",
+        "pinyin": "Kàn diànshì.",
+        "thaiMeaning": "ดูทีวี"
       }
     ]
   },
@@ -5691,22 +3312,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的冰箱能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 冰箱 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมตู้เย็นของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有冰箱，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 冰箱, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีตู้เย็น ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的冰箱，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 冰箱, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อตู้เย็นใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "开冰箱。",
+        "pinyin": "Kāi bīngxiāng.",
+        "thaiMeaning": "เปิดตู้เย็น"
       }
     ]
   },
@@ -5722,22 +3330,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เครื่องปรับอากาศ\"",
-        "hanzi": "今天有空调，记得带好雨伞。",
-        "pinyin": "Jīntiān yǒu kōngtiáo, jìde dài hǎo yǔsǎn.",
-        "thaiMeaning": "วันนี้มีเครื่องปรับอากาศ อย่าลืมพกร่มไปด้วยนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เครื่องปรับอากาศ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有空调的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu kōngtiáo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเครื่องปรับอากาศไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เครื่องปรับอากาศ\"",
-        "hanzi": "对我来说，空调是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, kōngtiáo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เครื่องปรับอากาศเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "开空调。",
+        "pinyin": "Kāi kōngtiáo.",
+        "thaiMeaning": "เปิดแอร์"
       }
     ]
   },
@@ -5753,22 +3348,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เครื่องซักผ้า\"",
         "hanzi": "用洗衣机。",
         "pinyin": "Yòng xǐyījī.",
         "thaiMeaning": "ใช้เครื่องซักผ้า"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เครื่องซักผ้า\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有洗衣机的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xǐyījī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเครื่องซักผ้าไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เครื่องซักผ้า\"",
-        "hanzi": "对我来说，洗衣机是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xǐyījī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เครื่องซักผ้าเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -5784,22 +3366,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的筷子能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 筷子 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมตะเกียบของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有筷子，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 筷子, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีตะเกียบ ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的筷子，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 筷子, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อตะเกียบใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "用筷子。",
+        "pinyin": "Yòng kuàizi.",
+        "thaiMeaning": "ใช้ตะเกียบ"
       }
     ]
   },
@@ -5815,22 +3384,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个碗，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 碗, xièxie!",
-        "thaiMeaning": "ขอสั่งชามหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的碗，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 碗, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองชามที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃碗，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 碗, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินชามมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "拿个碗。",
+        "pinyin": "Ná gè wǎn.",
+        "thaiMeaning": "ขอชามใบหนึ่ง"
       }
     ]
   },
@@ -5846,22 +3402,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的盘子能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 盘子 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมจานของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有盘子，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 盘子, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีจาน ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的盘子，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 盘子, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อจานใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "端盘子。",
+        "pinyin": "Duān pánzi.",
+        "thaiMeaning": "ถือจาน"
       }
     ]
   },
@@ -5877,22 +3420,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个杯子，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 杯子, xièxie!",
-        "thaiMeaning": "ขอสั่งแก้วน้ำหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的杯子，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 杯子, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองแก้วน้ำที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃杯子，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 杯子, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินแก้วน้ำมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "洗杯子。",
+        "pinyin": "Xǐ bēizi.",
+        "thaiMeaning": "ล้างแก้ว"
       }
     ]
   },
@@ -5908,22 +3438,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的刀能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 刀 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมมีดของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有刀，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 刀, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีมีด ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的刀，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 刀, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อมีดใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "拿刀。",
+        "pinyin": "Ná dāo.",
+        "thaiMeaning": "ถือมีด"
       }
     ]
   },
@@ -5939,22 +3456,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的叉能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 叉 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมส้อมของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有叉，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 叉, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีส้อม ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的叉，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 叉, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อส้อมใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "用叉子。",
+        "pinyin": "Yòng chāzi.",
+        "thaiMeaning": "ใช้ส้อม"
       }
     ]
   },
@@ -5970,22 +3474,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的锅能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 锅 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมหม้อของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有锅，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 锅, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีหม้อ ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的锅，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 锅, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อหม้อใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "炒菜锅。",
+        "pinyin": "Chǎocài guō.",
+        "thaiMeaning": "กระทะผัด"
       }
     ]
   },
@@ -6001,22 +3492,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的瓶子能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 瓶子 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมขวดของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有瓶子，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 瓶子, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีขวด ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的瓶子，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 瓶子, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อขวดใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "水瓶。",
+        "pinyin": "Shuǐpíng.",
+        "thaiMeaning": "ขวดน้ำ"
       }
     ]
   },
@@ -6032,22 +3510,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的书能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 书 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมหนังสือของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有书，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 书, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีหนังสือ ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的书，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 书, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อหนังสือใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "看书。",
+        "pinyin": "Kàn shū.",
+        "thaiMeaning": "อ่านหนังสือ"
       }
     ]
   },
@@ -6063,22 +3528,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的报纸能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 报纸 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมหนังสือพิมพ์ของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有报纸，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 报纸, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีหนังสือพิมพ์ ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的报纸，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 报纸, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อหนังสือพิมพ์ใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "读报纸。",
+        "pinyin": "Dú bàozhǐ.",
+        "thaiMeaning": "อ่านหนังสือพิมพ์"
       }
     ]
   },
@@ -6094,22 +3546,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"พจนานุกรม\"",
         "hanzi": "查字典。",
         "pinyin": "Chá zìdiǎn.",
         "thaiMeaning": "เปิดพจนานุกรม"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"พจนานุกรม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有字典的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zìdiǎn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องพจนานุกรมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"พจนานุกรม\"",
-        "hanzi": "对我来说，字典是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zìdiǎn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว พจนานุกรมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -6125,22 +3564,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的本子能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 本子 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมสมุดบันทึกของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有本子，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 本子, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีสมุดบันทึก ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的本子，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 本子, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อสมุดบันทึกใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "写本子。",
+        "pinyin": "Xiě běnzi.",
+        "thaiMeaning": "เขียนสมุด"
       }
     ]
   },
@@ -6156,22 +3582,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的地图能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 地图 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมแผนที่ของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有地图，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 地图, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีแผนที่ ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的地图，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 地图, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อแผนที่ใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "看地图。",
+        "pinyin": "Kàn dìtú.",
+        "thaiMeaning": "ดูแผนที่"
       }
     ]
   },
@@ -6187,22 +3600,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的照片能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 照片 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมรูปถ่ายของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有照片，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 照片, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีรูปถ่าย ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的照片，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 照片, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อรูปถ่ายใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "拍照片。",
+        "pinyin": "Pāi zhàopiàn.",
+        "thaiMeaning": "ถ่ายรูป"
       }
     ]
   },
@@ -6218,22 +3618,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很红，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 红, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้แดงจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个红多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 红 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นแดงกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太红了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 红 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้แดงเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "红色。",
+        "pinyin": "Hóngsè.",
+        "thaiMeaning": "สีแดง"
       }
     ]
   },
@@ -6249,22 +3636,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很黄，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 黄, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้เหลืองจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个黄多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 黄 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นเหลืองกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太黄了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 黄 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้เหลืองเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "黄色。",
+        "pinyin": "Huángsè.",
+        "thaiMeaning": "สีเหลือง"
       }
     ]
   },
@@ -6280,22 +3654,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很蓝，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 蓝, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้น้ำเงินจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个蓝多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 蓝 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นน้ำเงินกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太蓝了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 蓝 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้น้ำเงินเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "蓝色。",
+        "pinyin": "Lánsè.",
+        "thaiMeaning": "สีน้ำเงิน"
       }
     ]
   },
@@ -6311,22 +3672,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很绿，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 绿, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้เขียวจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个绿多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 绿 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นเขียวกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太绿了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 绿 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้เขียวเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "绿色。",
+        "pinyin": "Lǜsè.",
+        "thaiMeaning": "สีเขียว"
       }
     ]
   },
@@ -6342,22 +3690,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很白，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 白, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้ขาวจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个白多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 白 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นขาวกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太白了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 白 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้ขาวเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "白色。",
+        "pinyin": "Báisè.",
+        "thaiMeaning": "สีขาว"
       }
     ]
   },
@@ -6373,22 +3708,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很黑，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 黑, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้ดำจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个黑多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 黑 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นดำกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太黑了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 黑 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้ดำเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "黑色。",
+        "pinyin": "Hēisè.",
+        "thaiMeaning": "สีดำ"
       }
     ]
   },
@@ -6404,22 +3726,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很漂亮，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 漂亮, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สวยจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个漂亮多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 漂亮 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสวยกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太漂亮了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 漂亮 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สวยเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "很漂亮。",
+        "pinyin": "Hěn piàoliang.",
+        "thaiMeaning": "สวยมาก"
       }
     ]
   },
@@ -6435,22 +3744,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很帅，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 帅, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้หล่อจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个帅多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 帅 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นหล่อกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太帅了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 帅 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้หล่อเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "很帅。",
+        "pinyin": "Hěn shuài.",
+        "thaiMeaning": "หล่อมาก"
       }
     ]
   },
@@ -6466,22 +3762,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很高兴。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 高兴.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกดีใจมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很高兴，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 高兴, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณดีใจมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点高兴，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 高兴, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะดีใจนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "很高兴。",
+        "pinyin": "Hěn gāoxìng.",
+        "thaiMeaning": "ดีใจมาก"
       }
     ]
   },
@@ -6497,22 +3780,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很快乐。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 快乐.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกมีความสุขมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很快乐，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 快乐, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณมีความสุขมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点快乐，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 快乐, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะมีความสุขนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "祝你快乐。",
+        "pinyin": "Zhù nǐ kuàilè.",
+        "thaiMeaning": "ขอให้มีความสุข"
       }
     ]
   },
@@ -6528,22 +3798,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很难过。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 难过.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกเสียใจมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很难过，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 难过, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณเสียใจมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点难过，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 难过, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะเสียใจนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "别难过。",
+        "pinyin": "Bié nánguò.",
+        "thaiMeaning": "อย่าเสียใจไปเลย"
       }
     ]
   },
@@ -6559,22 +3816,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很生气。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 生气.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกโกรธมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很生气，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 生气, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณโกรธมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点生气，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 生气, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะโกรธนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "别生气。",
+        "pinyin": "Bié shēngqì.",
+        "thaiMeaning": "อย่าโกรธเลย"
       }
     ]
   },
@@ -6590,22 +3834,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很害怕。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 害怕.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกกลัวมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很害怕，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 害怕, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณกลัวมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点害怕，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 害怕, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะกลัวนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "不用害怕。",
+        "pinyin": "Búyòng hàipà.",
+        "thaiMeaning": "ไม่ต้องกลัว"
       }
     ]
   },
@@ -6621,22 +3852,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很紧张。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 紧张.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกตื่นเต้นมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很紧张，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 紧张, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณตื่นเต้นมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点紧张，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 紧张, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะตื่นเต้นนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "别紧张。",
+        "pinyin": "Bié jǐnzhāng.",
+        "thaiMeaning": "อย่าตื่นเต้นไป"
       }
     ]
   },
@@ -6652,22 +3870,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ฉลาด\"",
         "hanzi": "很聪明。",
         "pinyin": "Hěn cōngming.",
         "thaiMeaning": "ฉลาดมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ฉลาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聪明的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu cōngming de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องฉลาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ฉลาด\"",
-        "hanzi": "对我来说，聪明是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, cōngming shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ฉลาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -6683,22 +3888,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ขยัน\"",
         "hanzi": "努力学习。",
         "pinyin": "Nǔlì xuéxí.",
         "thaiMeaning": "ขยันเรียน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ขยัน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有努力的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu nǔlì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องขยันไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ขยัน\"",
-        "hanzi": "对我来说，努力是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, nǔlì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ขยันเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -6714,22 +3906,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ตั้งใจ\"",
         "hanzi": "认真听。",
         "pinyin": "Rènzhēn tīng.",
         "thaiMeaning": "ตั้งใจฟัง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ตั้งใจ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有认真的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènzhēn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องตั้งใจไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ตั้งใจ\"",
-        "hanzi": "对我来说，认真是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènzhēn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ตั้งใจเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -6745,22 +3924,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的打开从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 打开 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "เปิดออกของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的打开很有特色，很容易认出他。",
-        "pinyin": "Tā de 打开 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "เปิดออกของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的打开，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 打开, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลเปิดออกของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "打开书。",
+        "pinyin": "Dǎkāi shū.",
+        "thaiMeaning": "เปิดหนังสือ"
       }
     ]
   },
@@ -6776,22 +3942,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปิดลง\"",
         "hanzi": "关上灯。",
         "pinyin": "Guānshàng dēng.",
         "thaiMeaning": "ปิดไฟ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปิดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有关上的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guānshàng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปิดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปิดลง\"",
-        "hanzi": "对我来说，关上是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guānshàng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปิดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -6807,22 +3960,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สวมใส่\"",
         "hanzi": "穿上外套。",
         "pinyin": "Chuānshàng wàitào.",
         "thaiMeaning": "สวมเสื้อนอก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สวมใส่\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有穿上的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu chuānshàng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสวมใส่ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สวมใส่\"",
-        "hanzi": "对我来说，穿上是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, chuānshàng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สวมใส่เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -6838,22 +3978,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的脱下从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 脱下 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "ถอดออกของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的脱下很有特色，很容易认出他。",
-        "pinyin": "Tā de 脱下 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "ถอดออกของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的脱下，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 脱下, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลถอดออกของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "脱下鞋子。",
+        "pinyin": "Tuōxià xiézi.",
+        "thaiMeaning": "ถอดรองเท้า"
       }
     ]
   },
@@ -6869,22 +3996,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หยิบขึ้นมา\"",
         "hanzi": "拿起手机。",
         "pinyin": "Náqǐ shǒujī.",
         "thaiMeaning": "หยิบมือถือขึ้นมา"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หยิบขึ้นมา\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有拿起的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu náqǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหยิบขึ้นมาไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หยิบขึ้นมา\"",
-        "hanzi": "对我来说，拿起是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, náqǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หยิบขึ้นมาเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -6900,22 +4014,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วางลง\"",
         "hanzi": "放下包。",
         "pinyin": "Fàngxià bāo.",
         "thaiMeaning": "วางกระเป๋าลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วางลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有放下的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fàngxià de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวางลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วางลง\"",
-        "hanzi": "对我来说，放下是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fàngxià shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วางลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -6931,22 +4032,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的卖从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 卖 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "ขายของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的卖很有特色，很容易认出他。",
-        "pinyin": "Tā de 卖 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "ขายของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的卖，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 卖, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลขายของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "卖水果。",
+        "pinyin": "Mǎi shuǐguǒ.",
+        "thaiMeaning": "ขายผลไม้"
       }
     ]
   },
@@ -6962,22 +4050,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยืม\"",
         "hanzi": "借钱。",
         "pinyin": "Jiè qián.",
         "thaiMeaning": "ยืมเงิน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยืม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有借的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiè de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยืมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยืม\"",
-        "hanzi": "对我来说，借是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiè shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยืมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -6993,22 +4068,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们还三点见面，不见不散！",
-        "pinyin": "Wǒmen 还 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันคืนสามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "还我有空，你想做什么就安排吧。",
-        "pinyin": "还 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "คืนฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "还时间不够了，我们快一点吧！",
-        "pinyin": "还 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "คืนเวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "还书。",
+        "pinyin": "Huán shū.",
+        "thaiMeaning": "คืนหนังสือ"
       }
     ]
   },
@@ -7024,22 +4086,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ให้\"",
         "hanzi": "给你。",
         "pinyin": "Gěi nǐ.",
         "thaiMeaning": "ให้คุณ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ให้\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有给的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu gěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องให้ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ให้\"",
-        "hanzi": "对我来说，给是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, gěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ให้เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -7055,22 +4104,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ส่ง\"",
-        "hanzi": "请你用中文送给我。",
-        "pinyin": "Qǐng nǐ yòng zhōngwén sòng gěi wǒ.",
-        "thaiMeaning": "ช่วยส่งให้ฉันเป็นภาษาจีนหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ส่ง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有送的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu sòng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องส่งไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ส่ง\"",
-        "hanzi": "对我来说，送是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, sòng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ส่งเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "送礼物。",
+        "pinyin": "Sòng lǐwù.",
+        "thaiMeaning": "มอบของขวัญ"
       }
     ]
   },
@@ -7086,22 +4122,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"พก\"",
         "hanzi": "带伞。",
         "pinyin": "Dài sǎn.",
         "thaiMeaning": "พกร่ม"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"พก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有带的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dài de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องพกไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"พก\"",
-        "hanzi": "对我来说，带是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dài shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว พกเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -7117,22 +4140,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ย้าย\"",
         "hanzi": "搬家。",
         "pinyin": "Bānjiā.",
         "thaiMeaning": "ย้ายบ้าน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ย้าย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有搬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bān de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องย้ายไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ย้าย\"",
-        "hanzi": "对我来说，搬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bān shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ย้ายเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -7148,22 +4158,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซัก\"",
         "hanzi": "洗衣服。",
         "pinyin": "Xǐ yīfu.",
         "thaiMeaning": "ซักเสื้อผ้า"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有洗的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซัก\"",
-        "hanzi": "对我来说，洗是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -7179,22 +4176,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กระโดด\"",
         "hanzi": "跳舞。",
         "pinyin": "Tiàowǔ.",
         "thaiMeaning": "เต้นรำ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กระโดด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有跳的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tiào de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกระโดดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กระโดด\"",
-        "hanzi": "对我来说，跳是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tiào shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กระโดดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -7210,22 +4194,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢飞，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 飞, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบบินมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去飞吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 飞 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปบินด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多飞，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 飞, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันบินบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "飞机飞。",
+        "pinyin": "Fēijī fēi.",
+        "thaiMeaning": "เครื่องบินบิน"
       }
     ]
   },
@@ -7241,22 +4212,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢游，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 游, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบว่ายน้ำมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去游吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 游 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปว่ายน้ำด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多游，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 游, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันว่ายน้ำบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "游泳。",
+        "pinyin": "Yóuyǒng.",
+        "thaiMeaning": "ว่ายน้ำ"
       }
     ]
   },
@@ -7272,22 +4230,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢站，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 站, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบยืนมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去站吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 站 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปยืนด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多站，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 站, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันยืนบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "站起来。",
+        "pinyin": "Zhàn qǐlái.",
+        "thaiMeaning": "ยืนขึ้น"
       }
     ]
   },
@@ -7303,22 +4248,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢坐，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 坐, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบนั่งมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去坐吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 坐 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปนั่งด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多坐，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 坐, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันนั่งบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "请坐。",
+        "pinyin": "Qǐng zuò.",
+        "thaiMeaning": "เชิญนั่ง"
       }
     ]
   },
@@ -7334,22 +4266,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หนึ่ง (1)\"",
-        "hanzi": "我需要一个月个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Yí gè yuè ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการหนึ่งเดือนอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หนึ่ง (1)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有一的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหนึ่ง (1)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หนึ่ง (1)\"",
-        "hanzi": "对我来说，一是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หนึ่ง (1)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "一个月。",
+        "pinyin": "Yí gè yuè.",
+        "thaiMeaning": "หนึ่งเดือน"
       }
     ]
   },
@@ -7365,22 +4284,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สอง (2)\"",
-        "hanzi": "我需要二楼个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Èr lóu ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการชั้นสองอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สอง (2)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有二的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu èr de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสอง (2)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สอง (2)\"",
-        "hanzi": "对我来说，二是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, èr shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สอง (2)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "二楼。",
+        "pinyin": "Èr lóu.",
+        "thaiMeaning": "ชั้นสอง"
       }
     ]
   },
@@ -7396,22 +4302,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สาม (3)\"",
-        "hanzi": "我需要三天个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Sān tiān ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการสามวันอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สาม (3)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有三的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu sān de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสาม (3)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สาม (3)\"",
-        "hanzi": "对我来说，三是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, sān shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สาม (3)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "三天。",
+        "pinyin": "Sān tiān.",
+        "thaiMeaning": "สามวัน"
       }
     ]
   },
@@ -7427,22 +4320,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สี่ (4)\"",
-        "hanzi": "我需要四个人个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Sì gè rén ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการสี่คนอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สี่ (4)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有四的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu sì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสี่ (4)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สี่ (4)\"",
-        "hanzi": "对我来说，四是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, sì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สี่ (4)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "四个人。",
+        "pinyin": "Sì gè rén.",
+        "thaiMeaning": "สี่คน"
       }
     ]
   },
@@ -7458,22 +4338,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ห้า (5)\"",
-        "hanzi": "我需要五点个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Wǔ diǎn ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการห้าโมงอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ห้า (5)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有五的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu wǔ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องห้า (5)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ห้า (5)\"",
-        "hanzi": "对我来说，五是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, wǔ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ห้า (5)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "五点。",
+        "pinyin": "Wǔ diǎn.",
+        "thaiMeaning": "ห้าโมง"
       }
     ]
   },
@@ -7489,22 +4356,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หก (6)\"",
-        "hanzi": "我需要六个个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Liù gè ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการหกอันอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หก (6)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有六的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหก (6)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หก (6)\"",
-        "hanzi": "对我来说，六是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หก (6)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "六个。",
+        "pinyin": "Liù gè.",
+        "thaiMeaning": "หกอัน"
       }
     ]
   },
@@ -7520,22 +4374,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เจ็ด (7)\"",
-        "hanzi": "我需要七点个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Qī diǎn ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการเจ็ดโมงอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เจ็ด (7)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有七的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu qī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเจ็ด (7)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เจ็ด (7)\"",
-        "hanzi": "对我来说，七是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, qī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เจ็ด (7)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "七点。",
+        "pinyin": "Qī diǎn.",
+        "thaiMeaning": "เจ็ดโมง"
       }
     ]
   },
@@ -7551,22 +4392,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"แปด (8)\"",
-        "hanzi": "我需要八块个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Bā kuài ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการแปดหยวนอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"แปด (8)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有八的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องแปด (8)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"แปด (8)\"",
-        "hanzi": "对我来说，八是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว แปด (8)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "八块。",
+        "pinyin": "Bā kuài.",
+        "thaiMeaning": "แปดหยวน"
       }
     ]
   },
@@ -7582,22 +4410,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เก้า (9)\"",
-        "hanzi": "我需要九岁个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Jiǔ suì ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการเก้าขวบอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เก้า (9)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有九的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǔ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเก้า (9)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เก้า (9)\"",
-        "hanzi": "对我来说，九是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǔ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เก้า (9)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "九岁。",
+        "pinyin": "Jiǔ suì.",
+        "thaiMeaning": "เก้าขวบ"
       }
     ]
   },
@@ -7613,22 +4428,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สิบ (10)\"",
-        "hanzi": "我需要十分钟个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Shí fēnzhōng ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการสิบนาทีอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สิบ (10)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有十的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shí de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสิบ (10)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สิบ (10)\"",
-        "hanzi": "对我来说，十是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shí shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สิบ (10)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "十分钟。",
+        "pinyin": "Shí fēnzhōng.",
+        "thaiMeaning": "สิบนาที"
       }
     ]
   },
@@ -7644,22 +4446,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ร้อย (100)\"",
-        "hanzi": "我需要一百块个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Yì bǎi kuài ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการหนึ่งร้อยหยวนอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ร้อย (100)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有百的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bǎi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องร้อย (100)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ร้อย (100)\"",
-        "hanzi": "对我来说，百是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bǎi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ร้อย (100)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "一百块。",
+        "pinyin": "Yì bǎi kuài.",
+        "thaiMeaning": "หนึ่งร้อยหยวน"
       }
     ]
   },
@@ -7675,22 +4464,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"พัน (1,000)\"",
-        "hanzi": "我需要一千元个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Yì qiān yuán ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการหนึ่งพันหยวนอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"พัน (1,000)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有千的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu qiān de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องพัน (1,000)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"พัน (1,000)\"",
-        "hanzi": "对我来说，千是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, qiān shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว พัน (1,000)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "一千元。",
+        "pinyin": "Yì qiān yuán.",
+        "thaiMeaning": "หนึ่งพันหยวน"
       }
     ]
   },
@@ -7706,22 +4482,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หมื่น (10,000)\"",
-        "hanzi": "我需要一万人个，请给我准备一下。",
-        "pinyin": "Wǒ xūyào Yí wàn rén ge, qǐng gěi wǒ zhǔnbèi yīxià.",
-        "thaiMeaning": "ฉันต้องการหนึ่งหมื่นคนอัน ช่วยเตรียมให้ฉันหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หมื่น (10,000)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有万的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu wàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหมื่น (10,000)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หมื่น (10,000)\"",
-        "hanzi": "对我来说，万是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, wàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หมื่น (10,000)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "一万人。",
+        "pinyin": "Yí wàn rén.",
+        "thaiMeaning": "หนึ่งหมื่นคน"
       }
     ]
   },
@@ -7737,22 +4500,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อันดับหนึ่ง\"",
         "hanzi": "拿第一。",
         "pinyin": "Ná dìyī.",
         "thaiMeaning": "ได้ที่หนึ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อันดับหนึ่ง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有第一的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dìyī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอันดับหนึ่งไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อันดับหนึ่ง\"",
-        "hanzi": "对我来说，第一是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dìyī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อันดับหนึ่งเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -7768,22 +4518,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อัน\"",
         "hanzi": "一个人。",
         "pinyin": "Yí gè rén.",
         "thaiMeaning": "คนหนึ่งคน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อัน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有个的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu gè de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอันไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อัน\"",
-        "hanzi": "对我来说，个是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, gè shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อันเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -7799,22 +4536,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ตัว (สัตว์\"",
         "hanzi": "一只猫。",
         "pinyin": "Yì zhī māo.",
         "thaiMeaning": "แมวหนึ่งตัว"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ตัว (สัตว์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有只的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องตัว (สัตว์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ตัว (สัตว์\"",
-        "hanzi": "对我来说，只是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ตัว (สัตว์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -7830,22 +4554,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ตัว (เสื้อผ้า)\"",
         "hanzi": "一件衣服。",
         "pinyin": "Yí jiàn yīfu.",
         "thaiMeaning": "เสื้อผ้าหนึ่งตัว"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ตัว (เสื้อผ้า)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有件的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องตัว (เสื้อผ้า)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ตัว (เสื้อผ้า)\"",
-        "hanzi": "对我来说，件是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ตัว (เสื้อผ้า)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -7861,22 +4572,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的本能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 本 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมเล่ม (หนังสือ)ของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有本，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 本, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีเล่ม (หนังสือ) ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的本，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 本, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อเล่ม (หนังสือ)ใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "一本书。",
+        "pinyin": "Yì běn shū.",
+        "thaiMeaning": "หนังสือหนึ่งเล่ม"
       }
     ]
   },
@@ -7892,22 +4590,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"แผ่น\"",
         "hanzi": "一张纸。",
         "pinyin": "Yì zhāng zhǐ.",
         "thaiMeaning": "กระดาษหนึ่งแผ่น"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"แผ่น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有张的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhāng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องแผ่นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"แผ่น\"",
-        "hanzi": "对我来说，张是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhāng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว แผ่นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -7923,22 +4608,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชิ้น\"",
         "hanzi": "十块钱。",
         "pinyin": "Shí kuài qián.",
         "thaiMeaning": "เงินสิบหยวน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชิ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有块的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu kuài de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชิ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชิ้น\"",
-        "hanzi": "对我来说，块是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, kuài shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชิ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -7954,22 +4626,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอยืมสิ่งของจากเพื่อนหรือคนรอบข้าง",
-        "hanzi": "不好意思，你的瓶能借我用一下吗？",
-        "pinyin": "Bù hǎoyìsi, nǐ de 瓶 néng jiè wǒ yòng yīxià ma?",
-        "thaiMeaning": "ขอโทษนะ ขอยืมขวด (ลักษณะนาม)ของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "บอกพนักงานร้านหรือเพื่อนว่าไม่มีสิ่งของที่ต้องการ",
-        "hanzi": "我们桌上没有瓶，能再拿一个来吗？",
-        "pinyin": "Wǒmen zhuō shàng méiyǒu 瓶, néng zài ná yī gè lái ma?",
-        "thaiMeaning": "โต๊ะเราไม่มีขวด (ลักษณะนาม) ช่วยเอามาเพิ่มอีกชิ้นได้ไหม?"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าซื้อสิ่งของมาใหม่หรือชวนดูของที่ได้มา",
-        "hanzi": "我买了一个新的瓶，用起来非常顺手。",
-        "pinyin": "Wǒ mǎi le yī gè xīn de 瓶, yòng qǐlái fēicháng shùnshǒu.",
-        "thaiMeaning": "ฉันซื้อขวด (ลักษณะนาม)ใหม่มา ใช้งานได้คล่องมากเลย"
+        "hanzi": "一瓶水。",
+        "pinyin": "Yì píng shuǐ.",
+        "thaiMeaning": "น้ำหนึ่งขวด"
       }
     ]
   },
@@ -7985,22 +4644,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"แก้ว (ลักษณะนาม)\"",
-        "hanzi": "可以借我你的杯用一下吗？",
-        "pinyin": "Kěyǐ jiè wǒ nǐ de bēi yòng yīxià ma?",
-        "thaiMeaning": "ขอยืมแก้ว (ลักษณะนาม)ของคุณใช้สักครู่ได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"แก้ว (ลักษณะนาม)\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有杯的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bēi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องแก้ว (ลักษณะนาม)ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"แก้ว (ลักษณะนาม)\"",
-        "hanzi": "对我来说，杯是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bēi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว แก้ว (ลักษณะนาม)เป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "一杯咖啡。",
+        "pinyin": "Yì bēi kāfēi.",
+        "thaiMeaning": "กาแฟหนึ่งแก้ว"
       }
     ]
   },
@@ -8016,22 +4662,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สาย\"",
         "hanzi": "一条鱼。",
         "pinyin": "Yì tiáo yú.",
         "thaiMeaning": "ปลาหนึ่งตัว"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สาย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有条的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tiáo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสายไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สาย\"",
-        "hanzi": "对我来说，条是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tiáo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สายเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8047,22 +4680,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的双从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 双 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "คู่ (รองเท้า/ตะเกียบ)ของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的双很有特色，很容易认出他。",
-        "pinyin": "Tā de 双 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "คู่ (รองเท้า/ตะเกียบ)ของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的双，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 双, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลคู่ (รองเท้า/ตะเกียบ)ของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "一双鞋。",
+        "pinyin": "Yì shuāng xié.",
+        "thaiMeaning": "รองเท้าหนึ่งคู่"
       }
     ]
   },
@@ -8078,22 +4698,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的以前从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 以前 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "เมื่อก่อนของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的以前很有特色，很容易认出他。",
-        "pinyin": "Tā de 以前 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "เมื่อก่อนของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的以前，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 以前, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลเมื่อก่อนของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "三年以前。",
+        "pinyin": "Sān nián yǐqián.",
+        "thaiMeaning": "สามปีก่อน"
       }
     ]
   },
@@ -8109,22 +4716,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的以后从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 以后 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "หลังจากนี้ของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的以后很有特色，很容易认出他。",
-        "pinyin": "Tā de 以后 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "หลังจากนี้ของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的以后，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 以后, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลหลังจากนี้ของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "以后再说。",
+        "pinyin": "Yǐhòu zài shuō.",
+        "thaiMeaning": "วันหลังค่อยคุยกัน"
       }
     ]
   },
@@ -8140,22 +4734,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่งจะ\"",
         "hanzi": "刚到。",
         "pinyin": "Gāng dào.",
         "thaiMeaning": "เพิ่งมาถึง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่งจะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有刚的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu gāng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่งจะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่งจะ\"",
-        "hanzi": "对我来说，刚是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, gāng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่งจะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8171,22 +4752,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กำลัง...อยู่\"",
         "hanzi": "正在看。",
         "pinyin": "Zhèngzài kàn.",
         "thaiMeaning": "กำลังดูอยู่"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กำลัง...อยู่\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有正的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhèng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกำลัง...อยู่ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กำลัง...อยู่\"",
-        "hanzi": "对我来说，正是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhèng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กำลัง...อยู่เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8202,22 +4770,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"บ่อยๆ\"",
         "hanzi": "经常去。",
         "pinyin": "Jīngcháng qù.",
         "thaiMeaning": "ไปประจำ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"บ่อยๆ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有经常的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīngcháng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องบ่อยๆไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"บ่อยๆ\"",
-        "hanzi": "对我来说，经常是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīngcháng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว บ่อยๆเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8233,22 +4788,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"บางครั้ง\"",
         "hanzi": "有时忙。",
         "pinyin": "Yǒushí máng.",
         "thaiMeaning": "บางครั้งก็ยุ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"บางครั้ง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有有时的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yǒushí de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องบางครั้งไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"บางครั้ง\"",
-        "hanzi": "对我来说，有时是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yǒushí shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว บางครั้งเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8264,22 +4806,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"มักจะ...เสมอ\"",
         "hanzi": "总是迟到。",
         "pinyin": "Zǒngshì chídào.",
         "thaiMeaning": "มาสายเสมอ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"มักจะ...เสมอ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有总是的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zǒngshì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องมักจะ...เสมอไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"มักจะ...เสมอ\"",
-        "hanzi": "对我来说，总是是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zǒngshì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว มักจะ...เสมอเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8295,22 +4824,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เรียบร้อยแล้ว\"",
         "hanzi": "已经懂了。",
         "pinyin": "Yǐjīng dǒng le.",
         "thaiMeaning": "เข้าใจแล้ว"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เรียบร้อยแล้ว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有已经的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yǐjīng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเรียบร้อยแล้วไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เรียบร้อยแล้ว\"",
-        "hanzi": "对我来说，已经是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yǐjīng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เรียบร้อยแล้วเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8326,22 +4842,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们马上三点见面，不见不散！",
-        "pinyin": "Wǒmen 马上 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันทันทีสามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "马上我有空，你想做什么就安排吧。",
-        "pinyin": "马上 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "ทันทีฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "马上时间不够了，我们快一点吧！",
-        "pinyin": "马上 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "ทันทีเวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "马上去。",
+        "pinyin": "Mǎshàng qù.",
+        "thaiMeaning": "ไปทันที"
       }
     ]
   },
@@ -8357,22 +4860,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ตลอด\"",
         "hanzi": "一直学。",
         "pinyin": "Yìzhí xué.",
         "thaiMeaning": "เรียนมาโดยตลอด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ตลอด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有一直的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yìzhí de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องตลอดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ตลอด\"",
-        "hanzi": "对我来说，一直是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yìzhí shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ตลอดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8388,22 +4878,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"และ\"",
         "hanzi": "我和你。",
         "pinyin": "Wǒ hé nǐ.",
         "thaiMeaning": "ฉันและคุณ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"และ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有和的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu hé de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องและไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"และ\"",
-        "hanzi": "对我来说，和是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, hé shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว และเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8419,22 +4896,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กับ\"",
         "hanzi": "跟我走。",
         "pinyin": "Gēn wǒ zǒu.",
         "thaiMeaning": "ตามฉันมา"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有跟的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu gēn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กับ\"",
-        "hanzi": "对我来说，跟是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, gēn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8450,22 +4914,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หรือว่า\"",
-        "hanzi": "茶还是咖啡。",
-        "pinyin": "Chá háishi kāfēi.",
+        "hanzi": "茶还是咖啡？",
+        "pinyin": "Chá háishi kāfēi?",
         "thaiMeaning": "ชาหรือว่ากาแฟ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หรือว่า\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有还是的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu háishi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหรือว่าไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หรือว่า\"",
-        "hanzi": "对我来说，还是是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, háishi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หรือว่าเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8481,22 +4932,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的或者从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 或者 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "หรือ (ประโยคบอกเล่า)ของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的或者很有特色，很容易认出他。",
-        "pinyin": "Tā de 或者 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "หรือ (ประโยคบอกเล่า)ของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的或者，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 或者, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลหรือ (ประโยคบอกเล่า)ของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "今天或者明天。",
+        "pinyin": "Jīntiān huòzhě míngtiān.",
+        "thaiMeaning": "วันนี้หรือพรุ่งนี้"
       }
     ]
   },
@@ -8512,22 +4950,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพราะว่า\"",
         "hanzi": "因为下雨。",
         "pinyin": "Yīnwèi xiàyǔ.",
         "thaiMeaning": "เพราะว่าฝนตก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพราะว่า\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有因为的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yīnwèi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพราะว่าไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพราะว่า\"",
-        "hanzi": "对我来说，因为是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yīnwèi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพราะว่าเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8543,22 +4968,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ดังนั้น\"",
         "hanzi": "所以没去。",
         "pinyin": "Suǒyǐ méi qù.",
         "thaiMeaning": "ดังนั้นจึงไม่ได้ไป"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ดังนั้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有所以的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu suǒyǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องดังนั้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ดังนั้น\"",
-        "hanzi": "对我来说，所以是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, suǒyǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ดังนั้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8574,22 +4986,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"แต่ว่า\"",
         "hanzi": "但是很好。",
         "pinyin": "Dànshì hěn hǎo.",
         "thaiMeaning": "แต่ว่าดีมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"แต่ว่า\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有但是的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dànshì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องแต่ว่าไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"แต่ว่า\"",
-        "hanzi": "对我来说，但是是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dànshì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว แต่ว่าเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8605,22 +5004,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ถ้าหาก\"",
         "hanzi": "如果有空。",
         "pinyin": "Rúguǒ yǒu kòng.",
         "thaiMeaning": "ถ้าหากมีเวลาว่าง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ถ้าหาก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有如果的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rúguǒ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องถ้าหากไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ถ้าหาก\"",
-        "hanzi": "对我来说，如果是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rúguǒ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ถ้าหากเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8636,22 +5022,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"แม้ว่า\"",
         "hanzi": "虽然累。",
         "pinyin": "Suīrán lèi.",
         "thaiMeaning": "แม้ว่าจะเหนื่อย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"แม้ว่า\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有虽然的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu suīrán de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องแม้ว่าไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"แม้ว่า\"",
-        "hanzi": "对我来说，虽然是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, suīrán shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว แม้ว่าเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8667,22 +5040,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"มาก\"",
         "hanzi": "很好。",
         "pinyin": "Hěn hǎo.",
         "thaiMeaning": "ดีมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"มาก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有很的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu hěn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องมากไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"มาก\"",
-        "hanzi": "对我来说，很是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, hěn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว มากเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8698,22 +5058,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เกินไป\"",
-        "hanzi": "好啊！我们去太好了吧。",
-        "pinyin": "Hǎo a! Wǒmen qù Tài hǎo le ba.",
-        "thaiMeaning": "โอเค! พวกเราไปดีจังเลยกันเถอะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เกินไป\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有太的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tài de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเกินไปไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เกินไป\"",
-        "hanzi": "对我来说，太是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tài shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เกินไปเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "太好了。",
+        "pinyin": "Tài hǎo le.",
+        "thaiMeaning": "ดีจังเลย"
       }
     ]
   },
@@ -8729,22 +5076,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นพิเศษ\"",
         "hanzi": "非常多。",
         "pinyin": "Fēicháng duō.",
         "thaiMeaning": "เยอะเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นพิเศษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有非常的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēicháng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นพิเศษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นพิเศษ\"",
-        "hanzi": "对我来说，非常是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēicháng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นพิเศษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8760,22 +5094,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ที่สุด\"",
         "hanzi": "最好。",
         "pinyin": "Zuì hǎo.",
         "thaiMeaning": "ดีที่สุด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ที่สุด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有最的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องที่สุดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ที่สุด\"",
-        "hanzi": "对我来说，最是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ที่สุดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8791,22 +5112,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"พิเศษ\"",
         "hanzi": "特别喜欢。",
         "pinyin": "Tèbié xǐhuan.",
         "thaiMeaning": "ชอบเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"พิเศษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有特别的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tèbié de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องพิเศษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"พิเศษ\"",
-        "hanzi": "对我来说，特别是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tèbié shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว พิเศษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8822,22 +5130,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ไม่\"",
         "hanzi": "不去。",
         "pinyin": "Bú qù.",
         "thaiMeaning": "ไม่ไป"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ไม่\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有不的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องไม่ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ไม่\"",
-        "hanzi": "对我来说，不是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ไม่เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8853,22 +5148,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ไม่\"",
         "hanzi": "没做。",
         "pinyin": "Méi zuò.",
         "thaiMeaning": "ไม่ได้ทำ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ไม่\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有没的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu méi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องไม่ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ไม่\"",
-        "hanzi": "对我来说，没是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, méi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ไม่เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8884,22 +5166,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "极了，你太客气了！",
-        "pinyin": "jí le, nǐ tài kèqi le!",
-        "thaiMeaning": "อย่างยิ่ง คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得极了！",
-        "pinyin": "Shuō zhēn de, wǒ juéde jí le!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกอย่างยิ่ง เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，极了！你说得对。",
-        "pinyin": "En, jí le! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม อย่างยิ่ง! คุณพูดถูก"
+        "hanzi": "好极了！",
+        "pinyin": "Hǎo jí le!",
+        "thaiMeaning": "เยี่ยมสุดๆ!"
       }
     ]
   },
@@ -8915,22 +5184,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยิ่ง...ยิ่ง...\"",
         "hanzi": "越来越好。",
         "pinyin": "Yuè lái yuè hǎo.",
         "thaiMeaning": "ยิ่งนานยิ่งดีขึ้น"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยิ่ง...ยิ่ง...\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有越的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yuè de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยิ่ง...ยิ่ง...ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยิ่ง...ยิ่ง...\"",
-        "hanzi": "对我来说，越是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yuè shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยิ่ง...ยิ่ง...เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8946,22 +5202,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยิ่งขึ้นไปอีก\"",
         "hanzi": "更加努力。",
         "pinyin": "Gèngjiā nǔlì.",
         "thaiMeaning": "พยายามยิ่งขึ้นไปอีก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยิ่งขึ้นไปอีก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有更加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu gèngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยิ่งขึ้นไปอีกไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยิ่งขึ้นไปอีก\"",
-        "hanzi": "对我来说，更加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, gèngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยิ่งขึ้นไปอีกเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -8977,22 +5220,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ถนน\"",
         "hanzi": "过马路。",
         "pinyin": "Guò mǎlù.",
         "thaiMeaning": "ข้ามถนน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ถนน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有路的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu lù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องถนนไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ถนน\"",
-        "hanzi": "对我来说，路是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, lù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ถนนเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -9008,22 +5238,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ถนนสายหลัก\"",
         "hanzi": "逛街。",
         "pinyin": "Guàng jiē.",
         "thaiMeaning": "เดินเที่ยวถนน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ถนนสายหลัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有街的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiē de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องถนนสายหลักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ถนนสายหลัก\"",
-        "hanzi": "对我来说，街是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiē shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ถนนสายหลักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -9039,22 +5256,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะพาน\"",
         "hanzi": "过桥。",
         "pinyin": "Guò qiáo.",
         "thaiMeaning": "ข้ามสะพาน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะพาน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有桥的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu qiáo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะพานไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะพาน\"",
-        "hanzi": "对我来说，桥是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, qiáo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะพานเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -9070,22 +5274,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ตึก\"",
         "hanzi": "高楼。",
         "pinyin": "Gāo lóu.",
         "thaiMeaning": "ตึกสูง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ตึก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有楼的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu lóu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องตึกไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ตึก\"",
-        "hanzi": "对我来说，楼是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, lóu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ตึกเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -9101,22 +5292,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เรียกรถหรือถามบริการเดินทาง",
-        "hanzi": "麻烦帮我叫一辆船，我要去市中心。",
-        "pinyin": "Máfan bāng wǒ jiào yī liàng 船, wǒ yào qù shì zhōngxīn.",
-        "thaiMeaning": "ช่วยเรียกเรือให้ด้วยนะ ฉันต้องไปใจกลางเมือง"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องการเดินทางที่ผ่านมา",
-        "hanzi": "上次我坐船去旅行，体验很不错！",
-        "pinyin": "Shàng cì wǒ zuò 船 qù lǚxíng, tǐyàn hěn bùcuò!",
-        "thaiMeaning": "ครั้งที่แล้วฉันนั่งเรือไปเที่ยว ประสบการณ์ดีมากเลย!"
-      },
-      {
-        "scenario": "ถามเพื่อนเรื่องวิธีเดินทางไปสถานที่นั้น",
-        "hanzi": "从这里坐船到机场要多久？大概多少钱？",
-        "pinyin": "Cóng zhèlǐ zuò 船 dào jīchǎng yào duōjiǔ? Dàgài duōshǎo qián?",
-        "thaiMeaning": "นั่งเรือจากที่นี่ไปสนามบินใช้เวลาเท่าไหร่? ราคาประมาณเท่าไหร่?"
+        "hanzi": "坐船。",
+        "pinyin": "Zuò chuán.",
+        "thaiMeaning": "นั่งเรือ"
       }
     ]
   },
@@ -9132,22 +5310,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ธนบัตร\"",
         "hanzi": "数钞票。",
         "pinyin": "Shǔ chāopiào.",
         "thaiMeaning": "นับธนบัตร"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ธนบัตร\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有钞票的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu chāopiào de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องธนบัตรไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ธนบัตร\"",
-        "hanzi": "对我来说，钞票是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, chāopiào shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ธนบัตรเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -9163,22 +5328,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"บัตรเครดิต\"",
         "hanzi": "刷信用卡。",
         "pinyin": "Shuā xìnyòngkǎ.",
         "thaiMeaning": "รูดบัตรเครดิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"บัตรเครดิต\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有信用卡的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xìnyòngkǎ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องบัตรเครดิตไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"บัตรเครดิต\"",
-        "hanzi": "对我来说，信用卡是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xìnyòngkǎ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว บัตรเครดิตเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -9194,22 +5346,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงินสด\"",
-        "hanzi": "这个现金多少钱？",
-        "pinyin": "Zhège xiànjīn duōshǎo qián?",
-        "thaiMeaning": "อันนี้เงินสดเท่าไหร่?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงินสด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有现金的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiànjīn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงินสดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงินสด\"",
-        "hanzi": "对我来说，现金是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiànjīn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงินสดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "付现金。",
+        "pinyin": "Fù xiànjīn.",
+        "thaiMeaning": "จ่ายเงินสด"
       }
     ]
   },
@@ -9225,22 +5364,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ราคา\"",
-        "hanzi": "这个价格多少钱？",
-        "pinyin": "Zhège jiàgé duōshǎo qián?",
-        "thaiMeaning": "อันนี้ราคาเท่าไหร่?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ราคา\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有价格的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàgé de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องราคาไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ราคา\"",
-        "hanzi": "对我来说，价格是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàgé shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ราคาเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "合理价格。",
+        "pinyin": "Hélǐ jiàgé.",
+        "thaiMeaning": "ราคาสมเหตุสมผล"
       }
     ]
   },
@@ -9256,22 +5382,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ส่วนลด\"",
-        "hanzi": "这个折扣多少钱？",
-        "pinyin": "Zhège zhékòu duōshǎo qián?",
-        "thaiMeaning": "อันนี้ส่วนลดเท่าไหร่?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ส่วนลด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有折扣的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhékòu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องส่วนลดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ส่วนลด\"",
-        "hanzi": "对我来说，折扣是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhékòu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ส่วนลดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "打折。",
+        "pinyin": "Dǎzhé.",
+        "thaiMeaning": "ลดราคา"
       }
     ]
   },
@@ -9287,22 +5400,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ฟรี\"",
-        "hanzi": "这个免费多少钱？",
-        "pinyin": "Zhège miǎnfèi duōshǎo qián?",
-        "thaiMeaning": "อันนี้ฟรีเท่าไหร่?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ฟรี\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有免费的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu miǎnfèi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องฟรีไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ฟรี\"",
-        "hanzi": "对我来说，免费是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, miǎnfèi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ฟรีเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "免费体验。",
+        "pinyin": "Miǎnfèi tǐyàn.",
+        "thaiMeaning": "ทดลองฟรี"
       }
     ]
   },
@@ -9318,22 +5418,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很甜，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 甜, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้หวานจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个甜多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 甜 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นหวานกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太甜了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 甜 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้หวานเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "很甜。",
+        "pinyin": "Hěn tián.",
+        "thaiMeaning": "หวานมาก"
       }
     ]
   },
@@ -9349,22 +5436,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很咸，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 咸, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้เค็มจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个咸多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 咸 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นเค็มกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太咸了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 咸 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้เค็มเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "有点咸。",
+        "pinyin": "Yǒudiǎnr xián.",
+        "thaiMeaning": "เค็มนิดหน่อย"
       }
     ]
   },
@@ -9380,22 +5454,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很辣，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 辣, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้เผ็ดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个辣多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 辣 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นเผ็ดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太辣了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 辣 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้เผ็ดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "太辣了。",
+        "pinyin": "Tài là le.",
+        "thaiMeaning": "เผ็ดเกินไป"
       }
     ]
   },
@@ -9411,22 +5472,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很酸，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 酸, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้เปรี้ยวจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个酸多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 酸 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นเปรี้ยวกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太酸了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 酸 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้เปรี้ยวเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "酸甜。",
+        "pinyin": "Suāntián.",
+        "thaiMeaning": "เปรี้ยวหวาน"
       }
     ]
   },
@@ -9442,22 +5490,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很苦，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 苦, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้ขมจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个苦多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 苦 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นขมกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太苦了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 苦 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้ขมเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "中药苦。",
+        "pinyin": "Zhōngyào kǔ.",
+        "thaiMeaning": "ยาจีนขม"
       }
     ]
   },
@@ -9473,22 +5508,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很香，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 香, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้หอมจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个香多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 香 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นหอมกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太香了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 香 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้หอมเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "真香！",
+        "pinyin": "Zhēn xiāng!",
+        "thaiMeaning": "หอมมาก!"
       }
     ]
   },
@@ -9504,22 +5526,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很好吃，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 好吃, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้อร่อย (อาหาร)จริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个好吃多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 好吃 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นอร่อย (อาหาร)กว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太好吃了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 好吃 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้อร่อย (อาหาร)เกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "很好吃。",
+        "pinyin": "Hěn hǎochī.",
+        "thaiMeaning": "อร่อยมาก"
       }
     ]
   },
@@ -9535,22 +5544,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很好喝，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 好喝, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้อร่อย (เครื่องดื่ม)จริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个好喝多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 好喝 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นอร่อย (เครื่องดื่ม)กว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太好喝了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 好喝 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้อร่อย (เครื่องดื่ม)เกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "真好喝。",
+        "pinyin": "Zhēn hǎohē.",
+        "thaiMeaning": "อร่อยดื่มง่าย"
       }
     ]
   },
@@ -9566,22 +5562,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการให้เพื่อนหรือคนในครอบครัวรับรู้",
-        "hanzi": "我今天有点生病，不太舒服。",
-        "pinyin": "Wǒ jīntiān yǒudiǎn 生病, bù tài shūfu.",
-        "thaiMeaning": "วันนี้ฉันป่วยนิดหน่อย รู้สึกไม่ค่อยสบายเลย"
-      },
-      {
-        "scenario": "ขอลาหยุดเพราะไม่สบาย",
-        "hanzi": "我今天生病很严重，想请假休息一天。",
-        "pinyin": "Wǒ jīntiān 生病 hěn yánzhòng, xiǎng qǐngjià xiūxi yī tiān.",
-        "thaiMeaning": "วันนี้ฉันป่วยหนักมาก อยากขอลาหยุดพักหนึ่งวัน"
-      },
-      {
-        "scenario": "ปรึกษาแพทย์หรืออธิบายอาการในโรงพยาบาล",
-        "hanzi": "医生，我从昨天开始生病，您帮我看看吧。",
-        "pinyin": "Yīshēng, wǒ cóng zuótiān kāishǐ 生病, nín bāng wǒ kàn kàn ba.",
-        "thaiMeaning": "หมอคะ ฉันเริ่มป่วยมาตั้งแต่เมื่อวาน รบกวนช่วยตรวจให้ด้วยนะ"
+        "hanzi": "生病了。",
+        "pinyin": "Shēngbìng le.",
+        "thaiMeaning": "ป่วยแล้ว"
       }
     ]
   },
@@ -9597,22 +5580,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการให้เพื่อนหรือคนในครอบครัวรับรู้",
-        "hanzi": "我今天有点感冒，不太舒服。",
-        "pinyin": "Wǒ jīntiān yǒudiǎn 感冒, bù tài shūfu.",
-        "thaiMeaning": "วันนี้ฉันเป็นหวัดนิดหน่อย รู้สึกไม่ค่อยสบายเลย"
-      },
-      {
-        "scenario": "ขอลาหยุดเพราะไม่สบาย",
-        "hanzi": "我今天感冒很严重，想请假休息一天。",
-        "pinyin": "Wǒ jīntiān 感冒 hěn yánzhòng, xiǎng qǐngjià xiūxi yī tiān.",
-        "thaiMeaning": "วันนี้ฉันเป็นหวัดหนักมาก อยากขอลาหยุดพักหนึ่งวัน"
-      },
-      {
-        "scenario": "ปรึกษาแพทย์หรืออธิบายอาการในโรงพยาบาล",
-        "hanzi": "医生，我从昨天开始感冒，您帮我看看吧。",
-        "pinyin": "Yīshēng, wǒ cóng zuótiān kāishǐ 感冒, nín bāng wǒ kàn kàn ba.",
-        "thaiMeaning": "หมอคะ ฉันเริ่มเป็นหวัดมาตั้งแต่เมื่อวาน รบกวนช่วยตรวจให้ด้วยนะ"
+        "hanzi": "得了感冒。",
+        "pinyin": "Dé le gǎnmào.",
+        "thaiMeaning": "เป็นหวัด"
       }
     ]
   },
@@ -9628,22 +5598,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการให้เพื่อนหรือคนในครอบครัวรับรู้",
-        "hanzi": "我今天有点发烧，不太舒服。",
-        "pinyin": "Wǒ jīntiān yǒudiǎn 发烧, bù tài shūfu.",
-        "thaiMeaning": "วันนี้ฉันตัวร้อนนิดหน่อย รู้สึกไม่ค่อยสบายเลย"
-      },
-      {
-        "scenario": "ขอลาหยุดเพราะไม่สบาย",
-        "hanzi": "我今天发烧很严重，想请假休息一天。",
-        "pinyin": "Wǒ jīntiān 发烧 hěn yánzhòng, xiǎng qǐngjià xiūxi yī tiān.",
-        "thaiMeaning": "วันนี้ฉันตัวร้อนหนักมาก อยากขอลาหยุดพักหนึ่งวัน"
-      },
-      {
-        "scenario": "ปรึกษาแพทย์หรืออธิบายอาการในโรงพยาบาล",
-        "hanzi": "医生，我从昨天开始发烧，您帮我看看吧。",
-        "pinyin": "Yīshēng, wǒ cóng zuótiān kāishǐ 发烧, nín bāng wǒ kàn kàn ba.",
-        "thaiMeaning": "หมอคะ ฉันเริ่มตัวร้อนมาตั้งแต่เมื่อวาน รบกวนช่วยตรวจให้ด้วยนะ"
+        "hanzi": "发烧三十八度。",
+        "pinyin": "Fāshāo sānshíbā dù.",
+        "thaiMeaning": "ไข้ขึ้น 38 องศา"
       }
     ]
   },
@@ -9659,22 +5616,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการให้เพื่อนหรือคนในครอบครัวรับรู้",
-        "hanzi": "我今天有点咳嗽，不太舒服。",
-        "pinyin": "Wǒ jīntiān yǒudiǎn 咳嗽, bù tài shūfu.",
-        "thaiMeaning": "วันนี้ฉันไอนิดหน่อย รู้สึกไม่ค่อยสบายเลย"
-      },
-      {
-        "scenario": "ขอลาหยุดเพราะไม่สบาย",
-        "hanzi": "我今天咳嗽很严重，想请假休息一天。",
-        "pinyin": "Wǒ jīntiān 咳嗽 hěn yánzhòng, xiǎng qǐngjià xiūxi yī tiān.",
-        "thaiMeaning": "วันนี้ฉันไอหนักมาก อยากขอลาหยุดพักหนึ่งวัน"
-      },
-      {
-        "scenario": "ปรึกษาแพทย์หรืออธิบายอาการในโรงพยาบาล",
-        "hanzi": "医生，我从昨天开始咳嗽，您帮我看看吧。",
-        "pinyin": "Yīshēng, wǒ cóng zuótiān kāishǐ 咳嗽, nín bāng wǒ kàn kàn ba.",
-        "thaiMeaning": "หมอคะ ฉันเริ่มไอมาตั้งแต่เมื่อวาน รบกวนช่วยตรวจให้ด้วยนะ"
+        "hanzi": "一直咳嗽。",
+        "pinyin": "Yìzhí késou.",
+        "thaiMeaning": "ไอไม่หยุด"
       }
     ]
   },
@@ -9690,22 +5634,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการให้เพื่อนหรือคนในครอบครัวรับรู้",
-        "hanzi": "我今天有点头疼，不太舒服。",
-        "pinyin": "Wǒ jīntiān yǒudiǎn 头疼, bù tài shūfu.",
-        "thaiMeaning": "วันนี้ฉันปวดหัวนิดหน่อย รู้สึกไม่ค่อยสบายเลย"
-      },
-      {
-        "scenario": "ขอลาหยุดเพราะไม่สบาย",
-        "hanzi": "我今天头疼很严重，想请假休息一天。",
-        "pinyin": "Wǒ jīntiān 头疼 hěn yánzhòng, xiǎng qǐngjià xiūxi yī tiān.",
-        "thaiMeaning": "วันนี้ฉันปวดหัวหนักมาก อยากขอลาหยุดพักหนึ่งวัน"
-      },
-      {
-        "scenario": "ปรึกษาแพทย์หรืออธิบายอาการในโรงพยาบาล",
-        "hanzi": "医生，我从昨天开始头疼，您帮我看看吧。",
-        "pinyin": "Yīshēng, wǒ cóng zuótiān kāishǐ 头疼, nín bāng wǒ kàn kàn ba.",
-        "thaiMeaning": "หมอคะ ฉันเริ่มปวดหัวมาตั้งแต่เมื่อวาน รบกวนช่วยตรวจให้ด้วยนะ"
+        "hanzi": "有点头疼。",
+        "pinyin": "Yǒudiǎnr tóuténg.",
+        "thaiMeaning": "ปวดหัวนิดหน่อย"
       }
     ]
   },
@@ -9721,22 +5652,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการให้เพื่อนหรือคนในครอบครัวรับรู้",
-        "hanzi": "我今天有点吃药，不太舒服。",
-        "pinyin": "Wǒ jīntiān yǒudiǎn 吃药, bù tài shūfu.",
-        "thaiMeaning": "วันนี้ฉันทานยานิดหน่อย รู้สึกไม่ค่อยสบายเลย"
-      },
-      {
-        "scenario": "ขอลาหยุดเพราะไม่สบาย",
-        "hanzi": "我今天吃药很严重，想请假休息一天。",
-        "pinyin": "Wǒ jīntiān 吃药 hěn yánzhòng, xiǎng qǐngjià xiūxi yī tiān.",
-        "thaiMeaning": "วันนี้ฉันทานยาหนักมาก อยากขอลาหยุดพักหนึ่งวัน"
-      },
-      {
-        "scenario": "ปรึกษาแพทย์หรืออธิบายอาการในโรงพยาบาล",
-        "hanzi": "医生，我从昨天开始吃药，您帮我看看吧。",
-        "pinyin": "Yīshēng, wǒ cóng zuótiān kāishǐ 吃药, nín bāng wǒ kàn kàn ba.",
-        "thaiMeaning": "หมอคะ ฉันเริ่มทานยามาตั้งแต่เมื่อวาน รบกวนช่วยตรวจให้ด้วยนะ"
+        "hanzi": "记得吃药。",
+        "pinyin": "Jìde chīyào.",
+        "thaiMeaning": "อย่าลืมทานยา"
       }
     ]
   },
@@ -9752,22 +5670,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการให้เพื่อนหรือคนในครอบครัวรับรู้",
-        "hanzi": "我今天有点打针，不太舒服。",
-        "pinyin": "Wǒ jīntiān yǒudiǎn 打针, bù tài shūfu.",
-        "thaiMeaning": "วันนี้ฉันฉีดยานิดหน่อย รู้สึกไม่ค่อยสบายเลย"
-      },
-      {
-        "scenario": "ขอลาหยุดเพราะไม่สบาย",
-        "hanzi": "我今天打针很严重，想请假休息一天。",
-        "pinyin": "Wǒ jīntiān 打针 hěn yánzhòng, xiǎng qǐngjià xiūxi yī tiān.",
-        "thaiMeaning": "วันนี้ฉันฉีดยาหนักมาก อยากขอลาหยุดพักหนึ่งวัน"
-      },
-      {
-        "scenario": "ปรึกษาแพทย์หรืออธิบายอาการในโรงพยาบาล",
-        "hanzi": "医生，我从昨天开始打针，您帮我看看吧。",
-        "pinyin": "Yīshēng, wǒ cóng zuótiān kāishǐ 打针, nín bāng wǒ kàn kàn ba.",
-        "thaiMeaning": "หมอคะ ฉันเริ่มฉีดยามาตั้งแต่เมื่อวาน รบกวนช่วยตรวจให้ด้วยนะ"
+        "hanzi": "害怕打针。",
+        "pinyin": "Hàipà dǎzhēn.",
+        "thaiMeaning": "กลัวฉีดยา"
       }
     ]
   },
@@ -9783,22 +5688,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สุขภาพแข็งแรง\"",
         "hanzi": "身体健康。",
         "pinyin": "Shēntǐ jiànkāng.",
         "thaiMeaning": "สุขภาพแข็งแรง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สุขภาพแข็งแรง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有健康的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànkāng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสุขภาพแข็งแรงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สุขภาพแข็งแรง\"",
-        "hanzi": "对我来说，健康是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànkāng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สุขภาพแข็งแรงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -9814,22 +5706,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ผู้จัดการ\"",
         "hanzi": "总经理。",
         "pinyin": "Zǒngjīnglǐ.",
         "thaiMeaning": "ผู้จัดการใหญ่"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ผู้จัดการ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有经理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องผู้จัดการไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ผู้จัดการ\"",
-        "hanzi": "对我来说，经理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ผู้จัดการเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -9845,22 +5724,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "พูดถึงบุคคลสำคัญนั้นในการสนทนาประจำวัน",
-        "hanzi": "我的老板对我影响很大，我很感激。",
-        "pinyin": "Wǒ de 老板 duì wǒ yǐngxiǎng hěn dà, wǒ hěn gǎnjī.",
-        "thaiMeaning": "เจ้านายของฉันมีอิทธิพลต่อฉันมาก ฉันรู้สึกซาบซึ้งมาก"
-      },
-      {
-        "scenario": "เล่าให้คนอื่นฟังเกี่ยวกับความสัมพันธ์กับบุคคลนั้น",
-        "hanzi": "我和我的老板关系很好，经常一起出去玩。",
-        "pinyin": "Wǒ hé wǒ de 老板 guānxi hěn hǎo, jīngcháng yīqǐ chūqù wán.",
-        "thaiMeaning": "ฉันกับเจ้านายสนิทกันมาก ชอบออกไปเที่ยวด้วยกันบ่อยๆ"
-      },
-      {
-        "scenario": "ถามสอบถามสารทุกข์สุกดิบของบุคคลนั้น",
-        "hanzi": "你的老板最近怎么样？有没有问题？",
-        "pinyin": "Nǐ de 老板 zuìjìn zěnmeyàng? Yǒu méiyǒu wèntí?",
-        "thaiMeaning": "เจ้านายของคุณช่วงนี้เป็นยังไงบ้าง? มีปัญหาอะไรไหม?"
+        "hanzi": "老板好。",
+        "pinyin": "Lǎobǎn hǎo.",
+        "thaiMeaning": "สวัสดีครับเจ้านาย"
       }
     ]
   },
@@ -9876,22 +5742,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "พูดถึงบุคคลสำคัญนั้นในการสนทนาประจำวัน",
-        "hanzi": "我的同事对我影响很大，我很感激。",
-        "pinyin": "Wǒ de 同事 duì wǒ yǐngxiǎng hěn dà, wǒ hěn gǎnjī.",
-        "thaiMeaning": "เพื่อนร่วมงานของฉันมีอิทธิพลต่อฉันมาก ฉันรู้สึกซาบซึ้งมาก"
-      },
-      {
-        "scenario": "เล่าให้คนอื่นฟังเกี่ยวกับความสัมพันธ์กับบุคคลนั้น",
-        "hanzi": "我和我的同事关系很好，经常一起出去玩。",
-        "pinyin": "Wǒ hé wǒ de 同事 guānxi hěn hǎo, jīngcháng yīqǐ chūqù wán.",
-        "thaiMeaning": "ฉันกับเพื่อนร่วมงานสนิทกันมาก ชอบออกไปเที่ยวด้วยกันบ่อยๆ"
-      },
-      {
-        "scenario": "ถามสอบถามสารทุกข์สุกดิบของบุคคลนั้น",
-        "hanzi": "你的同事最近怎么样？有没有问题？",
-        "pinyin": "Nǐ de 同事 zuìjìn zěnmeyàng? Yǒu méiyǒu wèntí?",
-        "thaiMeaning": "เพื่อนร่วมงานของคุณช่วงนี้เป็นยังไงบ้าง? มีปัญหาอะไรไหม?"
+        "hanzi": "和同事。",
+        "pinyin": "Hé tóngshì.",
+        "thaiMeaning": "กับเพื่อนร่วมงาน"
       }
     ]
   },
@@ -9907,22 +5760,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "พูดถึงบุคคลสำคัญนั้นในการสนทนาประจำวัน",
-        "hanzi": "我的顾客对我影响很大，我很感激。",
-        "pinyin": "Wǒ de 顾客 duì wǒ yǐngxiǎng hěn dà, wǒ hěn gǎnjī.",
-        "thaiMeaning": "ลูกค้าของฉันมีอิทธิพลต่อฉันมาก ฉันรู้สึกซาบซึ้งมาก"
-      },
-      {
-        "scenario": "เล่าให้คนอื่นฟังเกี่ยวกับความสัมพันธ์กับบุคคลนั้น",
-        "hanzi": "我和我的顾客关系很好，经常一起出去玩。",
-        "pinyin": "Wǒ hé wǒ de 顾客 guānxi hěn hǎo, jīngcháng yīqǐ chūqù wán.",
-        "thaiMeaning": "ฉันกับลูกค้าสนิทกันมาก ชอบออกไปเที่ยวด้วยกันบ่อยๆ"
-      },
-      {
-        "scenario": "ถามสอบถามสารทุกข์สุกดิบของบุคคลนั้น",
-        "hanzi": "你的顾客最近怎么样？有没有问题？",
-        "pinyin": "Nǐ de 顾客 zuìjìn zěnmeyàng? Yǒu méiyǒu wèntí?",
-        "thaiMeaning": "ลูกค้าของคุณช่วงนี้เป็นยังไงบ้าง? มีปัญหาอะไรไหม?"
+        "hanzi": "接待顾客。",
+        "pinyin": "Jiēdài gùkè.",
+        "thaiMeaning": "ต้อนรับลูกค้า"
       }
     ]
   },
@@ -9938,22 +5778,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ประชุม\"",
         "hanzi": "准备开会。",
         "pinyin": "Zhǔnbèi kāihuì.",
         "thaiMeaning": "เตรียมเข้าประชุม"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ประชุม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有开会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu kāihuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องประชุมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ประชุม\"",
-        "hanzi": "对我来说，开会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, kāihuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ประชุมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -9969,22 +5796,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"รายงาน\"",
         "hanzi": "写报告。",
         "pinyin": "Xiě bàogào.",
         "thaiMeaning": "เขียนรายงาน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"รายงาน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有报告的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bàogào de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องรายงานไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"รายงาน\"",
-        "hanzi": "对我来说，报告是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bàogào shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว รายงานเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -10000,22 +5814,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำโอที\"",
-        "hanzi": "我已经今晚加班了，今天会准时上班。",
-        "pinyin": "Wǒ yǐjīng Jīnwǎn jiābān le, jīntiān huì zhǔnshí shàngbān.",
-        "thaiMeaning": "ฉันคืนนี้ทำโอทีแล้ว วันนี้จะเข้างานตรงเวลา"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำโอที\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有加班的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiābān de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำโอทีไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำโอที\"",
-        "hanzi": "对我来说，加班是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiābān shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำโอทีเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "今晚加班。",
+        "pinyin": "Jīnwǎn jiābān.",
+        "thaiMeaning": "คืนนี้ทำโอที"
       }
     ]
   },
@@ -10031,22 +5832,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลางาน\"",
-        "hanzi": "我已经向公司请假了，今天会准时上班。",
-        "pinyin": "Wǒ yǐjīng Xiàng gōngsī qǐngjià le, jīntiān huì zhǔnshí shàngbān.",
-        "thaiMeaning": "ฉันยื่นลางานกับบริษัทแล้ว วันนี้จะเข้างานตรงเวลา"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลางาน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有请假的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu qǐngjià de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลางานไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลางาน\"",
-        "hanzi": "对我来说，请假是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, qǐngjià shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลางานเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "向公司请假。",
+        "pinyin": "Xiàng gōngsī qǐngjià.",
+        "thaiMeaning": "ยื่นลางานกับบริษัท"
       }
     ]
   },
@@ -10062,22 +5850,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกตารางเรียนหรือแผนการเรียนให้คนอื่นรู้",
-        "hanzi": "我今天要学习，晚上才有空联系你。",
-        "pinyin": "Wǒ jīntiān yào 学习, wǎnshang cái yǒu kòng liánxì nǐ.",
-        "thaiMeaning": "วันนี้ฉันต้องเรียนรู้ ตอนเย็นถึงจะว่างติดต่อแก"
-      },
-      {
-        "scenario": "ปรึกษาเพื่อนเรื่องเนื้อหาหรือโจทย์ที่ไม่เข้าใจ",
-        "hanzi": "这个题我不太懂，你能解释给我听吗？",
-        "pinyin": "Zhège tí wǒ bù tài dǒng, nǐ néng jiěshì gěi wǒ tīng ma?",
-        "thaiMeaning": "โจทย์ข้อนี้ฉันยังไม่ค่อยเข้าใจ ช่วยอธิบายให้ฟังได้ไหม?"
-      },
-      {
-        "scenario": "เตรียมตัวก่อนสอบหรือบอกสถานะการเรียน",
-        "hanzi": "下周有大考，我要好好学习，没时间出去玩了。",
-        "pinyin": "Xià zhōu yǒu dà kǎo, wǒ yào hǎohāo 学习, méi shíjiān chūqù wán le.",
-        "thaiMeaning": "สัปดาห์หน้ามีสอบใหญ่ ต้องตั้งใจเรียนรู้ให้ดี ไม่มีเวลาออกไปเที่ยวแล้ว"
+        "hanzi": "学习中文。",
+        "pinyin": "Xuéxí zhōngwén.",
+        "thaiMeaning": "เรียนภาษาจีน"
       }
     ]
   },
@@ -10093,22 +5868,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกตารางเรียนหรือแผนการเรียนให้คนอื่นรู้",
-        "hanzi": "我今天要上课，晚上才有空联系你。",
-        "pinyin": "Wǒ jīntiān yào 上课, wǎnshang cái yǒu kòng liánxì nǐ.",
-        "thaiMeaning": "วันนี้ฉันต้องเข้าเรียน ตอนเย็นถึงจะว่างติดต่อแก"
-      },
-      {
-        "scenario": "ปรึกษาเพื่อนเรื่องเนื้อหาหรือโจทย์ที่ไม่เข้าใจ",
-        "hanzi": "这个题我不太懂，你能解释给我听吗？",
-        "pinyin": "Zhège tí wǒ bù tài dǒng, nǐ néng jiěshì gěi wǒ tīng ma?",
-        "thaiMeaning": "โจทย์ข้อนี้ฉันยังไม่ค่อยเข้าใจ ช่วยอธิบายให้ฟังได้ไหม?"
-      },
-      {
-        "scenario": "เตรียมตัวก่อนสอบหรือบอกสถานะการเรียน",
-        "hanzi": "下周有大考，我要好好上课，没时间出去玩了。",
-        "pinyin": "Xià zhōu yǒu dà kǎo, wǒ yào hǎohāo 上课, méi shíjiān chūqù wán le.",
-        "thaiMeaning": "สัปดาห์หน้ามีสอบใหญ่ ต้องตั้งใจเข้าเรียนให้ดี ไม่มีเวลาออกไปเที่ยวแล้ว"
+        "hanzi": "准备上课。",
+        "pinyin": "Zhǔnbèi shàngkè.",
+        "thaiMeaning": "เตรียมเข้าเรียน"
       }
     ]
   },
@@ -10124,22 +5886,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกตารางเรียนหรือแผนการเรียนให้คนอื่นรู้",
-        "hanzi": "我今天要下课，晚上才有空联系你。",
-        "pinyin": "Wǒ jīntiān yào 下课, wǎnshang cái yǒu kòng liánxì nǐ.",
-        "thaiMeaning": "วันนี้ฉันต้องเลิกเรียน ตอนเย็นถึงจะว่างติดต่อแก"
-      },
-      {
-        "scenario": "ปรึกษาเพื่อนเรื่องเนื้อหาหรือโจทย์ที่ไม่เข้าใจ",
-        "hanzi": "这个题我不太懂，你能解释给我听吗？",
-        "pinyin": "Zhège tí wǒ bù tài dǒng, nǐ néng jiěshì gěi wǒ tīng ma?",
-        "thaiMeaning": "โจทย์ข้อนี้ฉันยังไม่ค่อยเข้าใจ ช่วยอธิบายให้ฟังได้ไหม?"
-      },
-      {
-        "scenario": "เตรียมตัวก่อนสอบหรือบอกสถานะการเรียน",
-        "hanzi": "下周有大考，我要好好下课，没时间出去玩了。",
-        "pinyin": "Xià zhōu yǒu dà kǎo, wǒ yào hǎohāo 下课, méi shíjiān chūqù wán le.",
-        "thaiMeaning": "สัปดาห์หน้ามีสอบใหญ่ ต้องตั้งใจเลิกเรียนให้ดี ไม่มีเวลาออกไปเที่ยวแล้ว"
+        "hanzi": "下课了。",
+        "pinyin": "Xiàkè le.",
+        "thaiMeaning": "เลิกเรียนแล้ว"
       }
     ]
   },
@@ -10155,22 +5904,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกตารางเรียนหรือแผนการเรียนให้คนอื่นรู้",
-        "hanzi": "我今天要考试，晚上才有空联系你。",
-        "pinyin": "Wǒ jīntiān yào 考试, wǎnshang cái yǒu kòng liánxì nǐ.",
-        "thaiMeaning": "วันนี้ฉันต้องสอบ ตอนเย็นถึงจะว่างติดต่อแก"
-      },
-      {
-        "scenario": "ปรึกษาเพื่อนเรื่องเนื้อหาหรือโจทย์ที่ไม่เข้าใจ",
-        "hanzi": "这个题我不太懂，你能解释给我听吗？",
-        "pinyin": "Zhège tí wǒ bù tài dǒng, nǐ néng jiěshì gěi wǒ tīng ma?",
-        "thaiMeaning": "โจทย์ข้อนี้ฉันยังไม่ค่อยเข้าใจ ช่วยอธิบายให้ฟังได้ไหม?"
-      },
-      {
-        "scenario": "เตรียมตัวก่อนสอบหรือบอกสถานะการเรียน",
-        "hanzi": "下周有大考，我要好好考试，没时间出去玩了。",
-        "pinyin": "Xià zhōu yǒu dà kǎo, wǒ yào hǎohāo 考试, méi shíjiān chūqù wán le.",
-        "thaiMeaning": "สัปดาห์หน้ามีสอบใหญ่ ต้องตั้งใจสอบให้ดี ไม่มีเวลาออกไปเที่ยวแล้ว"
+        "hanzi": "参加考试。",
+        "pinyin": "Cānjiā kǎoshì.",
+        "thaiMeaning": "เข้าสอบ"
       }
     ]
   },
@@ -10186,22 +5922,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกตารางเรียนหรือแผนการเรียนให้คนอื่นรู้",
-        "hanzi": "我今天要成绩，晚上才有空联系你。",
-        "pinyin": "Wǒ jīntiān yào 成绩, wǎnshang cái yǒu kòng liánxì nǐ.",
-        "thaiMeaning": "วันนี้ฉันต้องผลการเรียน ตอนเย็นถึงจะว่างติดต่อแก"
-      },
-      {
-        "scenario": "ปรึกษาเพื่อนเรื่องเนื้อหาหรือโจทย์ที่ไม่เข้าใจ",
-        "hanzi": "这个题我不太懂，你能解释给我听吗？",
-        "pinyin": "Zhège tí wǒ bù tài dǒng, nǐ néng jiěshì gěi wǒ tīng ma?",
-        "thaiMeaning": "โจทย์ข้อนี้ฉันยังไม่ค่อยเข้าใจ ช่วยอธิบายให้ฟังได้ไหม?"
-      },
-      {
-        "scenario": "เตรียมตัวก่อนสอบหรือบอกสถานะการเรียน",
-        "hanzi": "下周有大考，我要好好成绩，没时间出去玩了。",
-        "pinyin": "Xià zhōu yǒu dà kǎo, wǒ yào hǎohāo 成绩, méi shíjiān chūqù wán le.",
-        "thaiMeaning": "สัปดาห์หน้ามีสอบใหญ่ ต้องตั้งใจผลการเรียนให้ดี ไม่มีเวลาออกไปเที่ยวแล้ว"
+        "hanzi": "好成绩。",
+        "pinyin": "Hǎo chéngjì.",
+        "thaiMeaning": "คะแนนดี"
       }
     ]
   },
@@ -10217,22 +5940,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คำตอบ\"",
-        "hanzi": "请你用中文答案给我。",
-        "pinyin": "Qǐng nǐ yòng zhōngwén dá'àn gěi wǒ.",
-        "thaiMeaning": "ช่วยคำตอบให้ฉันเป็นภาษาจีนหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คำตอบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有答案的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dá'àn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคำตอบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คำตอบ\"",
-        "hanzi": "对我来说，答案是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dá'àn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คำตอบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "寻找答案。",
+        "pinyin": "Xúnzhǎo dá'àn.",
+        "thaiMeaning": "ค้นหาคำตอบ"
       }
     ]
   },
@@ -10248,22 +5958,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢运动，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 运动, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบออกกำลังกายมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去运动吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 运动 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปออกกำลังกายด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多运动，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 运动, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันออกกำลังกายบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "做运动。",
+        "pinyin": "Zuò yùndòng.",
+        "thaiMeaning": "ออกกำลังกาย"
       }
     ]
   },
@@ -10279,22 +5976,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢跑步，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 跑步, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบวิ่งออกกำลังกายมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去跑步吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 跑步 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปวิ่งออกกำลังกายด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多跑步，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 跑步, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันวิ่งออกกำลังกายบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "晨跑。",
+        "pinyin": "Chénpǎo.",
+        "thaiMeaning": "วิ่งตอนเช้า"
       }
     ]
   },
@@ -10310,22 +5994,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢游泳，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 游泳, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบว่ายน้ำมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去游泳吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 游泳 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปว่ายน้ำด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多游泳，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 游泳, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันว่ายน้ำบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "去游泳。",
+        "pinyin": "Qù yóuyǒng.",
+        "thaiMeaning": "ไปว่ายน้ำ"
       }
     ]
   },
@@ -10341,22 +6012,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢打球，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 打球, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบเล่นบอลมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去打球吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 打球 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปเล่นบอลด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多打球，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 打球, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันเล่นบอลบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "打羽毛球。",
+        "pinyin": "Dǎ yǔmáoqiú.",
+        "thaiMeaning": "เล่นแบดมินตัน"
       }
     ]
   },
@@ -10372,22 +6030,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢看电影，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 看电影, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบดูภาพยนตร์มาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去看电影吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 看电影 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปดูภาพยนตร์ด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多看电影，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 看电影, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันดูภาพยนตร์บ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "去看电影。",
+        "pinyin": "Qù kàn diànyǐng.",
+        "thaiMeaning": "ไปดูหนัง"
       }
     ]
   },
@@ -10403,22 +6048,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢听音乐，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 听音乐, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบฟังเพลงมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去听音乐吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 听音乐 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปฟังเพลงด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多听音乐，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 听音乐, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันฟังเพลงบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "戴耳机听音乐。",
+        "pinyin": "Dài ěrjī tīng yīnyuè.",
+        "thaiMeaning": "ใส่หูฟังฟังเพลง"
       }
     ]
   },
@@ -10434,22 +6066,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ท่องเที่ยว\"",
-        "hanzi": "请帮我叫一辆旅游，我要去机场。",
-        "pinyin": "Qǐng bāng wǒ jiào yī liàng lǚyóu, wǒ yào qù jīchǎng.",
-        "thaiMeaning": "ช่วยเรียกท่องเที่ยวให้ฉันด้วย ฉันต้องไปสนามบิน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ท่องเที่ยว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有旅游的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu lǚyóu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องท่องเที่ยวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ท่องเที่ยว\"",
-        "hanzi": "对我来说，旅游是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, lǚyóu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ท่องเที่ยวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "去中国旅游。",
+        "pinyin": "Qù Zhōngguó lǚyóu.",
+        "thaiMeaning": "ไปเที่ยวเมืองจีน"
       }
     ]
   },
@@ -10465,22 +6084,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢拍照，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 拍照, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบถ่ายรูปมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去拍照吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 拍照 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปถ่ายรูปด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多拍照，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 拍照, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันถ่ายรูปบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "拍张照。",
+        "pinyin": "Pāi zhāng zhào.",
+        "thaiMeaning": "ถ่ายรูปรูปหนึ่ง"
       }
     ]
   },
@@ -10496,22 +6102,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢唱歌，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 唱歌, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบร้องเพลงมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去唱歌吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 唱歌 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปร้องเพลงด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多唱歌，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 唱歌, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันร้องเพลงบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "去唱歌。",
+        "pinyin": "Qù chànggē.",
+        "thaiMeaning": "ไปร้องเพลง"
       }
     ]
   },
@@ -10527,22 +6120,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢跳舞，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 跳舞, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบเต้นรำมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去跳舞吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 跳舞 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปเต้นรำด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多跳舞，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 跳舞, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันเต้นรำบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "学习跳舞。",
+        "pinyin": "Xuéxí tiàowǔ.",
+        "thaiMeaning": "ฝึกเรียนเต้น"
       }
     ]
   },
@@ -10558,22 +6138,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "当然，你太客气了！",
-        "pinyin": "dāngrán, nǐ tài kèqi le!",
-        "thaiMeaning": "แน่นอนอยู่แล้ว คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得当然！",
-        "pinyin": "Shuō zhēn de, wǒ juéde dāngrán!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกแน่นอนอยู่แล้ว เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，当然！你说得对。",
-        "pinyin": "En, dāngrán! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม แน่นอนอยู่แล้ว! คุณพูดถูก"
+        "hanzi": "当然没问题。",
+        "pinyin": "Dāngrán méi wèntí.",
+        "thaiMeaning": "แน่นอนไม่มีปัญหา"
       }
     ]
   },
@@ -10589,22 +6156,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ช่างมันเถอะ\"",
         "hanzi": "算了吧，不去了。",
         "pinyin": "Suàn le ba, bú qù le.",
         "thaiMeaning": "ช่างมันเถอะ ไม่ไปแล้ว"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ช่างมันเถอะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有算了吧的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu suàn le ba de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องช่างมันเถอะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ช่างมันเถอะ\"",
-        "hanzi": "对我来说，算了吧是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, suàn le ba shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ช่างมันเถอะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -10620,22 +6174,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำยังไงดี\"",
-        "hanzi": "现在怎么办。",
-        "pinyin": "Xiànzài zěnme bàn.",
+        "hanzi": "现在怎么办？",
+        "pinyin": "Xiànzài zěnme bàn?",
         "thaiMeaning": "ตอนนี้ทำไงดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำยังไงดี\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有怎么办的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zěnme bàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำยังไงดีไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำยังไงดี\"",
-        "hanzi": "对我来说，怎么办是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zěnme bàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำยังไงดีเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -10651,22 +6192,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "真的吗，你太客气了！",
-        "pinyin": "zhēn de ma, nǐ tài kèqi le!",
-        "thaiMeaning": "จริงเหรอ คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得真的吗！",
-        "pinyin": "Shuō zhēn de, wǒ juéde zhēn de ma!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกจริงเหรอ เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，真的吗！你说得对。",
-        "pinyin": "En, zhēn de ma! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม จริงเหรอ! คุณพูดถูก"
+        "hanzi": "这是真的吗？",
+        "pinyin": "Zhè shì zhēn de ma?",
+        "thaiMeaning": "เรื่องนี้จริงเหรอ"
       }
     ]
   },
@@ -10682,22 +6210,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "太棒了，你太客气了！",
-        "pinyin": "tài bàng le, nǐ tài kèqi le!",
-        "thaiMeaning": "สุดยอดไปเลย คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得太棒了！",
-        "pinyin": "Shuō zhēn de, wǒ juéde tài bàng le!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกสุดยอดไปเลย เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，太棒了！你说得对。",
-        "pinyin": "En, tài bàng le! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม สุดยอดไปเลย! คุณพูดถูก"
+        "hanzi": "太棒了！",
+        "pinyin": "Tài bàng le!",
+        "thaiMeaning": "สุดยอดมาก!"
       }
     ]
   },
@@ -10713,22 +6228,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "随便，你太客气了！",
-        "pinyin": "suíbiàn, nǐ tài kèqi le!",
-        "thaiMeaning": "ตามสบาย คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得随便！",
-        "pinyin": "Shuō zhēn de, wǒ juéde suíbiàn!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกตามสบาย เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，随便！你说得对。",
-        "pinyin": "En, suíbiàn! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม ตามสบาย! คุณพูดถูก"
+        "hanzi": "随便吃。",
+        "pinyin": "Suíbiàn chī.",
+        "thaiMeaning": "ทานตามสบายเลย"
       }
     ]
   },
@@ -10744,22 +6246,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "สั่งอาหารหรือเครื่องดื่มในร้าน",
-        "hanzi": "我要点一个先生，谢谢！",
-        "pinyin": "Wǒ yào diǎn yī gè 先生, xièxie!",
-        "thaiMeaning": "ขอสั่งคุณผู้ชายหนึ่งอย่างนะคะ ขอบคุณ!"
-      },
-      {
-        "scenario": "แนะนำเมนูหรืออาหารให้เพื่อนที่ไม่รู้จะกินอะไร",
-        "hanzi": "你试试这里的先生，真的很好吃！",
-        "pinyin": "Nǐ shìshi zhèlǐ de 先生, zhēn de hěn hǎo chī!",
-        "thaiMeaning": "ลองคุณผู้ชายที่นี่สิ อร่อยจริงๆ เลย!"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังว่าชอบกินอะไร",
-        "hanzi": "我最喜欢吃先生，每天都想吃。",
-        "pinyin": "Wǒ zuì xǐhuan chī 先生, měitiān dōu xiǎng chī.",
-        "thaiMeaning": "ฉันชอบกินคุณผู้ชายมากที่สุด อยากกินทุกวันเลย"
+        "hanzi": "王先生。",
+        "pinyin": "Wáng xiānsheng.",
+        "thaiMeaning": "คุณหวัง"
       }
     ]
   },
@@ -10775,22 +6264,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คุณผู้หญิง\"",
-        "hanzi": "我的女士对我影响很大。",
-        "pinyin": "Wǒ de nǚshì duì wǒ yǐngxiǎng hěn dà.",
-        "thaiMeaning": "คุณผู้หญิงของฉันมีอิทธิพลต่อฉันมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คุณผู้หญิง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有女士的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu nǚshì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคุณผู้หญิงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คุณผู้หญิง\"",
-        "hanzi": "对我来说，女士是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, nǚshì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คุณผู้หญิงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "李女士。",
+        "pinyin": "Lǐ nǚshì.",
+        "thaiMeaning": "คุณหลี"
       }
     ]
   },
@@ -10806,22 +6282,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คุณหนู\"",
-        "hanzi": "我的小姐对我影响很大。",
-        "pinyin": "Wǒ de xiǎojiě duì wǒ yǐngxiǎng hěn dà.",
-        "thaiMeaning": "คุณหนูของฉันมีอิทธิพลต่อฉันมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คุณหนู\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有小姐的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiǎojiě de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคุณหนูไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คุณหนู\"",
-        "hanzi": "对我来说，小姐是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiǎojiě shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คุณหนูเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "张小姐。",
+        "pinyin": "Zhāng xiǎojiě.",
+        "thaiMeaning": "คุณจาง"
       }
     ]
   },
@@ -10837,22 +6300,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทุกคน\"",
-        "hanzi": "我的大家对我影响很大。",
-        "pinyin": "Wǒ de dàjiā duì wǒ yǐngxiǎng hěn dà.",
-        "thaiMeaning": "ทุกคนของฉันมีอิทธิพลต่อฉันมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทุกคน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有大家的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทุกคนไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทุกคน\"",
-        "hanzi": "对我来说，大家是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทุกคนเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "大家好！",
+        "pinyin": "Dàjiā hǎo!",
+        "thaiMeaning": "สวัสดีทุกคนครับ!"
       }
     ]
   },
@@ -10868,22 +6318,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอให้เพื่อนช่วยแก้ปัญหาหรือแนะนำการใช้งาน",
-        "hanzi": "我的网络出了点问题，你能帮我看看吗？",
-        "pinyin": "Wǒ de 网络 chū le diǎn wèntí, nǐ néng bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "อินเทอร์เน็ตของฉันมีปัญหานิดหน่อย คุณช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "แนะนำให้เพื่อนใช้งานช่องทางนี้เพื่อความสะดวก",
-        "hanzi": "你用网络联系我最方便，随时都能看到。",
-        "pinyin": "Nǐ yòng 网络 liánxì wǒ zuì fāngbiàn, suíshí dōu néng kàn dào.",
-        "thaiMeaning": "ติดต่อผ่านอินเทอร์เน็ตสะดวกที่สุด เห็นได้ตลอดเวลา"
-      },
-      {
-        "scenario": "บ่นหรือรายงานปัญหาด้านเทคนิคในออฟฟิศ",
-        "hanzi": "今天办公室的网络一直出问题，影响了工作进度。",
-        "pinyin": "Jīntiān bàngōngshì de 网络 yīzhí chū wèntí, yǐngxiǎng le gōngzuò jìndù.",
-        "thaiMeaning": "วันนี้อินเทอร์เน็ตในออฟฟิศมีปัญหาตลอด ทำให้งานล่าช้าไปหมด"
+        "hanzi": "连网络。",
+        "pinyin": "Lián wǎngluò.",
+        "thaiMeaning": "เชื่อมเน็ต"
       }
     ]
   },
@@ -10899,22 +6336,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอให้เพื่อนช่วยแก้ปัญหาหรือแนะนำการใช้งาน",
-        "hanzi": "我的网站出了点问题，你能帮我看看吗？",
-        "pinyin": "Wǒ de 网站 chū le diǎn wèntí, nǐ néng bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "เว็บไซต์ของฉันมีปัญหานิดหน่อย คุณช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "แนะนำให้เพื่อนใช้งานช่องทางนี้เพื่อความสะดวก",
-        "hanzi": "你用网站联系我最方便，随时都能看到。",
-        "pinyin": "Nǐ yòng 网站 liánxì wǒ zuì fāngbiàn, suíshí dōu néng kàn dào.",
-        "thaiMeaning": "ติดต่อผ่านเว็บไซต์สะดวกที่สุด เห็นได้ตลอดเวลา"
-      },
-      {
-        "scenario": "บ่นหรือรายงานปัญหาด้านเทคนิคในออฟฟิศ",
-        "hanzi": "今天办公室的网站一直出问题，影响了工作进度。",
-        "pinyin": "Jīntiān bàngōngshì de 网站 yīzhí chū wèntí, yǐngxiǎng le gōngzuò jìndù.",
-        "thaiMeaning": "วันนี้เว็บไซต์ในออฟฟิศมีปัญหาตลอด ทำให้งานล่าช้าไปหมด"
+        "hanzi": "浏览网站。",
+        "pinyin": "Liúlǎn wǎngzhàn.",
+        "thaiMeaning": "เข้าชมเว็บ"
       }
     ]
   },
@@ -10930,22 +6354,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอให้เพื่อนช่วยแก้ปัญหาหรือแนะนำการใช้งาน",
-        "hanzi": "我的软件出了点问题，你能帮我看看吗？",
-        "pinyin": "Wǒ de 软件 chū le diǎn wèntí, nǐ néng bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "แอปพลิเคชันของฉันมีปัญหานิดหน่อย คุณช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "แนะนำให้เพื่อนใช้งานช่องทางนี้เพื่อความสะดวก",
-        "hanzi": "你用软件联系我最方便，随时都能看到。",
-        "pinyin": "Nǐ yòng 软件 liánxì wǒ zuì fāngbiàn, suíshí dōu néng kàn dào.",
-        "thaiMeaning": "ติดต่อผ่านแอปพลิเคชันสะดวกที่สุด เห็นได้ตลอดเวลา"
-      },
-      {
-        "scenario": "บ่นหรือรายงานปัญหาด้านเทคนิคในออฟฟิศ",
-        "hanzi": "今天办公室的软件一直出问题，影响了工作进度。",
-        "pinyin": "Jīntiān bàngōngshì de 软件 yīzhí chū wèntí, yǐngxiǎng le gōngzuò jìndù.",
-        "thaiMeaning": "วันนี้แอปพลิเคชันในออฟฟิศมีปัญหาตลอด ทำให้งานล่าช้าไปหมด"
+        "hanzi": "下载软件。",
+        "pinyin": "Xiàzǎi ruǎnjiàn.",
+        "thaiMeaning": "โหลดแอป"
       }
     ]
   },
@@ -10961,22 +6372,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอให้เพื่อนช่วยแก้ปัญหาหรือแนะนำการใช้งาน",
-        "hanzi": "我的账号出了点问题，你能帮我看看吗？",
-        "pinyin": "Wǒ de 账号 chū le diǎn wèntí, nǐ néng bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "บัญชีผู้ใช้ของฉันมีปัญหานิดหน่อย คุณช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "แนะนำให้เพื่อนใช้งานช่องทางนี้เพื่อความสะดวก",
-        "hanzi": "你用账号联系我最方便，随时都能看到。",
-        "pinyin": "Nǐ yòng 账号 liánxì wǒ zuì fāngbiàn, suíshí dōu néng kàn dào.",
-        "thaiMeaning": "ติดต่อผ่านบัญชีผู้ใช้สะดวกที่สุด เห็นได้ตลอดเวลา"
-      },
-      {
-        "scenario": "บ่นหรือรายงานปัญหาด้านเทคนิคในออฟฟิศ",
-        "hanzi": "今天办公室的账号一直出问题，影响了工作进度。",
-        "pinyin": "Jīntiān bàngōngshì de 账号 yīzhí chū wèntí, yǐngxiǎng le gōngzuò jìndù.",
-        "thaiMeaning": "วันนี้บัญชีผู้ใช้ในออฟฟิศมีปัญหาตลอด ทำให้งานล่าช้าไปหมด"
+        "hanzi": "登录账号。",
+        "pinyin": "Dēnglù zhànghào.",
+        "thaiMeaning": "ล็อกอินบัญชี"
       }
     ]
   },
@@ -10992,22 +6390,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอให้เพื่อนช่วยแก้ปัญหาหรือแนะนำการใช้งาน",
-        "hanzi": "我的密码出了点问题，你能帮我看看吗？",
-        "pinyin": "Wǒ de 密码 chū le diǎn wèntí, nǐ néng bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "รหัสผ่านของฉันมีปัญหานิดหน่อย คุณช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "แนะนำให้เพื่อนใช้งานช่องทางนี้เพื่อความสะดวก",
-        "hanzi": "你用密码联系我最方便，随时都能看到。",
-        "pinyin": "Nǐ yòng 密码 liánxì wǒ zuì fāngbiàn, suíshí dōu néng kàn dào.",
-        "thaiMeaning": "ติดต่อผ่านรหัสผ่านสะดวกที่สุด เห็นได้ตลอดเวลา"
-      },
-      {
-        "scenario": "บ่นหรือรายงานปัญหาด้านเทคนิคในออฟฟิศ",
-        "hanzi": "今天办公室的密码一直出问题，影响了工作进度。",
-        "pinyin": "Jīntiān bàngōngshì de 密码 yīzhí chū wèntí, yǐngxiǎng le gōngzuò jìndù.",
-        "thaiMeaning": "วันนี้รหัสผ่านในออฟฟิศมีปัญหาตลอด ทำให้งานล่าช้าไปหมด"
+        "hanzi": "输入密码。",
+        "pinyin": "Shūrù mìmǎ.",
+        "thaiMeaning": "ใส่รหัสผ่าน"
       }
     ]
   },
@@ -11023,22 +6408,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอให้เพื่อนช่วยแก้ปัญหาหรือแนะนำการใช้งาน",
-        "hanzi": "我的微信出了点问题，你能帮我看看吗？",
-        "pinyin": "Wǒ de 微信 chū le diǎn wèntí, nǐ néng bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "วีแชต (WeChat)ของฉันมีปัญหานิดหน่อย คุณช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "แนะนำให้เพื่อนใช้งานช่องทางนี้เพื่อความสะดวก",
-        "hanzi": "你用微信联系我最方便，随时都能看到。",
-        "pinyin": "Nǐ yòng 微信 liánxì wǒ zuì fāngbiàn, suíshí dōu néng kàn dào.",
-        "thaiMeaning": "ติดต่อผ่านวีแชต (WeChat)สะดวกที่สุด เห็นได้ตลอดเวลา"
-      },
-      {
-        "scenario": "บ่นหรือรายงานปัญหาด้านเทคนิคในออฟฟิศ",
-        "hanzi": "今天办公室的微信一直出问题，影响了工作进度。",
-        "pinyin": "Jīntiān bàngōngshì de 微信 yīzhí chū wèntí, yǐngxiǎng le gōngzuò jìndù.",
-        "thaiMeaning": "วันนี้วีแชต (WeChat)ในออฟฟิศมีปัญหาตลอด ทำให้งานล่าช้าไปหมด"
+        "hanzi": "加微信。",
+        "pinyin": "Jiā wēixìn.",
+        "thaiMeaning": "เพิ่มแอดวีแชต"
       }
     ]
   },
@@ -11054,22 +6426,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ส่งข้อความ\"",
-        "hanzi": "请你用中文发消息给我。",
-        "pinyin": "Qǐng nǐ yòng zhōngwén fā xiāoxi gěi wǒ.",
-        "thaiMeaning": "ช่วยส่งข้อความให้ฉันเป็นภาษาจีนหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ส่งข้อความ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有发消息的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fā xiāoxi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องส่งข้อความไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ส่งข้อความ\"",
-        "hanzi": "对我来说，发消息是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fā xiāoxi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ส่งข้อความเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "给你发消息。",
+        "pinyin": "Gěi nǐ fā xiāoxi.",
+        "thaiMeaning": "ส่งข้อความหาคุณ"
       }
     ]
   },
@@ -11085,22 +6444,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ขอให้เพื่อนช่วยแก้ปัญหาหรือแนะนำการใช้งาน",
-        "hanzi": "我的视频出了点问题，你能帮我看看吗？",
-        "pinyin": "Wǒ de 视频 chū le diǎn wèntí, nǐ néng bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "วิดีโอของฉันมีปัญหานิดหน่อย คุณช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "แนะนำให้เพื่อนใช้งานช่องทางนี้เพื่อความสะดวก",
-        "hanzi": "你用视频联系我最方便，随时都能看到。",
-        "pinyin": "Nǐ yòng 视频 liánxì wǒ zuì fāngbiàn, suíshí dōu néng kàn dào.",
-        "thaiMeaning": "ติดต่อผ่านวิดีโอสะดวกที่สุด เห็นได้ตลอดเวลา"
-      },
-      {
-        "scenario": "บ่นหรือรายงานปัญหาด้านเทคนิคในออฟฟิศ",
-        "hanzi": "今天办公室的视频一直出问题，影响了工作进度。",
-        "pinyin": "Jīntiān bàngōngshì de 视频 yīzhí chū wèntí, yǐngxiǎng le gōngzuò jìndù.",
-        "thaiMeaning": "วันนี้วิดีโอในออฟฟิศมีปัญหาตลอด ทำให้งานล่าช้าไปหมด"
+        "hanzi": "看短视频。",
+        "pinyin": "Kàn duǎn shìpín.",
+        "thaiMeaning": "ดูคลิปสั้น"
       }
     ]
   },
@@ -11116,22 +6462,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนหรือคนแปลกหน้าถึงที่ตั้งสถานที่",
-        "hanzi": "请问附近有银行吗？我要去找一下。",
-        "pinyin": "Qǐngwèn fùjìn yǒu 银行 ma? Wǒ yào qù zhǎo yīxià.",
-        "thaiMeaning": "ขอถามหน่อย แถวนี้มีธนาคารไหม? ฉันอยากไปหาดู"
-      },
-      {
-        "scenario": "นัดหมายให้เพื่อนมาเจอกันที่สถานที่นั้น",
-        "hanzi": "我们在银行门口见面，三点怎么样？",
-        "pinyin": "Wǒmen zài 银行 ménkǒu jiànmiàn, sān diǎn zěnmeyàng?",
-        "thaiMeaning": "นัดเจอกันที่หน้าธนาคาร สามโมงตรงเป็นยังไง?"
-      },
-      {
-        "scenario": "แชร์รีวิวหรือประสบการณ์เกี่ยวกับสถานที่นั้น",
-        "hanzi": "这家银行的服务很好，下次还想来。",
-        "pinyin": "Zhè jiā 银行 de fúwù hěn hǎo, xià cì hái xiǎng lái.",
-        "thaiMeaning": "ธนาคารที่นี่บริการดีมาก อยากกลับมาอีกเลย"
+        "hanzi": "去银行。",
+        "pinyin": "Qù yínháng.",
+        "thaiMeaning": "ไปธนาคาร"
       }
     ]
   },
@@ -11147,22 +6480,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ไปรษณีย์\"",
         "hanzi": "寄信到邮局。",
         "pinyin": "Jì xìn dào yóujú.",
         "thaiMeaning": "ส่งจดหมายที่ไปรษณีย์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ไปรษณีย์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有邮局的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yóujú de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องไปรษณีย์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ไปรษณีย์\"",
-        "hanzi": "对我来说，邮局是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yóujú shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ไปรษณีย์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11178,22 +6498,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนหรือคนแปลกหน้าถึงที่ตั้งสถานที่",
-        "hanzi": "请问附近有图书馆吗？我要去找一下。",
-        "pinyin": "Qǐngwèn fùjìn yǒu 图书馆 ma? Wǒ yào qù zhǎo yīxià.",
-        "thaiMeaning": "ขอถามหน่อย แถวนี้มีห้องสมุดไหม? ฉันอยากไปหาดู"
-      },
-      {
-        "scenario": "นัดหมายให้เพื่อนมาเจอกันที่สถานที่นั้น",
-        "hanzi": "我们在图书馆门口见面，三点怎么样？",
-        "pinyin": "Wǒmen zài 图书馆 ménkǒu jiànmiàn, sān diǎn zěnmeyàng?",
-        "thaiMeaning": "นัดเจอกันที่หน้าห้องสมุด สามโมงตรงเป็นยังไง?"
-      },
-      {
-        "scenario": "แชร์รีวิวหรือประสบการณ์เกี่ยวกับสถานที่นั้น",
-        "hanzi": "这家图书馆的服务很好，下次还想来。",
-        "pinyin": "Zhè jiā 图书馆 de fúwù hěn hǎo, xià cì hái xiǎng lái.",
-        "thaiMeaning": "ห้องสมุดที่นี่บริการดีมาก อยากกลับมาอีกเลย"
+        "hanzi": "在图书馆。",
+        "pinyin": "Zài túshūguǎn.",
+        "thaiMeaning": "อยู่ที่ห้องสมุด"
       }
     ]
   },
@@ -11209,22 +6516,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนหรือคนแปลกหน้าถึงที่ตั้งสถานที่",
-        "hanzi": "请问附近有公园吗？我要去找一下。",
-        "pinyin": "Qǐngwèn fùjìn yǒu 公园 ma? Wǒ yào qù zhǎo yīxià.",
-        "thaiMeaning": "ขอถามหน่อย แถวนี้มีสวนสาธารณะไหม? ฉันอยากไปหาดู"
-      },
-      {
-        "scenario": "นัดหมายให้เพื่อนมาเจอกันที่สถานที่นั้น",
-        "hanzi": "我们在公园门口见面，三点怎么样？",
-        "pinyin": "Wǒmen zài 公园 ménkǒu jiànmiàn, sān diǎn zěnmeyàng?",
-        "thaiMeaning": "นัดเจอกันที่หน้าสวนสาธารณะ สามโมงตรงเป็นยังไง?"
-      },
-      {
-        "scenario": "แชร์รีวิวหรือประสบการณ์เกี่ยวกับสถานที่นั้น",
-        "hanzi": "这家公园的服务很好，下次还想来。",
-        "pinyin": "Zhè jiā 公园 de fúwù hěn hǎo, xià cì hái xiǎng lái.",
-        "thaiMeaning": "สวนสาธารณะที่นี่บริการดีมาก อยากกลับมาอีกเลย"
+        "hanzi": "逛公园。",
+        "pinyin": "Guàng gōngyuán.",
+        "thaiMeaning": "เดินเล่นสวน"
       }
     ]
   },
@@ -11240,22 +6534,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนหรือคนแปลกหน้าถึงที่ตั้งสถานที่",
-        "hanzi": "请问附近有电影院吗？我要去找一下。",
-        "pinyin": "Qǐngwèn fùjìn yǒu 电影院 ma? Wǒ yào qù zhǎo yīxià.",
-        "thaiMeaning": "ขอถามหน่อย แถวนี้มีโรงภาพยนตร์ไหม? ฉันอยากไปหาดู"
-      },
-      {
-        "scenario": "นัดหมายให้เพื่อนมาเจอกันที่สถานที่นั้น",
-        "hanzi": "我们在电影院门口见面，三点怎么样？",
-        "pinyin": "Wǒmen zài 电影院 ménkǒu jiànmiàn, sān diǎn zěnmeyàng?",
-        "thaiMeaning": "นัดเจอกันที่หน้าโรงภาพยนตร์ สามโมงตรงเป็นยังไง?"
-      },
-      {
-        "scenario": "แชร์รีวิวหรือประสบการณ์เกี่ยวกับสถานที่นั้น",
-        "hanzi": "这家电影院的服务很好，下次还想来。",
-        "pinyin": "Zhè jiā 电影院 de fúwù hěn hǎo, xià cì hái xiǎng lái.",
-        "thaiMeaning": "โรงภาพยนตร์ที่นี่บริการดีมาก อยากกลับมาอีกเลย"
+        "hanzi": "去电影院。",
+        "pinyin": "Qù diànyǐngyuàn.",
+        "thaiMeaning": "ไปโรงหนัง"
       }
     ]
   },
@@ -11271,22 +6552,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ถามเพื่อนหรือคนแปลกหน้าถึงที่ตั้งสถานที่",
-        "hanzi": "请问附近有超市吗？我要去找一下。",
-        "pinyin": "Qǐngwèn fùjìn yǒu 超市 ma? Wǒ yào qù zhǎo yīxià.",
-        "thaiMeaning": "ขอถามหน่อย แถวนี้มีซูเปอร์มาร์เก็ตไหม? ฉันอยากไปหาดู"
-      },
-      {
-        "scenario": "นัดหมายให้เพื่อนมาเจอกันที่สถานที่นั้น",
-        "hanzi": "我们在超市门口见面，三点怎么样？",
-        "pinyin": "Wǒmen zài 超市 ménkǒu jiànmiàn, sān diǎn zěnmeyàng?",
-        "thaiMeaning": "นัดเจอกันที่หน้าซูเปอร์มาร์เก็ต สามโมงตรงเป็นยังไง?"
-      },
-      {
-        "scenario": "แชร์รีวิวหรือประสบการณ์เกี่ยวกับสถานที่นั้น",
-        "hanzi": "这家超市的服务很好，下次还想来。",
-        "pinyin": "Zhè jiā 超市 de fúwù hěn hǎo, xià cì hái xiǎng lái.",
-        "thaiMeaning": "ซูเปอร์มาร์เก็ตที่นี่บริการดีมาก อยากกลับมาอีกเลย"
+        "hanzi": "去超市买菜。",
+        "pinyin": "Qù chāoshì mǎi cài.",
+        "thaiMeaning": "ไปซูเปอร์ซื้อผัก"
       }
     ]
   },
@@ -11302,22 +6570,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ต้อง...ให้ได้\"",
         "hanzi": "必须去。",
         "pinyin": "Bìxū qù.",
         "thaiMeaning": "จำเป็นต้องไป"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ต้อง...ให้ได้\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有必须的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bìxū de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องต้อง...ให้ได้ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ต้อง...ให้ได้\"",
-        "hanzi": "对我来说，必须是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bìxū shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ต้อง...ให้ได้เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11333,22 +6588,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ควรจะ\"",
         "hanzi": "应该早睡。",
         "pinyin": "Yīnggāi zǎoshuì.",
         "thaiMeaning": "ควรจะเข้านอนไว"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ควรจะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有应该的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yīnggāi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องควรจะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ควรจะ\"",
-        "hanzi": "对我来说，应该是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yīnggāi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ควรจะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11364,22 +6606,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ตัดสินใจ\"",
         "hanzi": "做决定。",
         "pinyin": "Zuò juédìng.",
         "thaiMeaning": "ทำการตัดสินใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ตัดสินใจ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有决定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu juédìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องตัดสินใจไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ตัดสินใจ\"",
-        "hanzi": "对我来说，决定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, juédìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ตัดสินใจเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11395,22 +6624,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"รับประกัน\"",
         "hanzi": "向你保证。",
         "pinyin": "Xiàng nǐ bǎozhèng.",
         "thaiMeaning": "สัญญากับคุณ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"รับประกัน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有保证的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bǎozhèng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องรับประกันไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"รับประกัน\"",
-        "hanzi": "对我来说，保证是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bǎozhèng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว รับประกันเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11426,22 +6642,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เชื่อ\"",
         "hanzi": "相信自己。",
         "pinyin": "Xiāngxìn zìjǐ.",
         "thaiMeaning": "เชื่อมั่นในตัวเอง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เชื่อ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有相信的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiāngxìn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเชื่อไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เชื่อ\"",
-        "hanzi": "对我来说，相信是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiāngxìn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เชื่อเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11457,22 +6660,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ค้นพบ\"",
         "hanzi": "发现秘密。",
         "pinyin": "Fāxiàn mìmì.",
         "thaiMeaning": "ค้นพบความลับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ค้นพบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有发现的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fāxiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องค้นพบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ค้นพบ\"",
-        "hanzi": "对我来说，发现是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fāxiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ค้นพบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11488,22 +6678,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เปลี่ยนแปลง\"",
         "hanzi": "改变习惯。",
         "pinyin": "Gǎibiàn xíguàn.",
         "thaiMeaning": "เปลี่ยนนิสัย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เปลี่ยนแปลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有改变的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu gǎibiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเปลี่ยนแปลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เปลี่ยนแปลง\"",
-        "hanzi": "对我来说，改变是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, gǎibiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เปลี่ยนแปลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11519,22 +6696,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชัดเจน\"",
         "hanzi": "看清楚。",
         "pinyin": "Kàn qīngchu.",
         "thaiMeaning": "มองเห็นชัดเจน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชัดเจน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有清楚的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu qīngchu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชัดเจนไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชัดเจน\"",
-        "hanzi": "对我来说，清楚是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, qīngchu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชัดเจนเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11550,22 +6714,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เข้าใจอย่างลึกซึ้ง\"",
-        "hanzi": "请问了解怎么走？",
-        "pinyin": "Qǐngwèn liǎojiě zěnme zǒu?",
-        "thaiMeaning": "ขอถามหน่อยนะ ไปเข้าใจอย่างลึกซึ้งเดินยังไง?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เข้าใจอย่างลึกซึ้ง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有了解的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liǎojiě de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเข้าใจอย่างลึกซึ้งไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เข้าใจอย่างลึกซึ้ง\"",
-        "hanzi": "对我来说，了解是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liǎojiě shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เข้าใจอย่างลึกซึ้งเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "互相了解。",
+        "pinyin": "Hùxiāng liǎojiě.",
+        "thaiMeaning": "เข้าใจกันและกัน"
       }
     ]
   },
@@ -11581,22 +6732,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คุ้นเคย\"",
         "hanzi": "熟悉环境。",
         "pinyin": "Shúxī huánjìng.",
         "thaiMeaning": "คุ้นเคยกับสภาพแวดล้อม"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คุ้นเคย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有熟悉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shúxī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคุ้นเคยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คุ้นเคย\"",
-        "hanzi": "对我来说，熟悉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shúxī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คุ้นเคยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11612,22 +6750,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "精彩，你太客气了！",
-        "pinyin": "jīngcǎi, nǐ tài kèqi le!",
-        "thaiMeaning": "ยอดเยี่ยม คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得精彩！",
-        "pinyin": "Shuō zhēn de, wǒ juéde jīngcǎi!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกยอดเยี่ยม เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，精彩！你说得对。",
-        "pinyin": "En, jīngcǎi! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม ยอดเยี่ยม! คุณพูดถูก"
+        "hanzi": "非常精彩。",
+        "pinyin": "Fēicháng jīngcǎi.",
+        "thaiMeaning": "ยอดเยี่ยมมาก"
       }
     ]
   },
@@ -11643,22 +6768,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เหมาะสม\"",
         "hanzi": "尺码合适。",
         "pinyin": "Chǐmǎ héshì.",
         "thaiMeaning": "ขนาดพอดีเป๊ะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เหมาะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有合适的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu héshì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเหมาะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เหมาะสม\"",
-        "hanzi": "对我来说，合适是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, héshì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เหมาะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11674,22 +6786,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很客气。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 客气.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกเกรงใจมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很客气，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 客气, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณเกรงใจมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点客气，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 客气, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะเกรงใจนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "别太客气。",
+        "pinyin": "Bié tài kèqi.",
+        "thaiMeaning": "ไม่ต้องเกรงใจเกินไป"
       }
     ]
   },
@@ -11705,22 +6804,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很辛苦。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 辛苦.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกตรากตรำเหน็ดเหนื่อยมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很辛苦，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 辛苦, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณตรากตรำเหน็ดเหนื่อยมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点辛苦，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 辛苦, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะตรากตรำเหน็ดเหนื่อยนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "大家辛苦了！",
+        "pinyin": "Dàjiā xīnkǔ le!",
+        "thaiMeaning": "ทุกคนเหนื่อยกันมากเลย!"
       }
     ]
   },
@@ -11736,22 +6822,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ของขวัญ\"",
         "hanzi": "送张礼物。",
         "pinyin": "Sòng zhāng lǐwù.",
         "thaiMeaning": "มอบของขวัญให้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ของขวัญ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有礼物的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu lǐwù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องของขวัญไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ของขวัญ\"",
-        "hanzi": "对我来说，礼物是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, lǐwù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ของขวัญเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11767,22 +6840,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข่าวสาร\"",
         "hanzi": "看新闻。",
         "pinyin": "Kàn xīnwén.",
         "thaiMeaning": "ติดตามข่าวสาร"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข่าวสาร\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有新闻的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xīnwén de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข่าวสารไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข่าวสาร\"",
-        "hanzi": "对我来说，新闻是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xīnwén shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข่าวสารเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11798,22 +6858,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ความคุ้นเคย\"",
         "hanzi": "养成好习惯。",
         "pinyin": "Yǎngchéng hǎo xíguàn.",
         "thaiMeaning": "สร้างนิสัยที่ดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ความคุ้นเคย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有习惯的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xíguàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องความคุ้นเคยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ความคุ้นเคย\"",
-        "hanzi": "对我来说，习惯是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xíguàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ความคุ้นเคยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11829,22 +6876,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วัฒนธรรม\"",
         "hanzi": "中国文化。",
         "pinyin": "Zhōngguó wénhuà.",
         "thaiMeaning": "วัฒนธรรมจีน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วัฒนธรรม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有文化的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu wénhuà de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวัฒนธรรมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วัฒนธรรม\"",
-        "hanzi": "对我来说，文化是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, wénhuà shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วัฒนธรรมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11860,22 +6894,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ประวัติศาสตร์\"",
         "hanzi": "悠久历史。",
         "pinyin": "Yōujiǔ lìshǐ.",
         "thaiMeaning": "ประวัติศาสตร์ยาวนาน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ประวัติศาสตร์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有历史的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu lìshǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องประวัติศาสตร์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ประวัติศาสตร์\"",
-        "hanzi": "对我来说，历史是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, lìshǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ประวัติศาสตร์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11891,22 +6912,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สิ่งแวดล้อม\"",
         "hanzi": "优美环境。",
         "pinyin": "Yōuměi huánjìng.",
         "thaiMeaning": "สภาพแวดล้อมสวยงาม"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สิ่งแวดล้อม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有环境的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu huánjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสิ่งแวดล้อมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สิ่งแวดล้อม\"",
-        "hanzi": "对我来说，环境是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, huánjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สิ่งแวดล้อมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11922,22 +6930,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงื่อนไข\"",
         "hanzi": "创造条件。",
         "pinyin": "Chuàngzào tiáojiàn.",
         "thaiMeaning": "สร้างเงื่อนไข"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงื่อนไข\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有条件的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tiáojiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงื่อนไขไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงื่อนไข\"",
-        "hanzi": "对我来说，条件是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tiáojiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงื่อนไขเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -11953,22 +6948,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的机会从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 机会 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "โอกาสของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的机会很有特色，很容易认出他。",
-        "pinyin": "Tā de 机会 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "โอกาสของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的机会，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 机会, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลโอกาสของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "抓住机会。",
+        "pinyin": "Zhuāzhù jīhuì.",
+        "thaiMeaning": "ไขว่คว้าโอกาส"
       }
     ]
   },
@@ -11984,22 +6966,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เรียกรถหรือถามบริการเดินทาง",
-        "hanzi": "麻烦帮我叫一辆能力，我要去市中心。",
-        "pinyin": "Máfan bāng wǒ jiào yī liàng 能力, wǒ yào qù shì zhōngxīn.",
-        "thaiMeaning": "ช่วยเรียกความสามารถให้ด้วยนะ ฉันต้องไปใจกลางเมือง"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องการเดินทางที่ผ่านมา",
-        "hanzi": "上次我坐能力去旅行，体验很不错！",
-        "pinyin": "Shàng cì wǒ zuò 能力 qù lǚxíng, tǐyàn hěn bùcuò!",
-        "thaiMeaning": "ครั้งที่แล้วฉันนั่งความสามารถไปเที่ยว ประสบการณ์ดีมากเลย!"
-      },
-      {
-        "scenario": "ถามเพื่อนเรื่องวิธีเดินทางไปสถานที่นั้น",
-        "hanzi": "从这里坐能力到机场要多久？大概多少钱？",
-        "pinyin": "Cóng zhèlǐ zuò 能力 dào jīchǎng yào duōjiǔ? Dàgài duōshǎo qián?",
-        "thaiMeaning": "นั่งความสามารถจากที่นี่ไปสนามบินใช้เวลาเท่าไหร่? ราคาประมาณเท่าไหร่?"
+        "hanzi": "提升能力。",
+        "pinyin": "Tíngshēng nénglì.",
+        "thaiMeaning": "ยกระดับความสามารถ"
       }
     ]
   },
@@ -12015,22 +6984,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ประสบการณ์\"",
         "hanzi": "积累经验。",
         "pinyin": "Jīlěi jīngyàn.",
         "thaiMeaning": "สั่งสมประสบการณ์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ประสบการณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有经验的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīngyàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องประสบการณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ประสบการณ์\"",
-        "hanzi": "对我来说，经验是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīngyàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ประสบการณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12046,22 +7002,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "良好态度。",
         "pinyin": "Liánghǎo tàidu.",
         "thaiMeaning": "ทัศนคติที่ดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12077,22 +7020,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ความมั่นใจ\"",
         "hanzi": "充满信心。",
         "pinyin": "Chōngmǎn xìnxīn.",
         "thaiMeaning": "เปี่ยมด้วยความมั่นใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ความมั่นใจ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有信心的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xìnxīn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องความมั่นใจไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ความมั่นใจ\"",
-        "hanzi": "对我来说，信心是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xìnxīn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ความมั่นใจเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12108,22 +7038,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的合作从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 合作 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "ความร่วมมือของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的合作很有特色，很容易认出他。",
-        "pinyin": "Tā de 合作 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "ความร่วมมือของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的合作，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 合作, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลความร่วมมือของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "愉快合作。",
+        "pinyin": "Yúkuài hézuò.",
+        "thaiMeaning": "ร่วมมือกันอย่างราบรื่น"
       }
     ]
   },
@@ -12139,22 +7056,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"มิตรภาพ\"",
         "hanzi": "深厚友谊。",
         "pinyin": "Shēnhòu yǒuyì.",
         "thaiMeaning": "มิตรภาพอันลึกซึ้ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"มิตรภาพ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有友谊的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yǒuyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องมิตรภาพไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"มิตรภาพ\"",
-        "hanzi": "对我来说，友谊是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yǒuyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว มิตรภาพเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12170,22 +7074,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อนาคต\"",
         "hanzi": "美好的未来。",
         "pinyin": "Měihǎo de wèilái.",
         "thaiMeaning": "อนาคตอันสดใส"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อนาคต\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有未来的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu wèilái de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอนาคตไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อนาคต\"",
-        "hanzi": "对我来说，未来是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, wèilái shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อนาคตเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12201,22 +7092,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ความฝัน\"",
         "hanzi": "实现梦想。",
         "pinyin": "Shíxiàn mèngxiǎng.",
         "thaiMeaning": "ทำความฝันให้เป็นจริง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ความฝัน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有梦想的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu mèngxiǎng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องความฝันไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ความฝัน\"",
-        "hanzi": "对我来说，梦想是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, mèngxiǎng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ความฝันเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12232,22 +7110,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป้าหมาย\"",
         "hanzi": "达成目标。",
         "pinyin": "Dáchéng mùbiāo.",
         "thaiMeaning": "บรรลุเป้าหมาย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป้าหมาย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有目标的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu mùbiāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป้าหมายไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป้าหมาย\"",
-        "hanzi": "对我来说，目标是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, mùbiāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป้าหมายเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12263,22 +7128,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องสัตว์เลี้ยงที่บ้าน",
-        "hanzi": "我家有一只计划，它超级可爱！",
-        "pinyin": "Wǒ jiā yǒu yī zhī 计划, tā chāojí kě'ài!",
-        "thaiMeaning": "บ้านฉันมีแผนการตัวนึง น่ารักมากเลย!"
-      },
-      {
-        "scenario": "คุยกับเด็กหรืออธิบายสัตว์ให้คนอื่นรู้จัก",
-        "hanzi": "你看那只计划！它在那边跑来跑去。",
-        "pinyin": "Nǐ kàn nà zhī 计划! Tā zài nàbian pǎo lái pǎo qù.",
-        "thaiMeaning": "ดูสิ แผนการตัวนั้น! มันวิ่งไปวิ่งมาอยู่ตรงโน้น"
-      },
-      {
-        "scenario": "แนะนำเมนูอาหารที่ทำจากเนื้อสัตว์นั้น",
-        "hanzi": "这道菜用计划做的，味道很好，你要不要试试？",
-        "pinyin": "Zhè dào cài yòng 计划 zuò de, wèidào hěn hǎo, nǐ yào bù yào shìshi?",
-        "thaiMeaning": "เมนูนี้ทำจากแผนการ รสชาติดีมาก อยากลองไหม?"
+        "hanzi": "制定计划。",
+        "pinyin": "Zhìdìng jìhuà.",
+        "thaiMeaning": "จัดทำแผนการ"
       }
     ]
   },
@@ -12294,22 +7146,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อสรุป\"",
         "hanzi": "做出总结。",
         "pinyin": "Zuòchū zǒngjié.",
         "thaiMeaning": "สรุปผลงาน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อสรุป\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有总结的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zǒngjié de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อสรุปไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อสรุป\"",
-        "hanzi": "对我来说，总结是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zǒngjié shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อสรุปเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12325,22 +7164,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ก้าวหน้า\"",
         "hanzi": "不断进步。",
         "pinyin": "Búduàn jìnbù.",
         "thaiMeaning": "พัฒนาอย่างต่อเนื่อง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ก้าวหน้า\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有进步的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jìnbù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องก้าวหน้าไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ก้าวหน้า\"",
-        "hanzi": "对我来说，进步是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jìnbù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ก้าวหน้าเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12356,22 +7182,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢坚持，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 坚持, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบยืนหยัดมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去坚持吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 坚持 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปยืนหยัดด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多坚持，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 坚持, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันยืนหยัดบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "坚持到底。",
+        "pinyin": "Jiānchí dàodǐ.",
+        "thaiMeaning": "ยืนหยัดสู้จนถึงที่สุด"
       }
     ]
   },
@@ -12387,22 +7200,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"การดำเนินชีวิต\"",
-        "hanzi": "这里今天很生活，你要注意一下。",
-        "pinyin": "Zhèlǐ jīntiān hěn shēnghuó, nǐ yào zhùyì yīxià.",
-        "thaiMeaning": "ที่นี่วันนี้การดำเนินชีวิตมาก คุณต้องระวังนิดนึง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"การดำเนินชีวิต\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有生活的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shēnghuó de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องการดำเนินชีวิตไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"การดำเนินชีวิต\"",
-        "hanzi": "对我来说，生活是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shēnghuó shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว การดำเนินชีวิตเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "热爱生活。",
+        "pinyin": "Rè'ài shēnghuó.",
+        "thaiMeaning": "รักในการใช้ชีวิต"
       }
     ]
   },
@@ -12418,22 +7218,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ความสุขสมบูรณ์\"",
         "hanzi": "生活幸福。",
         "pinyin": "Shēnghuó xìngfú.",
         "thaiMeaning": "ชีวิตเปี่ยมสุข"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ความสุขสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有幸福的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xìngfú de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องความสุขสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ความสุขสมบูรณ์\"",
-        "hanzi": "对我来说，幸福是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xìngfú shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ความสุขสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12449,22 +7236,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ความหวัง\"",
         "hanzi": "充满希望。",
         "pinyin": "Chōngmǎn xīwàng.",
         "thaiMeaning": "เปี่ยมด้วยความหวัง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ความหวัง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有希望的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xīwàng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องความหวังไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ความหวัง\"",
-        "hanzi": "对我来说，希望是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xīwàng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ความหวังเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12480,22 +7254,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "นัดหมายหรือกำหนดเวลาให้ชัดเจน",
-        "hanzi": "我们突然三点见面，不见不散！",
-        "pinyin": "Wǒmen 突然 sān diǎn jiànmiàn, bùjiàn bùsàn!",
-        "thaiMeaning": "เราเจอกันทันทีทันใดสามโมง ต้องมาแน่ๆ นะ!"
-      },
-      {
-        "scenario": "บอกแผนการหรือตารางในช่วงเวลานั้น",
-        "hanzi": "突然我有空，你想做什么就安排吧。",
-        "pinyin": "突然 wǒ yǒu kòng, nǐ xiǎng zuò shénme jiù ānpái ba.",
-        "thaiMeaning": "ทันทีทันใดฉันว่าง อยากทำอะไรก็จัดได้เลย"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าเวลาไม่พอหรือต้องรีบ",
-        "hanzi": "突然时间不够了，我们快一点吧！",
-        "pinyin": "突然 shíjiān bù gòu le, wǒmen kuài yīdiǎn ba!",
-        "thaiMeaning": "ทันทีทันใดเวลาไม่พอแล้ว รีบหน่อยนะ!"
+        "hanzi": "突然下雨。",
+        "pinyin": "Tūrán xiàyǔ.",
+        "thaiMeaning": "ฝนตกกะทันหัน"
       }
     ]
   },
@@ -12511,22 +7272,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ความจริงแล้ว\"",
         "hanzi": "其实不难。",
         "pinyin": "Qíshí bù nán.",
         "thaiMeaning": "จริงๆ แล้วไม่ยาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ความจริงแล้ว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有其实的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu qíshí de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องความจริงแล้วไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ความจริงแล้ว\"",
-        "hanzi": "对我来说，其实是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, qíshí shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ความจริงแล้วเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12542,22 +7290,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สรุปแล้ว\"",
-        "hanzi": "到底去不去。",
-        "pinyin": "Dàodǐ qù bú qù.",
+        "hanzi": "到底去不去？",
+        "pinyin": "Dàodǐ qù bú qù?",
         "thaiMeaning": "ตกลงว่าจะไปหรือไม่ไป"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สรุปแล้ว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有到底的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàodǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสรุปแล้วไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สรุปแล้ว\"",
-        "hanzi": "对我来说，到底是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàodǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สรุปแล้วเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12573,22 +7308,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วางใจ\"",
         "hanzi": "请放心。",
         "pinyin": "Qǐng fàngxīn.",
         "thaiMeaning": "โปรดวางใจได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วางใจ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有放心的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fàngxīn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวางใจไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วางใจ\"",
-        "hanzi": "对我来说，放心是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fàngxīn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วางใจเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12604,22 +7326,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很担心。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 担心.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกกังวลมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很担心，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 担心, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณกังวลมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点担心，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 担心, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะกังวลนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "别担心。",
+        "pinyin": "Bié dānxīn.",
+        "thaiMeaning": "ไม่ต้องกังวลไป"
       }
     ]
   },
@@ -12635,22 +7344,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เฝ้ารอ\"",
         "hanzi": "期待见面。",
         "pinyin": "Qīdài jiànmiàn.",
         "thaiMeaning": "ตั้งตารอที่จะได้พบกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เฝ้ารอ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有期待的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu qīdài de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเฝ้ารอไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เฝ้ารอ\"",
-        "hanzi": "对我来说，期待是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, qīdài shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เฝ้ารอเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12666,22 +7362,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เล่าให้เพื่อนฟังว่าตัวเองชอบทำกิจกรรมนี้ยามว่าง",
-        "hanzi": "我很喜欢锻炼，特别是周末的时候。",
-        "pinyin": "Wǒ hěn xǐhuan 锻炼, tèbié shì zhōumò de shíhou.",
-        "thaiMeaning": "ฉันชอบออกกำลังกายมาก โดยเฉพาะช่วงสุดสัปดาห์"
-      },
-      {
-        "scenario": "ชวนเพื่อนทำกิจกรรมนี้ด้วยกัน",
-        "hanzi": "有空一起去锻炼吧，很好玩！",
-        "pinyin": "Yǒu kòng yīqǐ qù 锻炼 ba, hěn hǎowán!",
-        "thaiMeaning": "ว่างๆ ไปออกกำลังกายด้วยกันไหม สนุกมาก!"
-      },
-      {
-        "scenario": "บอกเพื่อนว่าหมอแนะนำให้ทำกิจกรรมนี้เพื่อสุขภาพ",
-        "hanzi": "医生说我要多锻炼，对身体好。",
-        "pinyin": "Yīshēng shuō wǒ yào duō 锻炼, duì shēntǐ hǎo.",
-        "thaiMeaning": "หมอบอกให้ฉันออกกำลังกายบ่อยๆ ดีต่อสุขภาพ"
+        "hanzi": "锻炼身体。",
+        "pinyin": "Duànliàn shēntǐ.",
+        "thaiMeaning": "ออกกำลังกายบริหารร่างกาย"
       }
     ]
   },
@@ -12697,22 +7380,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการให้เพื่อนหรือคนในครอบครัวรับรู้",
-        "hanzi": "我今天有点检查，不太舒服。",
-        "pinyin": "Wǒ jīntiān yǒudiǎn 检查, bù tài shūfu.",
-        "thaiMeaning": "วันนี้ฉันตรวจสอบนิดหน่อย รู้สึกไม่ค่อยสบายเลย"
-      },
-      {
-        "scenario": "ขอลาหยุดเพราะไม่สบาย",
-        "hanzi": "我今天检查很严重，想请假休息一天。",
-        "pinyin": "Wǒ jīntiān 检查 hěn yánzhòng, xiǎng qǐngjià xiūxi yī tiān.",
-        "thaiMeaning": "วันนี้ฉันตรวจสอบหนักมาก อยากขอลาหยุดพักหนึ่งวัน"
-      },
-      {
-        "scenario": "ปรึกษาแพทย์หรืออธิบายอาการในโรงพยาบาล",
-        "hanzi": "医生，我从昨天开始检查，您帮我看看吧。",
-        "pinyin": "Yīshēng, wǒ cóng zuótiān kāishǐ 检查, nín bāng wǒ kàn kàn ba.",
-        "thaiMeaning": "หมอคะ ฉันเริ่มตรวจสอบมาตั้งแต่เมื่อวาน รบกวนช่วยตรวจให้ด้วยนะ"
+        "hanzi": "检查清楚。",
+        "pinyin": "Jiǎnchá qīngchu.",
+        "thaiMeaning": "ตรวจสอบให้ชัดเจน"
       }
     ]
   },
@@ -12728,22 +7398,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ค่อนข้าง\"",
         "hanzi": "比较好。",
         "pinyin": "Bǐjiào hǎo.",
         "thaiMeaning": "ค่อนข้างดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ค่อนข้าง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有比较的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bǐjiào de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องค่อนข้างไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ค่อนข้าง\"",
-        "hanzi": "对我来说，比较是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bǐjiào shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ค่อนข้างเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12759,22 +7416,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะดวก\"",
         "hanzi": "交通方便。",
         "pinyin": "Jiāotōng fāngbiàn.",
         "thaiMeaning": "เดินทางสะดวก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะดวก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有方便的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fāngbiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะดวกไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะดวก\"",
-        "hanzi": "对我来说，方便是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fāngbiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะดวกเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12790,22 +7434,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很简单，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 简单, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้ง่ายจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个简单多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 简单 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นง่ายกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太简单了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 简单 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้ง่ายเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "问题简单。",
+        "pinyin": "Wèntí jiǎndān.",
+        "thaiMeaning": "คำถามง่ายๆ"
       }
     ]
   },
@@ -12821,22 +7452,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซับซ้อน\"",
         "hanzi": "关系复杂。",
         "pinyin": "Guānxi fùzá.",
         "thaiMeaning": "ความสัมพันธ์ซับซ้อน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซับซ้อน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有复杂的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fùzá de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซับซ้อนไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซับซ้อน\"",
-        "hanzi": "对我来说，复杂是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fùzá shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซับซ้อนเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12852,22 +7470,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สำคัญ\"",
         "hanzi": "很重要。",
         "pinyin": "Hěn zhòngyào.",
         "thaiMeaning": "สำคัญมาก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สำคัญ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有重要的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhòngyào de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสำคัญไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สำคัญ\"",
-        "hanzi": "对我来说，重要是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhòngyào shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สำคัญเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12883,22 +7488,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หลัก\"",
         "hanzi": "主要原因。",
         "pinyin": "Zhǔyào yuányīn.",
         "thaiMeaning": "สาเหตุหลัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หลัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有主要的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhǔyào de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหลักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หลัก\"",
-        "hanzi": "对我来说，主要是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhǔyào shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หลักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12914,22 +7506,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปลอดภัย\"",
         "hanzi": "注意安全。",
         "pinyin": "Zhùyì ānquán.",
         "thaiMeaning": "ระมัดระวังความปลอดภัย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปลอดภัย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安全的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānquán de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปลอดภัยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปลอดภัย\"",
-        "hanzi": "对我来说，安全是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānquán shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปลอดภัยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12945,22 +7524,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อันตราย\"",
         "hanzi": "十分危险。",
         "pinyin": "Shífēn wēixiǎn.",
         "thaiMeaning": "อันตรายอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อันตราย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有危险的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu wēixiǎn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอันตรายไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อันตราย\"",
-        "hanzi": "对我来说，危险是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, wēixiǎn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อันตรายเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -12976,22 +7542,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สำเร็จ\"",
         "hanzi": "祝你成功。",
         "pinyin": "Zhù nǐ chénggōng.",
         "thaiMeaning": "ขอให้คุณประสบความสำเร็จ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สำเร็จ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有成功的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu chénggōng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสำเร็จไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สำเร็จ\"",
-        "hanzi": "对我来说，成功是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, chénggōng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สำเร็จเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13007,22 +7560,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ล้มเหลว\"",
         "hanzi": "不怕失败。",
         "pinyin": "Búpà shībài.",
         "thaiMeaning": "ไม่กลัวความล้มเหลว"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ล้มเหลว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有失败的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shībài de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องล้มเหลวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ล้มเหลว\"",
-        "hanzi": "对我来说，失败是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shībài shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ล้มเหลวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13038,22 +7578,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"แก้ไขปัญหา\"",
         "hanzi": "解决问题。",
         "pinyin": "Jiějué wèntí.",
         "thaiMeaning": "แก้ไขปัญหา"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"แก้ไขปัญหา\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有解决的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiějué de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องแก้ไขปัญหาไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"แก้ไขปัญหา\"",
-        "hanzi": "对我来说，解决是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiějué shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว แก้ไขปัญหาเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13069,22 +7596,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำเสร็จ\"",
         "hanzi": "完成任务。",
         "pinyin": "Wánchéng rènwu.",
         "thaiMeaning": "ทำภารกิจสำเร็จ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำเสร็จ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有完成的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu wánchéng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำเสร็จไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำเสร็จ\"",
-        "hanzi": "对我来说，完成是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, wánchéng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำเสร็จเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13100,22 +7614,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เห็นด้วย\"",
         "hanzi": "完全同意。",
         "pinyin": "Wánquán tóngyì.",
         "thaiMeaning": "เห็นด้วยอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เห็นด้วย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有同意的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tóngyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเห็นด้วยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เห็นด้วย\"",
-        "hanzi": "对我来说，同意是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tóngyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เห็นด้วยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13131,22 +7632,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คัดค้าน\"",
         "hanzi": "表示反对。",
         "pinyin": "Biǎoshì fǎnduì.",
         "thaiMeaning": "แสดงความคัดค้าน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คัดค้าน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有反对的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fǎnduì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคัดค้านไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คัดค้าน\"",
-        "hanzi": "对我来说，反对是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fǎnduì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คัดค้านเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13162,22 +7650,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เข้าร่วม\"",
-        "hanzi": "请问参加怎么走？",
-        "pinyin": "Qǐngwèn cānjiā zěnme zǒu?",
-        "thaiMeaning": "ขอถามหน่อยนะ ไปเข้าร่วมเดินยังไง?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เข้าร่วม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有参加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu cānjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเข้าร่วมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เข้าร่วม\"",
-        "hanzi": "对我来说，参加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, cānjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เข้าร่วมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "参加活动。",
+        "pinyin": "Cānjiā huódòng.",
+        "thaiMeaning": "เข้าร่วมกิจกรรม"
       }
     ]
   },
@@ -13193,22 +7668,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的选择从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 选择 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "เลือกของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的选择很有特色，很容易认出他。",
-        "pinyin": "Tā de 选择 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "เลือกของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的选择，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 选择, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลเลือกของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "做出选择。",
+        "pinyin": "Zuòchū xuǎnzé.",
+        "thaiMeaning": "ทำการตัดสินใจเลือก"
       }
     ]
   },
@@ -13224,22 +7686,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดแจง\"",
         "hanzi": "安排时间。",
         "pinyin": "Ānpái shíjiān.",
         "thaiMeaning": "จัดสรรเวลา"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดแจง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安排的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānpái de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดแจงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดแจง\"",
-        "hanzi": "对我来说，安排是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānpái shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดแจงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13255,22 +7704,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ส่งผลกระทบ\"",
-        "hanzi": "请你用中文影响给我。",
-        "pinyin": "Qǐng nǐ yòng zhōngwén yǐngxiǎng gěi wǒ.",
-        "thaiMeaning": "ช่วยส่งผลกระทบให้ฉันเป็นภาษาจีนหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ส่งผลกระทบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有影响的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yǐngxiǎng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องส่งผลกระทบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ส่งผลกระทบ\"",
-        "hanzi": "对我来说，影响是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yǐngxiǎng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ส่งผลกระทบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
+        "hanzi": "产生影响。",
+        "pinyin": "Chǎnshēng yǐngxiǎng.",
+        "thaiMeaning": "เกิดผลกระทบ"
       }
     ]
   },
@@ -13286,22 +7722,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดหาให้\"",
         "hanzi": "提供帮助。",
         "pinyin": "Tígōng bāngzhù.",
         "thaiMeaning": "ยื่นมือช่วยเหลือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดหาให้\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提供的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígōng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดหาให้ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดหาให้\"",
-        "hanzi": "对我来说，提供是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígōng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดหาให้เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13317,22 +7740,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเรียกร้อง\"",
         "hanzi": "达到要求。",
         "pinyin": "Dádào yāoqiú.",
         "thaiMeaning": "บรรลุเกณฑ์ที่กำหนด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเรียกร้อง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有要求的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu yāoqiú de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเรียกร้องไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเรียกร้อง\"",
-        "hanzi": "对我来说，要求是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, yāoqiú shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเรียกร้องเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13348,22 +7758,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"พิจารณา\"",
         "hanzi": "仔细考虑。",
         "pinyin": "Zǐxì kǎolǜ.",
         "thaiMeaning": "พิจารณาอย่างรอบคอบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"พิจารณา\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有考虑的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu kǎolǜ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องพิจารณาไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"พิจารณา\"",
-        "hanzi": "对我来说，考虑是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, kǎolǜ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว พิจารณาเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13379,22 +7776,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปกป้อง\"",
         "hanzi": "保护环境。",
         "pinyin": "Bǎohù huánjìng.",
         "thaiMeaning": "รักษาสภาพแวดล้อม"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปกป้อง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有保护的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu bǎohù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปกป้องไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปกป้อง\"",
-        "hanzi": "对我来说，保护是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, bǎohù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปกป้องเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13410,22 +7794,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ให้เกียรติ\"",
         "hanzi": "互相尊重。",
         "pinyin": "Hùxiāng zūnzhòng.",
         "thaiMeaning": "ให้เกียรติซึ่งกันและกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ให้เกียรติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有尊重的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zūnzhòng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องให้เกียรติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ให้เกียรติ\"",
-        "hanzi": "对我来说，尊重是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zūnzhòng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ให้เกียรติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13441,22 +7812,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สนับสนุน\"",
         "hanzi": "大力支持。",
         "pinyin": "Dàlì zhīchí.",
         "thaiMeaning": "ให้การสนับสนุนเต็มที่"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สนับสนุน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有支持的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhīchí de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสนับสนุนไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สนับสนุน\"",
-        "hanzi": "对我来说，支持是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhīchí shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สนับสนุนเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13472,22 +7830,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"แบ่งปัน\"",
         "hanzi": "分享快乐。",
         "pinyin": "Fēnxiǎng kuàilè.",
         "thaiMeaning": "แบ่งปันความสุข"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"แบ่งปัน\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有分享的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēnxiǎng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องแบ่งปันไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"แบ่งปัน\"",
-        "hanzi": "对我来说，分享是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēnxiǎng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว แบ่งปันเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13503,22 +7848,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"แสดงความยินดี\"",
         "hanzi": "热烈祝贺。",
         "pinyin": "Rèliè zhùhè.",
         "thaiMeaning": "ขอแสดงความยินดีอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"แสดงความยินดี\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有祝贺的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhùhè de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องแสดงความยินดีไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"แสดงความยินดี\"",
-        "hanzi": "对我来说，祝贺是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhùhè shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว แสดงความยินดีเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13534,22 +7866,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "精彩，你太客气了！",
-        "pinyin": "jīngcǎi, nǐ tài kèqi le!",
-        "thaiMeaning": "ยอดเยี่ยม คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得精彩！",
-        "pinyin": "Shuō zhēn de, wǒ juéde jīngcǎi!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกยอดเยี่ยม เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，精彩！你说得对。",
-        "pinyin": "En, jīngcǎi! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม ยอดเยี่ยม! คุณพูดถูก"
+        "hanzi": "非常精彩。",
+        "pinyin": "Fēicháng jīngcǎi.",
+        "thaiMeaning": "ยอดเยี่ยมมาก"
       }
     ]
   },
@@ -13565,22 +7884,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เหมาะสม\"",
         "hanzi": "尺码合适。",
         "pinyin": "Chǐmǎ héshì.",
         "thaiMeaning": "ขนาดพอดีเป๊ะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เหมาะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有合适的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu héshì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเหมาะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เหมาะสม\"",
-        "hanzi": "对我来说，合适是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, héshì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เหมาะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13596,22 +7902,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกความรู้สึกตัวเองให้เพื่อนสนิทฟังหลังผ่านเหตุการณ์สำคัญ",
-        "hanzi": "说实话，我今天感觉很辛苦。",
-        "pinyin": "Shuō shíhuà, wǒ jīntiān gǎnjué hěn 辛苦.",
-        "thaiMeaning": "พูดตรงๆ วันนี้ฉันรู้สึกตรากตรำเหน็ดเหนื่อยมาก"
-      },
-      {
-        "scenario": "ถามทักสารทุกข์สุกดิบเพื่อนที่ดูสีหน้าไม่ค่อยดี",
-        "hanzi": "你看起来很辛苦，是发生什么事了吗？",
-        "pinyin": "Nǐ kàn qǐlái hěn 辛苦, shì fāshēng shénme shì le ma?",
-        "thaiMeaning": "ดูเหมือนคุณตรากตรำเหน็ดเหนื่อยมากนะ เกิดอะไรขึ้นเหรอ?"
-      },
-      {
-        "scenario": "เล่าสรุปความรู้สึกรวมของวันที่ผ่านมา",
-        "hanzi": "虽然今天有点辛苦，但还是要加油！",
-        "pinyin": "Suīrán jīntiān yǒudiǎn 辛苦, dàn hái shì yào jiāyóu!",
-        "thaiMeaning": "แม้วันนี้จะตรากตรำเหน็ดเหนื่อยนิดหน่อย แต่ก็ต้องสู้ต่อ!"
+        "hanzi": "大家辛苦了！",
+        "pinyin": "Dàjiā xīnkǔ le!",
+        "thaiMeaning": "ทุกคนเหนื่อยกันมากเลย!"
       }
     ]
   },
@@ -13627,22 +7920,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ของขวัญ\"",
         "hanzi": "送一份礼物。",
         "pinyin": "Sòng yí fèn lǐwù.",
         "thaiMeaning": "มอบของขวัญให้ชิ้นหนึ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ของขวัญ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有礼物的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu lǐwù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องของขวัญไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ของขวัญ\"",
-        "hanzi": "对我来说，礼物是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, lǐwù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ของขวัญเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13658,22 +7938,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข่าวสาร\"",
         "hanzi": "看新闻。",
         "pinyin": "Kàn xīnwén.",
         "thaiMeaning": "ติดตามข่าวสาร"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข่าวสาร\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有新闻的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xīnwén de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข่าวสารไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข่าวสาร\"",
-        "hanzi": "对我来说，新闻是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xīnwén shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข่าวสารเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13689,22 +7956,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ความคุ้นเคย\"",
         "hanzi": "养成好习惯。",
         "pinyin": "Yǎngchéng hǎo xíguàn.",
         "thaiMeaning": "สร้างนิสัยที่ดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ความคุ้นเคย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有习惯的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xíguàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องความคุ้นเคยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ความคุ้นเคย\"",
-        "hanzi": "对我来说，习惯是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xíguàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ความคุ้นเคยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13720,22 +7974,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วัฒนธรรม\"",
         "hanzi": "中国文化。",
         "pinyin": "Zhōngguó wénhuà.",
         "thaiMeaning": "วัฒนธรรมจีน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วัฒนธรรม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有文化的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu wénhuà de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวัฒนธรรมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วัฒนธรรม\"",
-        "hanzi": "对我来说，文化是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, wénhuà shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วัฒนธรรมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13751,22 +7992,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ประวัติศาสตร์\"",
         "hanzi": "悠久历史。",
         "pinyin": "Yōujiǔ lìshǐ.",
         "thaiMeaning": "ประวัติศาสตร์ยาวนาน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ประวัติศาสตร์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有历史的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu lìshǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องประวัติศาสตร์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ประวัติศาสตร์\"",
-        "hanzi": "对我来说，历史是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, lìshǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ประวัติศาสตร์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13782,22 +8010,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สิ่งแวดล้อม\"",
         "hanzi": "优美环境。",
         "pinyin": "Yōuměi huánjìng.",
         "thaiMeaning": "สภาพแวดล้อมสวยงาม"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สิ่งแวดล้อม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有环境的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu huánjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสิ่งแวดล้อมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สิ่งแวดล้อม\"",
-        "hanzi": "对我来说，环境是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, huánjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สิ่งแวดล้อมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13813,22 +8028,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงื่อนไข\"",
         "hanzi": "创造条件。",
         "pinyin": "Chuàngzào tiáojiàn.",
         "thaiMeaning": "สร้างเงื่อนไข"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงื่อนไข\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有条件的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tiáojiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงื่อนไขไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงื่อนไข\"",
-        "hanzi": "对我来说，条件是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tiáojiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงื่อนไขเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13844,22 +8046,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บอกอาการเจ็บปวดให้หมอหรือคนที่บ้านฟัง",
-        "hanzi": "我的机会从昨天开始有点痛，可以帮我看看吗？",
-        "pinyin": "Wǒ de 机会 cóng zuótiān kāishǐ yǒudiǎn tòng, kěyǐ bāng wǒ kàn kàn ma?",
-        "thaiMeaning": "โอกาสของฉันเริ่มปวดตั้งแต่เมื่อวาน ช่วยดูให้หน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บรรยายลักษณะของคนที่ต้องการให้เพื่อนช่วยหา",
-        "hanzi": "他的机会很有特色，很容易认出他。",
-        "pinyin": "Tā de 机会 hěn yǒu tèsè, hěn róngyì rèn chū tā.",
-        "thaiMeaning": "โอกาสของเขามีเอกลักษณ์มาก จำตัวได้ง่ายเลย"
-      },
-      {
-        "scenario": "พูดเรื่องการดูแลสุขภาพร่างกายส่วนนั้น",
-        "hanzi": "平时要好好保护你的机会，不然以后会后悔。",
-        "pinyin": "Píngshí yào hǎohāo bǎohù nǐ de 机会, bùrán yǐhòu huì hòuhuǐ.",
-        "thaiMeaning": "ต้องดูแลโอกาสของตัวเองให้ดีนะ ไม่งั้นทีหลังจะเสียใจ"
+        "hanzi": "抓住机会。",
+        "pinyin": "Zhuāzhù jīhuì.",
+        "thaiMeaning": "ไขว่คว้าโอกาส"
       }
     ]
   },
@@ -13875,22 +8064,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เรียกรถหรือถามบริการเดินทาง",
-        "hanzi": "麻烦帮我叫一辆能力，我要去市中心。",
-        "pinyin": "Máfan bāng wǒ jiào yī liàng 能力, wǒ yào qù shì zhōngxīn.",
-        "thaiMeaning": "ช่วยเรียกความสามารถให้ด้วยนะ ฉันต้องไปใจกลางเมือง"
-      },
-      {
-        "scenario": "เล่าให้เพื่อนฟังเรื่องการเดินทางที่ผ่านมา",
-        "hanzi": "上次我坐能力去旅行，体验很不错！",
-        "pinyin": "Shàng cì wǒ zuò 能力 qù lǚxíng, tǐyàn hěn bùcuò!",
-        "thaiMeaning": "ครั้งที่แล้วฉันนั่งความสามารถไปเที่ยว ประสบการณ์ดีมากเลย!"
-      },
-      {
-        "scenario": "ถามเพื่อนเรื่องวิธีเดินทางไปสถานที่นั้น",
-        "hanzi": "从这里坐能力到机场要多久？大概多少钱？",
-        "pinyin": "Cóng zhèlǐ zuò 能力 dào jīchǎng yào duōjiǔ? Dàgài duōshǎo qián?",
-        "thaiMeaning": "นั่งความสามารถจากที่นี่ไปสนามบินใช้เวลาเท่าไหร่? ราคาประมาณเท่าไหร่?"
+        "hanzi": "提升能力。",
+        "pinyin": "Tíngshēng nénglì.",
+        "thaiMeaning": "ยกระดับความสามารถ"
       }
     ]
   },
@@ -13906,22 +8082,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ประสบการณ์\"",
         "hanzi": "积累经验。",
         "pinyin": "Jīlěi jīngyàn.",
         "thaiMeaning": "สั่งสมประสบการณ์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ประสบการณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有经验的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīngyàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องประสบการณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ประสบการณ์\"",
-        "hanzi": "对我来说，经验是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīngyàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ประสบการณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13937,22 +8100,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "เชียร์เพื่อนก่อนสอบหรือนำเสนองานสำคัญ",
-        "hanzi": "你准备得很好，相信自己，加油！",
-        "pinyin": "Nǐ zhǔnbèi de hěn hǎo, xiāngxìn zìjǐ, jiāyóu!",
-        "thaiMeaning": "คุณเตรียมตัวมาดีมาก เชื่อมั่นในตัวเอง สู้ๆ!"
-      },
-      {
-        "scenario": "ส่งข้อความให้กำลังใจเพื่อนที่เครียดเรื่องงาน",
-        "hanzi": "我知道你很累，但你能做到的，加油！",
-        "pinyin": "Wǒ zhīdào nǐ hěn lèi, dàn nǐ néng zuòdào de, jiāyóu!",
-        "thaiMeaning": "ฉันรู้ว่าคุณเหนื่อย แต่คุณทำได้แน่ๆ สู้ๆ!"
-      },
-      {
-        "scenario": "เชียร์นักกีฬาหรือทีมที่ชื่นชอบระหว่างแข่งขัน",
-        "hanzi": "快追上了！加油！加油！",
-        "pinyin": "Kuài zhuīshàng le! Jiāyóu! Jiāyóu!",
-        "thaiMeaning": "ใกล้แล้ว! สู้ๆ! สู้ๆ!"
+        "hanzi": "大家一起加油！",
+        "pinyin": "Dàjiā yìqǐ jiāyóu!",
+        "thaiMeaning": "ทุกคนสู้ไปด้วยกัน!"
       }
     ]
   },
@@ -13968,22 +8118,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -13999,22 +8136,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14030,22 +8154,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14061,22 +8172,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14092,22 +8190,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14123,22 +8208,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14154,22 +8226,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14185,22 +8244,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14216,22 +8262,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -14247,22 +8280,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14278,22 +8298,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14309,22 +8316,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14340,22 +8334,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14371,22 +8352,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14402,22 +8370,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14433,22 +8388,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14464,22 +8406,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14495,22 +8424,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14526,22 +8442,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14557,22 +8460,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14588,22 +8478,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14619,22 +8496,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14650,22 +8514,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -14681,22 +8532,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -14712,22 +8550,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14743,22 +8568,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14774,22 +8586,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14805,22 +8604,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14836,22 +8622,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14867,22 +8640,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14898,22 +8658,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14929,22 +8676,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -14960,22 +8694,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -14991,22 +8712,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15022,22 +8730,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15053,22 +8748,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15084,22 +8766,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15115,22 +8784,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15146,22 +8802,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15177,22 +8820,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15208,22 +8838,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15239,22 +8856,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15270,22 +8874,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15301,22 +8892,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15332,22 +8910,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15363,22 +8928,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15394,22 +8946,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -15425,22 +8964,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -15456,22 +8982,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15487,22 +9000,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15518,22 +9018,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15549,22 +9036,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15580,22 +9054,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15611,22 +9072,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15642,22 +9090,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15673,22 +9108,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15704,22 +9126,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -15735,22 +9144,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15766,22 +9162,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15797,22 +9180,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15828,22 +9198,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15859,22 +9216,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15890,22 +9234,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15921,22 +9252,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15952,22 +9270,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -15983,22 +9288,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16014,22 +9306,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16045,22 +9324,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16076,22 +9342,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16107,22 +9360,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16138,22 +9378,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -16169,22 +9396,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -16200,22 +9414,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16231,22 +9432,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16262,22 +9450,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16293,22 +9468,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16324,22 +9486,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16355,22 +9504,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16386,22 +9522,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16417,22 +9540,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16448,22 +9558,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -16479,22 +9576,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16510,22 +9594,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16541,22 +9612,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16572,22 +9630,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16603,22 +9648,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16634,22 +9666,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16665,22 +9684,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16696,22 +9702,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16727,22 +9720,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16758,22 +9738,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16789,22 +9756,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16820,22 +9774,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16851,22 +9792,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16882,22 +9810,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -16913,22 +9828,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -16944,22 +9846,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -16975,22 +9864,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17006,22 +9882,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17037,22 +9900,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17068,22 +9918,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17099,22 +9936,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17130,22 +9954,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17161,22 +9972,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17192,22 +9990,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -17223,22 +10008,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17254,22 +10026,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17285,22 +10044,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17316,22 +10062,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17347,22 +10080,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17378,22 +10098,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17409,22 +10116,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17440,22 +10134,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17471,22 +10152,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17502,22 +10170,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17533,22 +10188,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17564,22 +10206,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17595,22 +10224,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17626,22 +10242,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -17657,22 +10260,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -17688,22 +10278,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17719,22 +10296,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17750,22 +10314,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17781,22 +10332,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17812,22 +10350,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17843,22 +10368,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17874,22 +10386,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17905,22 +10404,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17936,22 +10422,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -17967,22 +10440,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -17998,22 +10458,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18029,22 +10476,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18060,22 +10494,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18091,22 +10512,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18122,22 +10530,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18153,22 +10548,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18184,22 +10566,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18215,22 +10584,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18246,22 +10602,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18277,22 +10620,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18308,22 +10638,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18339,22 +10656,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18370,22 +10674,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -18401,22 +10692,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -18432,22 +10710,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18463,22 +10728,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18494,22 +10746,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18525,22 +10764,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18556,22 +10782,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18587,22 +10800,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18618,22 +10818,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18649,22 +10836,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18680,22 +10854,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -18711,22 +10872,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18742,22 +10890,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18773,22 +10908,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18804,22 +10926,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18835,22 +10944,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18866,22 +10962,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18897,22 +10980,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18928,22 +10998,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18959,22 +11016,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -18990,22 +11034,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19021,22 +11052,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19052,22 +11070,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19083,22 +11088,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19114,22 +11106,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -19145,22 +11124,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -19176,22 +11142,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19207,22 +11160,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19238,22 +11178,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19269,22 +11196,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19300,22 +11214,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19331,22 +11232,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19362,22 +11250,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19393,22 +11268,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19424,22 +11286,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -19455,22 +11304,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19486,22 +11322,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19517,22 +11340,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19548,22 +11358,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19579,22 +11376,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19610,22 +11394,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19641,22 +11412,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19672,22 +11430,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19703,22 +11448,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19734,22 +11466,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19765,22 +11484,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19796,22 +11502,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19827,22 +11520,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19858,22 +11538,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -19889,22 +11556,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -19920,22 +11574,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19951,22 +11592,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -19982,22 +11610,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20013,22 +11628,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20044,22 +11646,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20075,22 +11664,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20106,22 +11682,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20137,22 +11700,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20168,22 +11718,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -20199,22 +11736,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20230,22 +11754,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20261,22 +11772,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20292,22 +11790,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20323,22 +11808,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20354,22 +11826,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20385,22 +11844,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20416,22 +11862,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20447,22 +11880,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20478,22 +11898,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20509,22 +11916,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20540,22 +11934,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20571,22 +11952,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20602,22 +11970,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -20633,22 +11988,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -20664,22 +12006,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20695,22 +12024,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20726,22 +12042,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20757,22 +12060,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20788,22 +12078,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20819,22 +12096,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20850,22 +12114,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20881,22 +12132,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20912,22 +12150,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -20943,22 +12168,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -20974,22 +12186,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21005,22 +12204,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21036,22 +12222,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21067,22 +12240,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21098,22 +12258,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21129,22 +12276,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21160,22 +12294,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21191,22 +12312,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21222,22 +12330,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21253,22 +12348,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21284,22 +12366,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21315,22 +12384,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21346,22 +12402,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -21377,22 +12420,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -21408,22 +12438,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21439,22 +12456,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21470,22 +12474,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21501,22 +12492,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21532,22 +12510,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21563,22 +12528,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21594,22 +12546,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21625,22 +12564,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21656,22 +12582,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -21687,22 +12600,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21718,22 +12618,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21749,22 +12636,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21780,22 +12654,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21811,22 +12672,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21842,22 +12690,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21873,22 +12708,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21904,22 +12726,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21935,22 +12744,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21966,22 +12762,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -21997,22 +12780,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22028,22 +12798,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22059,22 +12816,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22090,22 +12834,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -22121,22 +12852,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -22152,22 +12870,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22183,22 +12888,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22214,22 +12906,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22245,22 +12924,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22276,22 +12942,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22307,22 +12960,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22338,22 +12978,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22369,22 +12996,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22400,22 +13014,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -22431,22 +13032,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22462,22 +13050,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22493,22 +13068,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22524,22 +13086,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22555,22 +13104,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22586,22 +13122,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22617,22 +13140,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22648,22 +13158,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22679,22 +13176,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22710,22 +13194,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22741,22 +13212,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22772,22 +13230,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22803,22 +13248,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22834,22 +13266,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -22865,22 +13284,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -22896,22 +13302,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22927,22 +13320,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22958,22 +13338,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -22989,22 +13356,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23020,22 +13374,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23051,22 +13392,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23082,22 +13410,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23113,22 +13428,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23144,22 +13446,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -23175,22 +13464,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23206,22 +13482,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23237,22 +13500,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23268,22 +13518,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23299,22 +13536,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23330,22 +13554,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23361,22 +13572,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23392,22 +13590,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23423,22 +13608,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23454,22 +13626,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23485,22 +13644,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23516,22 +13662,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23547,22 +13680,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23578,22 +13698,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -23609,22 +13716,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -23640,22 +13734,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23671,22 +13752,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23702,22 +13770,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23733,22 +13788,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23764,22 +13806,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23795,22 +13824,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23826,22 +13842,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23857,22 +13860,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23888,22 +13878,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -23919,22 +13896,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23950,22 +13914,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -23981,22 +13932,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24012,22 +13950,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24043,22 +13968,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24074,22 +13986,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24105,22 +14004,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24136,22 +14022,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24167,22 +14040,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24198,22 +14058,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24229,22 +14076,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24260,22 +14094,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24291,22 +14112,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24322,22 +14130,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -24353,22 +14148,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -24384,22 +14166,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24415,22 +14184,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24446,22 +14202,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24477,22 +14220,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24508,22 +14238,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24539,22 +14256,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24570,22 +14274,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24601,22 +14292,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24632,22 +14310,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -24663,22 +14328,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24694,22 +14346,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24725,22 +14364,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24756,22 +14382,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24787,22 +14400,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24818,22 +14418,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24849,22 +14436,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24880,22 +14454,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24911,22 +14472,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24942,22 +14490,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -24973,22 +14508,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25004,22 +14526,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25035,22 +14544,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25066,22 +14562,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -25097,22 +14580,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -25128,22 +14598,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25159,22 +14616,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25190,22 +14634,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25221,22 +14652,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25252,22 +14670,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25283,22 +14688,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25314,22 +14706,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25345,22 +14724,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25376,22 +14742,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -25407,22 +14760,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25438,22 +14778,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25469,22 +14796,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25500,22 +14814,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25531,22 +14832,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25562,22 +14850,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25593,22 +14868,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25624,22 +14886,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25655,22 +14904,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25686,22 +14922,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25717,22 +14940,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25748,22 +14958,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25779,22 +14976,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25810,22 +14994,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -25841,22 +15012,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -25872,22 +15030,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25903,22 +15048,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25934,22 +15066,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25965,22 +15084,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -25996,22 +15102,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26027,22 +15120,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26058,22 +15138,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26089,22 +15156,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26120,22 +15174,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -26151,22 +15192,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26182,22 +15210,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26213,22 +15228,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26244,22 +15246,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26275,22 +15264,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26306,22 +15282,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26337,22 +15300,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26368,22 +15318,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26399,22 +15336,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26430,22 +15354,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26461,22 +15372,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26492,22 +15390,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26523,22 +15408,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26554,22 +15426,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -26585,22 +15444,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -26616,22 +15462,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26647,22 +15480,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26678,22 +15498,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26709,22 +15516,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26740,22 +15534,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26771,22 +15552,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26802,22 +15570,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26833,22 +15588,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26864,22 +15606,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -26895,22 +15624,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26926,22 +15642,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26957,22 +15660,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -26988,22 +15678,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27019,22 +15696,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27050,22 +15714,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27081,22 +15732,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27112,22 +15750,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27143,22 +15768,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27174,22 +15786,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27205,22 +15804,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27236,22 +15822,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27267,22 +15840,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27298,22 +15858,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -27329,22 +15876,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -27360,22 +15894,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27391,22 +15912,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27422,22 +15930,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27453,22 +15948,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27484,22 +15966,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27515,22 +15984,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27546,22 +16002,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27577,22 +16020,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27608,22 +16038,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -27639,22 +16056,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27670,22 +16074,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27701,22 +16092,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27732,22 +16110,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27763,22 +16128,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27794,22 +16146,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27825,22 +16164,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27856,22 +16182,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27887,22 +16200,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27918,22 +16218,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27949,22 +16236,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -27980,22 +16254,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28011,22 +16272,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28042,22 +16290,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -28073,22 +16308,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -28104,22 +16326,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28135,22 +16344,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28166,22 +16362,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28197,22 +16380,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28228,22 +16398,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28259,22 +16416,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28290,22 +16434,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28321,22 +16452,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28352,22 +16470,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -28383,22 +16488,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28414,22 +16506,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28445,22 +16524,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28476,22 +16542,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28507,22 +16560,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28538,22 +16578,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28569,22 +16596,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28600,22 +16614,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28631,22 +16632,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28662,22 +16650,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28693,22 +16668,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28724,22 +16686,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28755,22 +16704,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28786,22 +16722,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -28817,22 +16740,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -28848,22 +16758,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28879,22 +16776,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28910,22 +16794,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28941,22 +16812,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -28972,22 +16830,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29003,22 +16848,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29034,22 +16866,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29065,22 +16884,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29096,22 +16902,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -29127,22 +16920,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29158,22 +16938,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29189,22 +16956,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29220,22 +16974,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29251,22 +16992,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29282,22 +17010,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29313,22 +17028,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29344,22 +17046,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29375,22 +17064,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29406,22 +17082,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29437,22 +17100,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29468,22 +17118,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29499,22 +17136,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29530,22 +17154,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -29561,22 +17172,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -29592,22 +17190,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29623,22 +17208,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29654,22 +17226,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29685,22 +17244,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29716,22 +17262,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29747,22 +17280,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29778,22 +17298,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29809,22 +17316,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29840,22 +17334,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -29871,22 +17352,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29902,22 +17370,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29933,22 +17388,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29964,22 +17406,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -29995,22 +17424,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30026,22 +17442,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30057,22 +17460,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30088,22 +17478,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30119,22 +17496,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30150,22 +17514,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30181,22 +17532,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30212,22 +17550,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30243,22 +17568,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30274,22 +17586,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很干净，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 干净, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สะอาดจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个干净多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 干净 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสะอาดกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太干净了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 干净 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สะอาดเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "打扫干净。",
+        "pinyin": "Dǎsǎo gānjìng.",
+        "thaiMeaning": "ทำความสะอาดสะอ้าน"
       }
     ]
   },
@@ -30305,22 +17604,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "บรรยายลักษณะสิ่งของหรือสถานการณ์ในการสนทนา",
-        "hanzi": "这个东西真的很脏，我很喜欢。",
-        "pinyin": "Zhège dōngxi zhēn de hěn 脏, wǒ hěn xǐhuan.",
-        "thaiMeaning": "ของชิ้นนี้สกปรกจริงๆ เลย ฉันชอบมาก"
-      },
-      {
-        "scenario": "เปรียบเทียบหรือแนะนำทางเลือกให้เพื่อน",
-        "hanzi": "那个比这个脏多了，你买那个吧。",
-        "pinyin": "Nàge bǐ zhège 脏 duō le, nǐ mǎi nàge ba.",
-        "thaiMeaning": "อันนั้นสกปรกกว่าอันนี้เยอะเลย ซื้ออันนั้นดีกว่า"
-      },
-      {
-        "scenario": "บอกความรู้สึกหรือความเห็นส่วนตัวเกี่ยวกับสิ่งนั้น",
-        "hanzi": "我觉得今天的天气太脏了，不太舒服。",
-        "pinyin": "Wǒ juéde jīntiān de tiānqì tài 脏 le, bù tài shūfu.",
-        "thaiMeaning": "ฉันว่าอากาศวันนี้สกปรกเกินไป ไม่ค่อยสบายเลย"
+        "hanzi": "衣服脏了。",
+        "pinyin": "Yīfu zāng le.",
+        "thaiMeaning": "เสื้อผ้าเปรอะเปื้อน"
       }
     ]
   },
@@ -30336,22 +17622,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อบังคับ\"",
         "hanzi": "遵守规定。",
         "pinyin": "Zūnshǒu guīdìng.",
         "thaiMeaning": "ปฏิบัติตามข้อบังคับ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อบังคับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有规定的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu guīdìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อบังคับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อบังคับ\"",
-        "hanzi": "对我来说，规定是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, guīdìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อบังคับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30367,22 +17640,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทัศนคติ\"",
         "hanzi": "态度端正。",
         "pinyin": "Tàidu duānzhèng.",
         "thaiMeaning": "ทัศนคติถูกต้องวางตัวดี"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทัศนคติ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有态度的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tàidu de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทัศนคติไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทัศนคติ\"",
-        "hanzi": "对我来说，态度是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tàidu shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทัศนคติเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30398,22 +17658,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"จัดระเบียบ\"",
         "hanzi": "整理房间。",
         "pinyin": "Zhěnglǐ fángjiān.",
         "thaiMeaning": "จัดระเบียบห้องพัก"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"จัดระเบียบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有整理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zhěnglǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องจัดระเบียบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"จัดระเบียบ\"",
-        "hanzi": "对我来说，整理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zhěnglǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว จัดระเบียบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30429,22 +17676,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ทำความสะอาด\"",
         "hanzi": "打扫卫生。",
         "pinyin": "Dǎsǎo wèishēng.",
         "thaiMeaning": "ทำความสะอาด"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ทำความสะอาด\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有打扫的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dǎsǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องทำความสะอาดไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ทำความสะอาด\"",
-        "hanzi": "对我来说，打扫是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dǎsǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ทำความสะอาดเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30460,22 +17694,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ซ่อมแซม\"",
         "hanzi": "修理电脑。",
         "pinyin": "Xiūlǐ diànnǎo.",
         "thaiMeaning": "ซ่อมคอมพิวเตอร์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ซ่อมแซม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有修理的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu xiūlǐ de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องซ่อมแซมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ซ่อมแซม\"",
-        "hanzi": "对我来说，修理是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, xiūlǐ shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ซ่อมแซมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30491,22 +17712,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ปรับตัว\"",
         "hanzi": "适应生活。",
         "pinyin": "Shìyìng shēnghuó.",
         "thaiMeaning": "ปรับตัวกับการใช้ชีวิต"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ปรับตัว\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有适应的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shìyìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องปรับตัวไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ปรับตัว\"",
-        "hanzi": "对我来说，适应是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shìyìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ปรับตัวเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30522,22 +17730,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เป็นที่นิยม\"",
         "hanzi": "非常流行。",
         "pinyin": "Fēicháng liúxíng.",
         "thaiMeaning": "เป็นที่นิยมอย่างยิ่ง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เป็นที่นิยม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有流行的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu liúxíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเป็นที่นิยมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เป็นที่นิยม\"",
-        "hanzi": "对我来说，流行是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, liúxíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เป็นที่นิยมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30553,22 +17748,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"งานสังสรรค์\"",
         "hanzi": "参加聚会。",
         "pinyin": "Cānjiā jùhuì.",
         "thaiMeaning": "เข้าร่วมงานสังสรรค์"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"งานสังสรรค์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有聚会的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jùhuì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องงานสังสรรค์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"งานสังสรรค์\"",
-        "hanzi": "对我来说，聚会是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jùhuì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว งานสังสรรค์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30584,22 +17766,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ตอบรับคำชมหรือพูดแสดงความยินดีอย่างสุภาพ",
-        "hanzi": "开玩笑，你太客气了！",
-        "pinyin": "kāi wánxiào, nǐ tài kèqi le!",
-        "thaiMeaning": "พูดเล่น คุณเกรงใจมากเลย!"
-      },
-      {
-        "scenario": "บอกความรู้สึกในการสนทนาให้อีกฝ่ายรับรู้",
-        "hanzi": "说真的，我觉得开玩笑！",
-        "pinyin": "Shuō zhēn de, wǒ juéde kāi wánxiào!",
-        "thaiMeaning": "พูดตรงๆ ฉันรู้สึกพูดเล่น เลย!"
-      },
-      {
-        "scenario": "ใช้เป็นคำตอบสั้นๆ ที่เป็นธรรมชาติในการสนทนาประจำวัน",
-        "hanzi": "嗯，开玩笑！你说得对。",
-        "pinyin": "En, kāi wánxiào! Nǐ shuō de duì.",
-        "thaiMeaning": "อืม พูดเล่น! คุณพูดถูก"
+        "hanzi": "开个玩笑。",
+        "pinyin": "Kāi gè wánxiào.",
+        "thaiMeaning": "พูดเล่นเฉยๆ"
       }
     ]
   },
@@ -30615,22 +17784,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"หารือ\"",
         "hanzi": "互相商量。",
         "pinyin": "Hùxiāng shāngliang.",
         "thaiMeaning": "ปรึกษาหารือกัน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"หารือ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有商量的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu shāngliang de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องหารือไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"หารือ\"",
-        "hanzi": "对我来说，商量是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, shāngliang shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว หารือเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30646,22 +17802,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ข้อเสนอแนะ\"",
         "hanzi": "提出建议。",
         "pinyin": "Tíchū jiànyì.",
         "thaiMeaning": "ยื่นข้อเสนอแนะ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ข้อเสนอแนะ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有建议的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiànyì de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องข้อเสนอแนะไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ข้อเสนอแนะ\"",
-        "hanzi": "对我来说，建议是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiànyì shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ข้อเสนอแนะเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30677,22 +17820,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"กล่าวขอโทษ\"",
         "hanzi": "诚恳道歉。",
         "pinyin": "Chéngkěn dàoqiàn.",
         "thaiMeaning": "กล่าวขอโทษอย่างจริงใจ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"กล่าวขอโทษ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有道歉的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu dàoqiàn de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องกล่าวขอโทษไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"กล่าวขอโทษ\"",
-        "hanzi": "对我来说，道歉是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, dàoqiàn shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว กล่าวขอโทษเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30708,22 +17838,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ชมเชย\"",
         "hanzi": "受到表扬。",
         "pinyin": "Shòudào biǎoyáng.",
         "thaiMeaning": "ได้รับการชมเชย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ชมเชย\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有表扬的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu biǎoyáng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องชมเชยไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ชมเชย\"",
-        "hanzi": "对我来说，表扬是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, biǎoyáng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ชมเชยเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30739,22 +17856,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"วิพากษ์วิจารณ์\"",
         "hanzi": "接受批评。",
         "pinyin": "Jiēshòu pīpíng.",
         "thaiMeaning": "น้อมรับคำตักเตือน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"วิพากษ์วิจารณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有批评的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu pīpíng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องวิพากษ์วิจารณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"วิพากษ์วิจารณ์\"",
-        "hanzi": "对我来说，批评是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, pīpíng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว วิพากษ์วิจารณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30770,22 +17874,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"สะสม\"",
         "hanzi": "积累知识。",
         "pinyin": "Jīlěi zhīshi.",
         "thaiMeaning": "สั่งสมความรู้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"สะสม\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有积累的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jīlěi de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องสะสมไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"สะสม\"",
-        "hanzi": "对我来说，积累是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jīlěi shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว สะสมเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30801,22 +17892,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ยกระดับ\"",
         "hanzi": "提高水平。",
         "pinyin": "Tígāo shuǐpíng.",
         "thaiMeaning": "ยกระดับฝีมือ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ยกระดับ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有提高的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu tígāo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องยกระดับไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ยกระดับ\"",
-        "hanzi": "对我来说，提高是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, tígāo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ยกระดับเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30832,22 +17910,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดต่ำลง\"",
         "hanzi": "降低标准。",
         "pinyin": "Jiàngdī biāozhǔn.",
         "thaiMeaning": "ลดมาตรฐานลง"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดต่ำลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有降低的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiàngdī de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดต่ำลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดต่ำลง\"",
-        "hanzi": "对我来说，降低是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiàngdī shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดต่ำลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30863,22 +17928,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เพิ่มขึ้น\"",
         "hanzi": "增加收入。",
         "pinyin": "Zēngjiā shōurù.",
         "thaiMeaning": "เพิ่มรายได้"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เพิ่มขึ้น\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有增加的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu zēngjiā de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเพิ่มขึ้นไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เพิ่มขึ้น\"",
-        "hanzi": "对我来说，增加是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, zēngjiā shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เพิ่มขึ้นเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30894,22 +17946,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"ลดลง\"",
         "hanzi": "减少开支。",
         "pinyin": "Jiǎnshǎo kāīzhī.",
         "thaiMeaning": "ลดค่าใช้จ่าย"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"ลดลง\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有减少的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu jiǎnshǎo de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องลดลงไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"ลดลง\"",
-        "hanzi": "对我来说，减少是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, jiǎnshǎo shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว ลดลงเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30925,22 +17964,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"อุดมสมบูรณ์\"",
         "hanzi": "经验丰富。",
         "pinyin": "Jīngyàn fēngfù.",
         "thaiMeaning": "ประสบการณ์โชกโชน"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"อุดมสมบูรณ์\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有丰富的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu fēngfù de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องอุดมสมบูรณ์ไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"อุดมสมบูรณ์\"",
-        "hanzi": "对我来说，丰富是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, fēngfù shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว อุดมสมบูรณ์เป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30956,22 +17982,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"คึกคัก\"",
         "hanzi": "非常热闹。",
         "pinyin": "Fēicháng rènao.",
         "thaiMeaning": "คึกคักเป็นพิเศษ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"คึกคัก\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有热闹的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu rènao de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องคึกคักไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"คึกคัก\"",
-        "hanzi": "对我来说，热闹是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, rènao shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว คึกคักเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   },
@@ -30987,22 +18000,9 @@ export const vocabularyList = [
     },
     "examples": [
       {
-        "scenario": "ใช้พูดในสถานการณ์ทั่วไปเพื่อสื่อความหมาย \"เงียบสงบ\"",
         "hanzi": "保持安静。",
         "pinyin": "Bǎochí ānjìng.",
         "thaiMeaning": "รักษาความเงียบ"
-      },
-      {
-        "scenario": "ถามหรือสอบถามเรื่อง \"เงียบสงบ\" กับเพื่อนหรือคนรอบข้าง",
-        "hanzi": "你有没有安静的经验？分享给我听听。",
-        "pinyin": "Nǐ yǒu méiyǒu ānjìng de jīngyàn? Fēnxiǎng gěi wǒ tīng tīng.",
-        "thaiMeaning": "คุณมีประสบการณ์เรื่องเงียบสงบไหม? เล่าให้ฟังหน่อยได้ไหม?"
-      },
-      {
-        "scenario": "บอกความเห็นหรือประสบการณ์ส่วนตัวเกี่ยวกับ \"เงียบสงบ\"",
-        "hanzi": "对我来说，安静是日常生活中很重要的一部分。",
-        "pinyin": "Duì wǒ lái shuō, ānjìng shì rìcháng shēnghuó zhōng hěn zhòngyào de yī bùfen.",
-        "thaiMeaning": "สำหรับฉันแล้ว เงียบสงบเป็นส่วนสำคัญในชีวิตประจำวันมาก"
       }
     ]
   }
