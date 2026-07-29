@@ -1,190 +1,51 @@
-import React, { useState, useEffect } from 'react';
-import { Volume2, RefreshCw, Sliders, Settings, Check, UserCheck, MessageSquare } from 'lucide-react';
-import { getSecretaryCheckIn } from '../data/secretaryData';
-import { getUserSchedule, saveUserSchedule } from '../utils/userSettings';
+﻿import React, { useEffect, useMemo, useState } from 'react';
+import { ArrowRight, Check, ChevronLeft, ChevronRight, Clock3, Heart, MessageCircle, Mic2, PencilLine, Play, RefreshCw, Save, ShieldCheck, Sparkles, SwitchCamera, Volume2, X } from 'lucide-react';
 import { speakChinese } from '../utils/speech';
-import SentenceCard from './SentenceCard';
-import { selfTalkSentences } from '../data/selfTalkData';
-
-export default function SelfTalkView() {
-  const [userSchedule, setUserSchedule] = useState(getUserSchedule());
-  const [audioRate, setAudioRate] = useState(0.8);
-  const [showSettings, setShowSettings] = useState(false);
-  const [secretaryCheck, setSecretaryCheck] = useState(() => getSecretaryCheckIn(new Date(), getUserSchedule()));
-  const [selectedReply, setSelectedReply] = useState(null);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setSecretaryCheck(getSecretaryCheckIn(new Date(), userSchedule));
-    }, 30000);
-    return () => clearInterval(timer);
-  }, [userSchedule]);
-
-  const handleRefreshCheck = () => {
-    setSecretaryCheck(getSecretaryCheckIn(new Date(), userSchedule));
-    setSelectedReply(null);
-  };
-
-  const handleSaveSchedule = (e) => {
-    e.preventDefault();
-    saveUserSchedule(userSchedule);
-    setShowSettings(false);
-    setSecretaryCheck(getSecretaryCheckIn(new Date(), userSchedule));
-  };
-
-  const handleSelectReply = (reply) => {
-    setSelectedReply(reply);
-    speakChinese(reply.hanzi, audioRate);
-  };
-
-  return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-      {/* Secretary Header & Schedule Settings Toggle */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <div style={{ backgroundColor: '#EEF2FF', padding: '8px', borderRadius: 'var(--radius-full)' }}>
-            <UserCheck size={20} color="var(--accent-primary)" />
-          </div>
-          <div>
-            <div style={{ fontWeight: '800', fontSize: '1rem', color: 'var(--text-main)' }}>เลขาภาษาจีนส่วนตัว</div>
-            <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>คอยทักทายและชวนฝึกโต้ตอบตามเวลาจริง</div>
-          </div>
-        </div>
-
-        <button
-          type="button"
-          className="icon-btn"
-          onClick={() => setShowSettings(!showSettings)}
-          title="ตั้งเวลาชีวิต"
-          style={{ width: '38px', height: '38px' }}
-        >
-          <Settings size={18} />
-        </button>
-      </div>
-
-      {/* Settings Panel for User Schedule */}
-      {showSettings && (
-        <form onSubmit={handleSaveSchedule} className="card" style={{ backgroundColor: '#EEF2FF', borderColor: '#C7D2FE' }}>
-          <div style={{ fontWeight: '700', fontSize: '0.9rem', color: 'var(--accent-primary)' }}>
-            ตั้งเวลาชีวิตของคุณ (เลขาจะปรับคำถามตามเวลาจริง)
-          </div>
-
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
-            <div>
-              <label style={{ fontSize: '0.78rem', fontWeight: '600', color: 'var(--text-muted)' }}>เวลาตื่นนอนปกติ</label>
-              <input
-                type="time"
-                value={userSchedule.wakeTime}
-                onChange={(e) => setUserSchedule({ ...userSchedule, wakeTime: e.target.value })}
-                style={{ width: '100%', padding: '8px', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-light)', marginTop: '4px' }}
-              />
-            </div>
-            <div>
-              <label style={{ fontSize: '0.78rem', fontWeight: '600', color: 'var(--text-muted)' }}>เวลานอนปกติ</label>
-              <input
-                type="time"
-                value={userSchedule.bedTime}
-                onChange={(e) => setUserSchedule({ ...userSchedule, bedTime: e.target.value })}
-                style={{ width: '100%', padding: '8px', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-light)', marginTop: '4px' }}
-              />
-            </div>
-          </div>
-
-          <button type="submit" className="pill-btn active" style={{ padding: '8px', marginTop: '4px' }}>
-            บันทึกเวลาชีวิต
-          </button>
-        </form>
-      )}
-
-      {/* Main Secretary Check-in Companion Banner */}
-      <div className="clock-banner" style={{ background: 'linear-gradient(135deg, #1E1B4B 0%, #312E81 100%)' }}>
-        <div className="clock-banner-header">
-          <span>{secretaryCheck.timeLabel}</span>
-          <button type="button" className="refresh-clock-btn" onClick={handleRefreshCheck}>
-            <RefreshCw size={12} />
-            <span>อัปเดตเวลา</span>
-          </button>
-        </div>
-
-        {/* Secretary Prompt Question */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', marginTop: '4px' }}>
-          <div className="clock-banner-hanzi" style={{ fontSize: '1.55rem' }}>
-            {secretaryCheck.secretaryPrompt.hanzi}
-          </div>
-          <div className="clock-banner-pinyin" style={{ color: '#93C5FD', fontSize: '1.05rem' }}>
-            {secretaryCheck.secretaryPrompt.pinyin}
-          </div>
-          <div style={{ fontSize: '0.92rem', color: '#6EE7B7', fontWeight: '600', marginTop: '2px' }}>
-            แปล: "{secretaryCheck.secretaryPrompt.thaiMeaning}"
-          </div>
-        </div>
-
-        <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '4px' }}>
-          <button
-            type="button"
-            className="refresh-clock-btn"
-            onClick={() => speakChinese(secretaryCheck.secretaryPrompt.hanzi, audioRate)}
-          >
-            <Volume2 size={14} />
-            <span>ฟังเสียงเลขาถาม</span>
-          </button>
-        </div>
-      </div>
-
-      {/* Practice Interactive Reply Options */}
-      <div className="section-title">
-        <span>ฝึกเลือกพูดตอบกลับเลขา (แตะเพื่อฟังเสียง & ฝึกพูด)</span>
-      </div>
-
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-        {secretaryCheck.replies.map((reply, idx) => {
-          const isSelected = selectedReply?.hanzi === reply.hanzi;
-          return (
-            <div
-              key={idx}
-              className="card"
-              onClick={() => handleSelectReply(reply)}
-              style={{
-                cursor: 'pointer',
-                borderColor: isSelected ? 'var(--accent-primary)' : 'var(--border-light)',
-                backgroundColor: isSelected ? '#EEF2FF' : 'var(--bg-card)',
-                transition: 'all 0.15s ease'
-              }}
-            >
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                  <div className="hanzi-text" style={{ fontSize: '1.35rem' }}>{reply.hanzi}</div>
-                  <div className="pinyin-text" style={{ fontSize: '1rem', color: 'var(--accent-blue)' }}>{reply.pinyin}</div>
-                  <div className="thai-meaning-text" style={{ fontSize: '0.88rem', fontWeight: '600' }}>แปล: {reply.thaiMeaning}</div>
-                </div>
-
-                <button
-                  type="button"
-                  className="icon-btn"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleSelectReply(reply);
-                  }}
-                  title="ฟังเสียงพูดตอบ"
-                >
-                  <Volume2 size={18} color={isSelected ? 'var(--accent-primary)' : 'var(--text-main)'} />
-                </button>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      {/* Quick Direct Daily Sentences Section */}
-      <div className="section-title" style={{ marginTop: '10px' }}>
-        <span>ประโยคสั้นประจำวัน (ฝึกพูดแอ็กชันตรงๆ)</span>
-      </div>
-
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-        {selfTalkSentences.slice(0, 10).map(item => (
-          <SentenceCard key={item.id} item={item} audioRate={audioRate} />
-        ))}
-      </div>
-    </div>
-  );
+import { scenarios, quickReplies, dialogues, survivalPhrases } from '../data/communicationData';
+const STORE='sinostep_communication_progress_v1', PERSONAL='sinostep_personal_sentences_v1';
+const empty={spoken:0,quickCorrect:0,dialogues:0,practiced:[],mastery:{}};
+const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))||fallback}catch{return fallback}};
+const modes=[['home','ภาพรวม',Sparkles],['scenario','สร้างประโยค',PencilLine],['quick','ตอบทันที',Clock3],['dialogue','บทสนทนา',MessageCircle],['personal','ประโยคของฉัน',Heart],['survival','ประโยคช่วยชีวิต',ShieldCheck]];
+function Phrase({hanzi,pinyin,thai,compact=false,onSpeak}){return <div className={`phrase-block ${compact?'compact':''}`}><div><strong>{hanzi}</strong><span>{pinyin}</span><small>{thai}</small></div><button type="button" aria-label={`ฟังเสียง ${hanzi}`} onClick={()=>{speakChinese(hanzi,.82);onSpeak?.()}}><Volume2 size={19}/></button></div>}
+function Section({eyebrow,title,text,children}){return <section className="practice-section"><header><span className="eyebrow">{eyebrow}</span><h2>{title}</h2><p>{text}</p></header>{children}</section>}
+export default function SelfTalkView(){
+ const [mode,setMode]=useState('home'),[progress,setProgress]=useState(()=>read(STORE,empty)),[personal,setPersonal]=useState(()=>read(PERSONAL,[]));
+ useEffect(()=>localStorage.setItem(STORE,JSON.stringify(progress)),[progress]);
+ useEffect(()=>localStorage.setItem(PERSONAL,JSON.stringify(personal)),[personal]);
+ const record=(id,field='spoken')=>setProgress(x=>({...x,[field]:(x[field]||0)+1,practiced:x.practiced.includes(id)?x.practiced:[...x.practiced,id]}));
+ const go=id=>{setMode(id);window.scrollTo({top:0,behavior:'smooth'})};
+ return <div className="communication-view">
+  <section className="communication-hero"><div><span className="eyebrow">ฝึกเพื่อพูดจริง</span><h1>ศูนย์ฝึกสื่อสาร</h1><p>อ่านพินอินก่อน แล้วพูดออกเสียงทุกครั้ง ไม่ต้องรอให้สมบูรณ์</p></div><div className="speech-score"><Mic2 size={20}/><strong>{progress.spoken}</strong><span>ครั้งที่พูด</span></div></section>
+  <nav className="practice-mode-tabs" aria-label="เลือกโหมดฝึกสื่อสาร">{modes.map(([id,label,Icon])=><button type="button" key={id} className={mode===id?'active':''} aria-pressed={mode===id} onClick={()=>go(id)}><Icon size={18}/><span>{label}</span></button>)}</nav>
+  {mode==='home'&&<Home progress={progress} go={go}/>} {mode==='scenario'&&<Scenario record={record}/>} {mode==='quick'&&<Quick record={record}/>} {mode==='dialogue'&&<Dialogue record={record}/>} {mode==='personal'&&<Personal sentences={personal} setSentences={setPersonal} record={record}/>} {mode==='survival'&&<Survival progress={progress} setProgress={setProgress} record={record}/>}
+ </div>
+}
+function Home({progress,go}){
+ const cards=[[scenario,PencilLine,'สร้างประโยคจากสถานการณ์','เปลี่ยนคำในโครงสร้างเดิม แล้วพูดเป็นประโยคของตัวเอง',`${scenarios.length} สถานการณ์`],[quick,Clock3,'ตอบกลับแบบเร็ว','เห็นคำถามพร้อมพินอิน แล้วตอบภายใน 8 วินาที',`${quickReplies.length} คำถาม`],[dialogue,MessageCircle,'เล่นบทสนทนา','เลือกบทของคุณ แล้วพูดโต้ตอบกับคู่สนทนา',`${dialogues.length} สถานการณ์`],[personal,Heart,'ประโยคเกี่ยวกับตัวฉัน','เขียนประโยคที่ใช้กับชีวิตจริงและเก็บไว้ทบทวน','จำง่าย ใช้ได้จริง'],[survival,ShieldCheck,'ประโยคช่วยชีวิต','ขอให้พูดซ้ำ พูดช้าลง และเอาตัวรอดเมื่อฟังไม่ทัน',`${survivalPhrases.length} ประโยค`]];
+ function scenario(){go('scenario')} function quick(){go('quick')} function dialogue(){go('dialogue')} function personal(){go('personal')} function survival(){go('survival')}
+ return <><section className="today-mission"><span className="mission-icon"><Play size={21} fill="currentColor"/></span><div><small>ภารกิจแนะนำวันนี้</small><strong>ฝึกตอบเร็ว 5 ข้อ แล้วเล่นบทสนทนา 1 รอบ</strong></div><button type="button" onClick={()=>go('quick')}>เริ่มฝึก <ArrowRight size={17}/></button></section><section className="communication-stats"><div><strong>{progress.practiced.length}</strong><span>รายการที่เคยฝึก</span></div><div><strong>{progress.quickCorrect}</strong><span>ตอบได้ทันที</span></div><div><strong>{progress.dialogues}</strong><span>บทสนทนาที่จบ</span></div></section><div className="practice-card-list">{cards.map(([action,Icon,title,text,meta])=><button type="button" key={title} onClick={action}><span className="entry-icon"><Icon size={22}/></span><span><strong>{title}</strong><small>{text}</small><em>{meta}</em></span><ChevronRight size={20}/></button>)}</div><aside className="speaking-tip"><Sparkles size={18}/><p><strong>วิธีฝึกให้พูดได้:</strong> ฟัง 1 รอบ → อ่านพินอิน 1 รอบ → ปิดคำตอบแล้วพูดเอง 2 รอบ</p></aside></>
+}
+function Scenario({record}){
+ const [index,setIndex]=useState(0),[choices,setChoices]=useState([0,0]); const item=scenarios[index], result=item.build(item.choices[0][choices[0]],item.choices[1][choices[1]]);
+ const change=d=>{setIndex(x=>(x+d+scenarios.length)%scenarios.length);setChoices([0,0])};
+ return <Section eyebrow={`สถานการณ์ ${index+1}/${scenarios.length}`} title={item.title} text={item.context}><div className="model-pattern"><span>โครงสร้างที่ใช้</span><strong>{item.pattern}</strong></div><div className="choice-groups">{item.choices.map((group,gi)=><fieldset key={gi}><legend>{gi?'เลือกสิ่งที่ต้องการพูด':'เลือกการกระทำหรือเวลา'}</legend><div>{group.map((o,oi)=><button type="button" key={o.hanzi} className={choices[gi]===oi?'active':''} onClick={()=>setChoices(x=>x.map((v,i)=>i===gi?oi:v))}><strong>{o.hanzi}</strong><span>{o.pinyin}</span><small>{o.thai}</small></button>)}</div></fieldset>)}</div><div className="result-sentence"><span>ประโยคของคุณ</span><Phrase {...result}/><button type="button" className="primary-practice-button" onClick={()=>{speakChinese(result.hanzi,.78);record(`scenario-${index}-${result.hanzi}`)}}><Mic2 size={19}/> ฟังแล้วพูดตาม 2 รอบ</button></div><div className="pager"><button type="button" onClick={()=>change(-1)}><ChevronLeft size={18}/> ก่อนหน้า</button><button type="button" onClick={()=>change(1)}>ถัดไป <ChevronRight size={18}/></button></div></Section>
+}
+function Quick({record}){
+ const [index,setIndex]=useState(0),[seconds,setSeconds]=useState(8),[running,setRunning]=useState(false),[show,setShow]=useState(false); const item=quickReplies[index];
+ useEffect(()=>{if(!running||seconds<=0)return;const t=setTimeout(()=>setSeconds(x=>x-1),1000);return()=>clearTimeout(t)},[running,seconds]); useEffect(()=>{if(seconds===0)setRunning(false)},[seconds]);
+ const start=()=>{setSeconds(8);setShow(false);setRunning(true);speakChinese(item.q.hanzi,.82)},next=()=>{setIndex(x=>(x+1)%quickReplies.length);setSeconds(8);setRunning(false);setShow(false)};
+ return <Section eyebrow={`คำถาม ${index+1}/${quickReplies.length}`} title="ตอบกลับภายใน 8 วินาที" text="ไม่ต้องตอบเหมือนตัวอย่างทุกคำ ขอแค่ความหมายถูกและเป็นธรรมชาติ"><div className={`timer-ring ${seconds<=3?'urgent':''}`}><strong>{seconds}</strong><span>วินาที</span></div><div className="question-card"><span>คู่สนทนาถามว่า</span><Phrase {...item.q}/></div>{!running&&!show&&<button className="primary-practice-button" type="button" onClick={start}><Play size={18} fill="currentColor"/> เริ่มจับเวลา</button>}{(running||seconds===0)&&!show&&<button className="outline-practice-button" type="button" onClick={()=>{setRunning(false);setShow(true)}}>พูดเสร็จแล้ว · ดูคำตอบที่ใช้ได้</button>}{show&&<div className="answer-reveal"><span>ตอบได้หลายแบบ</span>{item.a.map(a=><Phrase key={a.hanzi} {...a} compact/>)}<div className="self-check-row"><button type="button" onClick={start}><RefreshCw size={17}/> ยังตอบไม่ได้</button><button type="button" className="success" onClick={()=>{record(`quick-${index}`,'quickCorrect');next()}}><Check size={18}/> ตอบได้แล้ว</button></div></div>}</Section>
+}
+function Dialogue({record}){
+ const [di,setDi]=useState(0),[role,setRole]=useState('B'),[line,setLine]=useState(0); const d=dialogues[di],current=d.lines[line],mine=current.role===role,last=line===d.lines.length-1;
+ const advance=()=>{if(last){record(`dialogue-${di}`,'dialogues');setLine(0)}else{const next=d.lines[line+1];setLine(x=>x+1);if(next.role!==role)speakChinese(next.hanzi,.82)}};
+ return <Section eyebrow="ฝึกโต้ตอบจริง" title={d.title} text="เลือกบทของคุณ แล้วพูดสลับกับคู่สนทนา"><label className="dialogue-select"><span>เลือกสถานการณ์</span><select value={di} onChange={e=>{setDi(+e.target.value);setLine(0)}}>{dialogues.map((x,i)=><option key={x.title} value={i}>{x.title}</option>)}</select></label><div className="role-switch"><span>คุณรับบท</span><div><button type="button" className={role==='A'?'active':''} onClick={()=>{setRole('A');setLine(0)}}>A · {d.roles.A}</button><button type="button" className={role==='B'?'active':''} onClick={()=>{setRole('B');setLine(0)}}>B · {d.roles.B}</button></div><small><SwitchCamera size={14}/> สลับบทแล้วฝึกอีกครั้ง</small></div><div className={`dialogue-stage ${mine?'my-turn':''}`}><span>{mine?'ถึงตาคุณพูด':`ฟังบทของ ${current.role}`}</span><b>{current.role}</b><Phrase {...current}/>{mine&&<p><Mic2 size={17}/> อ่านพินอินแล้วพูดออกเสียง</p>}</div><div className="dialogue-progress">{d.lines.map((_,i)=><i key={i} className={i<=line?'done':''}/>)}</div><button type="button" className="primary-practice-button" onClick={()=>{if(!mine)speakChinese(current.hanzi,.82);else record(`line-${di}-${line}`);advance()}}>{mine?<Mic2 size={19}/>:<Volume2 size={19}/>} {last?'จบบทสนทนา':mine?'พูดแล้ว · ต่อไป':'ฟังแล้ว · ต่อไป'}</button></Section>
+}
+function Personal({sentences,setSentences,record}){
+ const [form,setForm]=useState({situation:'',hanzi:'',pinyin:'',thai:''}),valid=form.hanzi.trim()&&form.pinyin.trim()&&form.thai.trim(); const save=e=>{e.preventDefault();if(valid){setSentences(x=>[{...form,id:Date.now()},...x]);setForm({situation:'',hanzi:'',pinyin:'',thai:''})}};
+ return <Section eyebrow="จำจากชีวิตของเรา" title="ประโยคของฉัน" text="บันทึกสิ่งที่คุณอยากพูดจริง แล้วกลับมาฝึกได้ทุกวัน"><form className="personal-form" onSubmit={save}>{[['situation','สถานการณ์','เช่น แนะนำตัวกับเพื่อนใหม่'],['hanzi','ภาษาจีน','我每天七点起床。'],['pinyin','พินอิน','Wǒ měitiān qī diǎn qǐchuáng.'],['thai','คำแปลไทย','ฉันตื่นเจ็ดโมงทุกวัน']].map(([key,label,placeholder])=><label key={key}><span>{label}</span><input value={form[key]} onChange={e=>setForm({...form,[key]:e.target.value})} placeholder={placeholder}/></label>)}<button type="submit" disabled={!valid} className="primary-practice-button"><Save size={18}/> บันทึกประโยค</button></form><div className="personal-list"><div className="list-heading"><strong>ประโยคที่บันทึกไว้</strong><span>{sentences.length} ประโยค</span></div>{!sentences.length?<div className="empty-personal"><Heart size={28}/><strong>ยังไม่มีประโยคส่วนตัว</strong><span>เริ่มจากประโยคที่อยากใช้ในสัปดาห์นี้</span></div>:sentences.map(s=><article key={s.id}><small>{s.situation||'ประโยคส่วนตัว'}</small><Phrase {...s} onSpeak={()=>record(`personal-${s.id}`)}/><button className="delete-sentence" type="button" onClick={()=>setSentences(x=>x.filter(y=>y.id!==s.id))}><X size={16}/> ลบ</button></article>)}</div></Section>
+}
+function Survival({progress,setProgress,record}){
+ const cats=[...new Set(survivalPhrases.map(x=>x.category))],[cat,setCat]=useState(cats[0]),filtered=useMemo(()=>survivalPhrases.filter(x=>x.category===cat),[cat]); const mastery=(id,value)=>setProgress(x=>({...x,mastery:{...x.mastery,[id]:value},practiced:x.practiced.includes(`survival-${id}`)?x.practiced:[...x.practiced,`survival-${id}`]}));
+ return <Section eyebrow="ใช้ได้ทันทีเมื่อคุยไม่ทัน" title="ประโยคช่วยชีวิต" text="แยกระดับให้ชัด: เห็นแล้วเข้าใจ ไม่เท่ากับพูดเองได้"><div className="category-chips">{cats.map(x=><button type="button" key={x} className={cat===x?'active':''} onClick={()=>setCat(x)}>{x}</button>)}</div><div className="survival-list">{filtered.map(x=><article key={x.id}><Phrase {...x} onSpeak={()=>record(`survival-${x.id}`)}/><div className="mastery-row"><span>คุณทำได้ระดับไหน?</span><div>{[['recognize','เห็นแล้วเข้าใจ'],['speak','พูดเองได้'],['use','ใช้คุยได้']].map(([value,label])=><button type="button" key={value} className={progress.mastery[x.id]===value?'active':''} onClick={()=>mastery(x.id,value)}>{label}</button>)}</div></div></article>)}</div></Section>
 }
