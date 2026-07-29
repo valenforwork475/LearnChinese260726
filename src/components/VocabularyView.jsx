@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, RotateCcw, Home, BookOpen, Filter } from 'lucide-react';
+import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, RotateCcw, Home, BookOpen, CalendarDays } from 'lucide-react';
 import { vocabularyList } from '../data/vocabularyData';
 import { speakChinese } from '../utils/speech';
-import { getWordProgress, markWordProgress, getMemoryStats } from '../utils/srsEngine';
+import { getWordProgress, markWordProgress, getMemoryStats, getDailyStudyStats, getPendingReviewWords } from '../utils/srsEngine';
 
 export default function VocabularyView({ onGoHome }) {
   const [searchQuery, setSearchQuery] = useState('');
@@ -13,7 +13,7 @@ export default function VocabularyView({ onGoHome }) {
   });
 
   const [filterCategory, setFilterCategory] = useState(() => {
-    return localStorage.getItem('sinostep_vocab_filter_category') || 'all'; // 'all' | 'remembered' | 'learning' | 'new'
+    return localStorage.getItem('sinostep_vocab_filter_category') || 'all'; // 'all' | 'review' | 'remembered' | 'learning' | 'new'
   });
 
   const [sessionOffset, setSessionOffset] = useState(() => {
@@ -29,7 +29,7 @@ export default function VocabularyView({ onGoHome }) {
   const [isFlipped, setIsFlipped] = useState(false);
   const [sessionCompleted, setSessionCompleted] = useState(false);
   const [sessionStats, setSessionStats] = useState({ remembered: 0, forgotten: 0 });
-  const [srsTick, setSrsTick] = useState(0);
+  const [, setSrsTick] = useState(0);
 
   // Sync state to localStorage whenever state changes
   useEffect(() => {
@@ -50,6 +50,16 @@ export default function VocabularyView({ onGoHome }) {
 
   // Overall Memory Stats
   const globalStats = getMemoryStats(vocabularyList);
+  const pendingReviewIds = new Set(getPendingReviewWords(vocabularyList).map(word => word.id));
+  const pendingReviewCount = pendingReviewIds.size;
+  const dailyHistory = getDailyStudyStats(7);
+  const todayStats = dailyHistory[0];
+  const yesterdayStats = dailyHistory[1];
+  const weekStats = dailyHistory.reduce((total, day) => ({
+    studied: total.studied + day.studied,
+    remembered: total.remembered + day.remembered,
+    forgotten: total.forgotten + day.forgotten
+  }), { studied: 0, remembered: 0, forgotten: 0 });
 
   // Filtered list based on Search Query AND Filter Category (All / Remembered / Learning / New)
   const filteredVocab = vocabularyList.filter(item => {
@@ -68,6 +78,9 @@ export default function VocabularyView({ onGoHome }) {
     const prog = getWordProgress(item.id);
     const lvl = prog ? prog.level : 0;
 
+    if (filterCategory === 'review') {
+      return pendingReviewIds.has(item.id);
+    }
     if (filterCategory === 'remembered') {
       return lvl >= 1; // Words marked remembered at least once
     }
@@ -119,7 +132,13 @@ export default function VocabularyView({ onGoHome }) {
       forgotten: !remembered ? prev.forgotten + 1 : prev.forgotten
     }));
 
-    if (safeFlashcardIndex + 1 >= sessionCards.length) {
+    if (filterCategory === 'review') {
+      if (sessionCards.length <= 1) {
+        setSessionCompleted(true);
+      } else {
+        setFlashcardIndex(prev => Math.min(prev, sessionCards.length - 2));
+      }
+    } else if (safeFlashcardIndex + 1 >= sessionCards.length) {
       setSessionCompleted(true);
     } else {
       setFlashcardIndex(prev => prev + 1);
@@ -180,6 +199,7 @@ export default function VocabularyView({ onGoHome }) {
 
   const getFilterCategoryTitle = () => {
     switch (filterCategory) {
+      case 'review': return `ถึงเวลาทบทวน (${filteredVocab.length} คำ)`;
       case 'remembered': return `หมวดทบทวนคำศัพท์ที่จำได้แล้ว (${filteredVocab.length} คำ)`;
       case 'learning': return `หมวดคำศัพท์กำลังเรียน (${filteredVocab.length} คำ)`;
       case 'new': return `หมวดคำศัพท์ยังไม่ได้ / คำใหม่ (${filteredVocab.length} คำ)`;
@@ -257,6 +277,36 @@ export default function VocabularyView({ onGoHome }) {
         </div>
       </div>
 
+      <section className="daily-study-card" aria-labelledby="daily-study-title">
+        <div className="daily-study-heading">
+          <div>
+            <span className="daily-study-eyebrow">บันทึกการเรียนอัตโนมัติ</span>
+            <h2 id="daily-study-title">สรุปวันนี้</h2>
+          </div>
+          <CalendarDays size={22} aria-hidden="true" />
+        </div>
+
+        <div className="daily-study-grid">
+          <div className="daily-study-stat">
+            <strong>{todayStats.studied}</strong>
+            <span>คำที่เรียน</span>
+          </div>
+          <div className="daily-study-stat success">
+            <strong>{todayStats.remembered}</strong>
+            <span>จำได้</span>
+          </div>
+          <div className="daily-study-stat danger">
+            <strong>{todayStats.forgotten}</strong>
+            <span>ยังไม่ได้</span>
+          </div>
+        </div>
+
+        <div className="daily-study-history">
+          <span>เมื่อวาน: เรียน {yesterdayStats.studied} · จำได้ {yesterdayStats.remembered} · ยังไม่ได้ {yesterdayStats.forgotten}</span>
+          <span>7 วัน: เรียน {weekStats.studied} · จำได้ {weekStats.remembered} · ยังไม่ได้ {weekStats.forgotten}</span>
+        </div>
+      </section>
+
       {/* Resume Progress Status Indicator Banner */}
       <div className="card" style={{ backgroundColor: '#EEF2FF', border: '1px solid #C7D2FE', padding: '10px 14px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.82rem', color: 'var(--accent-primary)', fontWeight: '600' }}>
@@ -283,6 +333,16 @@ export default function VocabularyView({ onGoHome }) {
           style={{ padding: '6px 12px', fontSize: '0.8rem', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: '4px' }}
         >
           <span>ทั้งหมด ({vocabularyList.length})</span>
+        </button>
+        <button
+          type="button"
+          className={`pill-btn ${filterCategory === 'review' ? 'active' : ''}`}
+          onClick={() => handleSelectFilter('review')}
+          style={{ padding: '6px 12px', fontSize: '0.8rem', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: '4px' }}
+          aria-label={`ทบทวนคำที่ถึงกำหนด ${pendingReviewCount} คำ`}
+        >
+          <RefreshCw size={14} />
+          <span>ถึงเวลาทบทวน ({pendingReviewCount})</span>
         </button>
 
         <button

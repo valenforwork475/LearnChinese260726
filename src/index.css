@@ -585,3 +585,88 @@ html, body {
   font-weight: 600;
   color: var(--text-muted);
 }
+
+/* Daily learning summary */
+.daily-study-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.daily-study-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--accent-primary);
+}
+
+.daily-study-heading h2 {
+  color: var(--text-main);
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.daily-study-eyebrow {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.daily-study-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.daily-study-stat {
+  min-width: 0;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 10px 8px;
+  text-align: center;
+}
+
+.daily-study-stat strong {
+  display: block;
+  color: var(--accent-primary);
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.daily-study-stat.success strong {
+  color: var(--accent-emerald);
+}
+
+.daily-study-stat.danger strong {
+  color: var(--accent-rose);
+}
+
+.daily-study-stat span {
+  color: var(--text-muted);
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+.daily-study-history {
+  border-top: 1px dashed var(--border-light);
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--text-muted);
+  font-size: 0.76rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .memory-progress-bar-fill {
+    transition: none;
+  }
+}
