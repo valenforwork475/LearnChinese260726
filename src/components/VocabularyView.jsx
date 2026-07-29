@@ -4,6 +4,35 @@ import { vocabularyList } from '../data/vocabularyData';
 import { speakChinese } from '../utils/speech';
 import { getWordProgress, markWordProgress, getMemoryStats, getDailyStudyStats, getPendingReviewWords } from '../utils/srsEngine';
 
+const POSITION_STORAGE_KEY = 'sinostep_vocab_positions_v2';
+
+function getSavedPosition(category) {
+  try {
+    const savedPositions = JSON.parse(localStorage.getItem(POSITION_STORAGE_KEY) || '{}');
+    if (savedPositions[category]) return savedPositions[category];
+
+    if (category === 'all') {
+      return {
+        sessionOffset: Math.max(0, parseInt(localStorage.getItem('sinostep_vocab_session_offset') || '0', 10)),
+        flashcardIndex: Math.max(0, parseInt(localStorage.getItem('sinostep_vocab_flashcard_index') || '0', 10))
+      };
+    }
+  } catch (error) {
+    console.error('Failed to load vocabulary position', error);
+  }
+  return { sessionOffset: 0, flashcardIndex: 0 };
+}
+
+function savePosition(category, sessionOffset, flashcardIndex) {
+  try {
+    const savedPositions = JSON.parse(localStorage.getItem(POSITION_STORAGE_KEY) || '{}');
+    savedPositions[category] = { sessionOffset, flashcardIndex };
+    localStorage.setItem(POSITION_STORAGE_KEY, JSON.stringify(savedPositions));
+  } catch (error) {
+    console.error('Failed to save vocabulary position', error);
+  }
+}
+
 export default function VocabularyView({ onGoHome }) {
   const [searchQuery, setSearchQuery] = useState('');
   
@@ -16,15 +45,9 @@ export default function VocabularyView({ onGoHome }) {
     return localStorage.getItem('sinostep_vocab_filter_category') || 'all'; // 'all' | 'review' | 'remembered' | 'learning' | 'new'
   });
 
-  const [sessionOffset, setSessionOffset] = useState(() => {
-    const saved = localStorage.getItem('sinostep_vocab_session_offset');
-    return saved !== null ? Math.max(0, parseInt(saved, 10)) : 0;
-  });
-
-  const [flashcardIndex, setFlashcardIndex] = useState(() => {
-    const saved = localStorage.getItem('sinostep_vocab_flashcard_index');
-    return saved !== null ? Math.max(0, parseInt(saved, 10)) : 0;
-  });
+  const initialPosition = getSavedPosition(filterCategory);
+  const [sessionOffset, setSessionOffset] = useState(initialPosition.sessionOffset);
+  const [flashcardIndex, setFlashcardIndex] = useState(initialPosition.flashcardIndex);
 
   const [isFlipped, setIsFlipped] = useState(false);
   const [sessionCompleted, setSessionCompleted] = useState(false);
@@ -41,12 +64,8 @@ export default function VocabularyView({ onGoHome }) {
   }, [filterCategory]);
 
   useEffect(() => {
-    localStorage.setItem('sinostep_vocab_session_offset', sessionOffset.toString());
-  }, [sessionOffset]);
-
-  useEffect(() => {
-    localStorage.setItem('sinostep_vocab_flashcard_index', flashcardIndex.toString());
-  }, [flashcardIndex]);
+    savePosition(filterCategory, sessionOffset, flashcardIndex);
+  }, [filterCategory, sessionOffset, flashcardIndex]);
 
   // Overall Memory Stats
   const globalStats = getMemoryStats(vocabularyList);
@@ -99,12 +118,16 @@ export default function VocabularyView({ onGoHome }) {
   const sessionCards = filteredVocab.slice(safeSessionOffset, safeSessionOffset + 10);
   const safeFlashcardIndex = Math.min(flashcardIndex, Math.max(0, sessionCards.length - 1));
   const currentFlashcard = sessionCards[safeFlashcardIndex] || null;
+  const hasNextSession = safeSessionOffset + 10 < filteredVocab.length;
 
   // Change Filter Category Handler
   const handleSelectFilter = (category) => {
+    if (category === filterCategory) return;
+    savePosition(filterCategory, safeSessionOffset, safeFlashcardIndex);
+    const savedPosition = getSavedPosition(category);
     setFilterCategory(category);
-    setSessionOffset(0);
-    setFlashcardIndex(0);
+    setSessionOffset(savedPosition.sessionOffset);
+    setFlashcardIndex(savedPosition.flashcardIndex);
     setIsFlipped(false);
     setSessionCompleted(false);
     setSessionStats({ remembered: 0, forgotten: 0 });
@@ -152,17 +175,10 @@ export default function VocabularyView({ onGoHome }) {
     setSessionStats({ remembered: 0, forgotten: 0 });
   };
 
-  const resetToFirstWord = () => {
-    setSessionOffset(0);
-    setFlashcardIndex(0);
-    setIsFlipped(false);
-    setSessionCompleted(false);
-    setSessionStats({ remembered: 0, forgotten: 0 });
-  };
 
   const handleNext10Words = () => {
-    const nextOffset = safeSessionOffset + 10 >= filteredVocab.length ? 0 : safeSessionOffset + 10;
-    setSessionOffset(nextOffset);
+    if (!hasNextSession) return;
+    setSessionOffset(safeSessionOffset + 10);
     setFlashcardIndex(0);
     setIsFlipped(false);
     setSessionCompleted(false);
@@ -307,107 +323,42 @@ export default function VocabularyView({ onGoHome }) {
         </div>
       </section>
 
-      {/* Resume Progress Status Indicator Banner */}
-      <div className="card" style={{ backgroundColor: '#EEF2FF', border: '1px solid #C7D2FE', padding: '10px 14px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.82rem', color: 'var(--accent-primary)', fontWeight: '600' }}>
-          <BookOpen size={16} />
-          <span>{getFilterCategoryTitle()} - เรียนถึงคำที่ <strong>{currentGlobalWordIndex}</strong> / {filteredVocab.length || 1}</span>
+      <div className="resume-card">
+        <BookOpen size={18} aria-hidden="true" />
+        <div>
+          <span className="resume-card-label">ตำแหน่งที่บันทึกไว้</span>
+          <strong>{getFilterCategoryTitle()}</strong>
+          <span>กำลังเรียนคำที่ {Math.min(currentGlobalWordIndex, filteredVocab.length || 1)} จาก {filteredVocab.length} คำ</span>
         </div>
-        {currentGlobalWordIndex > 1 && (
-          <button
-            type="button"
-            onClick={resetToFirstWord}
-            style={{ border: 'none', background: 'transparent', color: '#6366F1', fontSize: '0.78rem', fontWeight: '700', textDecoration: 'underline', cursor: 'pointer' }}
-          >
-            เริ่มจากคำที่ 1
-          </button>
-        )}
       </div>
-
-      {/* Filter Mode Selector Pills */}
-      <div style={{ display: 'flex', gap: '6px', overflowX: 'auto', paddingBottom: '4px' }}>
-        <button
-          type="button"
-          className={`pill-btn ${filterCategory === 'all' ? 'active' : ''}`}
-          onClick={() => handleSelectFilter('all')}
-          style={{ padding: '6px 12px', fontSize: '0.8rem', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: '4px' }}
-        >
-          <span>ทั้งหมด ({vocabularyList.length})</span>
+      {/* Status filters: fixed grid keeps every label readable on mobile. */}
+      <div className="filter-tab-grid" role="group" aria-label="เลือกหมวดคำศัพท์">
+        <button type="button" className={`filter-tab ${filterCategory === 'all' ? 'active' : ''}`} onClick={() => handleSelectFilter('all')} aria-pressed={filterCategory === 'all'}>
+          <Layers size={17} aria-hidden="true" />
+          <span>ทั้งหมด</span>
+          <strong>{vocabularyList.length}</strong>
         </button>
-        <button
-          type="button"
-          className={`pill-btn ${filterCategory === 'review' ? 'active' : ''}`}
-          onClick={() => handleSelectFilter('review')}
-          style={{ padding: '6px 12px', fontSize: '0.8rem', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: '4px' }}
-          aria-label={`ทบทวนคำที่ถึงกำหนด ${pendingReviewCount} คำ`}
-        >
-          <RefreshCw size={14} />
-          <span>ถึงเวลาทบทวน ({pendingReviewCount})</span>
+        <button type="button" className={`filter-tab review ${filterCategory === 'review' ? 'active' : ''}`} onClick={() => handleSelectFilter('review')} aria-pressed={filterCategory === 'review'}>
+          <RefreshCw size={17} aria-hidden="true" />
+          <span>ถึงเวลาทบทวน</span>
+          <strong>{pendingReviewCount}</strong>
         </button>
-
-        <button
-          type="button"
-          className={`pill-btn ${filterCategory === 'remembered' ? 'active' : ''}`}
-          onClick={() => handleSelectFilter('remembered')}
-          style={{
-            padding: '6px 12px',
-            fontSize: '0.8rem',
-            whiteSpace: 'nowrap',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '4px',
-            backgroundColor: filterCategory === 'remembered' ? '#D1FAE5' : '#F3F4F6',
-            color: filterCategory === 'remembered' ? '#047857' : '#374151',
-            borderColor: filterCategory === 'remembered' ? '#6EE7B7' : 'transparent',
-            fontWeight: filterCategory === 'remembered' ? '700' : '500'
-          }}
-        >
-          <Check size={14} />
-          <span>จำได้แล้ว ({globalStats.rememberedCount})</span>
+        <button type="button" className={`filter-tab remembered ${filterCategory === 'remembered' ? 'active' : ''}`} onClick={() => handleSelectFilter('remembered')} aria-pressed={filterCategory === 'remembered'}>
+          <Check size={17} aria-hidden="true" />
+          <span>จำได้แล้ว</span>
+          <strong>{globalStats.rememberedCount}</strong>
         </button>
-
-        <button
-          type="button"
-          className={`pill-btn ${filterCategory === 'learning' ? 'active' : ''}`}
-          onClick={() => handleSelectFilter('learning')}
-          style={{
-            padding: '6px 12px',
-            fontSize: '0.8rem',
-            whiteSpace: 'nowrap',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '4px',
-            backgroundColor: filterCategory === 'learning' ? '#FEF3C7' : '#F3F4F6',
-            color: filterCategory === 'learning' ? '#B45309' : '#374151',
-            borderColor: filterCategory === 'learning' ? '#FCD34D' : 'transparent',
-            fontWeight: filterCategory === 'learning' ? '700' : '500'
-          }}
-        >
-          <RefreshCw size={14} />
-          <span>กำลังเรียน ({globalStats.learningCount})</span>
+        <button type="button" className={`filter-tab learning ${filterCategory === 'learning' ? 'active' : ''}`} onClick={() => handleSelectFilter('learning')} aria-pressed={filterCategory === 'learning'}>
+          <BookOpen size={17} aria-hidden="true" />
+          <span>กำลังเรียน</span>
+          <strong>{globalStats.learningCount}</strong>
         </button>
-
-        <button
-          type="button"
-          className={`pill-btn ${filterCategory === 'new' ? 'active' : ''}`}
-          onClick={() => handleSelectFilter('new')}
-          style={{
-            padding: '6px 12px',
-            fontSize: '0.8rem',
-            whiteSpace: 'nowrap',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '4px',
-            backgroundColor: filterCategory === 'new' ? '#FFE4E6' : '#F3F4F6',
-            color: filterCategory === 'new' ? '#BE123C' : '#374151',
-            borderColor: filterCategory === 'new' ? '#FDA4AF' : 'transparent',
-            fontWeight: filterCategory === 'new' ? '700' : '500'
-          }}
-        >
-          <span>ยังไม่ได้ ({globalStats.newOrHardCount})</span>
+        <button type="button" className={`filter-tab new ${filterCategory === 'new' ? 'active' : ''}`} onClick={() => handleSelectFilter('new')} aria-pressed={filterCategory === 'new'}>
+          <RotateCcw size={17} aria-hidden="true" />
+          <span>ยังไม่ได้</span>
+          <strong>{globalStats.newOrHardCount}</strong>
         </button>
       </div>
-
       {/* Search & View Mode Switcher */}
       <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
         <div className="search-input-wrapper" style={{ flex: 1 }}>
@@ -418,7 +369,6 @@ export default function VocabularyView({ onGoHome }) {
             value={searchQuery}
             onChange={(e) => {
               setSearchQuery(e.target.value);
-              setSessionOffset(0);
               restartCurrentSession();
             }}
           />
@@ -514,10 +464,11 @@ export default function VocabularyView({ onGoHome }) {
                 type="button"
                 className="pill-btn active"
                 onClick={handleNext10Words}
+                disabled={!hasNextSession}
                 style={{ padding: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px', fontSize: '0.9rem' }}
               >
-                <span>เรียน 10 คำถัดไป</span>
-                <ArrowRight size={16} />
+                <span>{hasNextSession ? 'เรียน 10 คำถัดไป' : 'เรียนครบหมวดนี้แล้ว'}</span>
+                {hasNextSession && <ArrowRight size={16} />}
               </button>
 
               <button
