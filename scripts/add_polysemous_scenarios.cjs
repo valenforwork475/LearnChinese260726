@@ -7,7 +7,17 @@ const match = source.match(/export const vocabularyList = (\[[\s\S]*\]);/);
 if (!match) throw new Error('Could not find vocabularyList');
 
 const vocabularyList = JSON.parse(match[1]);
-const scenarios = {
+const meanings = {
+  左: 'ซ้าย / ด้านซ้าย / มือซ้าย',
+  右: 'ขวา / ด้านขวา / มือขวา',
+  前: 'หน้า / ข้างหน้า / ก่อน',
+  后: 'หลัง / ข้างหลัง / หลังจาก',
+  进: 'เข้า / เข้ามา / เข้าไป / เข้าร่วม',
+  出: 'ออก / ออกมา / ออกไป / ทางออก',
+  上: 'บน / ขึ้น / ขึ้นรถ',
+  下: 'ล่าง / ใต้ / ลง / ตก (ฝน) / ครั้งถัดไป',
+  走: 'เดิน / ไป / ออกไป'
+};const scenarios = {
   左: [
     { scenario: 'เดินกับเพื่อนแล้วบอกทางที่สี่แยก', hanzi: '到前面的路口往左转。', pinyin: 'Dào qiánmiàn de lùkǒu wǎng zuǒ zhuǎn.', thaiMeaning: 'ถึงสี่แยกข้างหน้าแล้วเลี้ยวซ้าย' },
     { scenario: 'บอกตำแหน่งของร้านในห้าง', hanzi: '洗手间在咖啡店的左边。', pinyin: 'Xǐshǒujiān zài kāfēidiàn de zuǒbian.', thaiMeaning: 'ห้องน้ำอยู่ทางซ้ายของร้านกาแฟ' },
@@ -59,6 +69,7 @@ const scenarios = {
 let updated = 0;
 for (const word of vocabularyList) {
   if (scenarios[word.hanzi]) {
+    word.thaiMeaning = meanings[word.hanzi];
     word.examples = scenarios[word.hanzi];
     updated += 1;
   }

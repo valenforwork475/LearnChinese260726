@@ -910,7 +910,7 @@ export const vocabularyList = [
     "id": "v51",
     "hanzi": "左",
     "pinyin": "zuǒ",
-    "thaiMeaning": "ซ้าย",
+    "thaiMeaning": "ซ้าย / ด้านซ้าย / มือซ้าย",
     "example": {
       "hanzi": "往左走。",
       "pinyin": "Wǎng zuǒ zǒu.",
@@ -941,7 +941,7 @@ export const vocabularyList = [
     "id": "v52",
     "hanzi": "右",
     "pinyin": "yòu",
-    "thaiMeaning": "ขวา",
+    "thaiMeaning": "ขวา / ด้านขวา / มือขวา",
     "example": {
       "hanzi": "往右转。",
       "pinyin": "Wǎng yòu zhuǎn.",
@@ -972,7 +972,7 @@ export const vocabularyList = [
     "id": "v53",
     "hanzi": "前",
     "pinyin": "qián",
-    "thaiMeaning": "หน้า / ข้างหน้า",
+    "thaiMeaning": "หน้า / ข้างหน้า / ก่อน",
     "example": {
       "hanzi": "往前走。",
       "pinyin": "Wǎng qián zǒu.",
@@ -1003,7 +1003,7 @@ export const vocabularyList = [
     "id": "v54",
     "hanzi": "后",
     "pinyin": "hòu",
-    "thaiMeaning": "หลัง / ข้างหลัง",
+    "thaiMeaning": "หลัง / ข้างหลัง / หลังจาก",
     "example": {
       "hanzi": "在后面。",
       "pinyin": "Zài hòumiàn.",
@@ -1034,7 +1034,7 @@ export const vocabularyList = [
     "id": "v55",
     "hanzi": "进",
     "pinyin": "jìn",
-    "thaiMeaning": "เข้า / เข้ามา",
+    "thaiMeaning": "เข้า / เข้ามา / เข้าไป / เข้าร่วม",
     "example": {
       "hanzi": "请进。",
       "pinyin": "Qǐng jìn.",
@@ -1065,7 +1065,7 @@ export const vocabularyList = [
     "id": "v56",
     "hanzi": "出",
     "pinyin": "chū",
-    "thaiMeaning": "ออก",
+    "thaiMeaning": "ออก / ออกมา / ออกไป / ทางออก",
     "example": {
       "hanzi": "出去。",
       "pinyin": "Chūqù.",
@@ -1096,7 +1096,7 @@ export const vocabularyList = [
     "id": "v57",
     "hanzi": "上",
     "pinyin": "shàng",
-    "thaiMeaning": "บน / ขึ้น",
+    "thaiMeaning": "บน / ขึ้น / ขึ้นรถ",
     "example": {
       "hanzi": "上楼。",
       "pinyin": "Shàng lóu.",
@@ -1127,7 +1127,7 @@ export const vocabularyList = [
     "id": "v58",
     "hanzi": "下",
     "pinyin": "xià",
-    "thaiMeaning": "ล่าง / ลง",
+    "thaiMeaning": "ล่าง / ใต้ / ลง / ตก (ฝน) / ครั้งถัดไป",
     "example": {
       "hanzi": "下车。",
       "pinyin": "Xià chē.",
@@ -1164,7 +1164,7 @@ export const vocabularyList = [
     "id": "v59",
     "hanzi": "走",
     "pinyin": "zǒu",
-    "thaiMeaning": "เดิน / ไป",
+    "thaiMeaning": "เดิน / ไป / ออกไป",
     "example": {
       "hanzi": "慢慢走。",
       "pinyin": "Mànmàn zǒu.",
