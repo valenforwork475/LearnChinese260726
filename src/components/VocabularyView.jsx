@@ -354,7 +354,7 @@ export default function VocabularyView({ onGoHome }) {
           <Search size={16} className="search-icon" />
           <input
             type="text"
-            placeholder="ค้นคำศัพท์ 1,000 คำ..."
+            placeholder={`ค้นคำศัพท์ ${vocabularyList.length} คำ...`}
             value={searchQuery}
             onChange={(e) => {
               setSearchQuery(e.target.value);
