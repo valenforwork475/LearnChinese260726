@@ -3,6 +3,7 @@ import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, Rot
 import { vocabularyList } from '../data/vocabularyData';
 import { speakChinese } from '../utils/speech';
 import { getWordProgress, markWordProgress, getMemoryStats, getDailyStudyStats, getPendingReviewWords } from '../utils/srsEngine';
+import PronunciationAssessment from './PronunciationAssessment';
 
 const POSITION_STORAGE_KEY = 'sinostep_vocab_positions_v2';
 
@@ -594,6 +595,8 @@ export default function VocabularyView({ onGoHome }) {
                 </div>
               </div>
             </div>
+
+            <PronunciationAssessment word={currentFlashcard} />
 
             {/* Clean SRS Memory Marking Action Buttons */}
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginTop: '4px' }}>
