@@ -4,6 +4,7 @@ import BottomNav from './components/BottomNav';
 import SelfTalkView from './components/SelfTalkView';
 import VocabularyView from './components/VocabularyView';
 import PinyinView from './components/PinyinView';
+import GamesView from './components/GamesView';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState(() => {
@@ -21,6 +22,7 @@ export default function App() {
       <main className="app-content">
         {activeTab === 'self_talk' && <SelfTalkView />}
         {activeTab === 'vocabulary' && <VocabularyView onGoHome={() => setActiveTab('self_talk')} />}
+        {activeTab === 'games' && <GamesView />}
         {activeTab === 'pinyin' && <PinyinView />}
       </main>
 

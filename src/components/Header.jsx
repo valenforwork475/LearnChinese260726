@@ -20,7 +20,7 @@ export default function Header() {
     <header className="header-bar">
       <div className="brand-title">
         <span>SinoStep</span>
-        <span className="brand-badge">Self-Talk</span>
+        <span className="brand-badge">Mandarin Pro</span>
       </div>
       <div className="header-time-pill">
         <Clock size={14} />
