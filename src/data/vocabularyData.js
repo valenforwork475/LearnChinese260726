@@ -2,7 +2,7 @@
 // Situational examples are written and reviewed per word; substitution templates are not used.
 
 export const VOCAB_SETS = [
-  { id: 'all', label: 'ทั้งหมด (458 คำ)' }
+  { id: 'all', label: 'ทั้งหมด (490 คำ)' }
 ];
 
 export const vocabularyList = [
@@ -14207,6 +14207,322 @@ export const vocabularyList = [
         "hanzi": "地上很脏，不要坐。",
         "pinyin": "Dì shàng hěn zāng, bú yào zuò.",
         "thaiMeaning": "พื้นสกปรกมาก อย่านั่ง"
+      }
+    ]
+  },
+  {
+    "id": "v475",
+    "hanzi": "充电",
+    "pinyin": "chōngdiàn",
+    "thaiMeaning": "ชาร์จแบตเตอรี่",
+    "example": {
+      "hanzi": "手机没电了，我要充电。",
+      "pinyin": "Shǒujī méi diàn le, wǒ yào chōngdiàn.",
+      "thaiMeaning": "มือถือแบตหมดแล้ว ฉันต้องชาร์จแบต"
+    },
+    "examples": [
+      {
+        "scenario": "ถามหายืมสายชาร์จ",
+        "hanzi": "请问你有充电线吗？",
+        "pinyin": "Qǐngwèn nǐ yǒu chōngdiàn xiàn ma?",
+        "thaiMeaning": "ขอถามหน่อยครับ คุณมีสายชาร์จไหม?"
+      },
+      {
+        "scenario": "มองหาปลั๊กชาร์จไฟ",
+        "hanzi": "这里有地方可以充电吗？",
+        "pinyin": "Zhèlǐ yǒu dìfang kěyǐ chōngdiàn ma?",
+        "thaiMeaning": "ตรงนี้มีที่ให้ชาร์จไฟไหม?"
+      }
+    ]
+  },
+  {
+    "id": "v476",
+    "hanzi": "拍照",
+    "pinyin": "pāizhào",
+    "thaiMeaning": "ถ่ายรูป",
+    "example": {
+      "hanzi": "我们可以拍照吗？",
+      "pinyin": "Wǒmen kěyǐ pāizhào ma?",
+      "thaiMeaning": "พวกเราถ่ายรูปได้ไหม?"
+    },
+    "examples": [
+      {
+        "scenario": "วานคนอื่นถ่ายรูปให้",
+        "hanzi": "请帮我们拍一张照，谢谢！",
+        "pinyin": "Qǐng bāng wǒmen pāi yì zhāng zhào, xièxie!",
+        "thaiMeaning": "ช่วยถ่ายรูปให้พวกเราสักรูปหน่อยครับ ขอบคุณครับ!"
+      },
+      {
+        "scenario": "ชมว่าถ่ายสวย",
+        "hanzi": "这里的风景太美了，快拍照！",
+        "pinyin": "Zhèlǐ de fēngjǐng tài měi le, kuài pāizhào!",
+        "thaiMeaning": "วิวที่นี่สวยมาก รีบถ่ายรูปเร็ว!"
+      }
+    ]
+  },
+  {
+    "id": "v477",
+    "hanzi": "点外卖",
+    "pinyin": "diǎn wàimài",
+    "thaiMeaning": "สั่งอาหารดิลิเวอรี",
+    "example": {
+      "hanzi": "晚上我们点外卖吧。",
+      "pinyin": "Wǎnshang wǒmen diǎn wàimài ba.",
+      "thaiMeaning": "ตอนเย็นพวกเราสั่งเดลิเวอรีกันเถอะ"
+    },
+    "examples": [
+      {
+        "scenario": "ไม่อยากออกไปข้างนอก",
+        "hanzi": "今天太累了，不想出去，点外卖吧。",
+        "pinyin": "Jīntiān tài lèi le, bù xiǎng chūqù, diǎn wàimài ba.",
+        "thaiMeaning": "วันนี้เหนื่อยมาก ไม่อยากออกไปข้างนอก สั่งเดลิเวอรีเถอะ"
+      }
+    ]
+  },
+  {
+    "id": "v478",
+    "hanzi": "扫码",
+    "pinyin": "sǎo mǎ",
+    "thaiMeaning": "สแกนคิวอาร์โค้ด",
+    "example": {
+      "hanzi": "请扫码付款。",
+      "pinyin": "Qǐng sǎo mǎ fùkuǎn.",
+      "thaiMeaning": "กรุณาสแกนโค้ดจ่ายเงิน"
+    },
+    "examples": [
+      {
+        "scenario": "จ่ายเงินร้านค้า",
+        "hanzi": "可以扫码支付吗？",
+        "pinyin": "Kěyǐ sǎo mǎ zhīfù ma?",
+        "thaiMeaning": "สแกนโค้ดชำระเงินได้ไหมครับ?"
+      }
+    ]
+  },
+  {
+    "id": "v479",
+    "hanzi": "结账",
+    "pinyin": "jiézhàng",
+    "thaiMeaning": "เช็กบิล / คิดเงิน",
+    "example": {
+      "hanzi": "服务员，买单结账！",
+      "pinyin": "Fúwùyuán, mǎidān jiézhàng!",
+      "thaiMeaning": "บริกรครับ เช็กบิลคิดเงินด้วยครับ!"
+    },
+    "examples": [
+      {
+        "scenario": "เรียกเช็กบิลร้านอาหาร",
+        "hanzi": "一共多少钱？我们要结账。",
+        "pinyin": "Yīgòng duōshao qián? Wǒmen yào jiézhàng.",
+        "thaiMeaning": "ทั้งหมดเท่าไหร่ครับ? พวกเราจะเช็กบิล"
+      }
+    ]
+  },
+  {
+    "id": "v480",
+    "hanzi": "打车",
+    "pinyin": "dǎchē",
+    "thaiMeaning": "เรียกรถแท็กซี่ / เรียกรถ",
+    "example": {
+      "hanzi": "时间来不及了，我们打车吧。",
+      "pinyin": "Shíjiān láibují le, wǒmen dǎchē ba.",
+      "thaiMeaning": "เวลาไม่ทันแล้ว พวกเราเรียกรถกันเถอะ"
+    },
+    "examples": [
+      {
+        "scenario": "เรียกแท็กซี่ผ่านแอป",
+        "hanzi": "在手机上打车很方便。",
+        "pinyin": "Zài shǒujī shang dǎchē hěn fāngbiàn.",
+        "thaiMeaning": "เรียกรถบนมือถือสะดวกมาก"
+      }
+    ]
+  },
+  {
+    "id": "v481",
+    "hanzi": "信号",
+    "pinyin": "xìnhào",
+    "thaiMeaning": "สัญญาณโทรศัพท์ / เน็ต",
+    "example": {
+      "hanzi": "这里的信号不太好。",
+      "pinyin": "Zhèlǐ de xìnhào bù tài hǎo.",
+      "thaiMeaning": "สัญญาณตรงนี้ไม่ค่อยดีเลย"
+    },
+    "examples": [
+      {
+        "scenario": "สายหลุดเพราะเน็ตไม่ดี",
+        "hanzi": "刚好没信号，断线了。",
+        "pinyin": "Gānghǎo méi xìnhào, duànxiàn le.",
+        "thaiMeaning": "พอดีไม่มีสัญญาณ สายเลยหลุด"
+      }
+    ]
+  },
+  {
+    "id": "v482",
+    "hanzi": "密码",
+    "pinyin": "mìmǎ",
+    "thaiMeaning": "รหัสผ่าน",
+    "example": {
+      "hanzi": "请问Wi-Fi密码是什么？",
+      "pinyin": "Qǐngwèn Wi-Fi mìmǎ shì shénme?",
+      "thaiMeaning": "ขอถามหน่อยครับ รหัสผ่าน Wi-Fi คืออะไรครับ?"
+    },
+    "examples": [
+      {
+        "scenario": "ถามรหัส Wi-Fi ร้านกาแฟ",
+        "hanzi": "这店里的无线网密码是多少？",
+        "pinyin": "Zhè diàn lǐ de wúxiànwǎng mìmǎ shì duōshao?",
+        "thaiMeaning": "รหัสไวไฟในร้านนี้คือเลขอะไรครับ?"
+      }
+    ]
+  },
+  {
+    "id": "v483",
+    "hanzi": "发消息",
+    "pinyin": "fā xiāoxi",
+    "thaiMeaning": "ส่งข้อความแชท",
+    "example": {
+      "hanzi": "到家后记得发消息给我。",
+      "pinyin": "Dào jiā hòu jìde fā xiāoxi gěi wǒ.",
+      "thaiMeaning": "ถึงบ้านแล้วจำไว้ว่าส่งข้อความหาฉันด้วยนะ"
+    },
+    "examples": [
+      {
+        "scenario": "ทักไลน์ / แชท",
+        "hanzi": "我微信发消息给你了。",
+        "pinyin": "Wǒ Wēixìn fā xiāoxi gěi nǐ le.",
+        "thaiMeaning": "ฉันส่งข้อความในวีแชทให้คุณแล้วนะ"
+      }
+    ]
+  },
+  {
+    "id": "v484",
+    "hanzi": "语音",
+    "pinyin": "yǔyīn",
+    "thaiMeaning": "ข้อความเสียง / คุยสายเสียง",
+    "example": {
+      "hanzi": "打字太慢，我发语音给你吧。",
+      "pinyin": "Dǎzì tài màn, wǒ fā yǔyīn gěi nǐ ba.",
+      "thaiMeaning": "พิมพ์ช้าไป ฉันส่งข้อความเสียงให้คุณละกัน"
+    },
+    "examples": [
+      {
+        "scenario": "ส่งเสียงพูดแทนพิมพ์",
+        "hanzi": "听一下我发的语音。",
+        "pinyin": "Tīng yíxià wǒ fā de yǔyīn.",
+        "thaiMeaning": "ฟังข้อความเสียงที่ฉันส่งหน่อย"
+      }
+    ]
+  },
+  {
+    "id": "v485",
+    "hanzi": "转发",
+    "pinyin": "zhuǎnfā",
+    "thaiMeaning": "ส่งต่อ / แชร์ข้อความ",
+    "example": {
+      "hanzi": "把那个文件转发给我一下。",
+      "pinyin": "Bǎ nàge wénjiàn zhuǎnfā gěi wǒ yíxià.",
+      "thaiMeaning": "ช่วยส่งต่อไฟล์นั้นให้ฉันหน่อยนะ"
+    },
+    "examples": [
+      {
+        "scenario": "แชร์คลิป / ข้อความ",
+        "hanzi": "这个很有用，我已经转发了。",
+        "pinyin": "Zhège hěn yǒuyòng, wǒ yǐjīng zhuǎnfā le.",
+        "thaiMeaning": "อันนี้มีประโยชน์มาก ฉันแชร์ส่งต่อแล้ว"
+      }
+    ]
+  },
+  {
+    "id": "v486",
+    "hanzi": "关注",
+    "pinyin": "guānzhù",
+    "thaiMeaning": "กดติดตาม / ฟอลโลว์",
+    "example": {
+      "hanzi": "记得关注我的频道喔！",
+      "pinyin": "Jìde guānzhù wǒ de píndào o!",
+      "thaiMeaning": "จำไว้ว่ากดติดตามช่องของฉันด้วยนะ!"
+    },
+    "examples": [
+      {
+        "scenario": "ขอให้กดฟอล",
+        "hanzi": "点击关注，了解更多内容。",
+        "pinyin": "Diǎnjī guānzhù, liǎojiě gèng duō nèiróng.",
+        "thaiMeaning": "คลิกติดตาม เพื่อรับชมเนื้อหาเพิ่มเติม"
+      }
+    ]
+  },
+  {
+    "id": "v487",
+    "hanzi": "点赞",
+    "pinyin": "diǎnzàn",
+    "thaiMeaning": "กดไลก์ / ให้หัวใจ",
+    "example": {
+      "hanzi": "觉得好听就给我点赞吧！",
+      "pinyin": "Juéde hǎotīng jiù gěi wǒ diǎnzàn ba!",
+      "thaiMeaning": "ถ้ารู้สึกเพราะก็กดไลก์ให้ฉันเถอะนะ!"
+    },
+    "examples": [
+      {
+        "scenario": "กดไลก์ให้กำลังใจ",
+        "hanzi": "谢谢大家的点赞支持！",
+        "pinyin": "Xièxie dàjiā de diǎnzàn zhīchí!",
+        "thaiMeaning": "ขอบคุณการกดไลก์ซัพพอร์ตของทุกคนครับ!"
+      }
+    ]
+  },
+  {
+    "id": "v488",
+    "hanzi": "退款",
+    "pinyin": "tuìkuǎn",
+    "thaiMeaning": "คืนเงิน / ขอเงินคืน",
+    "example": {
+      "hanzi": "商品有质量问题，我要申请退款。",
+      "pinyin": "Shāngpǐn yǒu zhìliàng wèntí, wǒ yào shēnqǐng tuìkuǎn.",
+      "thaiMeaning": "สินค้ามีปัญหาคุณภาพ ฉันจะยื่นขอคืนเงิน"
+    },
+    "examples": [
+      {
+        "scenario": "ยกเลิกออเดอร์เอาเงินคืน",
+        "hanzi": "钱什么时候退款回来？",
+        "pinyin": "Qián shénme shíhou tuìkuǎn huílái?",
+        "thaiMeaning": "เงินจะคืนกลับมาตอนไหนครับ?"
+      }
+    ]
+  },
+  {
+    "id": "v489",
+    "hanzi": "快递",
+    "pinyin": "kuàidì",
+    "thaiMeaning": "พัสดุ / ขนส่งด่วน",
+    "example": {
+      "hanzi": "我的快递到了，我去拿一下。",
+      "pinyin": "Wǒ de kuàidì dào le, wǒ qù ná yíxià.",
+      "thaiMeaning": "พัสดุของฉันมาถึงแล้ว ฉันไปเอาแป๊บนะ"
+    },
+    "examples": [
+      {
+        "scenario": "เช็กสถานะพัสดุ",
+        "hanzi": "快递单号是多少？",
+        "pinyin": "Kuàidì dānhào shì duōshao?",
+        "thaiMeaning": "หมายเลขพัสดุคือเลขอะไรครับ?"
+      }
+    ]
+  },
+  {
+    "id": "v490",
+    "hanzi": "方便",
+    "pinyin": "fāngbiàn",
+    "thaiMeaning": "สะดวกสบาย",
+    "example": {
+      "hanzi": "用手机支付非常方便。",
+      "pinyin": "Yòng shǒujī zhīfù fēicháng fāngbiàn.",
+      "thaiMeaning": "ใช้มือถือจ่ายเงินสะดวกมากๆ"
+    },
+    "examples": [
+      {
+        "scenario": "ถามว่าสะดวกคุยไหม",
+        "hanzi": "你现在方便说话吗？",
+        "pinyin": "Nǐ xiànzài fāngbiàn shuōhuà ma?",
+        "thaiMeaning": "ตอนนี้คุณสะดวกคุยไหม?"
       }
     ]
   }

@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, RotateCcw, Home, BookOpen, CalendarDays } from 'lucide-react';
+import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, RotateCcw, Home, BookOpen, CalendarDays, Gamepad2, Zap } from 'lucide-react';
 import { vocabularyList } from '../data/vocabularyData';
 import { speakChinese } from '../utils/speech';
 import { getWordProgress, markWordProgress, getMemoryStats, getDailyStudyStats, getPendingReviewWords } from '../utils/srsEngine';
 import PronunciationAssessment from './PronunciationAssessment';
+import WordMatchGame from './games/WordMatchGame';
 
 const POSITION_STORAGE_KEY = 'sinostep_vocab_positions_v2';
 
@@ -375,25 +376,88 @@ export default function VocabularyView({ onGoHome }) {
           />
         </div>
 
-        <button
-          type="button"
-          className="icon-btn"
-          onClick={() => {
-            setViewMode(viewMode === 'flashcard' ? 'list' : 'flashcard');
-            setIsFlipped(false);
-          }}
-          title={viewMode === 'flashcard' ? 'สลับเป็นรายการคำศัพท์' : 'สลับเป็น Flashcards'}
-          style={{ borderRadius: 'var(--radius-md)', width: '44px', height: '44px', flexShrink: 0 }}
-        >
-          {viewMode === 'flashcard' ? <List size={18} /> : <Layers size={18} />}
-        </button>
+        {/* View Mode Switcher Group: Flashcard | List | Match Game */}
+        <div style={{ display: 'flex', gap: '4px', flexShrink: 0 }}>
+          <button
+            type="button"
+            className={`icon-btn ${viewMode === 'flashcard' ? 'active' : ''}`}
+            onClick={() => {
+              setViewMode('flashcard');
+              setIsFlipped(false);
+            }}
+            title="แฟลชการ์ด"
+            style={{ borderRadius: 'var(--radius-md)', width: '40px', height: '44px' }}
+          >
+            <Layers size={18} />
+          </button>
+          <button
+            type="button"
+            className={`icon-btn ${viewMode === 'list' ? 'active' : ''}`}
+            onClick={() => {
+              setViewMode('list');
+              setIsFlipped(false);
+            }}
+            title="รายการคำศัพท์"
+            style={{ borderRadius: 'var(--radius-md)', width: '40px', height: '44px' }}
+          >
+            <List size={18} />
+          </button>
+          <button
+            type="button"
+            className={`icon-btn ${viewMode === 'match' ? 'active' : ''}`}
+            onClick={() => {
+              setViewMode('match');
+              setIsFlipped(false);
+            }}
+            title="เล่นเกมจับคู่คำศัพท์"
+            style={{
+              borderRadius: 'var(--radius-md)',
+              width: '40px',
+              height: '44px',
+              background: viewMode === 'match' ? 'var(--accent-primary)' : '#FEF3C7',
+              color: viewMode === 'match' ? '#FFFFFF' : '#D97706',
+              borderColor: '#F59E0B'
+            }}
+          >
+            <Gamepad2 size={18} />
+          </button>
+        </div>
       </div>
+
+      {/* Quick Play Match Game Banner inside Vocabulary View */}
+      {viewMode === 'flashcard' && sessionCards.length > 0 && !sessionCompleted && (
+        <div
+          onClick={() => setViewMode('match')}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            padding: '10px 14px',
+            background: 'linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%)',
+            border: '1px solid #C7D2FE',
+            borderRadius: 'var(--radius-md)',
+            cursor: 'pointer'
+          }}
+        >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <Gamepad2 size={18} color="#4F46E5" />
+            <span style={{ fontSize: '0.82rem', fontWeight: '700', color: '#3730A3' }}>
+              ทดสอบความจำ: เล่นเกมจับคู่ 10 คำนี้
+            </span>
+          </div>
+          <span style={{ fontSize: '0.75rem', fontWeight: '800', color: '#4F46E5', display: 'flex', alignItems: 'center', gap: '2px' }}>
+            เล่นเลย <Zap size={14} />
+          </span>
+        </div>
+      )}
 
       {/* Section Title & Progress Indicator */}
       <div className="section-title">
         <span>
           {viewMode === 'flashcard'
             ? `ทบทวนครั้งละ 10 คำ (คำที่ ${safeSessionOffset + 1} - ${Math.min(safeSessionOffset + 10, filteredVocab.length)})`
+            : viewMode === 'match'
+            ? `โหมดเกมจับคู่คำศัพท์ (${sessionCards.length || filteredVocab.length} คำ)`
             : `รายการคำศัพท์ (แสดง ${filteredVocab.length} คำ)`}
         </span>
         <span className="count-badge">
@@ -403,7 +467,13 @@ export default function VocabularyView({ onGoHome }) {
         </span>
       </div>
 
-      {filteredVocab.length === 0 ? (
+      {viewMode === 'match' ? (
+        /* --- INTEGRATED WORD MATCHING GAME MODE --- */
+        <WordMatchGame
+          customWords={sessionCards.length > 0 ? sessionCards : filteredVocab}
+          onBack={() => setViewMode('flashcard')}
+        />
+      ) : filteredVocab.length === 0 ? (
         <div className="card" style={{ textAlign: 'center', padding: '30px 16px', color: 'var(--text-muted)', gap: '12px' }}>
           {filterCategory === 'remembered' ? (
             <>

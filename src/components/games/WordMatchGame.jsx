@@ -8,8 +8,9 @@ function getRandomWords(count) {
   return shuffled.slice(0, count);
 }
 
-export default function WordMatchGame({ onBack }) {
-  const [pairCount, setPairCount] = useState(6); // 6, 8, 12
+export default function WordMatchGame({ onBack, customWords }) {
+  const defaultPairs = (customWords && customWords.length > 0) ? Math.min(6, customWords.length) : 6;
+  const [pairCount, setPairCount] = useState(defaultPairs); // 6, 8, 12
   const [cards, setCards] = useState([]);
   const [flippedCards, setFlippedCards] = useState([]); // indices
   const [matchedPairs, setMatchedPairs] = useState(0);
@@ -25,7 +26,14 @@ export default function WordMatchGame({ onBack }) {
 
   // Start / Reset Game
   const initGame = (numPairs = pairCount) => {
-    const selectedWords = getRandomWords(numPairs);
+    let selectedWords = [];
+    if (customWords && customWords.length > 0) {
+      const shuffledCustom = [...customWords].sort(() => 0.5 - Math.random());
+      selectedWords = shuffledCustom.slice(0, Math.min(numPairs, customWords.length));
+    } else {
+      selectedWords = getRandomWords(numPairs);
+    }
+    const actualPairCount = selectedWords.length;
     const generatedCards = [];
 
     selectedWords.forEach((word) => {
