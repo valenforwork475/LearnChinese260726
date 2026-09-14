@@ -2,7 +2,7 @@
 // Situational examples are written and reviewed per word; substitution templates are not used.
 
 export const VOCAB_SETS = [
-  { id: 'all', label: 'ทั้งหมด (490 คำ)' }
+  { id: 'all', label: 'ทั้งหมด (510 คำ)' }
 ];
 
 export const vocabularyList = [
@@ -14523,6 +14523,386 @@ export const vocabularyList = [
         "hanzi": "你现在方便说话吗？",
         "pinyin": "Nǐ xiànzài fāngbiàn shuōhuà ma?",
         "thaiMeaning": "ตอนนี้คุณสะดวกคุยไหม?"
+      }
+    ]
+  },
+  {
+    "id": "v491",
+    "hanzi": "买单",
+    "pinyin": "mǎidān",
+    "thaiMeaning": "เช็กบิล / คิดเงิน",
+    "example": {
+      "hanzi": "服务员，买单！",
+      "pinyin": "Fúwùyuán, mǎidān!",
+      "thaiMeaning": "บริกรครับ เช็กบิลด้วยครับ!"
+    },
+    "examples": [
+      {
+        "scenario": "เลี้ยงข้าวเพื่อน",
+        "hanzi": "今天我请客，我来买单。",
+        "pinyin": "Jīntiān wǒ qǐngkè, wǒ lái mǎidān.",
+        "thaiMeaning": "วันนี้ฉันเลี้ยงเอง ฉันคิดเงินเอง"
+      }
+    ]
+  },
+  {
+    "id": "v492",
+    "hanzi": "划算",
+    "pinyin": "huásuàn",
+    "thaiMeaning": "คุ้มค่า / คุ้มราคา",
+    "example": {
+      "hanzi": "买一送一非常划算。",
+      "pinyin": "Mǎi yī sòng yī fēicháng huásuàn.",
+      "thaiMeaning": "ซื้อ 1 แถม 1 คุ้มค่ามาก"
+    },
+    "examples": [
+      {
+        "scenario": "เปรียบเทียบราคา",
+        "hanzi": "这个套餐比较划算。",
+        "pinyin": "Zhège tàocān bǐjiào huásuàn.",
+        "thaiMeaning": "เซ็ตนี้ค่อนข้างคุ้มราคากว่า"
+      }
+    ]
+  },
+  {
+    "id": "v493",
+    "hanzi": "优惠",
+    "pinyin": "yōuhuì",
+    "thaiMeaning": "ส่วนลด / สิทธิพิเศษ",
+    "example": {
+      "hanzi": "现在购买有优惠活动。",
+      "pinyin": "Xiànzài gòumǎi yǒu yōuhuì huódòng.",
+      "thaiMeaning": "ซื้อตอนนี้มีโปรโมชันส่วนลด"
+    },
+    "examples": [
+      {
+        "scenario": "ถามหาส่วนลด",
+        "hanzi": "请问用扫码支付有优惠吗？",
+        "pinyin": "Qǐngwèn yòng sǎo mǎ zhīfù yǒu yōuhuì ma?",
+        "thaiMeaning": "ขอถามหน่อย สแกนจ่ายมีส่วนลดไหมครับ?"
+      }
+    ]
+  },
+  {
+    "id": "v494",
+    "hanzi": "打折",
+    "pinyin": "dǎzhé",
+    "thaiMeaning": "ลดราคา",
+    "example": {
+      "hanzi": "这家店今天打八折。",
+      "pinyin": "Zhè jiā diàn jīntiān dǎ bā zhé.",
+      "thaiMeaning": "ร้านนี้วันนี้ลดราคา 20%"
+    },
+    "examples": [
+      {
+        "scenario": "ถามสินค้าลดราคา",
+        "hanzi": "这件衣服打折吗？",
+        "pinyin": "Zhè jiàn yīfu dǎzhé ma?",
+        "thaiMeaning": "เสื้อตัวนี้ลดราคาไหมครับ?"
+      }
+    ]
+  },
+  {
+    "id": "v495",
+    "hanzi": "发票",
+    "pinyin": "fāpiào",
+    "thaiMeaning": "ใบเสร็จ / ใบกำกับภาษี",
+    "example": {
+      "hanzi": "请开一张发票给我。",
+      "pinyin": "Qǐng kāi yì zhāng fāpiào gěi wǒ.",
+      "thaiMeaning": "ช่วยออกใบเสร็จให้ฉันด้วยครับ"
+    },
+    "examples": [
+      {
+        "scenario": "ขอใบเสร็จเบิกเงิน",
+        "hanzi": "我们需要发票报销。",
+        "pinyin": "Wǒmen xūyào fāpiào bàoxiāo.",
+        "thaiMeaning": "พวกเราต้องใช้ใบเสร็จไปเบิกเงิน"
+      }
+    ]
+  },
+  {
+    "id": "v496",
+    "hanzi": "地址",
+    "pinyin": "dìzhǐ",
+    "thaiMeaning": "ที่อยู่",
+    "example": {
+      "hanzi": "请把你的地址发给我。",
+      "pinyin": "Qǐng bǎ nǐ de dìzhǐ fā gěi wǒ.",
+      "thaiMeaning": "ช่วยส่งที่อยู่ของคุณให้ฉันหน่อย"
+    },
+    "examples": [
+      {
+        "scenario": "บอกที่อยู่ให้คนขับรถ",
+        "hanzi": "这是我家的详细地址。",
+        "pinyin": "Zhè shì wǒ jiā de xiángxì dìzhǐ.",
+        "thaiMeaning": "นี่คือที่อยู่โดยละเอียดของบ้านฉัน"
+      }
+    ]
+  },
+  {
+    "id": "v497",
+    "hanzi": "定位",
+    "pinyin": "dìngwèi",
+    "thaiMeaning": "ปักหมุดตำแหน่ง / โลเคชัน",
+    "example": {
+      "hanzi": "把你的微信定位发给我。",
+      "pinyin": "Bǎ nǐ de Wēixìn dìngwèi fā gěi wǒ.",
+      "thaiMeaning": "ส่งปักหมุดวีแชทของคุณมาให้ฉัน"
+    },
+    "examples": [
+      {
+        "scenario": "หาตำแหน่งร้าน",
+        "hanzi": "按照定位导航过去就可以了。",
+        "pinyin": "Ànz照 dìngwèi dǎoháng guòqù jiù kěyǐ le.",
+        "thaiMeaning": "นำทางตามปักหมุดไปก็ใช้ได้แล้ว"
+      }
+    ]
+  },
+  {
+    "id": "v498",
+    "hanzi": "预约",
+    "pinyin": "yùyuē",
+    "thaiMeaning": "จองล่วงหน้า / นัดหมาย",
+    "example": {
+      "hanzi": "去这家餐厅需要提前预约。",
+      "pinyin": "Qù zhè jiā cāntīng xūyào tíqián yùyuē.",
+      "thaiMeaning": "ไปร้านอาหารนี้ต้องจองล่วงหน้า"
+    },
+    "examples": [
+      {
+        "scenario": "นัดหมอหรือนัดช่าง",
+        "hanzi": "我已经预约了明天下午。",
+        "pinyin": "Wǒ yǐjīng yùyuē le míngtiān xiàwǔ.",
+        "thaiMeaning": "ฉันนัดจองล่วงหน้าบ่ายพรุ่งนี้แล้ว"
+      }
+    ]
+  },
+  {
+    "id": "v499",
+    "hanzi": "提前",
+    "pinyin": "tíqián",
+    "thaiMeaning": "ล่วงหน้า / ทำก่อนเวลา",
+    "example": {
+      "hanzi": "请提前半小时到达。",
+      "pinyin": "Qǐng tíqián bàn xiǎoshí dàodá.",
+      "thaiMeaning": "กรุณาเดินทางมาถึงล่วงหน้าครึ่งชั่วโมง"
+    },
+    "examples": [
+      {
+        "scenario": "บอกให้เตรียมตัวก่อน",
+        "hanzi": "有变化我会提前告诉你。",
+        "pinyin": "Yǒu biànhuà wǒ huì tíqián gàosu nǐ.",
+        "thaiMeaning": "ถ้ามีการเปลี่ยนแปลงฉันจะบอกคุณล่วงหน้า"
+      }
+    ]
+  },
+  {
+    "id": "v500",
+    "hanzi": "推迟",
+    "pinyin": "tuīchí",
+    "thaiMeaning": "เลื่อนเวลาออกไป",
+    "example": {
+      "hanzi": "会议推迟到明天上午。",
+      "pinyin": "Huìyì tuīchí dào míngtiān shàngwǔ.",
+      "thaiMeaning": "การประชุมเลื่อนออกไปเป็นพรุ่งนี้เช้า"
+    },
+    "examples": [
+      {
+        "scenario": "ขอเลื่อนนัด",
+        "hanzi": "可以把时间推迟十分钟吗？",
+        "pinyin": "Kěyǐ bǎ shíjiān tuīchí shí fēnzhōng ma?",
+        "thaiMeaning": "ขอเลื่อนเวลาออกไป 10 นาทีได้ไหมครับ?"
+      }
+    ]
+  },
+  {
+    "id": "v501",
+    "hanzi": "加班",
+    "pinyin": "jiābān",
+    "thaiMeaning": "ทำงานโอที / ทำ OT",
+    "example": {
+      "hanzi": "今天工作很多，我要加班。",
+      "pinyin": "Jīntiān gōngzuò hěn duō, wǒ yào jiābān.",
+      "thaiMeaning": "วันนี้งานเยอะมาก ฉันต้องทำโอที"
+    },
+    "examples": [
+      {
+        "scenario": "บอกเพื่อนว่าเลิกดึก",
+        "hanzi": "我晚上要加班，不用等我吃晚饭。",
+        "pinyin": "Wǒ wǎnshang yào jiābān, búyòng děng wǒ chī wǎnfàn.",
+        "thaiMeaning": "ตอนค่ำฉันต้องทำโอที ไม่ต้องรอฉันกินข้าวเย็น"
+      }
+    ]
+  },
+  {
+    "id": "v502",
+    "hanzi": "请假",
+    "pinyin": "qǐngjià",
+    "thaiMeaning": "ลางาน",
+    "example": {
+      "hanzi": "我身体不太舒服，想请假一天。",
+      "pinyin": "Wǒ shēntǐ bú tài shūfu, xiǎng qǐngjià yì tiān.",
+      "thaiMeaning": "ฉันร่างกายไม่ค่อยสบาย อยากลางาน 1 วัน"
+    },
+    "examples": [
+      {
+        "scenario": "ส่งใบลา",
+        "hanzi": "明天我有事，要向老板请假。",
+        "pinyin": "Míngtiān wǒ yǒu shì, yào xiàng lǎobǎn qǐngjià.",
+        "thaiMeaning": "พรุ่งนี้ฉันมีธุระ ต้องลางานกับเจ้านาย"
+      }
+    ]
+  },
+  {
+    "id": "v503",
+    "hanzi": "靠谱",
+    "pinyin": "kàopǔ",
+    "thaiMeaning": "พึ่งพาได้ / ไว้ใจได้ / เชื่อถือได้",
+    "example": {
+      "hanzi": "他人很好，非常靠谱。",
+      "pinyin": "Tā rén hěn hǎo, fēicháng kàopǔ.",
+      "thaiMeaning": "เขาเป็นคนดีมาก ไว้ใจพึ่งพาได้สุดๆ"
+    },
+    "examples": [
+      {
+        "scenario": "ชมเพื่อนร่วมงาน",
+        "hanzi": "找他帮忙很靠谱。",
+        "pinyin": "Zhǎo tā bāngmáng hěn kàopǔ.",
+        "thaiMeaning": "ขอให้เขาช่วยพึ่งพาได้มาก"
+      }
+    ]
+  },
+  {
+    "id": "v504",
+    "hanzi": "热闹",
+    "pinyin": "rènao",
+    "thaiMeaning": "คึกคัก / ครึกครื้น",
+    "example": {
+      "hanzi": "这里的夜市非常热闹。",
+      "pinyin": "Zhèlǐ de yèshì fēicháng rènao.",
+      "thaiMeaning": "ตลาดโต้รุ่งที่นี่คึกคักมาก"
+    },
+    "examples": [
+      {
+        "scenario": "บรรยากาศสนุกสนาน",
+        "hanzi": "大家在一起太热闹了！",
+        "pinyin": "Dàjiā zài yìqǐ tài rènao le!",
+        "thaiMeaning": "ทุกคนอยู่ด้วยกันครึกครื้นมาก!"
+      }
+    ]
+  },
+  {
+    "id": "v505",
+    "hanzi": "干杯",
+    "pinyin": "gānbēi",
+    "thaiMeaning": "ชนแก้ว / หมดแก้ว",
+    "example": {
+      "hanzi": "为了我们的友谊，干杯！",
+      "pinyin": "Wèile wǒmen de yǒuyì, gānbēi!",
+      "thaiMeaning": "เพื่อมิตรภาพของพวกเรา ชนแก้ว!"
+    },
+    "examples": [
+      {
+        "scenario": "อวยพรในงานเลี้ยง",
+        "hanzi": "大家一起干一杯！",
+        "pinyin": "Dàjiā yìqǐ gān yì bēi!",
+        "thaiMeaning": "ทุกคนชนแก้วกันสักแก้ว!"
+      }
+    ]
+  },
+  {
+    "id": "v506",
+    "hanzi": "也行",
+    "pinyin": "yě xíng",
+    "thaiMeaning": "ก็ได้เหมือนกัน / โอเคได้หมด",
+    "example": {
+      "hanzi": "吃面还是吃饭？都行，也行。",
+      "pinyin": "Chī miàn háishi chī fàn? Dōu xíng, yě xíng.",
+      "thaiMeaning": "กินบะหมี่หรือกินข้าว? ได้หมด ได้เหมือนกัน"
+    },
+    "examples": [
+      {
+        "scenario": "ตอบรับแบบยืดหยุ่น",
+        "hanzi": "如果你方便，这样也行。",
+        "pinyin": "Rúguǒ nǐ fāngbiàn, zhèyàng yě xíng.",
+        "thaiMeaning": "ถ้าคุณสะดวก แบบนี้ก็ได้เหมือนกัน"
+      }
+    ]
+  },
+  {
+    "id": "v507",
+    "hanzi": "没问题",
+    "pinyin": "méi wèntí",
+    "thaiMeaning": "ไม่มีปัญหา / สบายมาก",
+    "example": {
+      "hanzi": "这件事交给我，没问题！",
+      "pinyin": "Zhè jiàn shì jiāo gěi wǒ, méi wèntí!",
+      "thaiMeaning": "เรื่องนี้มอบให้ฉันจัดการ ไม่มีปัญหา!"
+    },
+    "examples": [
+      {
+        "scenario": "ตอบรับความช่วยเหลือ",
+        "hanzi": "没问题，包在我身上。",
+        "pinyin": "Méi wèntí, bāo zài wǒ shēnshang.",
+        "thaiMeaning": "ไม่มีปัญหา ไว้ใจฉันได้เลย"
+      }
+    ]
+  },
+  {
+    "id": "v508",
+    "hanzi": "随时",
+    "pinyin": "suíshí",
+    "thaiMeaning": "ทุกเมื่อ / ได้ตลอดเวลา",
+    "example": {
+      "hanzi": "有问题随时联系我。",
+      "pinyin": "Yǒu wèntí suíshí liánxì wǒ.",
+      "thaiMeaning": "มีปัญหาติดต่อฉันได้ตลอดเวลา"
+    },
+    "examples": [
+      {
+        "scenario": "ต้อนรับเสมอ",
+        "hanzi": "欢迎你随时过来玩。",
+        "pinyin": "Huānyíng nǐ suíshí guòlái wán.",
+        "thaiMeaning": "ยินดีต้อนรับคุณมาเที่ยวได้ทุกเมื่อ"
+      }
+    ]
+  },
+  {
+    "id": "v509",
+    "hanzi": "推荐",
+    "pinyin": "tuījiàn",
+    "thaiMeaning": "แนะนำ",
+    "example": {
+      "hanzi": "请问有什么推荐的菜？",
+      "pinyin": "Qǐngwèn yǒu shénme tuījiàn de cài?",
+      "thaiMeaning": "ขอถามหน่อยมีเมนูแนะนำอะไรบ้างครับ?"
+    },
+    "examples": [
+      {
+        "scenario": "แนะนำหนังหรือร้านค้า",
+        "hanzi": "朋友推荐我看这部电影。",
+        "pinyin": "Péngyou tuījiàn wǒ kàn zhè bù diànyǐng.",
+        "thaiMeaning": "เพื่อนแนะนำให้ฉันดูภาพยนตร์เรื่องนี้"
+      }
+    ]
+  },
+  {
+    "id": "v510",
+    "hanzi": "放心",
+    "pinyin": "fàngxīn",
+    "thaiMeaning": "วางใจ / สบายใจ",
+    "example": {
+      "hanzi": "你放心，我会照顾好自己的。",
+      "pinyin": "Nǐ fàngxīn, wǒ huì zhàogù hǎo zìjǐ de.",
+      "thaiMeaning": "คุณสบายใจได้ ฉันจะดูแลตัวเองเป็นอย่างดี"
+    },
+    "examples": [
+      {
+        "scenario": "ปลอบให้คลายกังวล",
+        "hanzi": "有我在，你就放心吧。",
+        "pinyin": "Yǒu wǒ zài, nǐ jiù fàngxīn ba.",
+        "thaiMeaning": "มีฉันอยู่ คุณวางใจได้เลย"
       }
     ]
   }

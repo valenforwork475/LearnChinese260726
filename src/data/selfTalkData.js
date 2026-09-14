@@ -6,7 +6,9 @@ export const SELF_TALK_CATEGORIES = [
   { id: 'dressing', label: 'แต่งตัว' },
   { id: 'commute', label: 'เดินทาง/ทำงาน' },
   { id: 'meals', label: 'อาหาร/เครื่องดื่ม' },
-  { id: 'evening_night', label: 'เย็น/ก่อนนอน' }
+  { id: 'evening_night', label: 'เย็น/ก่อนนอน' },
+  { id: 'shopping_digital', label: 'ช้อปปิ้ง/ดิจิทัล' },
+  { id: 'travel_social', label: 'ท่องเที่ยว/สังสรรค์' }
 ];
 
 export const selfTalkSentences = [
@@ -308,6 +310,146 @@ export const selfTalkSentences = [
     words: [
       { hanzi: '准备', pinyin: 'zhǔnbèi', thaiReading: 'จุ่นเป่ย', thaiMeaning: 'เตรียมตัว' },
       { hanzi: '睡觉', pinyin: 'shuìjiào', thaiReading: 'ชุ่ยเจี้ยว', thaiMeaning: 'เข้านอน' }
+    ]
+  },
+
+  // --- SHOPPING & DIGITAL ---
+  {
+    id: 's1',
+    category: 'shopping_digital',
+    context: 'สแกนจ่ายเงิน',
+    hanzi: '我扫码付款。',
+    pinyin: 'Wǒ sǎo mǎ fùkuǎn.',
+    thaiReading: 'หว่อ ส่าว หม่า ฟู่ขวั่น',
+    thaiMeaning: 'ฉันสแกนโค้ดจ่ายเงิน',
+    words: [
+      { hanzi: '我', pinyin: 'wǒ', thaiReading: 'หว่อ', thaiMeaning: 'ฉัน' },
+      { hanzi: '扫码', pinyin: 'sǎo mǎ', thaiReading: 'ส่าวหม่า', thaiMeaning: 'สแกนโค้ด' },
+      { hanzi: '付款', pinyin: 'fùkuǎn', thaiReading: 'ฟู่ขวั่น', thaiMeaning: 'จ่ายเงิน' }
+    ]
+  },
+  {
+    id: 's2',
+    category: 'shopping_digital',
+    context: 'สั่งเดลิเวอรี',
+    hanzi: '我们在网上点外卖。',
+    pinyin: 'Wǒmen zài wǎngshang diǎn wàimài.',
+    thaiReading: 'หว่อเมิน ไจ้ หวังซ่าง เตี่ยน หวั่นม่าย',
+    thaiMeaning: 'พวกเราสั่งเดลิเวอรีทางเน็ต',
+    words: [
+      { hanzi: '我们', pinyin: 'wǒmen', thaiReading: 'หว่อเมิน', thaiMeaning: 'พวกเรา' },
+      { hanzi: '在网上', pinyin: 'zài wǎngshang', thaiReading: 'ไจ้หวังซ่าง', thaiMeaning: 'ทางอินเทอร์เน็ต' },
+      { hanzi: '点外卖', pinyin: 'diǎn wàimài', thaiReading: 'เตี่ยนหวั่นม่าย', thaiMeaning: 'สั่งเดลิเวอรี' }
+    ]
+  },
+  {
+    id: 's3',
+    category: 'shopping_digital',
+    context: 'ขอสายชาร์จ',
+    hanzi: '请问有充电线吗？',
+    pinyin: 'Qǐngwèn yǒu chōngdiàn xiàn ma?',
+    thaiReading: 'ฉิ่งเวิ่น โหย่ว ชงเตี่ยน เซี่ยน มา',
+    thaiMeaning: 'ขอถามหน่อย มีสายชาร์จไหม?',
+    words: [
+      { hanzi: '请问', pinyin: 'qǐngwèn', thaiReading: 'ฉิ่งเวิ่น', thaiMeaning: 'ขอถามหน่อย' },
+      { hanzi: '有', pinyin: 'yǒu', thaiReading: 'โหย่ว', thaiMeaning: 'มี' },
+      { hanzi: '充电线', pinyin: 'chōngdiàn xiàn', thaiReading: 'ชงเตี่ยนเซี่ยน', thaiMeaning: 'สายชาร์จ' }
+    ]
+  },
+  {
+    id: 's4',
+    category: 'shopping_digital',
+    context: 'ขอรหัสไวไฟ',
+    hanzi: '告诉我Wi-Fi密码。',
+    pinyin: 'Gàosu wǒ Wi-Fi mìmǎ.',
+    thaiReading: 'เก้าซู่ หว่อ ไวไฟ มี่หม่า',
+    thaiMeaning: 'บอกรหัสไวไฟให้ฉันหน่อย',
+    words: [
+      { hanzi: '告诉我', pinyin: 'gàosu wǒ', thaiReading: 'เก้าซู่หว่อ', thaiMeaning: 'บอกฉัน' },
+      { hanzi: 'Wi-Fi密码', pinyin: 'Wi-Fi mìmǎ', thaiReading: 'ไวไฟ มี่หม่า', thaiMeaning: 'รหัสผ่าน Wi-Fi' }
+    ]
+  },
+  {
+    id: 's5',
+    category: 'shopping_digital',
+    context: 'เรียกรถแท็กซี่',
+    hanzi: '我们打车去目的地。',
+    pinyin: 'Wǒmen dǎchē qù mùdìdì.',
+    thaiReading: 'หว่อเมิน ตาเชอ ชวี่ มู่ตี้ตี้',
+    thaiMeaning: 'พวกเราเรียกรถไปจุดหมาย',
+    words: [
+      { hanzi: '我们', pinyin: 'wǒmen', thaiReading: 'หว่อเมิน', thaiMeaning: 'พวกเรา' },
+      { hanzi: '打车', pinyin: 'dǎchē', thaiReading: 'ตาเชอ', thaiMeaning: 'เรียกรถ' },
+      { hanzi: '去目的地', pinyin: 'qù mùdìdì', thaiReading: 'ชวี่มู่ตี้ตี้', thaiMeaning: 'ไปจุดหมายปลายทาง' }
+    ]
+  },
+
+  // --- TRAVEL & SOCIAL ---
+  {
+    id: 's6',
+    category: 'travel_social',
+    context: 'ช่วยถ่ายรูปให้หน่อย',
+    hanzi: '请帮我拍一张照。',
+    pinyin: 'Qǐng bāng wǒ pāi yì zhāng zhào.',
+    thaiReading: 'ฉิ่ง ปาง หว่อ ไพ อี้ จาง เจ้า',
+    thaiMeaning: 'ช่วยถ่ายรูปให้ฉันสักรูปหน่อย',
+    words: [
+      { hanzi: '请帮我', pinyin: 'qǐng bāng wǒ', thaiReading: 'ฉิ่งปางหว่อ', thaiMeaning: 'ช่วยฉันหน่อย' },
+      { hanzi: '拍一张照', pinyin: 'pāi yì zhāng zhào', thaiReading: 'ไพ่อี้จางเจ้า', thaiMeaning: 'ถ่ายรูป 1 รูป' }
+    ]
+  },
+  {
+    id: 's7',
+    category: 'travel_social',
+    context: 'เช็กบิลคิดเงิน',
+    hanzi: '服务员，我们要结账。',
+    pinyin: 'Fúwùyuán, wǒmen yào jiézhàng.',
+    thaiReading: 'ฟู่หวู้หยวน หว่อเมิน ย่าว เจี้ยจ้าง',
+    thaiMeaning: 'บริกรครับ พวกเราจะเช็กบิล',
+    words: [
+      { hanzi: '服务员', pinyin: 'fúwùyuán', thaiReading: 'ฟู่หวู้หยวน', thaiMeaning: 'บริกร' },
+      { hanzi: '我们要', pinyin: 'wǒmen yào', thaiReading: 'หว่อเมินย่าว', thaiMeaning: 'พวกเราต้องการ' },
+      { hanzi: '结账', pinyin: 'jiézhàng', thaiReading: 'เจี้ยจ้าง', thaiMeaning: 'เช็กบิลคิดเงิน' }
+    ]
+  },
+  {
+    id: 's8',
+    category: 'travel_social',
+    context: 'ส่งข้อความหาเพื่อน',
+    hanzi: '发消息告诉朋友。',
+    pinyin: 'Fā xiāoxi gàosu péngyou.',
+    thaiReading: 'ฟา เซี่ยวมี่ เก้าซู่ เพิงโหย่ว',
+    thaiMeaning: 'ส่งข้อความบอกเพื่อน',
+    words: [
+      { hanzi: '发消息', pinyin: 'fā xiāoxi', thaiReading: 'ฟาเซี่ยวมี่', thaiMeaning: 'ส่งข้อความ' },
+      { hanzi: '告诉朋友', pinyin: 'gàosu péngyou', thaiReading: 'เก้าซู่เพิงโหย่ว', thaiMeaning: 'บอกเพื่อน' }
+    ]
+  },
+  {
+    id: 's9',
+    category: 'meals',
+    context: 'สั่งเครื่องดื่มหวานน้อย',
+    hanzi: '我要一杯少糖冷饮。',
+    pinyin: 'Wǒ yào yì bēi shǎo táng lěngyǐn.',
+    thaiReading: 'หว่อ ย่าว อี้ เปย เฉ่า ถัง เหลิงอิ๋น',
+    thaiMeaning: 'ฉันขอเครื่องดื่มเย็นหวานน้อย 1 แก้ว',
+    words: [
+      { hanzi: '我要', pinyin: 'wǒ yào', thaiReading: 'หว่อย่าว', thaiMeaning: 'ฉันต้องการ' },
+      { hanzi: '一杯', pinyin: 'yì bēi', thaiReading: 'อี้เปย', thaiMeaning: '1 แก้ว' },
+      { hanzi: '少糖冷饮', pinyin: 'shǎo táng lěngyǐn', thaiReading: 'เฉ่าถังเหลิงอิ๋น', thaiMeaning: 'เครื่องดื่มเย็นหวานน้อย' }
+    ]
+  },
+  {
+    id: 's10',
+    category: 'commute',
+    context: 'สแกนเข้าทำงาน',
+    hanzi: '去公司打卡上班。',
+    pinyin: 'Qù gōngsī dǎkǎ shàngbān.',
+    thaiReading: 'ชวี่ กงซือ ต้าข่า ช่างปาน',
+    thaiMeaning: 'ไปบริษัทตอกบัตรเข้าทำงาน',
+    words: [
+      { hanzi: '去公司', pinyin: 'qù gōngsī', thaiReading: 'ชวี่กงซือ', thaiMeaning: 'ไปบริษัท' },
+      { hanzi: '打卡上班', pinyin: 'dǎkǎ shàngbān', thaiReading: 'ต้าข่าช่างปาน', thaiMeaning: 'สแกนเข้าทำงาน' }
     ]
   }
 ];
