@@ -2,7 +2,7 @@
 // Situational examples are written and reviewed per word; substitution templates are not used.
 
 export const VOCAB_SETS = [
-  { id: 'all', label: 'ทั้งหมด (510 คำ)' }
+  { id: 'all', label: 'ทั้งหมด (530 คำ)' }
 ];
 
 export const vocabularyList = [
@@ -14903,6 +14903,386 @@ export const vocabularyList = [
         "hanzi": "有我在，你就放心吧。",
         "pinyin": "Yǒu wǒ zài, nǐ jiù fàngxīn ba.",
         "thaiMeaning": "มีฉันอยู่ คุณวางใจได้เลย"
+      }
+    ]
+  },
+  {
+    "id": "v511",
+    "hanzi": "斤",
+    "pinyin": "jīn",
+    "thaiMeaning": "จิน (หน่วยน้ำหนักจีน = 500 กรัม / ครึ่งกิโล)",
+    "example": {
+      "hanzi": "猪肉一斤多少钱？",
+      "pinyin": "Zhūròu yì jīn duōshao qián?",
+      "thaiMeaning": "เนื้อหมูครึ่งกิโล (1 จิน) เท่าไหร่?"
+    },
+    "examples": [
+      {
+        "scenario": "ถามน้ำหนักผักผลไม้เนื้อสัตว์",
+        "hanzi": "请给我称两斤苹果。",
+        "pinyin": "Qǐng gěi wǒ chēng liǎng jīn píngguǒ.",
+        "thaiMeaning": "ช่วยชั่งแอปเปิ้ลให้ฉัน 2 จิน (1 กิโลกรัม) หน่อยครับ"
+      }
+    ]
+  },
+  {
+    "id": "v512",
+    "hanzi": "公斤",
+    "pinyin": "gōngjīn",
+    "thaiMeaning": "กิโลกรัม (1,000 กรัม / 2 จิน)",
+    "example": {
+      "hanzi": "我要一公斤牛肉。",
+      "pinyin": "Wǒ yào yì gōngjīn niúròu.",
+      "thaiMeaning": "ฉันเอาเนื้อวัว 1 กิโลกรัม"
+    },
+    "examples": [
+      {
+        "scenario": "บอกน้ำหนักสัมภาระหรือเนื้อสัตว์",
+        "hanzi": "这个行李重十五公斤。",
+        "pinyin": "Zhège xíngli zhòng shíwǔ gōngjīn.",
+        "thaiMeaning": "สัมภาระชิ้นนี้หนัก 15 กิโลกรัม"
+      }
+    ]
+  },
+  {
+    "id": "v513",
+    "hanzi": "称",
+    "pinyin": "chēng",
+    "thaiMeaning": "ชั่งน้ำหนัก",
+    "example": {
+      "hanzi": "老板，帮我称一下这个。",
+      "pinyin": "Lǎobǎn, bāng wǒ chēng yíxià zhège.",
+      "thaiMeaning": "เถ้าแก่ครับ ช่วยชั่งอันนี้ให้ฉันหน่อย"
+    },
+    "examples": [
+      {
+        "scenario": "ชั่งเนื้อสัตว์ในตลาด",
+        "hanzi": "称好了，一共三十块。",
+        "pinyin": "Chēng hǎo le, yīgòng sānshí kuài.",
+        "thaiMeaning": "ชั่งเสร็จแล้วครับ ทั้งหมด 30 หยวน"
+      }
+    ]
+  },
+  {
+    "id": "v514",
+    "hanzi": "重量",
+    "pinyin": "zhòngliàng",
+    "thaiMeaning": "น้ำหนัก",
+    "example": {
+      "hanzi": "请检查商品的重量。",
+      "pinyin": "Qǐng jiǎnchá shāngpǐn de zhòngliàng.",
+      "thaiMeaning": "กรุณาตรวจสอบน้ำหนักของสินค้า"
+    },
+    "examples": [
+      {
+        "scenario": "ถามน้ำหนักพัสดุหรือของ",
+        "hanzi": "这个包裹的重量是多少？",
+        "pinyin": "Zhège bāoguǒ de zhòngliàng shì duōshao?",
+        "thaiMeaning": "น้ำหนักของพัสดุชิ้นนี้คือเท่าไหร่?"
+      }
+    ]
+  },
+  {
+    "id": "v515",
+    "hanzi": "猪肉",
+    "pinyin": "zhūròu",
+    "thaiMeaning": "เนื้อหมู",
+    "example": {
+      "hanzi": "今天的猪肉非常新鲜。",
+      "pinyin": "Jīntiān de zhūròu fēicháng xīnxiān.",
+      "thaiMeaning": "เนื้อหมูวันนี้สดมากๆ"
+    },
+    "examples": [
+      {
+        "scenario": "สั่งผัดเนื้อหมู",
+        "hanzi": "我要一份炒猪肉。",
+        "pinyin": "Wǒ yào yí fèn chǎo zhūròu.",
+        "thaiMeaning": "ฉันขอผัดเนื้อหมูหนึ่งจาน"
+      }
+    ]
+  },
+  {
+    "id": "v516",
+    "hanzi": "牛肉",
+    "pinyin": "niúròu",
+    "thaiMeaning": "เนื้อวัว",
+    "example": {
+      "hanzi": "一斤牛肉多少钱？",
+      "pinyin": "Yì jīn niúròu duōshao qián?",
+      "thaiMeaning": "เนื้อวัวครึ่งกิโลกรัม (1 จิน) เท่าไหร่?"
+    },
+    "examples": [
+      {
+        "scenario": "สั่งก๋วยเตี๋ยวเนื้อ",
+        "hanzi": "来一碗牛肉面。",
+        "pinyin": "Lái yì wǎn niúròu miàn.",
+        "thaiMeaning": "เอาก๋วยเตี๋ยวเนื้อวัว 1 ชาม"
+      }
+    ]
+  },
+  {
+    "id": "v517",
+    "hanzi": "鸡肉",
+    "pinyin": "jīròu",
+    "thaiMeaning": "เนื้อไก่",
+    "example": {
+      "hanzi": "我不吃牛肉，我吃鸡肉。",
+      "pinyin": "Wǒ bù chī niúròu, wǒ chī jīròu.",
+      "thaiMeaning": "ฉันไม่ทานเนื้อวัว ฉันทานเนื้อไก่"
+    },
+    "examples": [
+      {
+        "scenario": "สั่งไก่ทอด/ไก่ผัด",
+        "hanzi": "这里的烤鸡肉很好吃。",
+        "pinyin": "Zhèlǐ de kǎo jīròu hěn hǎochī.",
+        "thaiMeaning": "เนื้อไก่ย่างของที่นี่อร่อยมาก"
+      }
+    ]
+  },
+  {
+    "id": "v518",
+    "hanzi": "羊肉",
+    "pinyin": "yángròu",
+    "thaiMeaning": "เนื้อแพะ / เนื้อแกะ",
+    "example": {
+      "hanzi": "冬天吃羊肉火锅很舒服。",
+      "pinyin": "Dōngtiān chī yángròu huǒguō hěn shūfu.",
+      "thaiMeaning": "หน้าหนาวทานชาบูหม้อไฟเนื้อแกะสบายมาก"
+    },
+    "examples": [
+      {
+        "scenario": "สั่งเสียบไม้ปิ้งย่าง",
+        "hanzi": "来十串羊肉串。",
+        "pinyin": "Lái shí chuàn yángròu chuàn.",
+        "thaiMeaning": "เอาเนื้อแกะย่างเสียบไม้ 10 ไม้"
+      }
+    ]
+  },
+  {
+    "id": "v519",
+    "hanzi": "海鲜",
+    "pinyin": "hǎixiān",
+    "thaiMeaning": "อาหารทะเล",
+    "example": {
+      "hanzi": "这家餐厅的海鲜很有名。",
+      "pinyin": "Zhè jiā cāntīng de hǎixiān hěn yǒumíng.",
+      "thaiMeaning": "อาหารทะเลของร้านนี้มีชื่อเสียงมาก"
+    },
+    "examples": [
+      {
+        "scenario": "ถามว่าแพ้อาหารทะเลไหม",
+        "hanzi": "你吃海鲜过敏吗？",
+        "pinyin": "Nǐ chī hǎixiān guòmǐn ma?",
+        "thaiMeaning": "คุณ ทานอาหารทะเลแล้วแพ้ไหม?"
+      }
+    ]
+  },
+  {
+    "id": "v520",
+    "hanzi": "新鲜",
+    "pinyin": "xīnxiān",
+    "thaiMeaning": "สดใหม่",
+    "example": {
+      "hanzi": "这些水果非常新鲜。",
+      "pinyin": "Zhèxiē shuǐguǒ fēicháng xīnxiān.",
+      "thaiMeaning": "ผลไม้พวกนี้สดมากๆ"
+    },
+    "examples": [
+      {
+        "scenario": "ชมอาหารสด",
+        "hanzi": "鱼很新鲜，很好吃。",
+        "pinyin": "Yú hěn xīnxiān, hěn hǎochī.",
+        "thaiMeaning": "ปลาสดมาก อร่อยมาก"
+      }
+    ]
+  },
+  {
+    "id": "v521",
+    "hanzi": "过敏",
+    "pinyin": "guòmǐn",
+    "thaiMeaning": "แพ้ (อาหาร / ยา / ฝุ่น)",
+    "example": {
+      "hanzi": "我对海鲜过敏，不能吃。",
+      "pinyin": "Wǒ duì hǎixiān guòmǐn, bù néng chī.",
+      "thaiMeaning": "ฉันแพ้อาหารทะเล ทานไม่ได้"
+    },
+    "examples": [
+      {
+        "scenario": "บอกหมอหรือร้านอาหาร",
+        "hanzi": "请问里面有花生吗？我过敏。",
+        "pinyin": "Qǐngwèn lǐmiàn yǒu huāshēng ma? Wǒ guòmǐn.",
+        "thaiMeaning": "ขอถามหน่อย ข้างในมีถั่วลิสงไหม? ฉันแพ้"
+      }
+    ]
+  },
+  {
+    "id": "v522",
+    "hanzi": "丢",
+    "pinyin": "diū",
+    "thaiMeaning": "หาย / ทำตกหาย",
+    "example": {
+      "hanzi": "糟糕，我的手机丢了！",
+      "pinyin": "Zāogāo, wǒ de shǒujī diū le!",
+      "thaiMeaning": "แย่แล้ว มือถือฉันหายไปแล้ว!"
+    },
+    "examples": [
+      {
+        "scenario": "แจ้งของหาย",
+        "hanzi": "你看见我的钥匙了吗？我丢了。",
+        "pinyin": "Nǐ kànjiàn wǒ de yàoshi le ma? Wǒ diū le.",
+        "thaiMeaning": "คุณเห็นกุญแจของฉันไหม? ฉันทำหาย"
+      }
+    ]
+  },
+  {
+    "id": "v523",
+    "hanzi": "钱包",
+    "pinyin": "qiánbāo",
+    "thaiMeaning": "กระเป๋าสตางค์",
+    "example": {
+      "hanzi": "我的钱包里有身份证和现金。",
+      "pinyin": "Wǒ de qiánbāo lǐ yǒu shēnfènzhèng hé xiànjīn.",
+      "thaiMeaning": "ในกระเป๋าสตางค์ของฉันมีบัตรประชาชนและเงินสด"
+    },
+    "examples": [
+      {
+        "scenario": "เตือนให้เช็กกระเป๋าตังค์",
+        "hanzi": "别忘了带钱包。",
+        "pinyin": "Bié wàng le dài qiánbāo.",
+        "thaiMeaning": "อย่าลืมพกกระเป๋าสตางค์ไปนะ"
+      }
+    ]
+  },
+  {
+    "id": "v524",
+    "hanzi": "护照",
+    "pinyin": "hùzhào",
+    "thaiMeaning": "หนังสือเดินทาง / พาสปอร์ต",
+    "example": {
+      "hanzi": "请出示您的护照。",
+      "pinyin": "Qǐng chūshì nín de hùzhào.",
+      "thaiMeaning": "กรุณาแสดงพาสปอร์ตของคุณ"
+    },
+    "examples": [
+      {
+        "scenario": "เช็กอินโรงแรม/สนามบิน",
+        "hanzi": "办理入住需要护照。",
+        "pinyin": "Bànlǐ rùzhù xūyào hùzhào.",
+        "thaiMeaning": "การทำเรื่องเข้าพักต้องใช้พาสปอร์ต"
+      }
+    ]
+  },
+  {
+    "id": "v525",
+    "hanzi": "报警",
+    "pinyin": "bàojǐng",
+    "thaiMeaning": "แจ้งตำรวจ",
+    "example": {
+      "hanzi": "遇到危险请立刻报警。",
+      "pinyin": "Yùdào wēixiǎn qǐng lìkè bàojǐng.",
+      "thaiMeaning": "เมื่อเจออันตรายกรุณาแจ้งตำรวจทันที"
+    },
+    "examples": [
+      {
+        "scenario": "ขอให้คนอื่นช่วยแจ้งตำรวจ",
+        "hanzi": "请帮我报警，有人偷东西！",
+        "pinyin": "Qǐng bāng wǒ bàojǐng, yǒu rén tōu dōngxi!",
+        "thaiMeaning": "ช่วยแจ้งตำรวจให้ฉันที มีคนขโมยของ!"
+      }
+    ]
+  },
+  {
+    "id": "v526",
+    "hanzi": "紧急",
+    "pinyin": "jǐnjí",
+    "thaiMeaning": "ฉุกเฉิน / เร่งด่วน",
+    "example": {
+      "hanzi": "这是紧急情况，需要帮助！",
+      "pinyin": "Zhè shì jǐnjí qíngkuàng, xūyào bāngzhù!",
+      "thaiMeaning": "นี่คือสถานการณ์ฉุกเฉิน ต้องการความช่วยเหลือ!"
+    },
+    "examples": [
+      {
+        "scenario": "เบอร์โทรฉุกเฉิน",
+        "hanzi": "请告诉我紧急联系电话。",
+        "pinyin": "Qǐng gàosu wǒ jǐnjí liánxì diànhuà.",
+        "thaiMeaning": "โปรดบอกเบอร์โทรติดต่อฉุกเฉินให้ฉัน"
+      }
+    ]
+  },
+  {
+    "id": "v527",
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "thaiMeaning": "โรงพยาบาล",
+    "example": {
+      "hanzi": "请带我去最近的医院。",
+      "pinyin": "Qǐng dài wǒ qù zuì jìn de yīyuàn.",
+      "thaiMeaning": "โปรดพาฉันไปโรงพยาบาลที่ใกล้ที่สุด"
+    },
+    "examples": [
+      {
+        "scenario": "หาโรงพยาบาล",
+        "hanzi": "附近有医院吗？我不舒服。",
+        "pinyin": "Fùjìn yǒu yīyuàn ma? Wǒ bù shūfu.",
+        "thaiMeaning": "แถวนี้มีโรงพยาบาลไหม? ฉันไม่สบาย"
+      }
+    ]
+  },
+  {
+    "id": "v528",
+    "hanzi": "药店",
+    "pinyin": "yàodiàn",
+    "thaiMeaning": "ร้านขายยา",
+    "example": {
+      "hanzi": "我去药店买感冒药。",
+      "pinyin": "Wǒ qù yàodiàn mǎi gǎnmào yào.",
+      "thaiMeaning": "ฉันไปร้านขายยาซื้อยาแก้หวัด"
+    },
+    "examples": [
+      {
+        "scenario": "ถามหาร้านขายยา",
+        "hanzi": "请问药店在哪儿？",
+        "pinyin": "Qǐngwèn yàodiàn zài nǎr?",
+        "thaiMeaning": "ขอถามหน่อย ร้านขายยาอยู่ที่ไหน?"
+      }
+    ]
+  },
+  {
+    "id": "v529",
+    "hanzi": "减重",
+    "pinyin": "jiǎnzhòng",
+    "thaiMeaning": "ลดน้ำหนัก",
+    "example": {
+      "hanzi": "最近我在运动减重。",
+      "pinyin": "Zuìjìn wǒ zài yùndòng jiǎnzhòng.",
+      "thaiMeaning": "ช่วงนี้ฉันกำลังออกกำลังกายลดน้ำหนัก"
+    },
+    "examples": [
+      {
+        "scenario": "คุมอาหารลดน้ำหนัก",
+        "hanzi": "少吃甜食有利于减重。",
+        "pinyin": "Shǎo chī tiánshí yǒu lìyú jiǎnzhòng.",
+        "thaiMeaning": "ทานของหวานน้อยลงส่งผลดีต่อการลดน้ำหนัก"
+      }
+    ]
+  },
+  {
+    "id": "v530",
+    "hanzi": "不辣",
+    "pinyin": "bù là",
+    "thaiMeaning": "ไม่เผ็ด",
+    "example": {
+      "hanzi": "我不吃辣，请做不辣的。",
+      "pinyin": "Wǒ bù chī là, qǐng zuò bù là de.",
+      "thaiMeaning": "ฉันไม่ทานเผ็ด กรุณาทำแบบไม่เผ็ดนะ"
+    },
+    "examples": [
+      {
+        "scenario": "สั่งอาหารไม่เอาเผ็ด",
+        "hanzi": "请问这个菜辣不辣？",
+        "pinyin": "Qǐngwèn zhège cài là bú là?",
+        "thaiMeaning": "ขอถามหน่อย เมนูนี้เผ็ดไหมครับ?"
       }
     ]
   }
