@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, RotateCcw, Home, BookOpen, CalendarDays, Gamepad2, Zap } from 'lucide-react';
+import { Search, Volume2, Layers, List, Check, RefreshCw, Award, ArrowRight, RotateCcw, Home, BookOpen, CalendarDays, Gamepad2, Zap, Copy } from 'lucide-react';
 import { vocabularyList } from '../data/vocabularyData';
 import { speakChinese } from '../utils/speech';
+import { copyToClipboard } from '../utils/copy';
 import { getWordProgress, markWordProgress, getMemoryStats, getDailyStudyStats, getPendingReviewWords } from '../utils/srsEngine';
 import PronunciationAssessment from './PronunciationAssessment';
 import WordMatchGame from './games/WordMatchGame';
@@ -619,18 +620,32 @@ export default function VocabularyView({ onGoHome }) {
                               <span style={{ fontSize: '0.72rem', fontWeight: '700', color: '#4F46E5', backgroundColor: '#EEF2FF', padding: '3px 8px', borderRadius: '4px', lineHeight: '1.4', flex: 1 }}>
                                 {ex.scenario ? `🎬 ${ex.scenario}` : `ตัวอย่างที่ ${exIdx + 1}`}
                               </span>
-                              <button
-                                type="button"
-                                className="icon-btn"
-                                onClick={(e) => {
-                                  e.stopPropagation();
-                                  speakChinese(ex.hanzi, 0.8);
-                                }}
-                                title="ฟังเสียงอ่านประโยคตัวอย่างนี้"
-                                style={{ width: '28px', height: '28px' }}
-                              >
-                                <Volume2 size={14} />
-                              </button>
+                              <div style={{ display: 'flex', gap: '4px' }}>
+                                <button
+                                  type="button"
+                                  className="icon-btn"
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    copyToClipboard(ex.hanzi);
+                                  }}
+                                  title="คัดลอกประโยคตัวอย่างนี้"
+                                  style={{ width: '28px', height: '28px' }}
+                                >
+                                  <Copy size={13} />
+                                </button>
+                                <button
+                                  type="button"
+                                  className="icon-btn"
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    speakChinese(ex.hanzi, 0.8);
+                                  }}
+                                  title="ฟังเสียงอ่านประโยคตัวอย่างนี้"
+                                  style={{ width: '28px', height: '28px' }}
+                                >
+                                  <Volume2 size={14} />
+                                </button>
+                              </div>
                             </div>
 
                             <div style={{ fontFamily: 'var(--font-chinese)', color: 'var(--text-main)', fontWeight: '600', fontSize: '1.02rem', marginTop: '2px' }}>
@@ -657,10 +672,20 @@ export default function VocabularyView({ onGoHome }) {
                   <button
                     type="button"
                     className="icon-btn"
+                    onClick={() => copyToClipboard(currentFlashcard.hanzi)}
+                    title="คัดลอกคำศัพท์จีน"
+                    style={{ width: '36px', height: '36px' }}
+                  >
+                    <Copy size={18} />
+                  </button>
+                  <button
+                    type="button"
+                    className="icon-btn"
                     onClick={() => speakChinese(currentFlashcard.hanzi, 0.8)}
                     title="ฟังเสียงอ่านคำศัพท์"
+                    style={{ width: '36px', height: '36px' }}
                   >
-                    <Volume2 size={20} />
+                    <Volume2 size={18} />
                   </button>
                 </div>
               </div>
@@ -726,14 +751,26 @@ export default function VocabularyView({ onGoHome }) {
                   <div className="pinyin-text">{item.pinyin}</div>
                 </div>
 
-                <button
-                  type="button"
-                  className="icon-btn"
-                  onClick={() => speakChinese(item.hanzi, 0.8)}
-                  title="ฟังเสียงอ่าน"
-                >
-                  <Volume2 size={18} />
-                </button>
+                <div style={{ display: 'flex', gap: '6px' }}>
+                  <button
+                    type="button"
+                    className="icon-btn"
+                    onClick={() => copyToClipboard(item.hanzi)}
+                    title="คัดลอกคำศัพท์"
+                    style={{ width: '32px', height: '32px' }}
+                  >
+                    <Copy size={16} />
+                  </button>
+                  <button
+                    type="button"
+                    className="icon-btn"
+                    onClick={() => speakChinese(item.hanzi, 0.8)}
+                    title="ฟังเสียงอ่าน"
+                    style={{ width: '32px', height: '32px' }}
+                  >
+                    <Volume2 size={16} />
+                  </button>
+                </div>
               </div>
 
               <div className="thai-meaning-text">แปล: {item.thaiMeaning}</div>
@@ -747,15 +784,26 @@ export default function VocabularyView({ onGoHome }) {
                     <div key={exIdx} style={{ backgroundColor: 'var(--bg-subtle)', padding: '8px 10px', borderRadius: 'var(--radius-sm)', fontSize: '0.82rem', display: 'flex', flexDirection: 'column', gap: '2px', border: '1px solid var(--border-light)' }}>
                       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '4px' }}>
                         <span style={{ fontSize: '0.7rem', fontWeight: '700', color: '#4F46E5', flex: 1, lineHeight: '1.4' }}>{ex.scenario ? `🎬 ${ex.scenario}` : `ตัวอย่างที่ ${exIdx + 1}`}</span>
-                        <button
-                          type="button"
-                          className="icon-btn"
-                          onClick={() => speakChinese(ex.hanzi, 0.8)}
-                          title="ฟังเสียงตัวอย่าง"
-                          style={{ width: '24px', height: '24px' }}
-                        >
-                          <Volume2 size={12} />
-                        </button>
+                        <div style={{ display: 'flex', gap: '4px' }}>
+                          <button
+                            type="button"
+                            className="icon-btn"
+                            onClick={() => copyToClipboard(ex.hanzi)}
+                            title="คัดลอกตัวอย่าง"
+                            style={{ width: '24px', height: '24px' }}
+                          >
+                            <Copy size={12} />
+                          </button>
+                          <button
+                            type="button"
+                            className="icon-btn"
+                            onClick={() => speakChinese(ex.hanzi, 0.8)}
+                            title="ฟังเสียงตัวอย่าง"
+                            style={{ width: '24px', height: '24px' }}
+                          >
+                            <Volume2 size={12} />
+                          </button>
+                        </div>
                       </div>
                       <div style={{ fontFamily: 'var(--font-chinese)', fontWeight: '600', fontSize: '0.98rem' }}>{ex.hanzi}</div>
                       <div style={{ color: 'var(--accent-blue)', fontSize: '0.84rem' }}>{ex.pinyin}</div>

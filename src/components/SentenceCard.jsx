@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Volume2, CheckCircle, ChevronDown, ChevronUp } from 'lucide-react';
+import { Volume2, CheckCircle, ChevronDown, ChevronUp, Copy } from 'lucide-react';
 import { speakChinese } from '../utils/speech';
+import { copyToClipboard } from '../utils/copy';
 
 export default function SentenceCard({ item, audioRate = 0.9 }) {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -32,6 +33,17 @@ export default function SentenceCard({ item, audioRate = 0.9 }) {
             style={{ width: '32px', height: '32px', border: 'none', background: isPracticed ? 'var(--bg-subtle)' : 'transparent' }}
           >
             <CheckCircle size={18} color={isPracticed ? 'var(--accent-emerald)' : 'var(--text-subtle)'} />
+          </button>
+          <button
+            type="button"
+            className="icon-btn"
+            onClick={(e) => {
+              e.stopPropagation();
+              copyToClipboard(item.hanzi);
+            }}
+            title="คัดลอกประโยคนี้"
+          >
+            <Copy size={18} />
           </button>
           <button
             type="button"
@@ -76,7 +88,13 @@ export default function SentenceCard({ item, audioRate = 0.9 }) {
           {showWords && (
             <div className="word-chips-container">
               {item.words.map((w, idx) => (
-                <div key={idx} className="word-chip">
+                <div
+                  key={idx}
+                  className="word-chip"
+                  onClick={() => copyToClipboard(w.hanzi)}
+                  title="แตะเพื่อคัดลอกคำศัพท์นี้"
+                  style={{ cursor: 'pointer' }}
+                >
                   <span className="word-chip-hanzi">{w.hanzi}</span>
                   <span style={{ color: 'var(--accent-blue)', fontWeight: '500' }}>({w.pinyin})</span>
                   <span className="word-chip-reading">: {w.thaiMeaning}</span>

@@ -5,6 +5,7 @@ import SelfTalkView from './components/SelfTalkView';
 import VocabularyView from './components/VocabularyView';
 import PinyinView from './components/PinyinView';
 import GamesView from './components/GamesView';
+import ToastContainer from './components/ToastContainer';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState(() => {
@@ -27,6 +28,7 @@ export default function App() {
       </main>
 
       <BottomNav activeTab={activeTab} setActiveTab={setActiveTab} />
+      <ToastContainer />
     </div>
   );
 }
