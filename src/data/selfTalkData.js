@@ -6,6 +6,7 @@ export const SELF_TALK_CATEGORIES = [
   { id: 'dressing', label: 'แต่งตัว' },
   { id: 'commute', label: 'เดินทาง/ทำงาน' },
   { id: 'meals', label: 'อาหาร/เครื่องดื่ม' },
+  { id: 'food_taste', label: 'รสชาติ/สัมผัสอาหาร' },
   { id: 'evening_night', label: 'เย็น/ก่อนนอน' },
   { id: 'shopping_digital', label: 'ช้อปปิ้ง/ดิจิทัล' },
   { id: 'travel_social', label: 'ท่องเที่ยว/สังสรรค์' }
@@ -450,6 +451,115 @@ export const selfTalkSentences = [
     words: [
       { hanzi: '去公司', pinyin: 'qù gōngsī', thaiReading: 'ชวี่กงซือ', thaiMeaning: 'ไปบริษัท' },
       { hanzi: '打卡上班', pinyin: 'dǎkǎ shàngbān', thaiReading: 'ต้าข่าช่างปาน', thaiMeaning: 'สแกนเข้าทำงาน' }
+    ]
+  },
+
+  // --- FOOD TASTE & TEXTURE ---
+  {
+    id: 't1',
+    category: 'food_taste',
+    context: 'บอกว่าอาหารมันเลี่ยนเกินไป',
+    hanzi: '这个菜太油腻了。',
+    pinyin: 'Zhège cài tài yóunì le.',
+    thaiReading: 'เจ้อเกอ ไฉ่ ไท่ โหย่วนี่ เลอ',
+    thaiMeaning: 'อาหารจานนี้มันเลี่ยนเกินไป',
+    words: [
+      { hanzi: '这个菜', pinyin: 'zhège cài', thaiReading: 'เจ้อเกอไฉ่', thaiMeaning: 'อาหารจานนี้' },
+      { hanzi: '太油腻了', pinyin: 'tài yóunì le', thaiReading: 'ไท่โหย่วนี่เลอ', thaiMeaning: 'มันเลี่ยนเกินไป' }
+    ]
+  },
+  {
+    id: 't2',
+    category: 'food_taste',
+    context: 'ชมว่าเนื้อสัตว์นุ่มมาก',
+    hanzi: '牛肉很嫩，非常好吃。',
+    pinyin: 'Niúròu hěn nèn, fēicháng hǎochī.',
+    thaiReading: 'เหนียวโร่ว เหิ่น เนิ่น เฟยฉาง ห่าวชือ',
+    thaiMeaning: 'เนื้อวัวนุ่มมาก อร่อยมากๆ',
+    words: [
+      { hanzi: '牛肉', pinyin: 'niúròu', thaiReading: 'เหนียวโร่ว', thaiMeaning: 'เนื้อวัว' },
+      { hanzi: '很嫩', pinyin: 'hěn nèn', thaiReading: 'เหิ่นเนิ่น', thaiMeaning: 'นุ่มมาก' },
+      { hanzi: '非常好吃', pinyin: 'fēicháng hǎochī', thaiReading: 'เฟยฉางห่าวชือ', thaiMeaning: 'อร่อยมากๆ' }
+    ]
+  },
+  {
+    id: 't3',
+    category: 'food_taste',
+    context: 'บอกว่าน้ำซุปเค็มไปหน่อย',
+    hanzi: '汤有点儿咸。',
+    pinyin: 'Tāng yǒudiǎnr xián.',
+    thaiReading: 'ทาง โหย่วเตี่ยร์ เสียน',
+    thaiMeaning: 'น้ำซุปเค็มไปหน่อย',
+    words: [
+      { hanzi: '汤', pinyin: 'tāng', thaiReading: 'ทาง', thaiMeaning: 'น้ำซุป' },
+      { hanzi: '有点儿咸', pinyin: 'yǒudiǎnr xián', thaiReading: 'โหย่วเตี่ยร์เสียน', thaiMeaning: 'เค็มไปหน่อย' }
+    ]
+  },
+  {
+    id: 't4',
+    category: 'food_taste',
+    context: 'บอกว่ารสชาติจืดเกินไป',
+    hanzi: '味道太淡了。',
+    pinyin: 'Wèidào tài dàn le.',
+    thaiReading: 'เว่ยเต้า ไท่ ด่าน เลอ',
+    thaiMeaning: 'รสชาติจืดเกินไป',
+    words: [
+      { hanzi: '味道', pinyin: 'wèidào', thaiReading: 'เว่ยเต้า', thaiMeaning: 'รสชาติ' },
+      { hanzi: '太淡了', pinyin: 'tài dàn le', thaiReading: 'ไท่ด่านเลอ', thaiMeaning: 'จืดเกินไป' }
+    ]
+  },
+  {
+    id: 't5',
+    category: 'food_taste',
+    context: 'บอกว่าไก่ทอดหอมกรอบ',
+    hanzi: '炸鸡很香很脆。',
+    pinyin: 'Zhájī hěn xiāng hěn cuì.',
+    thaiReading: 'จ้าจี เหิ่น เซียง เหิ่น ชุ่ย',
+    thaiMeaning: 'ไก่ทอดหอมและกรอบมาก',
+    words: [
+      { hanzi: '炸鸡', pinyin: 'zhájī', thaiReading: 'จ้าจี', thaiMeaning: 'ไก่ทอด' },
+      { hanzi: '很香很脆', pinyin: 'hěn xiāng hěn cuì', thaiReading: 'เหิ่นเซียงเหิ่นชุ่ย', thaiMeaning: 'หอมและกรอบมาก' }
+    ]
+  },
+  {
+    id: 't6',
+    category: 'food_taste',
+    context: 'บอกว่าเหนียวนุ่มอร่อย',
+    hanzi: '这个软糯好吃。',
+    pinyin: 'Zhège ruǎn nuò hǎochī.',
+    thaiReading: 'เจ้อเกอ ร่วน นั่ว ห่าวชือ',
+    thaiMeaning: 'อันนี้เหนียวนุ่มอร่อย',
+    words: [
+      { hanzi: '这个', pinyin: 'zhège', thaiReading: 'เจ้อเกอ', thaiMeaning: 'อันนี้' },
+      { hanzi: '软糯好吃', pinyin: 'ruǎn nuò hǎochī', thaiReading: 'ร่วนนั่วห่าวชือ', thaiMeaning: 'เหนียวนุ่มอร่อย' }
+    ]
+  },
+  {
+    id: 't7',
+    category: 'food_taste',
+    context: 'บอกว่าเนื้อแข็งเคี้ยวยาก',
+    hanzi: '肉太硬了，咬不动。',
+    pinyin: 'Ròu tài yìng le, yǎo bú dòng.',
+    thaiReading: 'โร่ว ไท่ ยิ่ง เลอ หย่าว ปู๋ ต้ง',
+    thaiMeaning: 'เนื้อแข็งเกินไป เคี้ยวไม่เข้า',
+    words: [
+      { hanzi: '肉', pinyin: 'ròu', thaiReading: 'โร่ว', thaiMeaning: 'เนื้อ' },
+      { hanzi: '太硬了', pinyin: 'tài yìng le', thaiReading: 'ไท่ยิ่งเลอ', thaiMeaning: 'แข็งเกินไป' },
+      { hanzi: '咬不动', pinyin: 'yǎo bú dòng', thaiReading: 'หย่าวปู๋ต้ง', thaiMeaning: 'เคี้ยวไม่เข้า/กัดไม่ขาด' }
+    ]
+  },
+  {
+    id: 't8',
+    category: 'food_taste',
+    context: 'เตือนว่าชาร้อนลวกปาก',
+    hanzi: '茶很烫，慢点儿喝。',
+    pinyin: 'Chá hěn tàng, màn diǎnr hē.',
+    thaiReading: 'ชา เหิ่น ท้าง ม่าน เตี่ยร์ ชือ',
+    thaiMeaning: 'ชาร้อนมาก ดื่มช้าๆ หน่อย',
+    words: [
+      { hanzi: '茶', pinyin: 'chá', thaiReading: 'ชา', thaiMeaning: 'ชา' },
+      { hanzi: '很烫', pinyin: 'hěn tàng', thaiReading: 'เหิ่นท้าง', thaiMeaning: 'ร้อนลวกปากมาก' },
+      { hanzi: '慢点儿喝', pinyin: 'màn diǎnr hē', thaiReading: 'ม่านเตี่ยร์ชือ', thaiMeaning: 'ดื่มช้าๆ หน่อย' }
     ]
   }
 ];

@@ -2,7 +2,7 @@
 // Situational examples are written and reviewed per word; substitution templates are not used.
 
 export const VOCAB_SETS = [
-  { id: 'all', label: 'ทั้งหมด (530 คำ)' }
+  { id: 'all', label: 'ทั้งหมด (550 คำ)' }
 ];
 
 export const vocabularyList = [
@@ -15283,6 +15283,386 @@ export const vocabularyList = [
         "hanzi": "请问这个菜辣不辣？",
         "pinyin": "Qǐngwèn zhège cài là bú là?",
         "thaiMeaning": "ขอถามหน่อย เมนูนี้เผ็ดไหมครับ?"
+      }
+    ]
+  },
+  {
+    "id": "v531",
+    "hanzi": "油腻",
+    "pinyin": "yóunì",
+    "thaiMeaning": "มันเลี่ยน / เลี่ยนน้ำมัน",
+    "example": {
+      "hanzi": "这个菜太油腻了。",
+      "pinyin": "Zhège cài tài yóunì le.",
+      "thaiMeaning": "อาหารจานนี้มันเลี่ยนเกินไป"
+    },
+    "examples": [
+      {
+        "scenario": "บอกความรู้สึกหลังทานอาหารมัน",
+        "hanzi": "我不喜欢吃太油腻的东西。",
+        "pinyin": "Wǒ bù xǐhuan chī tài yóunì de dōngxi.",
+        "thaiMeaning": "ฉันไม่ชอบทานของที่มันเลี่ยนเกินไป"
+      }
+    ]
+  },
+  {
+    "id": "v532",
+    "hanzi": "软",
+    "pinyin": "ruǎn",
+    "thaiMeaning": "นุ่ม / นิ่ม",
+    "example": {
+      "hanzi": "面包很软很新鲜。",
+      "pinyin": "Miànbāo hěn ruǎn hěn xīnxiān.",
+      "thaiMeaning": "ขนมปังนุ่มและสดมาก"
+    },
+    "examples": [
+      {
+        "scenario": "พูดถึงเนื้อสัมผัสขนม",
+        "hanzi": "这个蛋糕口感很软。",
+        "pinyin": "Zhège dàngāo kǒugǎn hěn ruǎn.",
+        "thaiMeaning": "เค้กชิ้นนี้เนื้อสัมผัสนุ่มมาก"
+      }
+    ]
+  },
+  {
+    "id": "v533",
+    "hanzi": "嫩",
+    "pinyin": "nèn",
+    "thaiMeaning": "นุ่มเด้ง / เนื้อนุ่ม (ใช้กับเนื้อสัตว์/ผัก)",
+    "example": {
+      "hanzi": "这块牛肉非常嫩。",
+      "pinyin": "Zhè kuài niúròu fēicháng nèn.",
+      "thaiMeaning": "เนื้อวัวชิ้นนี้นุ่มมากๆ"
+    },
+    "examples": [
+      {
+        "scenario": "ชมเชฟว่าผัดเนื้อนุ่ม",
+        "hanzi": "鸡肉炒得很嫩。",
+        "pinyin": "Jīròu chǎo de hěn nèn.",
+        "thaiMeaning": "เนื้อไก่ผัดได้นุ่มมาก"
+      }
+    ]
+  },
+  {
+    "id": "v534",
+    "hanzi": "硬",
+    "pinyin": "yìng",
+    "thaiMeaning": "แข็ง / เคี้ยวยาก",
+    "example": {
+      "hanzi": "肉太硬了，咬不动。",
+      "pinyin": "Ròu tài yìng le, yǎo bú dòng.",
+      "thaiMeaning": "เนื้อแข็งเกินไป เคี้ยวไม่เข้า"
+    },
+    "examples": [
+      {
+        "scenario": "ติอาหารที่แข็งเกินไป",
+        "hanzi": "这米饭有一点儿硬。",
+        "pinyin": "Zhè mǐfàn yǒu yìdiǎnr yìng.",
+        "thaiMeaning": "ข้าวสวยนี้แข็งไปหน่อย"
+      }
+    ]
+  },
+  {
+    "id": "v535",
+    "hanzi": "咸",
+    "pinyin": "xián",
+    "thaiMeaning": "เค็ม",
+    "example": {
+      "hanzi": "汤有点儿咸，加一点水吧。",
+      "pinyin": "Tāng yǒudiǎnr xián, jiā yìdiǎn shuǐ ba.",
+      "thaiMeaning": "ซุปเค็มไปหน่อย เติมน้ำสักหน่อยเถอะ"
+    },
+    "examples": [
+      {
+        "scenario": "บอกพ่อครัวว่าอย่าทำเค็ม",
+        "hanzi": "请做少咸一点。",
+        "pinyin": "Qǐng zuò shǎo xián yìdiǎn.",
+        "thaiMeaning": "กรุณาทำเค็มน้อยลงหน่อย"
+      }
+    ]
+  },
+  {
+    "id": "v536",
+    "hanzi": "淡",
+    "pinyin": "dàn",
+    "thaiMeaning": "จืด / รสอ่อน",
+    "example": {
+      "hanzi": "味道太淡了，没有盐。",
+      "pinyin": "Wèidào tài dàn le, méiyǒu yán.",
+      "thaiMeaning": "รสชาติจืดเกินไป ไม่มีเกลือเลย"
+    },
+    "examples": [
+      {
+        "scenario": "ชอบทานอาหารรสจืดเพื่อสุขภาพ",
+        "hanzi": "生病时适合吃清淡的食物。",
+        "pinyin": "Shēngbìng shí shìhé chī qīngdàn de shíwù.",
+        "thaiMeaning": "เวลาป่วยเหมาะกับการทานอาหารรสจืดเบาๆ"
+      }
+    ]
+  },
+  {
+    "id": "v537",
+    "hanzi": "甜",
+    "pinyin": "tián",
+    "thaiMeaning": "หวาน",
+    "example": {
+      "hanzi": "这个水果甜甜的，很好吃。",
+      "pinyin": "Zhège shuǐguǒ tiántián de, hěn hǎochī.",
+      "thaiMeaning": "ผลไม้อันนี้หวานอร่อยมาก"
+    },
+    "examples": [
+      {
+        "scenario": "สั่งน้ำหวานน้อย",
+        "hanzi": "我不喜欢太甜，请做半糖。",
+        "pinyin": "Wǒ bù xǐhuan tài tián, qǐng zuò bàn táng.",
+        "thaiMeaning": "ฉันไม่ชอบหวานเกินไป กรุณาทำหวาน 50%"
+      }
+    ]
+  },
+  {
+    "id": "v538",
+    "hanzi": "酸",
+    "pinyin": "suān",
+    "thaiMeaning": "เปรี้ยว",
+    "example": {
+      "hanzi": "这个柠檬太酸了！",
+      "pinyin": "Zhège níngméng tài suān le!",
+      "thaiMeaning": "มะนาวอันนี้เปรี้ยวเกินไปแล้ว!"
+    },
+    "examples": [
+      {
+        "scenario": "สั่งอาหารรสเปรี้ยวหวาน",
+        "hanzi": "我喜欢吃酸甜口味的菜。",
+        "pinyin": "Wǒ xǐhuan chī suāntián kǒuwèi de cài.",
+        "thaiMeaning": "ฉันชอบทานอาหารรสชาติเปรี้ยวหวาน"
+      }
+    ]
+  },
+  {
+    "id": "v539",
+    "hanzi": "辣",
+    "pinyin": "là",
+    "thaiMeaning": "เผ็ด",
+    "example": {
+      "hanzi": "四川菜非常辣。",
+      "pinyin": "Sìchuān cài fēicháng là.",
+      "thaiMeaning": "อาหารเสฉวนเผ็ดมากๆ"
+    },
+    "examples": [
+      {
+        "scenario": "สั่งเผ็ดน้อย",
+        "hanzi": "请做微辣，谢谢。",
+        "pinyin": "Qǐng zuò wēilà, xièxie.",
+        "thaiMeaning": "กรุณาทำเผ็ดน้อย ขอบคุณครับ"
+      }
+    ]
+  },
+  {
+    "id": "v540",
+    "hanzi": "麻辣",
+    "pinyin": "málà",
+    "thaiMeaning": "เผ็ดชา (หมาล่า)",
+    "example": {
+      "hanzi": "麻辣火锅非常有名。",
+      "pinyin": "Málà huǒguō fēicháng yǒumíng.",
+      "thaiMeaning": "ชาบูหม้อไฟหมาล่ามีชื่อเสียงมากๆ"
+    },
+    "examples": [
+      {
+        "scenario": "สั่งปิ้งย่างหมาล่า",
+        "hanzi": "来几串麻辣烧烤。",
+        "pinyin": "Lái jǐ chuàn málà shāokǎo.",
+        "thaiMeaning": "เอาปิ้งย่างหมาล่ามาสักสองสามไม้"
+      }
+    ]
+  },
+  {
+    "id": "v541",
+    "hanzi": "苦",
+    "pinyin": "kǔ",
+    "thaiMeaning": "ขม",
+    "example": {
+      "hanzi": "这杯咖啡很苦，没有加糖。",
+      "pinyin": "Zhè bēi kāfēi hěn kǔ, méiyǒu jiā táng.",
+      "thaiMeaning": "กาแฟแก้วนี้ขมมาก ไม่ได้ใส่น้ำตาล"
+    },
+    "examples": [
+      {
+        "scenario": "ยาขม",
+        "hanzi": "中药虽然苦，但是很有效。",
+        "pinyin": "Zhōngyào suīrán kǔ, dànshì hěn yǒuxiào.",
+        "thaiMeaning": "ยาจีนถึงแม้จะขม แต่มีประสิทธิภาพมาก"
+      }
+    ]
+  },
+  {
+    "id": "v542",
+    "hanzi": "脆",
+    "pinyin": "cuì",
+    "thaiMeaning": "กรอบ",
+    "example": {
+      "hanzi": "炸鸡皮非常香脆。",
+      "pinyin": "Zhájī pí fēicháng xiāngcuì.",
+      "thaiMeaning": "หนังไก่ทอดหอมกรอบมากๆ"
+    },
+    "examples": [
+      {
+        "scenario": "ชมผักหรือขนมกรอบ",
+        "hanzi": "这个黄瓜很脆很大快。",
+        "pinyin": "Zhège huángguā hěn cuì hěn dà kuài.",
+        "thaiMeaning": "แตงกวาอันนี้กรอบมากชิ้นใหญ่มาก"
+      }
+    ]
+  },
+  {
+    "id": "v543",
+    "hanzi": "软糯",
+    "pinyin": "ruǎnnuò",
+    "thaiMeaning": "เหนียวนุ่ม / นุ่มหนึบ (ใช้กับข้าวเหนียว, โมจิ, เผือก, ไข่มุก)",
+    "example": {
+      "hanzi": "这个珍珠奶茶的珍珠很软糯。",
+      "pinyin": "Zhège zhēnzhū nǎichá de zhēnzhū hěn ruǎnnuò.",
+      "thaiMeaning": "ไข่มุกของชานมไข่มุกแก้วนี้นุ่มหนึบมาก"
+    },
+    "examples": [
+      {
+        "scenario": "ชมขนมเหนียวนุ่ม",
+        "hanzi": "糯米饭软糯可口。",
+        "pinyin": "Nuòmǐfàn ruǎnnuò kěkǒu.",
+        "thaiMeaning": "ข้าวเหนียวนุ่มหนึบอร่อยถูกปาก"
+      }
+    ]
+  },
+  {
+    "id": "v544",
+    "hanzi": "香",
+    "pinyin": "xiāng",
+    "thaiMeaning": "หอม (กลิ่นหอมน่าทาน)",
+    "example": {
+      "hanzi": "菜刚做好，好香啊！",
+      "pinyin": "Cài gāng zuò hǎo, hǎo xiāng a!",
+      "thaiMeaning": "กับข้าวเพิ่งทำเสร็จ หอมจังเลย!"
+    },
+    "examples": [
+      {
+        "scenario": "ชมกลิ่นอาหาร",
+        "hanzi": "闻起来特别香。",
+        "pinyin": "Wén qǐlai tèbié xiāng.",
+        "thaiMeaning": "ดมดูแล้วหอมเป็นพิเศษ"
+      }
+    ]
+  },
+  {
+    "id": "v545",
+    "hanzi": "鲜美",
+    "pinyin": "xiānměi",
+    "thaiMeaning": "สดกลมกล่อม / รสอูมามิ",
+    "example": {
+      "hanzi": "鱼汤的味道非常鲜美。",
+      "pinyin": "Yútāng de wèidào fēicháng xiānměi.",
+      "thaiMeaning": "รสชาติของซุปปลาสดกลมกล่อมมากๆ"
+    },
+    "examples": [
+      {
+        "scenario": "ชมน้ำซุปหรืออาหารทะเล",
+        "hanzi": "汤头鲜美，没有腥味。",
+        "pinyin": "Tāngtóu xiānměi, méiyǒu xīngwèi.",
+        "thaiMeaning": "น้ำซุปสดกลมกล่อม ไม่มีกลิ่นคาว"
+      }
+    ]
+  },
+  {
+    "id": "v546",
+    "hanzi": "腥",
+    "pinyin": "xīng",
+    "thaiMeaning": "คาว (กลิ่นคาวปลา / กลิ่นคาวเนื้อ)",
+    "example": {
+      "hanzi": "鱼处理得很好，一点儿也不腥。",
+      "pinyin": "Yú chǔlǐ de hěn hǎo, yìdiǎnr yě bù xīng.",
+      "thaiMeaning": "ปลาจัดการได้ดีมาก ไม่คาวเลยแม้แต่น้อย"
+    },
+    "examples": [
+      {
+        "scenario": "บอกว่าอาหารมีกลิ่นคาว",
+        "hanzi": "这个肉有一点儿腥味。",
+        "pinyin": "Zhège ròu yǒu yìdiǎnr xīngwèi.",
+        "thaiMeaning": "เนื้อชิ้นนี้มีกลิ่นคาวนิดหน่อย"
+      }
+    ]
+  },
+  {
+    "id": "v547",
+    "hanzi": "烫",
+    "pinyin": "tàng",
+    "thaiMeaning": "ร้อนจัด / ร้อนลวกปาก",
+    "example": {
+      "hanzi": "汤很烫，小心别烫到。",
+      "pinyin": "Tāng hěn tàng, xiǎoxīn bié tàng dào.",
+      "thaiMeaning": "น้ำซุปร้อนมาก ระวังลวกปากนะ"
+    },
+    "examples": [
+      {
+        "scenario": "เตือนให้เป่าก่อนกิน",
+        "hanzi": "包子刚出炉，很烫！",
+        "pinyin": "Bāozi gāng chūlú, hěn tàng!",
+        "thaiMeaning": "ซาลาเปาเพิ่งออกจากเตา ร้อนมาก!"
+      }
+    ]
+  },
+  {
+    "id": "v548",
+    "hanzi": "凉",
+    "pinyin": "liáng",
+    "thaiMeaning": "เย็น / ชืด (อาหารเย็นชืด)",
+    "example": {
+      "hanzi": "菜快凉了，赶紧吃吧。",
+      "pinyin": "Cài kuài liáng le, gǎnjǐn chī ba.",
+      "thaiMeaning": "กับข้าวใกล้จะเย็นชืดแล้ว รีบกินเถอะ"
+    },
+    "examples": [
+      {
+        "scenario": "ขอให้อุ่นอาหาร",
+        "hanzi": "汤凉了，能帮忙热一下吗？",
+        "pinyin": "Tāng liáng le, néng bāngmáng rè yíxià ma?",
+        "thaiMeaning": "ซุปเย็นชืดแล้ว ช่วยอุ่นให้หน่อยได้ไหมครับ?"
+      }
+    ]
+  },
+  {
+    "id": "v549",
+    "hanzi": "口味",
+    "pinyin": "kǒuwèi",
+    "thaiMeaning": "รสนิยมรสชาติ / รสชาติที่ชอบ",
+    "example": {
+      "hanzi": "你的口味很重，喜欢吃辣。",
+      "pinyin": "Nǐ de kǒuwèi hěn zhòng, xǐhuan chī là.",
+      "thaiMeaning": "รสนิยมรสชาติของคุณจัดจ้าน ชอบทานเผ็ด"
+    },
+    "examples": [
+      {
+        "scenario": "ถามรสนิยมรสชาติเพื่อน",
+        "hanzi": "这个菜很符合我的口味。",
+        "pinyin": "Zhège cài hěn fúhé wǒ de kǒuwèi.",
+        "thaiMeaning": "อาหารจานนี้ถูกปากถูกรสนิยมฉันมาก"
+      }
+    ]
+  },
+  {
+    "id": "v550",
+    "hanzi": "可口",
+    "pinyin": "kěkǒu",
+    "thaiMeaning": "อร่อยถูกปาก",
+    "example": {
+      "hanzi": "这顿饭菜非常丰富可口。",
+      "pinyin": "Zhè dùn fàncài fēicháng fēngfù kěkǒu.",
+      "thaiMeaning": "มื้อนี้กับข้าวหลากหลายและอร่อยถูกปากมากๆ"
+    },
+    "examples": [
+      {
+        "scenario": "ชมอาหารมื้อนั้น",
+        "hanzi": "软糯可口的甜点。",
+        "pinyin": "Ruǎnnuò kěkǒu de tiándiǎn.",
+        "thaiMeaning": "ของหวานที่เหนียวนุ่มและอร่อยถูกปาก"
       }
     ]
   }
