@@ -1,8 +1,8 @@
-// Vocabulary Dataset - 609 unique words
+// Vocabulary Dataset - 682 unique words
 // Situational examples are written and reviewed per word; substitution templates are not used.
 
 export const VOCAB_SETS = [
-  { id: 'all', label: 'ทั้งหมด (609 คำ)' }
+  { id: 'all', label: 'ทั้งหมด (682 คำ)' }
 ];
 
 export const vocabularyList = [
@@ -19834,6 +19834,1612 @@ export const vocabularyList = [
         "pinyin": "Gōngsī zhōumò zǔzhī le yí cì tuánjiàn huódòng.",
         "thaiMeaning": "บริษัทจัดกิจกรรมสร้างทีมสัมพันธ์ขึ้นในสุดสัปดาห์",
         "englishMeaning": "公司周末组织了一次团建活动。"
+      }
+    ]
+  },
+  {
+    "id": "v610",
+    "hanzi": "增长",
+    "pinyin": "zēngzhǎng",
+    "thaiMeaning": "เติบโต / เพิ่มขยายตัว",
+    "englishMeaning": "增长",
+    "example": {
+      "hanzi": "经济持续增长。",
+      "pinyin": "Jīngjì chíxù zēngzhǎng.",
+      "thaiMeaning": "เศรษฐกิจเติบโตอย่างต่อเนื่อง",
+      "englishMeaning": "经济持续增长。"
+    },
+    "examples": [
+      {
+        "scenario": "ยอดขายสินค้า",
+        "hanzi": "今年公司的销售额显著增长。",
+        "pinyin": "Jīnnián gōngsī de xiāoshòu'é xiǎnzhù zēngzhǎng.",
+        "thaiMeaning": "ปีนี้ยอดขายของบริษัทเติบโตขึ้นอย่างโดดเด่น",
+        "englishMeaning": "今年公司的销售额显著增长。"
+      }
+    ]
+  },
+  {
+    "id": "v611",
+    "hanzi": "获得",
+    "pinyin": "huòdé",
+    "thaiMeaning": "ได้รับ / ได้มา (รางวัล/ความสำเร็จ)",
+    "englishMeaning": "获得",
+    "example": {
+      "hanzi": "获得成功。",
+      "pinyin": "Huòdé chénggōng.",
+      "thaiMeaning": "ได้รับความสำเร็จ",
+      "englishMeaning": "获得成功。"
+    },
+    "examples": [
+      {
+        "scenario": "การรับรางวัล",
+        "hanzi": "经过努力，他获得了第一名。",
+        "pinyin": "Jīngguò nǔlì, tā huòdé le dì-yī míng.",
+        "thaiMeaning": "ผ่านความพยายาม ในที่สุดเขาได้รับอันดับที่หนึ่ง",
+        "englishMeaning": "经过努力，他获得了第一名。"
+      }
+    ]
+  },
+  {
+    "id": "v612",
+    "hanzi": "拒绝",
+    "pinyin": "jùjué",
+    "thaiMeaning": "ปฏิเสธ / บอกปัด",
+    "englishMeaning": "拒绝",
+    "example": {
+      "hanzi": "礼貌地拒绝。",
+      "pinyin": "Lǐmào de jùjué.",
+      "thaiMeaning": "ปฏิเสธอย่างมีมารยาท",
+      "englishMeaning": "礼貌地拒绝。"
+    },
+    "examples": [
+      {
+        "scenario": "ปฏิเสธคำชวน",
+        "hanzi": "我不好意思拒绝他的好意。",
+        "pinyin": "Wǒ bù hǎoyìsi jùjué tā de hǎoyì.",
+        "thaiMeaning": "ฉันเกรงใจที่จะปฏิเสธความหวังดีของเขา",
+        "englishMeaning": "我不好意思拒绝他的好意。"
+      }
+    ]
+  },
+  {
+    "id": "v613",
+    "hanzi": "保持",
+    "pinyin": "bǎochí",
+    "thaiMeaning": "รักษา / ดำรงไว้",
+    "englishMeaning": "保持",
+    "example": {
+      "hanzi": "保持联系。",
+      "pinyin": "Bǎochí liánxì.",
+      "thaiMeaning": "รักษาการติดต่อกันไว้",
+      "englishMeaning": "保持联系。"
+    },
+    "examples": [
+      {
+        "scenario": "รักษาสุขภาพใจ",
+        "hanzi": "请保持积极乐观的态度。",
+        "pinyin": "Qǐng bǎochí jījí lèguān de tàidu.",
+        "thaiMeaning": "โปรดรักษาทัศนคติที่กระตือรือร้นและมองโลกในแง่ดีไว้",
+        "englishMeaning": "请保持积极乐观的态度。"
+      }
+    ]
+  },
+  {
+    "id": "v614",
+    "hanzi": "强调",
+    "pinyin": "qiángdiào",
+    "thaiMeaning": "เน้นย้ำ / ให้ความสำคัญเน้นหนัก",
+    "englishMeaning": "强调",
+    "example": {
+      "hanzi": "反复强调。",
+      "pinyin": "Fǎnfù qiángdiào.",
+      "thaiMeaning": "เน้นย้ำซ้ำไปซ้ำมา",
+      "englishMeaning": "反复强调。"
+    },
+    "examples": [
+      {
+        "scenario": "ประชุมงาน",
+        "hanzi": "经理多次强调安全的重要性。",
+        "pinyin": "Jīnglǐ duō cì qiángdiào ānquán de zhòngyàoxìng.",
+        "thaiMeaning": "ผู้จัดการเน้นย้ำความสำคัญของความปลอดภัยหลายครั้ง",
+        "englishMeaning": "经理多次强调安全的重要性。"
+      }
+    ]
+  },
+  {
+    "id": "v615",
+    "hanzi": "鼓励",
+    "pinyin": "gǔlì",
+    "thaiMeaning": "ให้กำลังใจ / สนับสนุนส่งเสริม",
+    "englishMeaning": "鼓励",
+    "example": {
+      "hanzi": "互相鼓励。",
+      "pinyin": "Hùxiāng gǔlì.",
+      "thaiMeaning": "ให้กำลังใจซึ่งกันและกัน",
+      "englishMeaning": "互相鼓励。"
+    },
+    "examples": [
+      {
+        "scenario": "คุณครูกับนักเรียน",
+        "hanzi": "老师鼓励大家勇敢表达观点。",
+        "pinyin": "Lǎoshī gǔlì dàjiā yǒnggǎn biǎodá guāndiǎn.",
+        "thaiMeaning": "คุณครูให้กำลังใจทุกคนให้กล้าแสดงความคิดเห็น",
+        "englishMeaning": "老师鼓励大家勇敢表达观点。"
+      }
+    ]
+  },
+  {
+    "id": "v616",
+    "hanzi": "避免",
+    "pinyin": "bìmiǎn",
+    "thaiMeaning": "หลีกเลี่ยง / ป้องกันไม่ให้เกิด",
+    "englishMeaning": "避免",
+    "example": {
+      "hanzi": "避免错误。",
+      "pinyin": "Bìmiǎn cuòwù.",
+      "thaiMeaning": "หลีกเลี่ยงข้อผิดพลาด",
+      "englishMeaning": "避免错误。"
+    },
+    "examples": [
+      {
+        "scenario": "การขับขี่ปลอดภัย",
+        "hanzi": "遵守交通规则可以避免事故。",
+        "pinyin": "Zūnshǒu jiāotōng guīzé kěyǐ bìmiǎn shìgù.",
+        "thaiMeaning": "การปฏิบัติตามกฎจราจรช่วยหลีกเลี่ยงอุบัติเหตุได้",
+        "englishMeaning": "遵守交通规则可以避免事故。"
+      }
+    ]
+  },
+  {
+    "id": "v617",
+    "hanzi": "即使",
+    "pinyin": "jíshǐ",
+    "thaiMeaning": "ต่อให้ / แม้ว่า...ก็ตาม",
+    "englishMeaning": "即使",
+    "example": {
+      "hanzi": "即使辛苦也值得。",
+      "pinyin": "Jíshǐ xīnkǔ yě zhíde.",
+      "thaiMeaning": "ต่อให้เหน็ดเหนื่อยก็คุ้มค่า",
+      "englishMeaning": "即使辛苦也值得。"
+    },
+    "examples": [
+      {
+        "scenario": "มุ่งมั่น",
+        "hanzi": "即使遇到困难，我也不会放弃。",
+        "pinyin": "Jíshǐ yùdào kùnnan, wǒ yě bú huì fàngqì.",
+        "thaiMeaning": "ต่อให้เจออุปสรรค ฉันก็จะไม่ยอมแพ้",
+        "englishMeaning": "即使遇到困难，我也不会放弃。"
+      }
+    ]
+  },
+  {
+    "id": "v618",
+    "hanzi": "尽管",
+    "pinyin": "jǐnguǎn",
+    "thaiMeaning": "แม้ว่า / ถึงแม้จะ...",
+    "englishMeaning": "尽管",
+    "example": {
+      "hanzi": "尽管放心。",
+      "pinyin": "Jǐnguǎn fàngxīn.",
+      "thaiMeaning": "สบายใจได้เต็มที่เลย",
+      "englishMeaning": "尽管放心。"
+    },
+    "examples": [
+      {
+        "scenario": "สภาพอากาศกับการทำงาน",
+        "hanzi": "尽管天气很冷，他依然按时到岗。",
+        "pinyin": "Jǐnguǎn tiānqì hěn lěng, tā yīrán ànshí dào gǎng.",
+        "thaiMeaning": "ถึงแม้สภาพอากาศจะหนาวมาก เขายังคงมาทำงานตรงเวลา",
+        "englishMeaning": "尽管天气很冷，他依然按时到岗。"
+      }
+    ]
+  },
+  {
+    "id": "v619",
+    "hanzi": "居然",
+    "pinyin": "jūrán",
+    "thaiMeaning": "คิดไม่ถึงว่า / กลับ...อย่างนึกไม่ถึง",
+    "englishMeaning": "居然",
+    "example": {
+      "hanzi": "他居然赢了！",
+      "pinyin": "Tā jūrán yíng le!",
+      "thaiMeaning": "เขาคิดไม่ถึงว่าจะชนะแล้ว!",
+      "englishMeaning": "他居然赢了！"
+    },
+    "examples": [
+      {
+        "scenario": "เหตุการณ์ประหลาดใจ",
+        "hanzi": "这么简单的题他居然做错了。",
+        "pinyin": "Zhème jiǎndān de tímù tā jūrán zuò cuò le.",
+        "thaiMeaning": "โจทย์ง่ายขนาดนี้เขาคิดไม่ถึงว่าจะทำผิด",
+        "englishMeaning": "这么简单的题他居然做错了。"
+      }
+    ]
+  },
+  {
+    "id": "v620",
+    "hanzi": "否则",
+    "pinyin": "fǒuzé",
+    "thaiMeaning": "มิฉะนั้น / ไม่เช่นนั้นแล้ว",
+    "englishMeaning": "否则",
+    "example": {
+      "hanzi": "快一点，否则会迟到。",
+      "pinyin": "Kuài yìdiǎn, fǒuzé huì chídào.",
+      "thaiMeaning": "เร็วหน่อย ไม่เช่นนั้นจะสายนะ",
+      "englishMeaning": "快一点，否则会迟到。"
+    },
+    "examples": [
+      {
+        "scenario": "การรักษาเวลา",
+        "hanzi": "必须提前出发，否则赶不上飞机。",
+        "pinyin": "Bìxū tíqián chūfā, fǒuzé gǎn bù shàng fēijī.",
+        "thaiMeaning": "ต้องออกเดินทางล่วงหน้า มิฉะนั้นจะขึ้นเครื่องบินไม่ทัน",
+        "englishMeaning": "必须提前出发，否则赶不上飞机。"
+      }
+    ]
+  },
+  {
+    "id": "v621",
+    "hanzi": "究竟",
+    "pinyin": "jiūjìng",
+    "thaiMeaning": "ตกลงว่า...กันแน่ / แท้จริงแล้ว",
+    "englishMeaning": "究竟",
+    "example": {
+      "hanzi": "究竟发生了什么？",
+      "pinyin": "Jiūjìng fāshēng le shénme?",
+      "thaiMeaning": "ตกลงว่าเกิดอะไรขึ้นกันแน่?",
+      "englishMeaning": "究竟发生了什么？"
+    },
+    "examples": [
+      {
+        "scenario": "สืบหาความจริง",
+        "hanzi": "我们一定要弄清楚究竟是怎么回事。",
+        "pinyin": "Wǒmen yídìng yào nòng qīngchu jiūjìng shì zěnme huí shì.",
+        "thaiMeaning": "พวกเราต้องทำความเข้าใจให้ชัดเจนว่าตกลงเรื่องราวเป็นอย่างไรกันแน่",
+        "englishMeaning": "我们一定要弄清楚究竟是怎么回事。"
+      }
+    ]
+  },
+  {
+    "id": "v622",
+    "hanzi": "普遍",
+    "pinyin": "pǔbiàn",
+    "thaiMeaning": "แพร่หลาย / เป็นเรื่องปกติทั่วไป",
+    "englishMeaning": "普遍",
+    "example": {
+      "hanzi": "普遍现象。",
+      "pinyin": "Pǔbiàn xiànxiàng.",
+      "thaiMeaning": "ปรากฏการณ์ทั่วไปที่พบเห็นแพร่หลาย",
+      "englishMeaning": "普遍现象。"
+    },
+    "examples": [
+      {
+        "scenario": "เทคโนโลยี",
+        "hanzi": "移动支付在今天非常普遍。",
+        "pinyin": "Yídòng zhīfù zài jīntiān fēicháng pǔbiàn.",
+        "thaiMeaning": "การชำระเงินผ่านมือถือในปัจจุบันแพร่หลายมากๆ",
+        "englishMeaning": "移动支付在今天非常普遍。"
+      }
+    ]
+  },
+  {
+    "id": "v623",
+    "hanzi": "积极",
+    "pinyin": "jījí",
+    "thaiMeaning": "กระตือรือร้น / ในเชิงบวก",
+    "englishMeaning": "积极",
+    "example": {
+      "hanzi": "积极参与。",
+      "pinyin": "Jījí cānyù.",
+      "thaiMeaning": "เข้าร่วมอย่างกระตือรือร้น",
+      "englishMeaning": "积极参与。"
+    },
+    "examples": [
+      {
+        "scenario": "ทัศนคติชีวิต",
+        "hanzi": "保持积极的心态对健康很有益。",
+        "pinyin": "Bǎochí jījí de xīntài duì jiànkāng hěn yǒuyì.",
+        "thaiMeaning": "การรักษาจิตใจในเชิงบวกมีประโยชน์ต่อสุขภาพมาก",
+        "englishMeaning": "保持积极的心态对健康很有益。"
+      }
+    ]
+  },
+  {
+    "id": "v624",
+    "hanzi": "消极",
+    "pinyin": "xiāojí",
+    "thaiMeaning": "เชิงลบ / เฉื่อยชาท้อแท้",
+    "englishMeaning": "消极",
+    "example": {
+      "hanzi": "消极情绪。",
+      "pinyin": "Xiāojí qíngxù.",
+      "thaiMeaning": "อารมณ์ความรู้สึกเชิงลบ",
+      "englishMeaning": "消极情绪。"
+    },
+    "examples": [
+      {
+        "scenario": "การทำงาน",
+        "hanzi": "不要用消极的态度对待工作。",
+        "pinyin": "Bú yào yòng xiāojí de tàidu duìdài gōngzuò.",
+        "thaiMeaning": "อย่าใช้ทัศนคติเฉื่อยชาเชิงลบปฏิบัติต่องาน",
+        "englishMeaning": "不要用消极的态度对待工作。"
+      }
+    ]
+  },
+  {
+    "id": "v625",
+    "hanzi": "关键",
+    "pinyin": "guānjiàn",
+    "thaiMeaning": "จุดสำคัญ / ปัจจัยชี้ขาด",
+    "englishMeaning": "关键",
+    "example": {
+      "hanzi": "关键时刻。",
+      "pinyin": "Guānjiàn shíkè.",
+      "thaiMeaning": "ช่วงเวลาสำคัญชี้ขาด",
+      "englishMeaning": "关键时刻。"
+    },
+    "examples": [
+      {
+        "scenario": "การแก้ปัญหา",
+        "hanzi": "态度是解决问题的关键。",
+        "pinyin": "Tàidu shì jiějué wèntí de guānjiàn.",
+        "thaiMeaning": "ทัศนคติคือปัจจัยสำคัญชี้ขาดในการแก้ไขปัญหา",
+        "englishMeaning": "态度是解决问题的关键。"
+      }
+    ]
+  },
+  {
+    "id": "v626",
+    "hanzi": "严格",
+    "pinyin": "yángé",
+    "thaiMeaning": "เข้มงวด / กวดขันกวดขัน",
+    "englishMeaning": "严格",
+    "example": {
+      "hanzi": "严格要求。",
+      "pinyin": "Yángé yāoqiú.",
+      "thaiMeaning": "กำหนดมาตรฐานเข้มงวด",
+      "englishMeaning": "严格要求。"
+    },
+    "examples": [
+      {
+        "scenario": "คุณภาพสินค้า",
+        "hanzi": "产品质量把关非常严格。",
+        "pinyin": "Chǎnpǐn zhìliàng bǎguān fēicháng yángé.",
+        "thaiMeaning": "การคุมคุณภาพสินค้าเข้มงวดมากๆ",
+        "englishMeaning": "产品质量把关非常严格。"
+      }
+    ]
+  },
+  {
+    "id": "v627",
+    "hanzi": "详细",
+    "pinyin": "xiángxì",
+    "thaiMeaning": "ละเอียดครบถ้วน",
+    "englishMeaning": "详细",
+    "example": {
+      "hanzi": "详细说明。",
+      "pinyin": "Xiángxì shuōmíng.",
+      "thaiMeaning": "อธิบายอย่างละเอียดครบถ้วน",
+      "englishMeaning": "详细说明。"
+    },
+    "examples": [
+      {
+        "scenario": "รายงานประชุม",
+        "hanzi": "请提供一份详细的计划书。",
+        "pinyin": "Qǐng tígōng yí fèn xiángxì de jìhuàshū.",
+        "thaiMeaning": "กรุณาเสนอข้อเสนอแผนงานฉบับละเอียดครบถ้วนนะ",
+        "englishMeaning": "请提供一份详细的计划书。"
+      }
+    ]
+  },
+  {
+    "id": "v628",
+    "hanzi": "正式",
+    "pinyin": "zhèngshì",
+    "thaiMeaning": "เป็นทางการ / อย่างเป็นทางการ",
+    "englishMeaning": "正式",
+    "example": {
+      "hanzi": "正式通知。",
+      "pinyin": "Zhèngshì tōngzhī.",
+      "thaiMeaning": "ประกาศแจ้งอย่างเป็นทางการ",
+      "englishMeaning": "正式通知。"
+    },
+    "examples": [
+      {
+        "scenario": "งานพิธี",
+        "hanzi": "参加发布会需要穿正式服装。",
+        "pinyin": "Cānjiā fābùhuì xūyào chuān zhèngshì fúzhuāng.",
+        "thaiMeaning": "เข้าร่วมงานแถลงข่าวจำเป็นต้องแต่งกายชุดเป็นทางการ",
+        "englishMeaning": "参加发布会需要穿正式服装。"
+      }
+    ]
+  },
+  {
+    "id": "v629",
+    "hanzi": "临时",
+    "pinyin": "línshí",
+    "thaiMeaning": "ชั่วคราว / กะทันหัน",
+    "englishMeaning": "临时",
+    "example": {
+      "hanzi": "临时决定。",
+      "pinyin": "Línshí juédìng.",
+      "thaiMeaning": "ตัดสินใจอย่างกะทันหันชั่วคราว",
+      "englishMeaning": "临时决定。"
+    },
+    "examples": [
+      {
+        "scenario": "นัดหมายฉุกเฉิน",
+        "hanzi": "公司临时安排了一次紧急会议。",
+        "pinyin": "Gōngsī línshí ānpái le yí cì jǐnjí huìyì.",
+        "thaiMeaning": "บริษัทจัดประชุมด่วนกะทันหันขึ้นหนึ่งครั้ง",
+        "englishMeaning": "公司临时安排了一次紧急会议。"
+      }
+    ]
+  },
+  {
+    "id": "v630",
+    "hanzi": "著名",
+    "pinyin": "zhùmíng",
+    "thaiMeaning": "มีชื่อเสียงโด่งดัง",
+    "englishMeaning": "著名",
+    "example": {
+      "hanzi": "著名作家。",
+      "pinyin": "Zhùmíng zuòjiā.",
+      "thaiMeaning": "นักเขียนชื่อดัง",
+      "englishMeaning": "著名作家。"
+    },
+    "examples": [
+      {
+        "scenario": "สถานที่ท่องเที่ยว",
+        "hanzi": "长城是世界著名的景点。",
+        "pinyin": "Chángchéng shì shìjiè zhùmíng de jǐngdiǎn.",
+        "thaiMeaning": "กำแพงเมืองจีนคือสถานที่ท่องเที่ยวที่มีชื่อเสียงโด่งดังระดับโลก",
+        "englishMeaning": "长城是世界著名的景点。"
+      }
+    ]
+  },
+  {
+    "id": "v631",
+    "hanzi": "理想",
+    "pinyin": "lǐxiǎng",
+    "thaiMeaning": "อุดมคติ / จุดมุ่งหมายสมบูรณ์แบบ",
+    "englishMeaning": "理想",
+    "example": {
+      "hanzi": "实现理想。",
+      "pinyin": "Shíxiàn lǐxiǎng.",
+      "thaiMeaning": "ทำให้อุดมคติฝันกลายเป็นจริง",
+      "englishMeaning": "实现理想。"
+    },
+    "examples": [
+      {
+        "scenario": "อาชีพฝัน",
+        "hanzi": "找到一份理想的工作并不容易。",
+        "pinyin": "Zhǎodào yí fèn lǐxiǎng de gōngzuò bìng bù róngyì.",
+        "thaiMeaning": "การหางานในอุดมคติทำไม่ได้ง่ายเลย",
+        "englishMeaning": "找到一份理想的工作并不容易。"
+      }
+    ]
+  },
+  {
+    "id": "v632",
+    "hanzi": "真正",
+    "pinyin": "zhēnzhèng",
+    "thaiMeaning": "แท้จริง / อย่างแท้จริง",
+    "englishMeaning": "真正",
+    "example": {
+      "hanzi": "真正的朋友。",
+      "pinyin": "Zhēnzhèng de péngyou.",
+      "thaiMeaning": "มิตรแท้ที่แท้จริง",
+      "englishMeaning": "真正的朋友。"
+    },
+    "examples": [
+      {
+        "scenario": "ความเข้ากันได้",
+        "hanzi": "只有经过考验才能明白真正的友情。",
+        "pinyin": "Zhǐyǒu jīngguò kǎoyàn cái néng míngbai zhēnzhèng de yǒuqíng.",
+        "thaiMeaning": "มีเพียงผ่านการทดสอบเท่านั้นจึงจะเข้าใจมิตรภาพอันแท้จริง",
+        "englishMeaning": "只有经过考验才能明白真正的友情。"
+      }
+    ]
+  },
+  {
+    "id": "v633",
+    "hanzi": "招聘",
+    "pinyin": "zhāopìn",
+    "thaiMeaning": "รับสมัครงาน / เปิดรับบุคลากร",
+    "englishMeaning": "招聘",
+    "example": {
+      "hanzi": "公司正在招聘。",
+      "pinyin": "Gōngsī zhèngzài zhāopìn.",
+      "thaiMeaning": "บริษัทกำลังเปิดรับสมัครงาน",
+      "englishMeaning": "公司正在招聘。"
+    },
+    "examples": [
+      {
+        "scenario": "ประกาศงาน",
+        "hanzi": "我们在网上看到了招聘信息。",
+        "pinyin": "Wǒmen zài wǎngshang kàndào le zhāopìn xìnxī.",
+        "thaiMeaning": "พวกเราเห็นข้อมูลข่าวรับสมัครงานบนอินเทอร์เน็ต",
+        "englishMeaning": "我们在网上看到了招聘信息。"
+      }
+    ]
+  },
+  {
+    "id": "v634",
+    "hanzi": "简历",
+    "pinyin": "jiǎnlì",
+    "thaiMeaning": "เรซูเม่ / ประวัติส่วนตัว (CV)",
+    "englishMeaning": "简历",
+    "example": {
+      "hanzi": "投递简历。",
+      "pinyin": "Tóudì jiǎnlì.",
+      "thaiMeaning": "ยื่นส่งเรซูเม่สมัครงาน",
+      "englishMeaning": "投递简历。"
+    },
+    "examples": [
+      {
+        "scenario": "เตรียมสมัครงาน",
+        "hanzi": "请把个人简历发到我的邮箱。",
+        "pinyin": "Qǐng bǎ gèrén jiǎnlì fā dào wǒ de yóuxiāng.",
+        "thaiMeaning": "กรุณาส่งเรซูเม่ประวัติส่วนตัวมาที่อีเมลของฉันนะ",
+        "englishMeaning": "请把个人简历发到我的邮箱。"
+      }
+    ]
+  },
+  {
+    "id": "v635",
+    "hanzi": "面试",
+    "pinyin": "miànshì",
+    "thaiMeaning": "สัมภาษณ์งาน / การสัมภาษณ์",
+    "englishMeaning": "面试",
+    "example": {
+      "hanzi": "参加面试。",
+      "pinyin": "Cānjiā miànshì.",
+      "thaiMeaning": "เข้าร่วมการสัมภาษณ์งาน",
+      "englishMeaning": "参加面试。"
+    },
+    "examples": [
+      {
+        "scenario": "อวยพรสัมภาษณ์",
+        "hanzi": "祝你明天的面试顺利成功！",
+        "pinyin": "Zhù nǐ míngtiān de miànshì shùnlì chénggōng!",
+        "thaiMeaning": "ขอให้การสัมภาษณ์งานพรุ่งนี้ของคุณราบรื่นและประสบความสำเร็จนะ!",
+        "englishMeaning": "祝你明天的面试顺利成功！"
+      }
+    ]
+  },
+  {
+    "id": "v636",
+    "hanzi": "投资",
+    "pinyin": "tóuzī",
+    "thaiMeaning": "ลงทุน / การลงทุน",
+    "englishMeaning": "投资",
+    "example": {
+      "hanzi": "投资项目。",
+      "pinyin": "Tóuzī xiàngmù.",
+      "thaiMeaning": "ลงทุนในโปรเจกต์",
+      "englishMeaning": "投资项目。"
+    },
+    "examples": [
+      {
+        "scenario": "การเงินธุรกิจ",
+        "hanzi": "理财需要理性投资。",
+        "pinyin": "Lǐcái xūyào lǐxìng tóuzī.",
+        "thaiMeaning": "การบริหารเงินจำเป็นต้องลงทุนอย่างมีสติเหตุผล",
+        "englishMeaning": "理财需要理性投资。"
+      }
+    ]
+  },
+  {
+    "id": "v637",
+    "hanzi": "市场",
+    "pinyin": "shìchǎng",
+    "thaiMeaning": "ตลาด (ตลาดการค้า/การตลาด)",
+    "englishMeaning": "市场",
+    "example": {
+      "hanzi": "开拓新市场。",
+      "pinyin": "Kāituò xīn shìchǎng.",
+      "thaiMeaning": "บุกเบิกตลาดใหม่",
+      "englishMeaning": "开拓新市场。"
+    },
+    "examples": [
+      {
+        "scenario": "สำรวจการแข่งขัน",
+        "hanzi": "我们需要了解市场的最新需求。",
+        "pinyin": "Wǒmen xūyào liǎojiě shìchǎng de zuìxīn xūqiú.",
+        "thaiMeaning": "พวกเราต้องทำความเข้าใจความต้องการล่าสุดของตลาด",
+        "englishMeaning": "我们需要了解市场的最新需求。"
+      }
+    ]
+  },
+  {
+    "id": "v638",
+    "hanzi": "方案",
+    "pinyin": "fāng'àn",
+    "thaiMeaning": "แผนงาน / ข้อเสนอโครงการ",
+    "englishMeaning": "方案",
+    "example": {
+      "hanzi": "制定方案。",
+      "pinyin": "Zhìdìng fāng'àn.",
+      "thaiMeaning": "กำหนดร่างแผนงานโครงการ",
+      "englishMeaning": "制定方案。"
+    },
+    "examples": [
+      {
+        "scenario": "เลือกโซลูชัน",
+        "hanzi": "这个方案得到了大家的一致赞同。",
+        "pinyin": "Zhège fāng'àn dédào le dàjiā de yízhì zàantóng.",
+        "thaiMeaning": "แผนงานนี้ได้รับการยอมรับเห็นพ้องจากทุกคน",
+        "englishMeaning": "这个方案得到了大家的一致赞同。"
+      }
+    ]
+  },
+  {
+    "id": "v639",
+    "hanzi": "压力",
+    "pinyin": "yālì",
+    "thaiMeaning": "ความกดดัน / ความเครียด",
+    "englishMeaning": "压力",
+    "example": {
+      "hanzi": "缓解工作压力。",
+      "pinyin": "Huǎnjiě gōngzuò yālì.",
+      "thaiMeaning": "ผ่อนคลายความกดดันจากการทำงาน",
+      "englishMeaning": "缓解工作压力。"
+    },
+    "examples": [
+      {
+        "scenario": "ปรับสภาพจิตใจ",
+        "hanzi": "学会自我调节，释放压力。",
+        "pinyin": "Xuéhuì zìwǒ tiáojié, shìfàng yālì.",
+        "thaiMeaning": "เรียนรู้การปรับสภาพตัวเอง ปลดปล่อยความกดดันเครียด",
+        "englishMeaning": "学会自我调节，释放压力。"
+      }
+    ]
+  },
+  {
+    "id": "v640",
+    "hanzi": "沟通",
+    "pinyin": "gōutōng",
+    "thaiMeaning": "เจรจาสื่อสาร / ปรับความเข้าใจ",
+    "englishMeaning": "沟通",
+    "example": {
+      "hanzi": "加强沟通。",
+      "pinyin": "Jiāqiáng gōutōng.",
+      "thaiMeaning": "ยกระดับการเจรจาสื่อสารให้แน่นแฟ้น",
+      "englishMeaning": "加强沟通。"
+    },
+    "examples": [
+      {
+        "scenario": "ความสัมพันธ์ทีม",
+        "hanzi": "良好沟通是团队合作的基础。",
+        "pinyin": "Liánghǎo gōutōng shì tuánduì hézuò de jīchǔ.",
+        "thaiMeaning": "การเจรจาสื่อสารที่ดีคือรากฐานของการทำงานร่วมกันเป็นทีม",
+        "englishMeaning": "良好沟通是团队合作的基础。"
+      }
+    ]
+  },
+  {
+    "id": "v641",
+    "hanzi": "确认",
+    "pinyin": "quèrèn",
+    "thaiMeaning": "ยืนยัน (ข้อมูล/การจอง)",
+    "englishMeaning": "确认",
+    "example": {
+      "hanzi": "确认订单信息。",
+      "pinyin": "Quèrèn dìngdān xìnxī.",
+      "thaiMeaning": "ยืนยันข้อมูลออเดอร์คำสั่งซื้อ",
+      "englishMeaning": "确认订单信息。"
+    },
+    "examples": [
+      {
+        "scenario": "เช็กการจองโรงแรม",
+        "hanzi": "请向酒店确认预订情况。",
+        "pinyin": "Qǐng xiàng jiǔdiàn quèrèn yùdìng qíngkuàng.",
+        "thaiMeaning": "กรุณายืนยันสถานะการจองกับทางโรงแรมนะ",
+        "englishMeaning": "请向酒店确认预订情况。"
+      }
+    ]
+  },
+  {
+    "id": "v642",
+    "hanzi": "放弃",
+    "pinyin": "fàngqì",
+    "thaiMeaning": "ยอมแพ้ / ละทิ้งสิทธิ์",
+    "englishMeaning": "放弃",
+    "example": {
+      "hanzi": "绝不放弃！",
+      "pinyin": "Jué bù fàngqì!",
+      "thaiMeaning": "ไม่มีวันยอมแพ้เด็ดขาด!",
+      "englishMeaning": "绝不放弃！"
+    },
+    "examples": [
+      {
+        "scenario": "ปลุกใจ",
+        "hanzi": "遇到一点困难不能轻易放弃。",
+        "pinyin": "Yùdào yìdiǎn kùnnan bù néng qīngyì fàngqì.",
+        "thaiMeaning": "เจออุปสรรคเล็กน้อยก็ไม่ควรรีบยอมแพ้ง่ายๆ",
+        "englishMeaning": "遇到一点困难不能轻易放弃。"
+      }
+    ]
+  },
+  {
+    "id": "v643",
+    "hanzi": "克服",
+    "pinyin": "kèfú",
+    "thaiMeaning": "ก้าวข้าม / เอาชนะ (อุปสรรค/ความกลัว)",
+    "englishMeaning": "克服",
+    "example": {
+      "hanzi": "克服恐惧。",
+      "pinyin": "Kèfú kǒngjù.",
+      "thaiMeaning": "เอาชนะความหวาดกลัว",
+      "englishMeaning": "克服恐惧。"
+    },
+    "examples": [
+      {
+        "scenario": "พัฒนาตนเอง",
+        "hanzi": "我们要努力克服一切困难。",
+        "pinyin": "Wǒmen yào nǔlì kèfú yíqiè kùnnan.",
+        "thaiMeaning": "พวกเราต้องขยันพยายามก้าวข้ามทุกอุปสรรคปัญหา",
+        "englishMeaning": "我们要努力克服一切困难。"
+      }
+    ]
+  },
+  {
+    "id": "v644",
+    "hanzi": "证明",
+    "pinyin": "zhèngmíng",
+    "thaiMeaning": "พิสูจน์ / หลักฐานยืนยัน",
+    "englishMeaning": "证明",
+    "example": {
+      "hanzi": "用事实证明。",
+      "pinyin": "Yòng shìshí zhèngmíng.",
+      "thaiMeaning": "ใช้ความจริงเป็นสิ่งพิสูจน์",
+      "englishMeaning": "用事实证明。"
+    },
+    "examples": [
+      {
+        "scenario": "พิสูจน์ฝีมือ",
+        "hanzi": "时间会证明你的努力是值得的。",
+        "pinyin": "Shíjiān huì zhèngmíng nǐ de nǔlì shì zhíde de.",
+        "thaiMeaning": "กาลเวลาจะเป็นสิ่งพิสูจน์ว่าความพยายามของคุณคุ้มค่า",
+        "englishMeaning": "时间会证明你的努力是值得的。"
+      }
+    ]
+  },
+  {
+    "id": "v645",
+    "hanzi": "值得",
+    "pinyin": "zhíde",
+    "thaiMeaning": "คุ้มค่าแก่การ... / คุ้มค่า",
+    "englishMeaning": "值得",
+    "example": {
+      "hanzi": "非常值得。",
+      "pinyin": "Fēicháng zhíde.",
+      "thaiMeaning": "คุ้มค่าเป็นอย่างยิ่ง",
+      "englishMeaning": "非常值得。"
+    },
+    "examples": [
+      {
+        "scenario": "เที่ยวหรือเรียน",
+        "hanzi": "这部电影非常感人，值得一看。",
+        "pinyin": "Zhè bù diànyǐng fēicháng gǎnrén, zhíde yí kàn.",
+        "thaiMeaning": "ภาพยนตร์เรื่องนี้ซาบซึ้งใจมาก คุ้มค่าแก่การรับชม",
+        "englishMeaning": "这部电影非常感人，值得一看。"
+      }
+    ]
+  },
+  {
+    "id": "v646",
+    "hanzi": "优势",
+    "pinyin": "yōushì",
+    "thaiMeaning": "ข้อได้เปรียบ / จุดแข็ง",
+    "englishMeaning": "优势",
+    "example": {
+      "hanzi": "发挥自身优势。",
+      "pinyin": "Fāhuī zìshēn yōushì.",
+      "thaiMeaning": "แสดงข้อได้เปรียบจุดแข็งของตัวเองออกมา",
+      "englishMeaning": "发挥自身优势。"
+    },
+    "examples": [
+      {
+        "scenario": "การแข่งขันธุรกิจ",
+        "hanzi": "我们在价格上有明显优势。",
+        "pinyin": "Wǒmen zài jiàgé shàng yǒu míngxiǎn yōushì.",
+        "thaiMeaning": "พวกเราในเรื่องราคามีข้อได้เปรียบจุดแข็งที่ชัดเจนมาก",
+        "englishMeaning": "我们在价格上有明显优势。"
+      }
+    ]
+  },
+  {
+    "id": "v647",
+    "hanzi": "信任",
+    "pinyin": "xìnrèn",
+    "thaiMeaning": "ความไว้วางใจ / เชื่อใจ",
+    "englishMeaning": "信任",
+    "example": {
+      "hanzi": "赢得客户的信任。",
+      "pinyin": "Yíngdé kèhù de xìnrèn.",
+      "thaiMeaning": "คว้าความไว้วางใจจากลูกค้ามาได้",
+      "englishMeaning": "赢得客户的信任。"
+    },
+    "examples": [
+      {
+        "scenario": "การทำงานทีม",
+        "hanzi": "团队成员之间需要相互信任。",
+        "pinyin": "Tuánduì chéngyuán zhījiān xūyào xiānghù xìnrèn.",
+        "thaiMeaning": "สมาชิกในทีมจำเป็นต้องมีความไว้วางใจซึ่งกันและกัน",
+        "englishMeaning": "团队成员之间需要相互信任。"
+      }
+    ]
+  },
+  {
+    "id": "v648",
+    "hanzi": "竞争",
+    "pinyin": "jìngzhēng",
+    "thaiMeaning": "การแข่งขัน / แข่งขันชิงชัย",
+    "englishMeaning": "竞争",
+    "example": {
+      "hanzi": "市场竞争非常激烈。",
+      "pinyin": "Shìchǎng jìngzhēng fēicháng jīliè.",
+      "thaiMeaning": "การแข่งขันในตลาดดุเดือดมาก",
+      "englishMeaning": "市场竞争非常激烈。"
+    },
+    "examples": [
+      {
+        "scenario": "การเติบโตธุรกิจ",
+        "hanzi": "良性竞争有助于提高产品质量。",
+        "pinyin": "Liángxìng jìngzhēng yǒu zhù yú tígāo chǎnpǐn zhìliàng.",
+        "thaiMeaning": "การแข่งขันเชิงสร้างสรรค์ช่วยยกระดับคุณภาพสินค้า",
+        "englishMeaning": "良性竞争有助于提高产品质量。"
+      }
+    ]
+  },
+  {
+    "id": "v649",
+    "hanzi": "允许",
+    "pinyin": "yǔnxǔ",
+    "thaiMeaning": "อนุญาต / สิทธิให้ทำ",
+    "englishMeaning": "允许",
+    "example": {
+      "hanzi": "这里不允许吸烟。",
+      "pinyin": "Zhèlǐ bù yǔnxǔ xīyān.",
+      "thaiMeaning": "ที่นี่ไม่อนุญาตให้สูบบุหรี่",
+      "englishMeaning": "这里不允许吸烟。"
+    },
+    "examples": [
+      {
+        "scenario": "กฎสถานที่",
+        "hanzi": "未经允许，不得擅自进入。",
+        "pinyin": "Wèijīng yǔnxǔ, bù dé shànzì jìnrù.",
+        "thaiMeaning": "หากไม่ได้รับอนุญาต ห้ามเข้าก่อนโดยพลการ",
+        "englishMeaning": "未经允许，不得擅自进入。"
+      }
+    ]
+  },
+  {
+    "id": "v650",
+    "hanzi": "限制",
+    "pinyin": "xiànzhì",
+    "thaiMeaning": "จำกัด / ข้อจำกัด",
+    "englishMeaning": "限制",
+    "example": {
+      "hanzi": "突破自我限制。",
+      "pinyin": "Tūpò zìwǒ xiànzhì.",
+      "thaiMeaning": "ก้าวข้ามข้อจำกัดของตนเอง",
+      "englishMeaning": "突破自我限制。"
+    },
+    "examples": [
+      {
+        "scenario": "ความเร็วขับขี่",
+        "hanzi": "这条道路限制最高车速为八十。",
+        "pinyin": "Zhè tiáo dàolù xiànzhì zuì gāo chēsù wéi bāshí.",
+        "thaiMeaning": "ถนนสายนี้จำกัดความเร็วสูงสุดไว้ที่ 80",
+        "englishMeaning": "这条道路限制最高车速为八十。"
+      }
+    ]
+  },
+  {
+    "id": "v651",
+    "hanzi": "极其",
+    "pinyin": "jíqí",
+    "thaiMeaning": "เป็นอย่างยิ่ง / สุดๆ",
+    "englishMeaning": "极其",
+    "example": {
+      "hanzi": "这个问题极其重要。",
+      "pinyin": "Zhège wèntí jíqí zhòngyào.",
+      "thaiMeaning": "ปัญหานี้มีความสำคัญเป็นอย่างยิ่ง",
+      "englishMeaning": "这个问题极其重要。"
+    },
+    "examples": [
+      {
+        "scenario": "ชื่นชมทัศนียภาพ",
+        "hanzi": "这里的风景极其优美。",
+        "pinyin": "Zhèlǐ de fēngjǐng jíqí yōuměi.",
+        "thaiMeaning": "ทัศนียภาพงดงามเป็นอย่างยิ่ง",
+        "englishMeaning": "这里的风景极其优美。"
+      }
+    ]
+  },
+  {
+    "id": "v652",
+    "hanzi": "稍微",
+    "pinyin": "shāowēi",
+    "thaiMeaning": "นิดหน่อย / เล็กน้อย",
+    "englishMeaning": "稍微",
+    "example": {
+      "hanzi": "请稍微等一下。",
+      "pinyin": "Qǐng shāowēi děng yíxià.",
+      "thaiMeaning": "กรุณารอแป๊บนึงนิดหน่อยนะ",
+      "englishMeaning": "请稍微等一下。"
+    },
+    "examples": [
+      {
+        "scenario": "ปรับปรุงงาน",
+        "hanzi": "只需稍微修改一下即可。",
+        "pinyin": "Zhǐ xū shāowēi xiūgǎi yíxià jíkě.",
+        "thaiMeaning": "เพียงแค่ปรับแก้ไขเล็กน้อยนิดหน่อยก็ใช้ได้แล้ว",
+        "englishMeaning": "只需稍微修改一下即可。"
+      }
+    ]
+  },
+  {
+    "id": "v653",
+    "hanzi": "几乎",
+    "pinyin": "jīhū",
+    "thaiMeaning": "เกือบจะ / แทบจะ",
+    "englishMeaning": "几乎",
+    "example": {
+      "hanzi": "我几乎要忘了。",
+      "pinyin": "Wǒ jīhū yào wàng le.",
+      "thaiMeaning": "ฉันเกือบจะลืมไปแล้ว",
+      "englishMeaning": "我几乎要忘了。"
+    },
+    "examples": [
+      {
+        "scenario": "การทำงานหนัก",
+        "hanzi": "他最近忙得几乎没时间睡觉。",
+        "pinyin": "Tā zuìjìn máng de jīhū méi shíjiān shuìjiào.",
+        "thaiMeaning": "หมู่นี้เขายุ่งมากจนแทบไม่มีเวลานอน",
+        "englishMeaning": "他最近忙得几乎没时间睡觉。"
+      }
+    ]
+  },
+  {
+    "id": "v654",
+    "hanzi": "偶尔",
+    "pinyin": "ǒu'ěr",
+    "thaiMeaning": "เป็นบางครั้ง / นานๆ ที",
+    "englishMeaning": "偶尔",
+    "example": {
+      "hanzi": "我偶尔去吃快餐。",
+      "pinyin": "Wǒ ǒu'ěr qù chī kuàicān.",
+      "thaiMeaning": "นานๆ ทีฉันจะไปทานฟาสต์ฟู้ด",
+      "englishMeaning": "我偶尔去吃快餐。"
+    },
+    "examples": [
+      {
+        "scenario": "กิจกรรมยามว่าง",
+        "hanzi": "他偶尔会在周末去钓鱼。",
+        "pinyin": "Tā ǒu'ěr huì zài zhōumò qù diàoyú.",
+        "thaiMeaning": "นานๆ ทีเขาจะไปตกปลาในสุดสัปดาห์",
+        "englishMeaning": "他偶尔会在周末去钓鱼。"
+      }
+    ]
+  },
+  {
+    "id": "v655",
+    "hanzi": "逐渐",
+    "pinyin": "zhújiàn",
+    "thaiMeaning": "ค่อยๆ / ค่อยๆ เป็นค่อยๆ ไปตามลำดับ",
+    "englishMeaning": "逐渐",
+    "example": {
+      "hanzi": "天气逐渐变冷了。",
+      "pinyin": "Tiānqì zhújiàn biàn lěng le.",
+      "thaiMeaning": "สภาพอากาศค่อยๆ หนาวเย็นขึ้นแล้ว",
+      "englishMeaning": "天气逐渐变冷了。"
+    },
+    "examples": [
+      {
+        "scenario": "การฟื้นตัว",
+        "hanzi": "经过治疗，他的身体逐渐恢复了。",
+        "pinyin": "Jīngguò zhìliáo, tā de shēntǐ zhújiàn huīfù le.",
+        "thaiMeaning": "ผ่านการรักษา สุขภาพร่างกายของเขาค่อยๆ ฟื้นตัวแล้ว",
+        "englishMeaning": "经过治疗，他的身体逐渐恢复了。"
+      }
+    ]
+  },
+  {
+    "id": "v656",
+    "hanzi": "必然",
+    "pinyin": "bìrán",
+    "thaiMeaning": "ย่อมหลีกเลี่ยงไม่ได้ / เป็นสิ่งที่ต้องเกิดขึ้นแน่นอน",
+    "englishMeaning": "必然",
+    "example": {
+      "hanzi": "这是必然的结果。",
+      "pinyin": "Zhè shì bìrán de jiéguǒ.",
+      "thaiMeaning": "นี่คือผลลัพธ์ที่ย่อมเกิดขึ้นแน่นอน",
+      "englishMeaning": "这是必然的结果。"
+    },
+    "examples": [
+      {
+        "scenario": "สัจธรรมชีวิต",
+        "hanzi": "付出努力必然会有回报。",
+        "pinyin": "Fùchū nǔlì bìrán huì yǒu huíbào.",
+        "thaiMeaning": "การทุ่มเทพยายามย่อมได้รับผลตอบแทนแน่นอน",
+        "englishMeaning": "付出努力必然会有回报。"
+      }
+    ]
+  },
+  {
+    "id": "v657",
+    "hanzi": "充分",
+    "pinyin": "chōngfèn",
+    "thaiMeaning": "เพียงพอเต็มที่ / ครอบคลุม",
+    "englishMeaning": "充分",
+    "example": {
+      "hanzi": "做好充分准备。",
+      "pinyin": "Zuò hǎo chōngfèn zhǔnbèi.",
+      "thaiMeaning": "เตรียมตัวให้พร้อมอย่างเต็มที่",
+      "englishMeaning": "做好充分准备。"
+    },
+    "examples": [
+      {
+        "scenario": "อธิบายเหตุผล",
+        "hanzi": "我们需要理由充分的证据。",
+        "pinyin": "Wǒmen xūyào lǐyóu chōngfèn de zhèngjù.",
+        "thaiMeaning": "พวกเราต้องการหลักฐานที่มีเหตุผลเพียงพอเต็มที่",
+        "englishMeaning": "我们需要理由充分的证据。"
+      }
+    ]
+  },
+  {
+    "id": "v658",
+    "hanzi": "适当",
+    "pinyin": "shìdàng",
+    "thaiMeaning": "พอเหมาะพอดี / เหมาะสมแก่กาลเทศะ",
+    "englishMeaning": "适当",
+    "example": {
+      "hanzi": "适当放松一下。",
+      "pinyin": "Shìdàng fàngsōng yíxià.",
+      "thaiMeaning": "ผ่อนคลายสักหน่อยอย่างพอเหมาะพอดี",
+      "englishMeaning": "适当放松一下。"
+    },
+    "examples": [
+      {
+        "scenario": "การออกกำลังกาย",
+        "hanzi": "适当的运动有助于保持健康。",
+        "pinyin": "Shìdàng de yùndòng yǒu zhù yú bǎochí jiànkāng.",
+        "thaiMeaning": "การออกกำลังกายอย่างพอเหมาะช่วยรักษาสุขภาพได้",
+        "englishMeaning": "适当的运动有助于保持健康。"
+      }
+    ]
+  },
+  {
+    "id": "v659",
+    "hanzi": "无论",
+    "pinyin": "wúlùn",
+    "thaiMeaning": "ไม่ว่า...ก็ตาม",
+    "englishMeaning": "无论",
+    "example": {
+      "hanzi": "无论如何都要坚持。",
+      "pinyin": "Wúlùn rúhé dōu yào jiānchí.",
+      "thaiMeaning": "ไม่ว่าอย่างไรก็ตามต้องยืนหยัดต่อไป",
+      "englishMeaning": "无论如何都要坚持。"
+    },
+    "examples": [
+      {
+        "scenario": "มิตรภาพ",
+        "hanzi": "无论遇到什么困难，我都支持你。",
+        "pinyin": "Wúlùn yùdào shénme kùnnan, wǒ dōu zhīchí nǐ.",
+        "thaiMeaning": "ไม่ว่าจะเจออุปสรรคอะไร ฉันก็สนับสนุนคุณเสมอ",
+        "englishMeaning": "无论遇到什么困难，我都支持你。"
+      }
+    ]
+  },
+  {
+    "id": "v660",
+    "hanzi": "既然",
+    "pinyin": "jìrán",
+    "thaiMeaning": "ในเมื่อ / ในเมื่อ...แล้วล่ะก็",
+    "englishMeaning": "既然",
+    "example": {
+      "hanzi": "既然来了就多坐一会儿。",
+      "pinyin": "Jìrán lái le jiù duō zuò yíhuìr.",
+      "thaiMeaning": "ในเมื่อมาแล้ว ก็นั่งคุยต่อนานอีกหน่อยนะ",
+      "englishMeaning": "既然来了就多坐一会儿。"
+    },
+    "examples": [
+      {
+        "scenario": "ตัดสินใจร่วมกัน",
+        "hanzi": "既然决定了，就全力以赴去做了。",
+        "pinyin": "Jìrán juédìng le, jiù quán lì yǐ fù qù zuò le.",
+        "thaiMeaning": "ในเมื่อตัดสินใจแล้ว ก็ทุ่มเทสุดกำลังไปทำกันเถอะ",
+        "englishMeaning": "既然决定了，就全力以赴去做了。"
+      }
+    ]
+  },
+  {
+    "id": "v661",
+    "hanzi": "属于",
+    "pinyin": "shǔyú",
+    "thaiMeaning": "เป็นของ... / สังกัดอยู่ใน...",
+    "englishMeaning": "属于",
+    "example": {
+      "hanzi": "胜利属于我们！",
+      "pinyin": "Shènglì shǔyú wǒmen!",
+      "thaiMeaning": "ชัยชนะย่อมเป็นของพวกเรา!",
+      "englishMeaning": "胜利属于我们！"
+    },
+    "examples": [
+      {
+        "scenario": "กรรมสิทธิ์",
+        "hanzi": "这本字典属于图书馆。",
+        "pinyin": "Zhè běn zìdiǎn shǔyú túshūguǎn.",
+        "thaiMeaning": "พจนานุกรมเล่มนี้เป็นของห้องสมุด",
+        "englishMeaning": "这本字典属于图书馆。"
+      }
+    ]
+  },
+  {
+    "id": "v662",
+    "hanzi": "包含",
+    "pinyin": "bāohán",
+    "thaiMeaning": "ครอบคลุมรวมถึง / บรรจุไว้",
+    "englishMeaning": "包含",
+    "example": {
+      "hanzi": "费用包含早餐。",
+      "pinyin": "Fèiyòng bāohán zǎocān.",
+      "thaiMeaning": "ค่าใช้จ่ายรวมถึงอาหารเช้าด้วย",
+      "englishMeaning": "费用包含早餐。"
+    },
+    "examples": [
+      {
+        "scenario": "รายละเอียดบริการ",
+        "hanzi": "套餐包含住宿和机票。",
+        "pinyin": "Tàocān bāohán zhùsù hé jīpiào.",
+        "thaiMeaning": "แพ็กเกจนี้รวมถึงที่พักและตั๋วเครื่องบิน",
+        "englishMeaning": "套餐包含住宿和机票。"
+      }
+    ]
+  },
+  {
+    "id": "v663",
+    "hanzi": "采取",
+    "pinyin": "cǎiqǔ",
+    "thaiMeaning": "ปรับใช้ / ดำเนินการมาตรการ",
+    "englishMeaning": "采取",
+    "example": {
+      "hanzi": "采取有效措施。",
+      "pinyin": "Cǎiqǔ yǒuxiào cuòshī.",
+      "thaiMeaning": "ดำเนินการมาตรการที่มีประสิทธิภาพ",
+      "englishMeaning": "采取有效措施。"
+    },
+    "examples": [
+      {
+        "scenario": "แก้ไขปัญหาวิกฤต",
+        "hanzi": "公司将采取积极行动解决问题。",
+        "pinyin": "Gōngsī jiāng cǎiqǔ jījí xíngdòng jiějué wèntí.",
+        "thaiMeaning": "บริษัทจะดำเนินการเชิงบวกเพื่อแก้ไขปัญหา",
+        "englishMeaning": "公司将采取积极行动解决问题。"
+      }
+    ]
+  },
+  {
+    "id": "v664",
+    "hanzi": "调查",
+    "pinyin": "diàochá",
+    "thaiMeaning": "สำรวจ / สืบสวนสอบถาม",
+    "englishMeaning": "调查",
+    "example": {
+      "hanzi": "进行市场调查。",
+      "pinyin": "Jìnxíng shìchǎng diàochá.",
+      "thaiMeaning": "ดำเนินความสำรวจวิจัยตลาด",
+      "englishMeaning": "进行市场调查。"
+    },
+    "examples": [
+      {
+        "scenario": "แบบสอบถามลูกค้า",
+        "hanzi": "调查显示大家都很喜欢新产品。",
+        "pinyin": "Diàochá xiǎnshì dàjiā dōu hěn xǐhuan xīn chǎnpǐn.",
+        "thaiMeaning": "ผลสำรวจแสดงให้เห็นว่าทุกคนชอบสินค้าใหม่มาก",
+        "englishMeaning": "调查显示大家都很喜欢新产品。"
+      }
+    ]
+  },
+  {
+    "id": "v665",
+    "hanzi": "恢复",
+    "pinyin": "huīfù",
+    "thaiMeaning": "ฟื้นฟู / กลับคืนสู่สภาพเดิม",
+    "englishMeaning": "恢复",
+    "example": {
+      "hanzi": "恢复健康。",
+      "pinyin": "Huīfù jiànkāng.",
+      "thaiMeaning": "ฟื้นฟูสุขภาพร่างกายให้แข็งแรง",
+      "englishMeaning": "恢复健康。"
+    },
+    "examples": [
+      {
+        "scenario": "ระบบคอมพิวเตอร์",
+        "hanzi": "网络已经恢复正常了。",
+        "pinyin": "Wǎngluò yǐjīng huīfù zhèngcháng le.",
+        "thaiMeaning": "ระบบอินเทอร์เน็ตกลับคืนสู่สภาพปกติเรียบร้อยแล้ว",
+        "englishMeaning": "网络已经恢复正常了。"
+      }
+    ]
+  },
+  {
+    "id": "v666",
+    "hanzi": "缺乏",
+    "pinyin": "quēfá",
+    "thaiMeaning": "ขาดแคลน / ขาดความ...",
+    "englishMeaning": "缺乏",
+    "example": {
+      "hanzi": "缺乏经验。",
+      "pinyin": "Quēfá jīngyàn.",
+      "thaiMeaning": "ขาดประสบการณ์",
+      "englishMeaning": "缺乏经验。"
+    },
+    "examples": [
+      {
+        "scenario": "การทำงาน",
+        "hanzi": "这个项目缺乏资金支持。",
+        "pinyin": "Zhège xiàngmù quēfá zījīn zhīchí.",
+        "thaiMeaning": "โปรเจกต์นี้ขาดแคลนการสนับสนุนเงินทุน",
+        "englishMeaning": "这个项目缺乏资金支持。"
+      }
+    ]
+  },
+  {
+    "id": "v667",
+    "hanzi": "满足",
+    "pinyin": "mǎnzú",
+    "thaiMeaning": "ตอบสนองให้พอใจ / เติมเต็ม",
+    "englishMeaning": "满足",
+    "example": {
+      "hanzi": "满足客户需求。",
+      "pinyin": "Mǎnzú kèhù xūqiú.",
+      "thaiMeaning": "ตอบสนองความต้องการของลูกค้า",
+      "englishMeaning": "满足客户需求。"
+    },
+    "examples": [
+      {
+        "scenario": "ความพึงพอใจชีวิต",
+        "hanzi": "知足常乐，要懂得满足。",
+        "pinyin": "Zhī zú cháng lè, yào dǒngde mǎnzú.",
+        "thaiMeaning": "พอใจในสิ่งที่มีจะมีความสุขเสมอ ต้องรู้จักเติมเต็มพอใจ",
+        "englishMeaning": "知足常乐，要懂得满足。"
+      }
+    ]
+  },
+  {
+    "id": "v668",
+    "hanzi": "吸引",
+    "pinyin": "xīyǐn",
+    "thaiMeaning": "ดึงดูดใจ / ความสนใจ",
+    "englishMeaning": "吸引",
+    "example": {
+      "hanzi": "深深吸引了大家。",
+      "pinyin": "Shēnshēn xīyǐn le dàjiā.",
+      "thaiMeaning": "ดึงดูดความสนใจทุกคนเป็นอย่างยิ่ง",
+      "englishMeaning": "深深吸引了大家。"
+    },
+    "examples": [
+      {
+        "scenario": "โฆษณาสินค้า",
+        "hanzi": "这款设计吸引了很多年轻顾客。",
+        "pinyin": "Zhè kuǎn shèjì xīyǐn le hěn duō niánqīng gùkè.",
+        "thaiMeaning": "ดีไซน์รุ่นนี้ดึงดูดลูกค้าวัยรุ่นจำนวนมาก",
+        "englishMeaning": "这款设计吸引了很多年轻顾客。"
+      }
+    ]
+  },
+  {
+    "id": "v669",
+    "hanzi": "印象",
+    "pinyin": "yìnxiàng",
+    "thaiMeaning": "ความประทับใจ / ภาพจำ",
+    "englishMeaning": "印象",
+    "example": {
+      "hanzi": "留下了深刻的印象。",
+      "pinyin": "Liúxià le shēnkè de yìnxiàng.",
+      "thaiMeaning": "ทิ้งความประทับใจอันตราตรึงใจไว้",
+      "englishMeaning": "留下了深刻的印象。"
+    },
+    "examples": [
+      {
+        "scenario": "การพบกันครั้งแรก",
+        "hanzi": "我对他第一印象非常好。",
+        "pinyin": "Wǒ duì tā dì-yī yìnxiàng fēicháng hǎo.",
+        "thaiMeaning": "ฉันมีความประทับใจแรกต่อเขาดีมากๆ",
+        "englishMeaning": "我对他第一印象非常好。"
+      }
+    ]
+  },
+  {
+    "id": "v670",
+    "hanzi": "深刻",
+    "pinyin": "shēnkè",
+    "thaiMeaning": "ลึกซึ้งตราตรึงใจ / คมคาย",
+    "englishMeaning": "深刻",
+    "example": {
+      "hanzi": "感受深刻。",
+      "pinyin": "Gǎnshòu shēnkè.",
+      "thaiMeaning": "รู้สึกซาบซึ้งตราตรึงใจมาก",
+      "englishMeaning": "感受深刻。"
+    },
+    "examples": [
+      {
+        "scenario": "บทเรียนชีวิต",
+        "hanzi": "这次经历给了我深刻的教训。",
+        "pinyin": "Zhè cì jīnglì gěi le wǒ shēnkè de jiàoxun.",
+        "thaiMeaning": "ประสบการณ์ครั้งนี้ได้มอบบทเรียนอันลึกซึ้งแก่ฉัน",
+        "englishMeaning": "这次经历给了我深刻的教训。"
+      }
+    ]
+  },
+  {
+    "id": "v671",
+    "hanzi": "独特",
+    "pinyin": "dútè",
+    "thaiMeaning": "โดดเด่นเป็นเอกลักษณ์เฉพาะตัว",
+    "englishMeaning": "独特",
+    "example": {
+      "hanzi": "独特的风格。",
+      "pinyin": "Dútè de fēnggé.",
+      "thaiMeaning": "สไตล์เอกลักษณ์เฉพาะตัว",
+      "englishMeaning": "独特的风格。"
+    },
+    "examples": [
+      {
+        "scenario": "ชื่นชมการออกแบบ",
+        "hanzi": "这座建筑的设计非常独特。",
+        "pinyin": "Zhè zuò jiànzhù de shèjì fēicháng dútè.",
+        "thaiMeaning": "การออกแบบอาคารหลังนี้มีเอกลักษณ์เฉพาะตัวมาก",
+        "englishMeaning": "这座建筑的设计非常独特。"
+      }
+    ]
+  },
+  {
+    "id": "v672",
+    "hanzi": "显然",
+    "pinyin": "xiǎnrán",
+    "thaiMeaning": "เห็นได้ชัดว่า / ประจักษ์แจ้ง",
+    "englishMeaning": "显然",
+    "example": {
+      "hanzi": "答案显然是正确的。",
+      "pinyin": "Dá'àn xiǎnrán shì zhèngquè de.",
+      "thaiMeaning": "คำตอบเห็นได้ชัดว่าถูกต้อง",
+      "englishMeaning": "答案显然是正确的。"
+    },
+    "examples": [
+      {
+        "scenario": "สังเกตความรู้สึก",
+        "hanzi": "她显然对这个结果很不满意。",
+        "pinyin": "Tā xiǎnrán duì zhège jiéguǒ hěn bù mǎnyì.",
+        "thaiMeaning": "เธอเห็นได้ชัดว่าไม่พึงพอใจกับผลลัพธ์นี้มาก",
+        "englishMeaning": "她显然对这个结果很不满意。"
+      }
+    ]
+  },
+  {
+    "id": "v673",
+    "hanzi": "正常",
+    "pinyin": "zhèngcháng",
+    "thaiMeaning": "ปกติธรรมดา / สภาพปกติ",
+    "englishMeaning": "正常",
+    "example": {
+      "hanzi": "一切正常。",
+      "pinyin": "Yíqiè zhèngcháng.",
+      "thaiMeaning": "ทุกอย่างปกติดี",
+      "englishMeaning": "一切正常。"
+    },
+    "examples": [
+      {
+        "scenario": "การทำงานเครื่องจักร",
+        "hanzi": "设备目前运转一切正常。",
+        "pinyin": "Shèbèi mùqián yùnzhuǎn yíqiè zhèngcháng.",
+        "thaiMeaning": "อุปกรณ์ในปัจจุบันเดินเครื่องปกติดีทุกประการ",
+        "englishMeaning": "设备目前运转一切正常。"
+      }
+    ]
+  },
+  {
+    "id": "v674",
+    "hanzi": "诚实",
+    "pinyin": "chéngshí",
+    "thaiMeaning": "ซื่อสัตย์สุจริต",
+    "englishMeaning": "诚实",
+    "example": {
+      "hanzi": "做人要诚实。",
+      "pinyin": "Zuò rén yào chéngshí.",
+      "thaiMeaning": "เป็นคนต้องมีความซื่อสัตย์",
+      "englishMeaning": "做人要诚实。"
+    },
+    "examples": [
+      {
+        "scenario": "ชมเพื่อน",
+        "hanzi": "他是一个诚实守信的人。",
+        "pinyin": "Tā shì yí gè chéngshí shǒuxìn de rén.",
+        "thaiMeaning": "เขาเป็นคนซื่อสัตย์รักษาคำพูด",
+        "englishMeaning": "他是一个诚实守信的人。"
+      }
+    ]
+  },
+  {
+    "id": "v675",
+    "hanzi": "勇敢",
+    "pinyin": "yǒnggǎn",
+    "thaiMeaning": "กล้าหาญ / กล้าเผชิญหน้า",
+    "englishMeaning": "勇敢",
+    "example": {
+      "hanzi": "勇敢面对。",
+      "pinyin": "Yǒnggǎn miànduì.",
+      "thaiMeaning": "เผชิญหน้าอย่างกล้าหาญ",
+      "englishMeaning": "勇敢面对。"
+    },
+    "examples": [
+      {
+        "scenario": "ให้กำลังใจเด็ก",
+        "hanzi": "孩子在台上表现得很勇敢。",
+        "pinyin": "Háizi zài táishàng biǎoxiàn de hěn yǒnggǎn.",
+        "thaiMeaning": "เด็กน้อยบนเวทีแสดงออกได้อย่างกล้าหาญมาก",
+        "englishMeaning": "孩子在台上表现得很勇敢。"
+      }
+    ]
+  },
+  {
+    "id": "v676",
+    "hanzi": "幽默",
+    "pinyin": "yōumò",
+    "thaiMeaning": "มีอารมณ์ขัน / ตลกเฮฮา",
+    "englishMeaning": "幽默",
+    "example": {
+      "hanzi": "很有幽默感。",
+      "pinyin": "Hěn yǒu yōumògǎn.",
+      "thaiMeaning": "มีอารมณ์ขันมาก",
+      "englishMeaning": "很有幽默感。"
+    },
+    "examples": [
+      {
+        "scenario": "บรรยากาศการคุย",
+        "hanzi": "他说话风趣幽默，大家都很喜欢他。",
+        "pinyin": "Tā shuōhuà fēngqù yōumò, dàjiā dōu hěn xǐhuan tā.",
+        "thaiMeaning": "เขาคุยสนุกสนานมีอารมณ์ขัน ทุกคนเลยชอบเขามาก",
+        "englishMeaning": "他说话风趣幽默，大家都很喜欢他。"
+      }
+    ]
+  },
+  {
+    "id": "v677",
+    "hanzi": "骄傲",
+    "pinyin": "jiāo'ào",
+    "thaiMeaning": "ภาคภูมิใจ / ทะนงตน",
+    "englishMeaning": "骄傲",
+    "example": {
+      "hanzi": "为你感到骄傲！",
+      "pinyin": "Wèi nǐ gǎndào jiāo'ào!",
+      "thaiMeaning": "รู้สึกภาคภูมิใจในตัวคุณมาก!",
+      "englishMeaning": "为你感到骄傲！"
+    },
+    "examples": [
+      {
+        "scenario": "ความสำเร็จลูก",
+        "hanzi": "取得成绩后不要骄傲自满。",
+        "pinyin": "Qǔdé chéngjì hòu bú yào jiāo'ào zìmǎn.",
+        "thaiMeaning": "หลังจากคว้าความสำเร็จมาได้อย่าเพิ่งถือดีทะนงตน",
+        "englishMeaning": "取得成绩后不要骄傲自满。"
+      }
+    ]
+  },
+  {
+    "id": "v678",
+    "hanzi": "怀疑",
+    "pinyin": "huáiyí",
+    "thaiMeaning": "สงสัย / กังขา",
+    "englishMeaning": "怀疑",
+    "example": {
+      "hanzi": "毫无怀疑。",
+      "pinyin": "Háo wú huáiyí.",
+      "thaiMeaning": "ไม่มีความสงสัยแม้แต่น้อย",
+      "englishMeaning": "毫无怀疑。"
+    },
+    "examples": [
+      {
+        "scenario": "ตรวจสอบเรื่องราว",
+        "hanzi": "我们不能无根据地怀疑别人。",
+        "pinyin": "Wǒmen bù néng wú gēnjù de huáiyí biérén.",
+        "thaiMeaning": "พวกเราไม่ควรสงสัยคนอื่นโดยไร้หลักฐานอ้างอิง",
+        "englishMeaning": "我们不能无根据地怀疑别人。"
+      }
+    ]
+  },
+  {
+    "id": "v679",
+    "hanzi": "尊敬",
+    "pinyin": "zūnjìng",
+    "thaiMeaning": "เคารพยกย่อง / ให้ความเคารพ",
+    "englishMeaning": "尊敬",
+    "example": {
+      "hanzi": "尊敬长辈。",
+      "pinyin": "Zūnjìng zhǎngbèi.",
+      "thaiMeaning": "เคารพผู้หลักผู้ใหญ่",
+      "englishMeaning": "尊敬长辈。"
+    },
+    "examples": [
+      {
+        "scenario": "ความสัมพันธ์ครูนักเรียน",
+        "hanzi": "他是受人尊敬的好老师。",
+        "pinyin": "Tā shì shòu rén zūnjìng de hǎo lǎoshī.",
+        "thaiMeaning": "เขาคือคุณครูที่ดีซึ่งได้รับการเคารพยกย่องจากทุกคน",
+        "englishMeaning": "他是受人尊敬的好老师。"
+      }
+    ]
+  },
+  {
+    "id": "v680",
+    "hanzi": "欣赏",
+    "pinyin": "xīnshǎng",
+    "thaiMeaning": "ชื่นชม / ดื่มด่ำ (งานศิลปะ/คนเก่ง)",
+    "englishMeaning": "欣赏",
+    "example": {
+      "hanzi": "欣赏音乐。",
+      "pinyin": "Xīnshǎng yīnyuè.",
+      "thaiMeaning": "ดื่มด่ำรับฟังเสียงดนตรี",
+      "englishMeaning": "欣赏音乐。"
+    },
+    "examples": [
+      {
+        "scenario": "ชมเพื่อนร่วมงาน",
+        "hanzi": "我非常欣赏他的工作才能。",
+        "pinyin": "Wǒ fēicháng xīnshǎng tā de gōngzuò cáinéng.",
+        "thaiMeaning": "ฉันชื่นชมความสามารถในการทำงานของเขาเป็นอย่างยิ่ง",
+        "englishMeaning": "我非常欣赏他的工作才能。"
+      }
+    ]
+  },
+  {
+    "id": "v681",
+    "hanzi": "同情",
+    "pinyin": "tóngqíng",
+    "thaiMeaning": "เห็นอกเห็นใจ",
+    "englishMeaning": "同情",
+    "example": {
+      "hanzi": "值得同情。",
+      "pinyin": "Zhíde tóngqíng.",
+      "thaiMeaning": "สมควรแก่การเห็นอกเห็นใจ",
+      "englishMeaning": "值得同情。"
+    },
+    "examples": [
+      {
+        "scenario": "ช่วยเหลือคนอื่น",
+        "hanzi": "我们应对遭遇不幸的人充满同情。",
+        "pinyin": "Wǒmen yìng duì zāoyù búxìng de rén chōngmǎn tóngqíng.",
+        "thaiMeaning": "พวกเราควรเปี่ยมไปด้วยความเห็นอกเห็นใจผู้ที่พบเจอความโชคร้าย",
+        "englishMeaning": "我们应对遭遇不幸的人充满同情。"
+      }
+    ]
+  },
+  {
+    "id": "v682",
+    "hanzi": "并且",
+    "pinyin": "bìngqiě",
+    "thaiMeaning": "และยัง...อีกด้วย / แถมยัง",
+    "englishMeaning": "并且",
+    "example": {
+      "hanzi": "好用并且便宜。",
+      "pinyin": "Hǎoyòng bìngqiě piányi.",
+      "thaiMeaning": "ใช้ง่ายแถมยังมีราคาถูกอีกด้วย",
+      "englishMeaning": "好用并且便宜。"
+    },
+    "examples": [
+      {
+        "scenario": "ชมสินค้า",
+        "hanzi": "这款手机外观漂亮，并且性能优越。",
+        "pinyin": "Zhè kuǎn shǒujī wàiguān piàoliang, bìngqiě xìngnéng yōuyuè.",
+        "thaiMeaning": "มือถือรุ่นนี้รูปลักษณ์สวยงาม แถมยังมีประสิทธิภาพยอดเยี่ยมอีกด้วย",
+        "englishMeaning": "这款手机外观漂亮，并且性能优越。"
       }
     ]
   }
