@@ -588,11 +588,16 @@ export default function VocabularyView({ onGoHome }) {
                   </div>
                 </div>
 
-                {/* --- BACK OF CARD (Thai Meaning + Multi-Context Examples) --- */}
+                {/* --- BACK OF CARD (Thai Meaning + English Meaning + Multi-Context Examples) --- */}
                 {isFlipped ? (
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', animation: 'fadeIn 0.2s ease', width: '100%' }}>
-                    <div style={{ fontSize: '1.2rem', fontWeight: '800', color: 'var(--text-main)', backgroundColor: '#EEF2FF', padding: '8px 14px', borderRadius: 'var(--radius-sm)', textAlign: 'center' }}>
-                      แปลว่า: {currentFlashcard.thaiMeaning}
+                    <div style={{ fontSize: '1.15rem', fontWeight: '800', color: 'var(--text-main)', backgroundColor: '#EEF2FF', padding: '10px 14px', borderRadius: 'var(--radius-sm)', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                      <div>แปล: {currentFlashcard.thaiMeaning}</div>
+                      {currentFlashcard.englishMeaning && (
+                        <div style={{ fontSize: '0.92rem', fontWeight: '700', color: '#4F46E5' }}>
+                          🇬🇧 EN: {currentFlashcard.englishMeaning}
+                        </div>
+                      )}
                     </div>
 
                     {getExamples(currentFlashcard).length > 0 && (
@@ -656,6 +661,11 @@ export default function VocabularyView({ onGoHome }) {
                             </div>
                             <div style={{ color: 'var(--text-muted)', fontSize: '0.82rem' }}>
                               แปล: {ex.thaiMeaning}
+                              {ex.englishMeaning && (
+                                <span style={{ color: '#4F46E5', fontWeight: '600', marginLeft: '6px' }}>
+                                  ({ex.englishMeaning})
+                                </span>
+                              )}
                             </div>
                           </div>
                         ))}
@@ -773,7 +783,14 @@ export default function VocabularyView({ onGoHome }) {
                 </div>
               </div>
 
-              <div className="thai-meaning-text">แปล: {item.thaiMeaning}</div>
+              <div className="thai-meaning-text" style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                <div>แปล: {item.thaiMeaning}</div>
+                {item.englishMeaning && (
+                  <div style={{ fontSize: '0.86rem', color: '#4F46E5', fontWeight: '600' }}>
+                    🇬🇧 EN: {item.englishMeaning}
+                  </div>
+                )}
+              </div>
 
               {getExamples(item).length > 0 && (
                 <div style={{ borderTop: '1px dashed var(--border-light)', paddingTop: '10px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -807,7 +824,14 @@ export default function VocabularyView({ onGoHome }) {
                       </div>
                       <div style={{ fontFamily: 'var(--font-chinese)', fontWeight: '600', fontSize: '0.98rem' }}>{ex.hanzi}</div>
                       <div style={{ color: 'var(--accent-blue)', fontSize: '0.84rem' }}>{ex.pinyin}</div>
-                      <div style={{ color: 'var(--text-muted)' }}>แปล: {ex.thaiMeaning}</div>
+                      <div style={{ color: 'var(--text-muted)' }}>
+                        แปล: {ex.thaiMeaning}
+                        {ex.englishMeaning && (
+                          <span style={{ color: '#4F46E5', fontWeight: '600', marginLeft: '6px' }}>
+                            ({ex.englishMeaning})
+                          </span>
+                        )}
+                      </div>
                     </div>
                   ))}
                 </div>

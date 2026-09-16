@@ -1,12 +1,13 @@
-﻿import React, { useEffect, useMemo, useState } from 'react';
-import { ArrowRight, Check, ChevronLeft, ChevronRight, Clock3, Heart, MessageCircle, Mic2, PencilLine, Play, RefreshCw, Save, ShieldCheck, Sparkles, SwitchCamera, Volume2, X } from 'lucide-react';
+import React, { useEffect, useMemo, useState } from 'react';
+import { ArrowRight, Check, ChevronLeft, ChevronRight, Clock3, Heart, MessageCircle, Mic2, PencilLine, Play, RefreshCw, Save, ShieldCheck, Sparkles, SwitchCamera, Volume2, X, Copy } from 'lucide-react';
 import { speakChinese } from '../utils/speech';
+import { copyToClipboard } from '../utils/copy';
 import { scenarios, quickReplies, dialogues, survivalPhrases } from '../data/communicationData';
 const STORE='sinostep_communication_progress_v1', PERSONAL='sinostep_personal_sentences_v1';
 const empty={spoken:0,quickCorrect:0,dialogues:0,practiced:[],mastery:{}};
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))||fallback}catch{return fallback}};
 const modes=[['home','ภาพรวม',Sparkles],['scenario','สร้างประโยค',PencilLine],['quick','ตอบทันที',Clock3],['dialogue','บทสนทนา',MessageCircle],['personal','ประโยคของฉัน',Heart],['survival','ประโยคช่วยชีวิต',ShieldCheck]];
-function Phrase({hanzi,pinyin,thai,compact=false,onSpeak}){return <div className={`phrase-block ${compact?'compact':''}`}><div><strong>{hanzi}</strong><span>{pinyin}</span><small>{thai}</small></div><button type="button" aria-label={`ฟังเสียง ${hanzi}`} onClick={()=>{speakChinese(hanzi,.82);onSpeak?.()}}><Volume2 size={19}/></button></div>}
+function Phrase({hanzi,pinyin,thai,english,compact=false,onSpeak}){return <div className={`phrase-block ${compact?'compact':''}`}><div><strong>{hanzi}</strong><span>{pinyin}</span><small>{thai}</small>{english && <small style={{ color: '#6366F1', fontWeight: '700' }}>🇬🇧 EN: {english}</small>}</div><div style={{ display: 'flex', gap: '4px' }}><button type="button" aria-label={`คัดลอก ${hanzi}`} onClick={()=>copyToClipboard(hanzi)}><Copy size={16}/></button><button type="button" aria-label={`ฟังเสียง ${hanzi}`} onClick={()=>{speakChinese(hanzi,.82);onSpeak?.()}}><Volume2 size={19}/></button></div></div>}
 function Section({eyebrow,title,text,children}){return <section className="practice-section"><header><span className="eyebrow">{eyebrow}</span><h2>{title}</h2><p>{text}</p></header>{children}</section>}
 export default function SelfTalkView(){
  const [mode,setMode]=useState('home'),[progress,setProgress]=useState(()=>read(STORE,empty)),[personal,setPersonal]=useState(()=>read(PERSONAL,[]));

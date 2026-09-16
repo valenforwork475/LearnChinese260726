@@ -60,7 +60,14 @@ export default function SentenceCard({ item, audioRate = 0.9 }) {
         <div className="hanzi-text">{item.hanzi}</div>
         <div className="pinyin-text">{item.pinyin}</div>
         <div className="thai-reading-text">อ่าน: {item.thaiReading}</div>
-        <div className="thai-meaning-text">แปล: {item.thaiMeaning}</div>
+        <div className="thai-meaning-text" style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+          <div>แปล: {item.thaiMeaning}</div>
+          {item.englishMeaning && (
+            <div style={{ color: '#4F46E5', fontWeight: '600', fontSize: '0.86rem' }}>
+              🇬🇧 EN: {item.englishMeaning}
+            </div>
+          )}
+        </div>
       </div>
 
       {item.words && item.words.length > 0 && (
@@ -98,6 +105,11 @@ export default function SentenceCard({ item, audioRate = 0.9 }) {
                   <span className="word-chip-hanzi">{w.hanzi}</span>
                   <span style={{ color: 'var(--accent-blue)', fontWeight: '500' }}>({w.pinyin})</span>
                   <span className="word-chip-reading">: {w.thaiMeaning}</span>
+                  {w.englishMeaning && (
+                    <span style={{ color: '#4F46E5', fontWeight: '600', marginLeft: '4px' }}>
+                      [{w.englishMeaning}]
+                    </span>
+                  )}
                 </div>
               ))}
             </div>
