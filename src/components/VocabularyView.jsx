@@ -593,7 +593,7 @@ export default function VocabularyView({ onGoHome }) {
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', animation: 'fadeIn 0.2s ease', width: '100%' }}>
                     <div style={{ fontSize: '1.15rem', fontWeight: '800', color: 'var(--text-main)', backgroundColor: '#EEF2FF', padding: '10px 14px', borderRadius: 'var(--radius-sm)', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '4px' }}>
                       <div>แปล: {currentFlashcard.thaiMeaning}</div>
-                      {currentFlashcard.englishMeaning && (
+                      {currentFlashcard.englishMeaning && currentFlashcard.englishMeaning !== currentFlashcard.thaiMeaning && (
                         <div style={{ fontSize: '0.92rem', fontWeight: '700', color: '#4F46E5' }}>
                           🇬🇧 EN: {currentFlashcard.englishMeaning}
                         </div>
@@ -785,7 +785,7 @@ export default function VocabularyView({ onGoHome }) {
 
               <div className="thai-meaning-text" style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
                 <div>แปล: {item.thaiMeaning}</div>
-                {item.englishMeaning && (
+                {item.englishMeaning && item.englishMeaning !== item.thaiMeaning && (
                   <div style={{ fontSize: '0.86rem', color: '#4F46E5', fontWeight: '600' }}>
                     🇬🇧 EN: {item.englishMeaning}
                   </div>

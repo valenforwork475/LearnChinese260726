@@ -22,8 +22,7 @@ export const selfTalkSentences = [
     pinyin: 'Bā diǎn qǐchuáng.',
     thaiReading: 'ปา เตี่ยน ฉี่ฉวง',
     thaiMeaning: '8 โมงตื่นนอน',
-    englishMeaning: '8 โมงget up',
-    englishMeaning: '8 โมงget up',
+    englishMeaning: 'Get up at eight o\'clock.',
     words: [
       { hanzi: '八点', pinyin: 'bā diǎn', thaiReading: 'ปา เตี่ยน', thaiMeaning: '8 โมง' },
       { hanzi: '起床', pinyin: 'qǐchuáng', thaiReading: 'ฉี่ฉวง', thaiMeaning: 'ตื่นนอน' }
@@ -37,8 +36,7 @@ export const selfTalkSentences = [
     pinyin: 'Qù shuāyá.',
     thaiReading: 'ชวี่ ชวาหยา',
     thaiMeaning: 'ไปแปรงฟัน',
-    englishMeaning: 'ไปbrush teeth',
-    englishMeaning: 'ไปbrush teeth',
+    englishMeaning: 'Go brush your teeth.',
     words: [
       { hanzi: '去', pinyin: 'qù', thaiReading: 'ชวี่', thaiMeaning: 'ไป' },
       { hanzi: '刷牙', pinyin: 'shuāyá', thaiReading: 'ชวาหยา', thaiMeaning: 'แปรงฟัน' }
@@ -52,8 +50,7 @@ export const selfTalkSentences = [
     pinyin: 'Xǐliǎn.',
     thaiReading: 'สีเหลี่ยน',
     thaiMeaning: 'ล้างหน้า',
-    englishMeaning: 'wash face',
-    englishMeaning: 'wash face',
+    englishMeaning: 'Wash your face.',
     words: [
       { hanzi: '洗脸', pinyin: 'xǐliǎn', thaiReading: 'สีเหลี่ยน', thaiMeaning: 'ล้างหน้า' }
     ]
@@ -66,8 +63,7 @@ export const selfTalkSentences = [
     pinyin: 'Xǐzǎo.',
     thaiReading: 'สีเจ้า',
     thaiMeaning: 'อาบน้ำ',
-    englishMeaning: 'take a shower',
-    englishMeaning: 'take a shower',
+    englishMeaning: 'bath.',
     words: [
       { hanzi: '洗澡', pinyin: 'xǐzǎo', thaiReading: 'สีเจ้า', thaiMeaning: 'อาบน้ำ' }
     ]
@@ -82,8 +78,7 @@ export const selfTalkSentences = [
     pinyin: 'Huàn yīfu.',
     thaiReading: 'ฮว่าน อีฝู',
     thaiMeaning: 'แต่งตัว / เปลี่ยนเสื้อผ้า',
-    englishMeaning: 'แต่งตัว / เปลี่ยนเสื้อผ้า',
-    englishMeaning: 'แต่งตัว / เปลี่ยนเสื้อผ้า',
+    englishMeaning: 'Change clothes.',
     words: [
       { hanzi: '换', pinyin: 'huàn', thaiReading: 'ฮว่าน', thaiMeaning: 'เปลี่ยน' },
       { hanzi: '衣服', pinyin: 'yīfu', thaiReading: 'อีฝู', thaiMeaning: 'เสื้อผ้า' }
@@ -97,8 +92,6 @@ export const selfTalkSentences = [
     pinyin: 'Chuān shàngyī.',
     thaiReading: 'ชวน ช่างอี',
     thaiMeaning: 'ใส่เสื้อ',
-    englishMeaning: 'ใส่เสื้อ',
-    englishMeaning: 'ใส่เสื้อ',
     words: [
       { hanzi: '穿', pinyin: 'chuān', thaiReading: 'ชวน', thaiMeaning: 'ใส่/สวม' },
       { hanzi: '上衣', pinyin: 'shàngyī', thaiReading: 'ช่างอี', thaiMeaning: 'เสื้อ' }
@@ -112,8 +105,7 @@ export const selfTalkSentences = [
     pinyin: 'Chuān kùzi.',
     thaiReading: 'ชวน คู้จือ',
     thaiMeaning: 'ใส่กางเกง',
-    englishMeaning: 'ใส่กางเกง',
-    englishMeaning: 'ใส่กางเกง',
+    englishMeaning: 'Wear pants.',
     words: [
       { hanzi: '穿', pinyin: 'chuān', thaiReading: 'ชวน', thaiMeaning: 'ใส่/สวม' },
       { hanzi: '裤子', pinyin: 'kùzi', thaiReading: 'คู้จือ', thaiMeaning: 'กางเกง' }
@@ -127,8 +119,7 @@ export const selfTalkSentences = [
     pinyin: 'Chuān xiézi.',
     thaiReading: 'ชวน เสียจือ',
     thaiMeaning: 'ใส่รองเท้า',
-    englishMeaning: 'ใส่รองเท้า',
-    englishMeaning: 'ใส่รองเท้า',
+    englishMeaning: 'Wear shoes.',
     words: [
       { hanzi: '鞋子', pinyin: 'xiézi', thaiReading: 'เสียจือ', thaiMeaning: 'รองเท้า' }
     ]
@@ -143,8 +134,7 @@ export const selfTalkSentences = [
     pinyin: 'Chūmén.',
     thaiReading: 'ชูเหมิน',
     thaiMeaning: 'ออกจากบ้าน',
-    englishMeaning: 'ออกจากบ้าน',
-    englishMeaning: 'ออกจากบ้าน',
+    englishMeaning: 'Go out.',
     words: [
       { hanzi: '出门', pinyin: 'chūmén', thaiReading: 'ชูเหมิน', thaiMeaning: 'ออกจากบ้าน' }
     ]
@@ -157,8 +147,6 @@ export const selfTalkSentences = [
     pinyin: 'Zuò chē.',
     thaiReading: 'จั้ว เชอ',
     thaiMeaning: 'ขึ้นรถ / นั่งรถ',
-    englishMeaning: 'ขึ้นรถ / นั่งรถ',
-    englishMeaning: 'ขึ้นรถ / นั่งรถ',
     words: [
       { hanzi: '坐', pinyin: 'zuò', thaiReading: 'จั้ว', thaiMeaning: 'นั่ง/ขึ้น' },
       { hanzi: '车', pinyin: 'chē', thaiReading: 'เชอ', thaiMeaning: 'รถ' }
@@ -172,8 +160,7 @@ export const selfTalkSentences = [
     pinyin: 'Qù shàngbān.',
     thaiReading: 'ชวี่ ช่างปาน',
     thaiMeaning: 'ไปทำงาน',
-    englishMeaning: 'go toทำงาน',
-    englishMeaning: 'go toทำงาน',
+    englishMeaning: 'Go to work.',
     words: [
       { hanzi: '去', pinyin: 'qù', thaiReading: 'ชวี่', thaiMeaning: 'ไป' },
       { hanzi: '上班', pinyin: 'shàngbān', thaiReading: 'ช่างปาน', thaiMeaning: 'ทำงาน' }
@@ -187,8 +174,6 @@ export const selfTalkSentences = [
     pinyin: 'Jīntiān shàngbān chídào le.',
     thaiReading: 'จินเทียน ช่างปาน ฉือเต้า เลอ',
     thaiMeaning: 'วันนี้มาทำงานสาย',
-    englishMeaning: 'วันนี้มาทำงานสาย',
-    englishMeaning: 'วันนี้มาทำงานสาย',
     words: [
       { hanzi: '今天', pinyin: 'jīntiān', thaiReading: 'จินเทียน', thaiMeaning: 'วันนี้' },
       { hanzi: '上班', pinyin: 'shàngbān', thaiReading: 'ช่างปาน', thaiMeaning: 'ทำงาน' },
@@ -203,8 +188,7 @@ export const selfTalkSentences = [
     pinyin: 'Dào gōngsī le.',
     thaiReading: 'เต้า กงซือ เลอ',
     thaiMeaning: 'ถึงบริษัทแล้ว',
-    englishMeaning: 'ถึงบริษัทแล้ว',
-    englishMeaning: 'ถึงบริษัทแล้ว',
+    englishMeaning: 'Arrive at the company.',
     words: [
       { hanzi: '到', pinyin: 'dào', thaiReading: 'เต้า', thaiMeaning: 'ถึง' },
       { hanzi: '公司', pinyin: 'gōngsī', thaiReading: 'กงซือ', thaiMeaning: 'บริษัท' }
@@ -218,8 +202,7 @@ export const selfTalkSentences = [
     pinyin: 'Kāishǐ gōngzuò.',
     thaiReading: 'ไคสื่อ กงจั้ว',
     thaiMeaning: 'เริ่มทำงาน',
-    englishMeaning: 'เริ่มทำงาน',
-    englishMeaning: 'เริ่มทำงาน',
+    englishMeaning: 'Get to work.',
     words: [
       { hanzi: '开始', pinyin: 'kāishǐ', thaiReading: 'ไคสื่อ', thaiMeaning: 'เริ่ม' },
       { hanzi: '工作', pinyin: 'gōngzuò', thaiReading: 'กงจั้ว', thaiMeaning: 'ทำงาน' }
@@ -235,8 +218,7 @@ export const selfTalkSentences = [
     pinyin: 'Chī zǎocān.',
     thaiReading: 'ชือ เจ้าซาน',
     thaiMeaning: 'กินข้าวเช้า',
-    englishMeaning: 'eatข้าวเช้า',
-    englishMeaning: 'eatข้าวเช้า',
+    englishMeaning: 'Have breakfast.',
     words: [
       { hanzi: '吃', pinyin: 'chī', thaiReading: 'ชือ', thaiMeaning: 'กิน' },
       { hanzi: '早餐', pinyin: 'zǎocān', thaiReading: 'เจ้าซาน', thaiMeaning: 'อาหารเช้า' }
@@ -250,8 +232,7 @@ export const selfTalkSentences = [
     pinyin: 'Hē shuǐ.',
     thaiReading: 'เฮอ สุ่ย',
     thaiMeaning: 'ดื่มน้ำ',
-    englishMeaning: 'drinkน้ำ',
-    englishMeaning: 'drinkน้ำ',
+    englishMeaning: 'Drink water.',
     words: [
       { hanzi: '喝水', pinyin: 'hē shuǐ', thaiReading: 'เฮอ สุ่ย', thaiMeaning: 'ดื่มน้ำ' }
     ]
@@ -264,8 +245,7 @@ export const selfTalkSentences = [
     pinyin: 'Pào kāfēi.',
     thaiReading: 'พ่าว คาเฟย',
     thaiMeaning: 'ชงกาแฟ',
-    englishMeaning: 'ชงกาแฟ',
-    englishMeaning: 'ชงกาแฟ',
+    englishMeaning: 'Make coffee.',
     words: [
       { hanzi: '泡', pinyin: 'pào', thaiReading: 'พ่าว', thaiMeaning: 'ชง/แช่' },
       { hanzi: '咖啡', pinyin: 'kāfēi', thaiReading: 'คาเฟย', thaiMeaning: 'กาแฟ' }
@@ -279,8 +259,6 @@ export const selfTalkSentences = [
     pinyin: 'Wǔxiū.',
     thaiReading: 'อู่ซิว',
     thaiMeaning: 'พักเที่ยง',
-    englishMeaning: 'พักเที่ยง',
-    englishMeaning: 'พักเที่ยง',
     words: [
       { hanzi: '午休', pinyin: 'wǔxiū', thaiReading: 'อู่ซิว', thaiMeaning: 'พักเที่ยง' }
     ]
@@ -293,8 +271,7 @@ export const selfTalkSentences = [
     pinyin: 'Chī wǔfàn.',
     thaiReading: 'ชือ อู่ฝ้าน',
     thaiMeaning: 'กินข้าวเที่ยง',
-    englishMeaning: 'eatข้าวเที่ยง',
-    englishMeaning: 'eatข้าวเที่ยง',
+    englishMeaning: 'Have lunch.',
     words: [
       { hanzi: '吃', pinyin: 'chī', thaiReading: 'ชือ', thaiMeaning: 'กิน' },
       { hanzi: '午饭', pinyin: 'wǔfàn', thaiReading: 'อู่ฝ้าน', thaiMeaning: 'อาหารเที่ยง' }
@@ -310,8 +287,7 @@ export const selfTalkSentences = [
     pinyin: 'Xiàbān le.',
     thaiReading: 'เซี่ยปาน เลอ',
     thaiMeaning: 'เลิกงานแล้ว',
-    englishMeaning: 'เลิกงานแล้ว',
-    englishMeaning: 'เลิกงานแล้ว',
+    englishMeaning: 'get off work.',
     words: [
       { hanzi: '下班', pinyin: 'xiàbān', thaiReading: 'เซี่ยปาน', thaiMeaning: 'เลิกงาน' }
     ]
@@ -324,8 +300,7 @@ export const selfTalkSentences = [
     pinyin: 'Huíjiā.',
     thaiReading: 'หุยเจีย',
     thaiMeaning: 'กลับบ้าน',
-    englishMeaning: 'กลับบ้าน',
-    englishMeaning: 'กลับบ้าน',
+    englishMeaning: 'go home.',
     words: [
       { hanzi: '回家', pinyin: 'huíjiā', thaiReading: 'หุยเจีย', thaiMeaning: 'กลับบ้าน' }
     ]
@@ -338,8 +313,7 @@ export const selfTalkSentences = [
     pinyin: 'Chī wǎnfàn.',
     thaiReading: 'ชือ หวั่นฝ้าน',
     thaiMeaning: 'กินข้าวเย็น',
-    englishMeaning: 'eatข้าวเย็น',
-    englishMeaning: 'eatข้าวเย็น',
+    englishMeaning: 'Have dinner.',
     words: [
       { hanzi: '吃晚饭', pinyin: 'chī wǎnfàn', thaiReading: 'ชือ หวั่นฝ้าน', thaiMeaning: 'กินอาหารค่ำ' }
     ]
@@ -352,8 +326,7 @@ export const selfTalkSentences = [
     pinyin: 'Zhǔnbèi shuìjiào.',
     thaiReading: 'จุ่นเป่ย ชุ่ยเจี้ยว',
     thaiMeaning: 'เตรียมตัวนอน',
-    englishMeaning: 'เตรียมตัวนอน',
-    englishMeaning: 'เตรียมตัวนอน',
+    englishMeaning: 'Get ready for bed.',
     words: [
       { hanzi: '准备', pinyin: 'zhǔnbèi', thaiReading: 'จุ่นเป่ย', thaiMeaning: 'เตรียมตัว' },
       { hanzi: '睡觉', pinyin: 'shuìjiào', thaiReading: 'ชุ่ยเจี้ยว', thaiMeaning: 'เข้านอน' }
@@ -369,8 +342,6 @@ export const selfTalkSentences = [
     pinyin: 'Wǒ sǎo mǎ fùkuǎn.',
     thaiReading: 'หว่อ ส่าว หม่า ฟู่ขวั่น',
     thaiMeaning: 'ฉันสแกนโค้ดจ่ายเงิน',
-    englishMeaning: 'ฉันสแกนโค้ดจ่ายเงิน',
-    englishMeaning: 'ฉันสแกนโค้ดจ่ายเงิน',
     words: [
       { hanzi: '我', pinyin: 'wǒ', thaiReading: 'หว่อ', thaiMeaning: 'ฉัน' },
       { hanzi: '扫码', pinyin: 'sǎo mǎ', thaiReading: 'ส่าวหม่า', thaiMeaning: 'สแกนโค้ด' },
@@ -385,8 +356,6 @@ export const selfTalkSentences = [
     pinyin: 'Wǒmen zài wǎngshang diǎn wàimài.',
     thaiReading: 'หว่อเมิน ไจ้ หวังซ่าง เตี่ยน หวั่นม่าย',
     thaiMeaning: 'พวกเราสั่งเดลิเวอรีทางเน็ต',
-    englishMeaning: 'พวกเราสั่งเดลิเวอรีทางเน็ต',
-    englishMeaning: 'พวกเราสั่งเดลิเวอรีทางเน็ต',
     words: [
       { hanzi: '我们', pinyin: 'wǒmen', thaiReading: 'หว่อเมิน', thaiMeaning: 'พวกเรา' },
       { hanzi: '在网上', pinyin: 'zài wǎngshang', thaiReading: 'ไจ้หวังซ่าง', thaiMeaning: 'ทางอินเทอร์เน็ต' },
@@ -401,8 +370,6 @@ export const selfTalkSentences = [
     pinyin: 'Qǐngwèn yǒu chōngdiàn xiàn ma?',
     thaiReading: 'ฉิ่งเวิ่น โหย่ว ชงเตี่ยน เซี่ยน มา',
     thaiMeaning: 'ขอถามหน่อย มีสายชาร์จไหม?',
-    englishMeaning: 'please giveถามหน่อย มีสายชาร์จไหม?',
-    englishMeaning: 'please giveถามหน่อย มีสายชาร์จไหม?',
     words: [
       { hanzi: '请问', pinyin: 'qǐngwèn', thaiReading: 'ฉิ่งเวิ่น', thaiMeaning: 'ขอถามหน่อย' },
       { hanzi: '有', pinyin: 'yǒu', thaiReading: 'โหย่ว', thaiMeaning: 'มี' },
@@ -417,8 +384,6 @@ export const selfTalkSentences = [
     pinyin: 'Gàosu wǒ Wi-Fi mìmǎ.',
     thaiReading: 'เก้าซู่ หว่อ ไวไฟ มี่หม่า',
     thaiMeaning: 'บอกรหัสไวไฟให้ฉันหน่อย',
-    englishMeaning: 'บอกรหัสไวไฟให้ฉันหน่อย',
-    englishMeaning: 'บอกรหัสไวไฟให้ฉันหน่อย',
     words: [
       { hanzi: '告诉我', pinyin: 'gàosu wǒ', thaiReading: 'เก้าซู่หว่อ', thaiMeaning: 'บอกฉัน' },
       { hanzi: 'Wi-Fi密码', pinyin: 'Wi-Fi mìmǎ', thaiReading: 'ไวไฟ มี่หม่า', thaiMeaning: 'รหัสผ่าน Wi-Fi' }
@@ -432,8 +397,6 @@ export const selfTalkSentences = [
     pinyin: 'Wǒmen dǎchē qù mùdìdì.',
     thaiReading: 'หว่อเมิน ตาเชอ ชวี่ มู่ตี้ตี้',
     thaiMeaning: 'พวกเราเรียกรถไปจุดหมาย',
-    englishMeaning: 'พวกเราเรียกรถgo toจุดหมาย',
-    englishMeaning: 'พวกเราเรียกรถgo toจุดหมาย',
     words: [
       { hanzi: '我们', pinyin: 'wǒmen', thaiReading: 'หว่อเมิน', thaiMeaning: 'พวกเรา' },
       { hanzi: '打车', pinyin: 'dǎchē', thaiReading: 'ตาเชอ', thaiMeaning: 'เรียกรถ' },
@@ -450,8 +413,6 @@ export const selfTalkSentences = [
     pinyin: 'Qǐng bāng wǒ pāi yì zhāng zhào.',
     thaiReading: 'ฉิ่ง ปาง หว่อ ไพ อี้ จาง เจ้า',
     thaiMeaning: 'ช่วยถ่ายรูปให้ฉันสักรูปหน่อย',
-    englishMeaning: 'ช่วยถ่ายรูปให้ฉันสักรูปหน่อย',
-    englishMeaning: 'ช่วยถ่ายรูปให้ฉันสักรูปหน่อย',
     words: [
       { hanzi: '请帮我', pinyin: 'qǐng bāng wǒ', thaiReading: 'ฉิ่งปางหว่อ', thaiMeaning: 'ช่วยฉันหน่อย' },
       { hanzi: '拍一张照', pinyin: 'pāi yì zhāng zhào', thaiReading: 'ไพ่อี้จางเจ้า', thaiMeaning: 'ถ่ายรูป 1 รูป' }
@@ -465,8 +426,6 @@ export const selfTalkSentences = [
     pinyin: 'Fúwùyuán, wǒmen yào jiézhàng.',
     thaiReading: 'ฟู่หวู้หยวน หว่อเมิน ย่าว เจี้ยจ้าง',
     thaiMeaning: 'บริกรครับ พวกเราจะเช็กบิล',
-    englishMeaning: 'บริกรครับ พวกเราจะเช็กบิล',
-    englishMeaning: 'บริกรครับ พวกเราจะเช็กบิล',
     words: [
       { hanzi: '服务员', pinyin: 'fúwùyuán', thaiReading: 'ฟู่หวู้หยวน', thaiMeaning: 'บริกร' },
       { hanzi: '我们要', pinyin: 'wǒmen yào', thaiReading: 'หว่อเมินย่าว', thaiMeaning: 'พวกเราต้องการ' },
@@ -481,8 +440,6 @@ export const selfTalkSentences = [
     pinyin: 'Fā xiāoxi gàosu péngyou.',
     thaiReading: 'ฟา เซี่ยวมี่ เก้าซู่ เพิงโหย่ว',
     thaiMeaning: 'ส่งข้อความบอกเพื่อน',
-    englishMeaning: 'ส่งข้อความบอกเพื่อน',
-    englishMeaning: 'ส่งข้อความบอกเพื่อน',
     words: [
       { hanzi: '发消息', pinyin: 'fā xiāoxi', thaiReading: 'ฟาเซี่ยวมี่', thaiMeaning: 'ส่งข้อความ' },
       { hanzi: '告诉朋友', pinyin: 'gàosu péngyou', thaiReading: 'เก้าซู่เพิงโหย่ว', thaiMeaning: 'บอกเพื่อน' }
@@ -496,8 +453,6 @@ export const selfTalkSentences = [
     pinyin: 'Wǒ yào yì bēi shǎo táng lěngyǐn.',
     thaiReading: 'หว่อ ย่าว อี้ เปย เฉ่า ถัง เหลิงอิ๋น',
     thaiMeaning: 'ฉันขอเครื่องดื่มเย็นหวานน้อย 1 แก้ว',
-    englishMeaning: 'ฉันขอเครื่องdrinkเย็นหวานน้อย 1 แก้ว',
-    englishMeaning: 'ฉันขอเครื่องdrinkเย็นหวานน้อย 1 แก้ว',
     words: [
       { hanzi: '我要', pinyin: 'wǒ yào', thaiReading: 'หว่อย่าว', thaiMeaning: 'ฉันต้องการ' },
       { hanzi: '一杯', pinyin: 'yì bēi', thaiReading: 'อี้เปย', thaiMeaning: '1 แก้ว' },
@@ -512,8 +467,6 @@ export const selfTalkSentences = [
     pinyin: 'Qù gōngsī dǎkǎ shàngbān.',
     thaiReading: 'ชวี่ กงซือ ต้าข่า ช่างปาน',
     thaiMeaning: 'ไปบริษัทตอกบัตรเข้าทำงาน',
-    englishMeaning: 'go toบริษัทตอกบัตรเข้าทำงาน',
-    englishMeaning: 'go toบริษัทตอกบัตรเข้าทำงาน',
     words: [
       { hanzi: '去公司', pinyin: 'qù gōngsī', thaiReading: 'ชวี่กงซือ', thaiMeaning: 'ไปบริษัท' },
       { hanzi: '打卡上班', pinyin: 'dǎkǎ shàngbān', thaiReading: 'ต้าข่าช่างปาน', thaiMeaning: 'สแกนเข้าทำงาน' }
@@ -529,8 +482,7 @@ export const selfTalkSentences = [
     pinyin: 'Zhège cài tài yóunì le.',
     thaiReading: 'เจ้อเกอ ไฉ่ ไท่ โหย่วนี่ เลอ',
     thaiMeaning: 'อาหารจานนี้มันเลี่ยนเกินไป',
-    englishMeaning: 'อาหารจานนี้มันเลี่ยนเeatไป',
-    englishMeaning: 'อาหารจานนี้มันเลี่ยนเeatไป',
+    englishMeaning: 'This dish is too greasy.',
     words: [
       { hanzi: '这个菜', pinyin: 'zhège cài', thaiReading: 'เจ้อเกอไฉ่', thaiMeaning: 'อาหารจานนี้' },
       { hanzi: '太油腻了', pinyin: 'tài yóunì le', thaiReading: 'ไท่โหย่วนี่เลอ', thaiMeaning: 'มันเลี่ยนเกินไป' }
@@ -544,8 +496,6 @@ export const selfTalkSentences = [
     pinyin: 'Niúròu hěn nèn, fēicháng hǎochī.',
     thaiReading: 'เหนียวโร่ว เหิ่น เนิ่น เฟยฉาง ห่าวชือ',
     thaiMeaning: 'เนื้อวัวนุ่มมาก อร่อยมากๆ',
-    englishMeaning: 'เนื้อวัวนุ่มมาก deliciousมากๆ',
-    englishMeaning: 'เนื้อวัวนุ่มมาก deliciousมากๆ',
     words: [
       { hanzi: '牛肉', pinyin: 'niúròu', thaiReading: 'เหนียวโร่ว', thaiMeaning: 'เนื้อวัว' },
       { hanzi: '很嫩', pinyin: 'hěn nèn', thaiReading: 'เหิ่นเนิ่น', thaiMeaning: 'นุ่มมาก' },
@@ -560,8 +510,6 @@ export const selfTalkSentences = [
     pinyin: 'Tāng yǒudiǎnr xián.',
     thaiReading: 'ทาง โหย่วเตี่ยร์ เสียน',
     thaiMeaning: 'น้ำซุปเค็มไปหน่อย',
-    englishMeaning: 'น้ำซุปเค็มgo toหน่อย',
-    englishMeaning: 'น้ำซุปเค็มgo toหน่อย',
     words: [
       { hanzi: '汤', pinyin: 'tāng', thaiReading: 'ทาง', thaiMeaning: 'น้ำซุป' },
       { hanzi: '有点儿咸', pinyin: 'yǒudiǎnr xián', thaiReading: 'โหย่วเตี่ยร์เสียน', thaiMeaning: 'เค็มไปหน่อย' }
@@ -575,8 +523,6 @@ export const selfTalkSentences = [
     pinyin: 'Wèidào tài dàn le.',
     thaiReading: 'เว่ยเต้า ไท่ ด่าน เลอ',
     thaiMeaning: 'รสชาติจืดเกินไป',
-    englishMeaning: 'รสชาติจืดเeatไป',
-    englishMeaning: 'รสชาติจืดเeatไป',
     words: [
       { hanzi: '味道', pinyin: 'wèidào', thaiReading: 'เว่ยเต้า', thaiMeaning: 'รสชาติ' },
       { hanzi: '太淡了', pinyin: 'tài dàn le', thaiReading: 'ไท่ด่านเลอ', thaiMeaning: 'จืดเกินไป' }
@@ -590,8 +536,6 @@ export const selfTalkSentences = [
     pinyin: 'Zhájī hěn xiāng hěn cuì.',
     thaiReading: 'จ้าจี เหิ่น เซียง เหิ่น ชุ่ย',
     thaiMeaning: 'ไก่ทอดหอมและกรอบมาก',
-    englishMeaning: 'ไก่ทอดหอมและกรอบมาก',
-    englishMeaning: 'ไก่ทอดหอมและกรอบมาก',
     words: [
       { hanzi: '炸鸡', pinyin: 'zhájī', thaiReading: 'จ้าจี', thaiMeaning: 'ไก่ทอด' },
       { hanzi: '很香很脆', pinyin: 'hěn xiāng hěn cuì', thaiReading: 'เหิ่นเซียงเหิ่นชุ่ย', thaiMeaning: 'หอมและกรอบมาก' }
@@ -605,8 +549,6 @@ export const selfTalkSentences = [
     pinyin: 'Zhège ruǎn nuò hǎochī.',
     thaiReading: 'เจ้อเกอ ร่วน นั่ว ห่าวชือ',
     thaiMeaning: 'อันนี้เหนียวนุ่มอร่อย',
-    englishMeaning: 'อันนี้เหนียวนุ่มdelicious',
-    englishMeaning: 'อันนี้เหนียวนุ่มdelicious',
     words: [
       { hanzi: '这个', pinyin: 'zhège', thaiReading: 'เจ้อเกอ', thaiMeaning: 'อันนี้' },
       { hanzi: '软糯好吃', pinyin: 'ruǎn nuò hǎochī', thaiReading: 'ร่วนนั่วห่าวชือ', thaiMeaning: 'เหนียวนุ่มอร่อย' }
@@ -620,8 +562,7 @@ export const selfTalkSentences = [
     pinyin: 'Ròu tài yìng le, yǎo bú dòng.',
     thaiReading: 'โร่ว ไท่ ยิ่ง เลอ หย่าว ปู๋ ต้ง',
     thaiMeaning: 'เนื้อแข็งเกินไป เคี้ยวไม่เข้า',
-    englishMeaning: 'เนื้อแข็งเeatไป เคี้ยวไม่เข้า',
-    englishMeaning: 'เนื้อแข็งเeatไป เคี้ยวไม่เข้า',
+    englishMeaning: 'The meat was too hard to bite.',
     words: [
       { hanzi: '肉', pinyin: 'ròu', thaiReading: 'โร่ว', thaiMeaning: 'เนื้อ' },
       { hanzi: '太硬了', pinyin: 'tài yìng le', thaiReading: 'ไท่ยิ่งเลอ', thaiMeaning: 'แข็งเกินไป' },
@@ -636,8 +577,6 @@ export const selfTalkSentences = [
     pinyin: 'Chá hěn tàng, màn diǎnr hē.',
     thaiReading: 'ชา เหิ่น ท้าง ม่าน เตี่ยร์ ชือ',
     thaiMeaning: 'ชาร้อนมาก ดื่มช้าๆ หน่อย',
-    englishMeaning: 'ชาร้อนมาก drinkช้าๆ หน่อย',
-    englishMeaning: 'ชาร้อนมาก drinkช้าๆ หน่อย',
     words: [
       { hanzi: '茶', pinyin: 'chá', thaiReading: 'ชา', thaiMeaning: 'ชา' },
       { hanzi: '很烫', pinyin: 'hěn tàng', thaiReading: 'เหิ่นท้าง', thaiMeaning: 'ร้อนลวกปากมาก' },
