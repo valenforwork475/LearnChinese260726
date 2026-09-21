@@ -1,8 +1,8 @@
-// Vocabulary Dataset - 682 unique words
+// Vocabulary Dataset - 736 unique words
 // Situational examples are written and reviewed per word; substitution templates are not used.
 
 export const VOCAB_SETS = [
-  { id: 'all', label: 'ทั้งหมด (682 คำ)' }
+  { id: 'all', label: 'ทั้งหมด (736 คำ)' }
 ];
 
 export const vocabularyList = [
@@ -21440,6 +21440,1194 @@ export const vocabularyList = [
         "pinyin": "Zhè kuǎn shǒujī wàiguān piàoliang, bìngqiě xìngnéng yōuyuè.",
         "thaiMeaning": "มือถือรุ่นนี้รูปลักษณ์สวยงาม แถมยังมีประสิทธิภาพยอดเยี่ยมอีกด้วย",
         "englishMeaning": "这款手机外观漂亮，并且性能优越。"
+      }
+    ]
+  },
+  {
+    "id": "v683",
+    "hanzi": "主菜",
+    "pinyin": "zhǔcài",
+    "thaiMeaning": "อาหารจานหลัก / Main course",
+    "englishMeaning": "main course",
+    "example": {
+      "hanzi": "我们今天的主菜是烤鸭。",
+      "pinyin": "Wǒmen jīntiān de zhǔcài shì kǎoyā.",
+      "thaiMeaning": "อาหารจานหลักของพวกเราในวันนี้คือเป็ดย่าง",
+      "englishMeaning": "Our main dish today is roast duck."
+    },
+    "examples": [
+      {
+        "scenario": "ลำดับการเสิร์ฟอาหาร",
+        "hanzi": "请在吃完前菜后再上主菜。",
+        "pinyin": "Qǐng zài chī wán qiáncài hòu zài shàng zhǔcài.",
+        "thaiMeaning": "กรุณาเสิร์ฟอาหารจานหลักหลังจากทานอาหารทานเล่นเสร็จแล้ว",
+        "englishMeaning": "Please finish the appetizer before serving the main course."
+      }
+    ]
+  },
+  {
+    "id": "v684",
+    "hanzi": "配菜",
+    "pinyin": "pèicài",
+    "thaiMeaning": "เครื่องเคียง / Side dish",
+    "englishMeaning": "side dishes",
+    "example": {
+      "hanzi": "这道主菜搭配了新鲜的配菜。",
+      "pinyin": "Zhè dào zhǔcài dāpèi le xīnxiān de pèicài.",
+      "thaiMeaning": "อาหารจานหลักนี้จัดเสิร์ฟคู่กับเครื่องเคียงสดใหม่",
+      "englishMeaning": "This main dish is paired with fresh side dishes."
+    },
+    "examples": [
+      {
+        "scenario": "สั่งเครื่องเคียงเพิ่ม",
+        "hanzi": "请问需要加一份配菜吗？",
+        "pinyin": "Qǐngwèn xūyào jiā yí fèn pèicài ma?",
+        "thaiMeaning": "ขอถามหน่อย คุณต้องการสั่งเครื่องเคียงเพิ่มอีกหนึ่งจานไหมครับ?",
+        "englishMeaning": "Do you need to add a side dish?"
+      }
+    ]
+  },
+  {
+    "id": "v685",
+    "hanzi": "前菜",
+    "pinyin": "qiáncài",
+    "thaiMeaning": "อาหารทานเล่น / Appetizer",
+    "englishMeaning": "Appetizer",
+    "example": {
+      "hanzi": "先来一份清爽的前菜。",
+      "pinyin": "Xiān lái yí fèn qīngshuǎng de qiáncài.",
+      "thaiMeaning": "ขอเอาอาหารทานเล่นรสสดชื่นมาจานนึงก่อน",
+      "englishMeaning": "Let’s start with a refreshing appetizer."
+    },
+    "examples": [
+      {
+        "scenario": "แนะนำเมนูทานเล่น",
+        "hanzi": "我们的前菜主要以沙拉和凉菜为主。",
+        "pinyin": "Wǒmen de qiáncài zhǔyào yǐ shālā hé liángcài wéi zhǔ.",
+        "thaiMeaning": "อาหารทานเล่นของร้านเราเน้นสลัดและอาหารเย็นเป็นหลัก",
+        "englishMeaning": "Our appetizers are mainly salads and cold dishes."
+      }
+    ]
+  },
+  {
+    "id": "v686",
+    "hanzi": "招牌菜",
+    "pinyin": "zhāopáicài",
+    "thaiMeaning": "เมนูเด็ดประจำร้าน / Signature dish",
+    "englishMeaning": "Signature dish",
+    "example": {
+      "hanzi": "这是我们餐厅的招牌菜。",
+      "pinyin": "Zhè shì wǒmen cāntīng de zhāopáicài.",
+      "thaiMeaning": "นี่คือเมนูเด็ดประจำร้านของพวกเรา",
+      "englishMeaning": "This is our restaurant's signature dish."
+    },
+    "examples": [
+      {
+        "scenario": "สั่งเมนูแนะนำ",
+        "hanzi": "请给我推荐两道招牌菜。",
+        "pinyin": "Qǐng gěi wǒ tuījiàn liǎng dào zhāopáicài.",
+        "thaiMeaning": "ช่วยแนะนำเมนูเด็ดประจำร้านให้ฉันสัก 2 จานทีครับ",
+        "englishMeaning": "Please recommend two signature dishes to me."
+      }
+    ]
+  },
+  {
+    "id": "v687",
+    "hanzi": "蘸料",
+    "pinyin": "zhànliào",
+    "thaiMeaning": "น้ำจิ้ม / Dipping sauce",
+    "englishMeaning": "dipping sauce",
+    "example": {
+      "hanzi": "请帮我调一份麻辣蘸料。",
+      "pinyin": "Qǐng bāng wǒ tiáo yí fèn málà zhànliào.",
+      "thaiMeaning": "ช่วยปรุงน้ำจิ้มหม่าล่าให้ฉันสักถ้วยที",
+      "englishMeaning": "Please help me make a spicy dipping sauce."
+    },
+    "examples": [
+      {
+        "scenario": "ทานชาบูหม้อไฟ",
+        "hanzi": "火锅的蘸料非常重要。",
+        "pinyin": "Huǒguō de zhànliào fēicháng zhòngyào.",
+        "thaiMeaning": "น้ำจิ้มของชาบูหม้อไฟมีความสำคัญมากๆ",
+        "englishMeaning": "The dipping sauce for hot pot is very important."
+      }
+    ]
+  },
+  {
+    "id": "v688",
+    "hanzi": "调料",
+    "pinyin": "tiáoliào",
+    "thaiMeaning": "เครื่องปรุงรส / Seasonings & condiments",
+    "englishMeaning": "seasoning",
+    "example": {
+      "hanzi": "自助调料台在右边。",
+      "pinyin": "Zìzhù tiáoliào tái zài yòubiān.",
+      "thaiMeaning": "เคาน์เตอร์เครื่องปรุงรสแบบบริการตนเองอยู่ทางขวามือ",
+      "englishMeaning": "The self-service condiment station is on the right."
+    },
+    "examples": [
+      {
+        "scenario": "การประกอบอาหาร",
+        "hanzi": "厨师加了特制的调料。",
+        "pinyin": "Chúshī jiā le tèzhì de tiáoliào.",
+        "thaiMeaning": "เชฟได้ใส่เครื่องปรุงรสสูตรพิเศษลงไป",
+        "englishMeaning": "The chef added special seasonings."
+      }
+    ]
+  },
+  {
+    "id": "v689",
+    "hanzi": "拼盘",
+    "pinyin": "pīnpán",
+    "thaiMeaning": "จานรวมมิตร / Platter",
+    "englishMeaning": "platter",
+    "example": {
+      "hanzi": "来一份水果拼盘。",
+      "pinyin": "Lái yí fèn shuǐguǒ pīnpán.",
+      "thaiMeaning": "เอาผลไม้จานรวมมิตรมาสักจาน",
+      "englishMeaning": "Have a fruit platter."
+    },
+    "examples": [
+      {
+        "scenario": "สั่งงานสังสรรค์",
+        "hanzi": "海鲜拼盘包含虾、蟹和贝类。",
+        "pinyin": "Hǎixiān pīnpán bāohán xiā, xiè hé bèilèi.",
+        "thaiMeaning": "จานรวมมิตรอาหารทะเลรวมถึงกุ้ง ปู และหอยชนิดต่างๆ",
+        "englishMeaning": "The seafood platter includes shrimp, crab and shellfish."
+      }
+    ]
+  },
+  {
+    "id": "v690",
+    "hanzi": "凉菜",
+    "pinyin": "liángcài",
+    "thaiMeaning": "กับแกล้มเย็น / Cold dish",
+    "englishMeaning": "cold dish",
+    "example": {
+      "hanzi": "夏天吃凉菜很开胃。",
+      "pinyin": "Xiàtiān chī liángcài hěn kāiwèi.",
+      "thaiMeaning": "หน้าร้อนทานกับแกล้มเย็นช่วยเจริญอาหารมาก",
+      "englishMeaning": "It is very appetizing to eat cold dishes in summer."
+    },
+    "examples": [
+      {
+        "scenario": "เสิร์ฟกับแกล้มก่อน",
+        "hanzi": "凉菜很快就上齐了。",
+        "pinyin": "Liángcài hěn kuài jiù shàng qí le.",
+        "thaiMeaning": "กับแกล้มเย็นเสิร์ฟออกมาครบถ้วนอย่างรวดเร็ว",
+        "englishMeaning": "The cold dishes were served quickly."
+      }
+    ]
+  },
+  {
+    "id": "v691",
+    "hanzi": "食材",
+    "pinyin": "shícái",
+    "thaiMeaning": "วัตถุดิบประกอบอาหาร / Food ingredients",
+    "englishMeaning": "Ingredients",
+    "example": {
+      "hanzi": "保证食材的新鲜。",
+      "pinyin": "Bǎozhèng shícái de xīnxiān.",
+      "thaiMeaning": "รับประกันความสดใหม่ของวัตถุดิบ",
+      "englishMeaning": "Ensure the freshness of ingredients."
+    },
+    "examples": [
+      {
+        "scenario": "ชูจุดขายร้าน",
+        "hanzi": "我们每天采购有机食材。",
+        "pinyin": "Wǒmen měitiān cǎigòu yǒujī shícái.",
+        "thaiMeaning": "พวกเราคัดสรรจัดซื้อวัตถุดิบออร์แกนิกทุกวัน",
+        "englishMeaning": "We purchase organic ingredients every day."
+      }
+    ]
+  },
+  {
+    "id": "v692",
+    "hanzi": "肉丝",
+    "pinyin": "ròusī",
+    "thaiMeaning": "เนื้อหั่นฝอย / Shredded meat",
+    "englishMeaning": "Shredded pork",
+    "example": {
+      "hanzi": "鱼香肉丝是一道名菜。",
+      "pinyin": "Yúxiāng ròusī shì yí dào míngcài.",
+      "thaiMeaning": "ผัดเนื้อหั่นฝอยซูซวงเป็นเมนูชื่อดัง",
+      "englishMeaning": "Fish-flavored shredded pork is a famous dish."
+    },
+    "examples": [
+      {
+        "scenario": "สั่งอาหารจีน",
+        "hanzi": "来一份青椒炒肉丝。",
+        "pinyin": "Lái yí fèn qīngjiāo chǎo ròusī.",
+        "thaiMeaning": "เอาพริกหยวกผัดเนื้อหั่นฝอยมาจานนึง",
+        "englishMeaning": "Have some fried shredded pork with green pepper."
+      }
+    ]
+  },
+  {
+    "id": "v693",
+    "hanzi": "肉片",
+    "pinyin": "ròupiàn",
+    "thaiMeaning": "เนื้อสไลซ์ / Sliced meat",
+    "englishMeaning": "sliced ​​meat",
+    "example": {
+      "hanzi": "水煮肉片很辣。",
+      "pinyin": "Shuǐzhǔ ròupiàn hěn là.",
+      "thaiMeaning": "เนื้อสไลซ์ต้มซุปเผ็ดหม่าล่าเผ็ดมาก",
+      "englishMeaning": "The boiled pork slices are very spicy."
+    },
+    "examples": [
+      {
+        "scenario": "สั่งชาบู",
+        "hanzi": "请再加两盘牛肉片。",
+        "pinyin": "Qǐng zài jiā liǎng pán niúròu piàn.",
+        "thaiMeaning": "กรุณาเพิ่มเนื้อวัวสไลซ์อีก 2 ถาดทีครับ",
+        "englishMeaning": "Two more plates of beef slices, please."
+      }
+    ]
+  },
+  {
+    "id": "v694",
+    "hanzi": "肉丁",
+    "pinyin": "ròudīng",
+    "thaiMeaning": "เนื้อหั่นเต๋า / Diced meat cubes",
+    "englishMeaning": "diced pork",
+    "example": {
+      "hanzi": "宫保鸡丁里面有鸡肉丁。",
+      "pinyin": "Gōngbǎo jīdīng lǐmiàn yǒu jīròu dīng.",
+      "thaiMeaning": "ไก่ผัดเม็ดมะม่วงกุ้งโบว์มีเนื้อไก่หั่นเต๋าอยู่",
+      "englishMeaning": "Kung Pao Chicken contains diced chicken."
+    },
+    "examples": [
+      {
+        "scenario": "อธิบายลักษณะอาหาร",
+        "hanzi": "把肉切成均匀的肉丁。",
+        "pinyin": "Bǎ ròu qiē chéng jūnyún de ròudīng.",
+        "thaiMeaning": "นำเนื้อมาหั่นเป็นชิ้นเต๋าขนาดเท่าๆ กัน",
+        "englishMeaning": "Cut the meat into even dices."
+      }
+    ]
+  },
+  {
+    "id": "v695",
+    "hanzi": "肉末",
+    "pinyin": "ròumò",
+    "thaiMeaning": "เนื้อสับ / Minced meat",
+    "englishMeaning": "minced meat",
+    "example": {
+      "hanzi": "麻婆豆腐需要加肉末。",
+      "pinyin": "Mápó dòufu xūyào jiā ròumò.",
+      "thaiMeaning": "เต้าหู้มาโปผัดหม่าล่าจำเป็นต้องใส่เนื้อสับ",
+      "englishMeaning": "Mapo tofu requires minced meat."
+    },
+    "examples": [
+      {
+        "scenario": "ทำอาหารเมนูผัด",
+        "hanzi": "肉末茄子非常好吃。",
+        "pinyin": "Ròumò qiézi fēicháng hǎochī.",
+        "thaiMeaning": "มะเขือยาวผัดเนื้อสับอร่อยมากๆ",
+        "englishMeaning": "Eggplant with minced meat is very delicious."
+      }
+    ]
+  },
+  {
+    "id": "v696",
+    "hanzi": "订位",
+    "pinyin": "dìngwèi",
+    "thaiMeaning": "จองโต๊ะอาหาร / Reserve a table",
+    "englishMeaning": "Book a table",
+    "example": {
+      "hanzi": "我想订今晚六点的桌位。",
+      "pinyin": "Wǒ xiǎng dìng jīn wǎn liù diǎn de zhuōwèi.",
+      "thaiMeaning": "ฉันต้องการจองโต๊ะสำหรับเย็นนี้ตอน 6 โมง",
+      "englishMeaning": "I'd like to reserve a table for six o'clock tonight."
+    },
+    "examples": [
+      {
+        "scenario": "โทรจองล่วงหน้า",
+        "hanzi": "周末餐厅生意很好，建议提前订位。",
+        "pinyin": "Zhōumò cāntīng shēngyi hěn hǎo, jiànyì tíqián dìngwèi.",
+        "thaiMeaning": "สุดสัปดาห์ร้านอาหารลูกค้าเยอะมาก แนะนำให้จองโต๊ะล่วงหน้า",
+        "englishMeaning": "The restaurant is very busy on weekends, so it is recommended to book a table in advance."
+      }
+    ]
+  },
+  {
+    "id": "v697",
+    "hanzi": "上菜",
+    "pinyin": "shàngcài",
+    "thaiMeaning": "เสิร์ฟอาหาร / Serve dishes",
+    "englishMeaning": "Serve",
+    "example": {
+      "hanzi": "服务员，请问什么时候上菜？",
+      "pinyin": "Fúwùyuán, qǐngwèn shénme shíhou shàngcài?",
+      "thaiMeaning": "น้องพนักงาน ขอถามหน่อยเมื่อไหร่จะเสิร์ฟอาหารครับ?",
+      "englishMeaning": "Waiter, when will the food be served?"
+    },
+    "examples": [
+      {
+        "scenario": "ตามอาหาร",
+        "hanzi": "后厨正在加快上菜速度。",
+        "pinyin": "Hòuchú zhèngzài jiākuài shàngcài sùdù.",
+        "thaiMeaning": "ห้องครัวกำลังเร่งความเร็วในการเสิร์ฟอาหารอยู่",
+        "englishMeaning": "The chef is speeding up the serving time."
+      }
+    ]
+  },
+  {
+    "id": "v698",
+    "hanzi": "翻台率",
+    "pinyin": "fāntáilǜ",
+    "thaiMeaning": "อัตราการหมุนเวียนโต๊ะ / Table turnover rate",
+    "englishMeaning": "turnover rate",
+    "example": {
+      "hanzi": "提高餐厅的翻台率。",
+      "pinyin": "Tígāo cāntīng de fāntáilǜ.",
+      "thaiMeaning": "ยกระดับอัตราการหมุนเวียนโต๊ะของร้านอาหาร",
+      "englishMeaning": "Increase the restaurant’s table turnover rate."
+    },
+    "examples": [
+      {
+        "scenario": "การบริหารร้านอาหาร",
+        "hanzi": "午高峰时段翻台率非常高。",
+        "pinyin": "Wǔ gāofēng shíduàn fāntáilǜ fēicháng gāo.",
+        "thaiMeaning": "ช่วงเวลาลูกค้าแน่นช่วงเที่ยง อัตราหมุนเวียนโต๊ะสูงมากๆ",
+        "englishMeaning": "The table turnover rate is very high during the afternoon peak period."
+      }
+    ]
+  },
+  {
+    "id": "v699",
+    "hanzi": "打包",
+    "pinyin": "dǎbāo",
+    "thaiMeaning": "ห่อกลับบ้าน / Pack leftovers / Takeout",
+    "englishMeaning": "Pack",
+    "example": {
+      "hanzi": "服务员，请帮我打包。",
+      "pinyin": "Fúwùyuán, qǐng bāng wǒ dǎbāo.",
+      "thaiMeaning": "พนักงานครับ ช่วยห่อกับข้าวส่วนที่เหลือกลับบ้านให้ที",
+      "englishMeaning": "Waiter, please help me pack."
+    },
+    "examples": [
+      {
+        "scenario": "กินไม่หมดห่อกลับ",
+        "hanzi": "没吃完的菜可以打包带走。",
+        "pinyin": "Méi chī wán de cài kěyǐ dǎbāo dài zǒu.",
+        "thaiMeaning": "อาหารที่กินไม่หมดสามารถใส่กล่องห่อกลับบ้านได้",
+        "englishMeaning": "Unfinished dishes can be taken away."
+      }
+    ]
+  },
+  {
+    "id": "v700",
+    "hanzi": "堂食",
+    "pinyin": "tángshí",
+    "thaiMeaning": "ทานที่ร้าน / Dine-in",
+    "englishMeaning": "Dine-in",
+    "example": {
+      "hanzi": "请问是堂食还是外带？",
+      "pinyin": "Qǐngwèn shì tángshí háishì wàidài?",
+      "thaiMeaning": "ขอถามหน่อย ทานที่ร้านหรือห่อกลับบ้านครับ?",
+      "englishMeaning": "Is it dine-in or takeout?"
+    },
+    "examples": [
+      {
+        "scenario": "เลือกรูปแบบการทาน",
+        "hanzi": "今天堂食顾客非常多。",
+        "pinyin": "Jīntiān tángshí gùkè fēicháng duō.",
+        "thaiMeaning": "วันนี้ลูกค้าที่มาทานที่ร้านเยอะมากๆ",
+        "englishMeaning": "There are a lot of dine-in customers today."
+      }
+    ]
+  },
+  {
+    "id": "v701",
+    "hanzi": "服务费",
+    "pinyin": "fúwùfèi",
+    "thaiMeaning": "ค่าบริการ / Service charge",
+    "englishMeaning": "service charge",
+    "example": {
+      "hanzi": "账单包含百分之十的服务费。",
+      "pinyin": "Zhàngdān bāohán bǎi fēn zhī shí de fúwùfèi.",
+      "thaiMeaning": "บิลรวมค่าบริการ 10% ไว้แล้ว",
+      "englishMeaning": "The bill includes a 10% service charge."
+    },
+    "examples": [
+      {
+        "scenario": "เช็กบิลค่าอาหาร",
+        "hanzi": "本店不收取额外服务费。",
+        "pinyin": "Běndiàn bù shōuqǔ éwài fúwùfèi.",
+        "thaiMeaning": "ร้านของพวกเราไม่คิดค่าบริการเพิ่มเติม",
+        "englishMeaning": "Our store does not charge additional service fees."
+      }
+    ]
+  },
+  {
+    "id": "v702",
+    "hanzi": "小费",
+    "pinyin": "xiǎofèi",
+    "thaiMeaning": "ทิป / Tip",
+    "englishMeaning": "tip",
+    "example": {
+      "hanzi": "给服务员留小费。",
+      "pinyin": "Gěi fúwùyuán liú xiǎofèi.",
+      "thaiMeaning": "ให้ทิปแก่พนักงานบริการ",
+      "englishMeaning": "Leave a tip for the waiter."
+    },
+    "examples": [
+      {
+        "scenario": "ธรรมเนียมสากล",
+        "hanzi": "这里的文化习惯给小费。",
+        "pinyin": "Zhèlǐ de wénhuà xíguàn gěi xiǎofèi.",
+        "thaiMeaning": "วัฒนธรรมของที่นี่มีธรรมเนียมการให้ทิป",
+        "englishMeaning": "It's cultural here to tip."
+      }
+    ]
+  },
+  {
+    "id": "v703",
+    "hanzi": "后厨",
+    "pinyin": "hòuchú",
+    "thaiMeaning": "ห้องครัว / Back of house",
+    "englishMeaning": "kitchen",
+    "example": {
+      "hanzi": "非工作人员请勿进入后厨。",
+      "pinyin": "Fēi gōngzuò rényuán qǐng wù jìnrù hòuchú.",
+      "thaiMeaning": "ผู้ไม่มีส่วนเกี่ยวข้องห้ามเข้าห้องครัว",
+      "englishMeaning": "Non-staff members are not allowed to enter the kitchen."
+    },
+    "examples": [
+      {
+        "scenario": "ระบบสุขาภิบาล",
+        "hanzi": "后厨保持得非常干净整洁。",
+        "pinyin": "Hòuchú bǎochí de fēicháng gānjìng zhěngjié.",
+        "thaiMeaning": "ห้องครัวรักษาสภาพได้สะอาดเป็นระเบียบเรียบร้อยมาก",
+        "englishMeaning": "The kitchen is kept very clean and tidy."
+      }
+    ]
+  },
+  {
+    "id": "v704",
+    "hanzi": "主厨",
+    "pinyin": "zhǔchú",
+    "thaiMeaning": "เชฟใหญ่ / Executive chef",
+    "englishMeaning": "chef",
+    "example": {
+      "hanzi": "主厨特制汤品。",
+      "pinyin": "Zhǔchú tèzhì tāngpǐn.",
+      "thaiMeaning": "ซุปสูตรรังสรรค์พิเศษโดยเชฟใหญ่",
+      "englishMeaning": "Chef's special soup."
+    },
+    "examples": [
+      {
+        "scenario": "แนะนำทีมงาน",
+        "hanzi": "我们的主厨来自法国。",
+        "pinyin": "Wǒmen de zhǔchú láizì Fǎguó.",
+        "thaiMeaning": "เชฟใหญ่ของพวกเรามาจากประเทศฝรั่งเศส",
+        "englishMeaning": "Our chef is from France."
+      }
+    ]
+  },
+  {
+    "id": "v705",
+    "hanzi": "食品安全",
+    "pinyin": "shípǐn ānquán",
+    "thaiMeaning": "ความปลอดภัยทางอาหาร / Food safety",
+    "englishMeaning": "food safety",
+    "example": {
+      "hanzi": "严格把控食品安全。",
+      "pinyin": "Yángé bǎkòng shípǐn ānquán.",
+      "thaiMeaning": "ควบคุมความปลอดภัยทางอาหารอย่างเข้มงวด",
+      "englishMeaning": "Strictly control food safety."
+    },
+    "examples": [
+      {
+        "scenario": "หัวใจธุรกิจอาหาร",
+        "hanzi": "食品安全是餐饮业的生命线。",
+        "pinyin": "Shípǐn ānquán shì cānyǐnyè de shēngmìngxiàn.",
+        "thaiMeaning": "ความปลอดภัยทางอาหารคือหัวใจสำคัญของธุรกิจร้านอาหาร",
+        "englishMeaning": "Food safety is the lifeline of the catering industry."
+      }
+    ]
+  },
+  {
+    "id": "v706",
+    "hanzi": "卫生标准",
+    "pinyin": "wèishēng biāozhǔn",
+    "thaiMeaning": "มาตรฐานสุขอนามัย / Hygiene standards",
+    "englishMeaning": "health standards",
+    "example": {
+      "hanzi": "符合国家卫生标准。",
+      "pinyin": "Fúhé guójiā wèishēng biāozhǔn.",
+      "thaiMeaning": "ตรงตามมาตรฐานสุขอนามัยระดับชาติ",
+      "englishMeaning": "Comply with national health standards."
+    },
+    "examples": [
+      {
+        "scenario": "ตรวจสุขาภิบาล",
+        "hanzi": "餐厅每月都会检测卫生标准。",
+        "pinyin": "Cāntīng měi yuè dōu huì jiǎncè wèishēng biāozhǔn.",
+        "thaiMeaning": "ร้านอาหารจะตรวจเช็กมาตรฐานสุขอนามัยเป็นประจำทุกเดือน",
+        "englishMeaning": "The restaurant will test hygiene standards every month."
+      }
+    ]
+  },
+  {
+    "id": "v707",
+    "hanzi": "营业额",
+    "pinyin": "yíngyè'é",
+    "thaiMeaning": "ยอดขายรวม / Business turnover / Revenue",
+    "englishMeaning": "turnover",
+    "example": {
+      "hanzi": "本月营业额大幅增加。",
+      "pinyin": "Běn yuè yíngyè'é dàfú zēngjiā.",
+      "thaiMeaning": "ยอดขายรวมเดือนนี้เพิ่มขึ้นเป็นอย่างมาก",
+      "englishMeaning": "Sales increased significantly this month."
+    },
+    "examples": [
+      {
+        "scenario": "รายงานบัญชี",
+        "hanzi": "周末的营业额占全周的一半。",
+        "pinyin": "Zhōumò de yíngyè'é zhàn quán zhōu de yíbàn.",
+        "thaiMeaning": "ยอดขายช่วงเสาร์อาทิตย์คิดเป็นครึ่งหนึ่งของทั้งสัปดาห์",
+        "englishMeaning": "Weekend sales account for half of the entire week."
+      }
+    ]
+  },
+  {
+    "id": "v708",
+    "hanzi": "成本控制",
+    "pinyin": "chéngběn kòngzhì",
+    "thaiMeaning": "การควบคุมต้นทุน / Cost control",
+    "englishMeaning": "cost control",
+    "example": {
+      "hanzi": "做好食材成本控制。",
+      "pinyin": "Zuò hǎo shícái chéngběn kòngzhì.",
+      "thaiMeaning": "ทำระบบควบคุมต้นทุนวัตถุดิบให้ออกมาดี",
+      "englishMeaning": "Do a good job in food cost control."
+    },
+    "examples": [
+      {
+        "scenario": "การบริหารกำไร",
+        "hanzi": "合理的成本控制能提高利润。",
+        "pinyin": "Hélǐ de chéngběn kòngzhì néng tígāo lìrùn.",
+        "thaiMeaning": "การควบคุมต้นทุนที่สมเหตุสมผลช่วยเพิ่มกำไรได้",
+        "englishMeaning": "Reasonable cost control can increase profits."
+      }
+    ]
+  },
+  {
+    "id": "v709",
+    "hanzi": "损耗",
+    "pinyin": "sǔnhào",
+    "thaiMeaning": "ของเสียวัตถุดิบ / Wastage / Loss",
+    "englishMeaning": "loss",
+    "example": {
+      "hanzi": "减少厨房食材损耗。",
+      "pinyin": "Jiǎnshǎo chúfáng shícái sǔnhào.",
+      "thaiMeaning": "ลดการสูญเสียของเสียวัตถุดิบในห้องครัว",
+      "englishMeaning": "Reduce the loss of kitchen ingredients."
+    },
+    "examples": [
+      {
+        "scenario": "การจัดการคลัง",
+        "hanzi": "降低损耗是增加收益的关键。",
+        "pinyin": "Jiàngdī sǔnhào shì zēngjiā shōuyì de guānjiàn.",
+        "thaiMeaning": "การปรับลดของเสียวัตถุดิบคือปัจจัยสำคัญในการเพิ่มรายได้",
+        "englishMeaning": "Reducing losses is the key to increasing profits."
+      }
+    ]
+  },
+  {
+    "id": "v710",
+    "hanzi": "盘点",
+    "pinyin": "pándiǎn",
+    "thaiMeaning": "เช็กสต็อก / Stocktaking / Inventory check",
+    "englishMeaning": "inventory",
+    "example": {
+      "hanzi": "月底进行库存盘点。",
+      "pinyin": "Yuèdǐ jìnxíng kùcún pándiǎn.",
+      "thaiMeaning": "ทำคลังเช็กสต็อกสินค้าปลายเดือน",
+      "englishMeaning": "Conduct an inventory count at the end of the month."
+    },
+    "examples": [
+      {
+        "scenario": "ปิดยอดประจำเดือน",
+        "hanzi": "盘点发现部分调料存货不足。",
+        "pinyin": "Pándiǎn fāxiàn bùfen tiáoliào cúnhuò bùzú.",
+        "thaiMeaning": "เช็กสต็อกพบว่าเครื่องปรุงรสบางส่วนมีสต็อกไม่เพียงพอ",
+        "englishMeaning": "An inventory found that some spices were insufficient in stock."
+      }
+    ]
+  },
+  {
+    "id": "v711",
+    "hanzi": "采购",
+    "pinyin": "cǎigòu",
+    "thaiMeaning": "จัดซื้อจัดหา / Procurement",
+    "englishMeaning": "purchase",
+    "example": {
+      "hanzi": "负责清晨蔬菜采购。",
+      "pinyin": "Fùzé qīngchén shūcài cǎigòu.",
+      "thaiMeaning": "รับผิดชอบการจัดซื้อผักสดในตอนเช้ามืด",
+      "englishMeaning": "Responsible for early morning vegetable purchasing."
+    },
+    "examples": [
+      {
+        "scenario": "ดิลิเวอรีวัตถุดิบ",
+        "hanzi": "采购部门直接向农场进货。",
+        "pinyin": "Cǎigòu bùmén zhíjiē xiàng nóngchǎng jìn huò.",
+        "thaiMeaning": "แผนกจัดซื้อสั่งสินค้าตรงมาจากฟาร์มเกษตร",
+        "englishMeaning": "The purchasing department purchases directly from the farm."
+      }
+    ]
+  },
+  {
+    "id": "v712",
+    "hanzi": "保鲜",
+    "pinyin": "bǎoxiān",
+    "thaiMeaning": "การถนอมความสด / Keeping fresh",
+    "englishMeaning": "Keep fresh",
+    "example": {
+      "hanzi": "注意肉类的保鲜。",
+      "pinyin": "Zhùyì ròulèi de bǎoxiān.",
+      "thaiMeaning": "ใส่ใจการถนอมความสดของเนื้อสัตว์",
+      "englishMeaning": "Pay attention to the preservation of meat."
+    },
+    "examples": [
+      {
+        "scenario": "การใช้อุปกรณ์",
+        "hanzi": "使用保鲜膜和真空袋。",
+        "pinyin": "Shǐyòng bǎoxiānmó hé zhēnkōng dài.",
+        "thaiMeaning": "ใช้พลาสติกถนอมอาหารและถุงสูญญากาศ",
+        "englishMeaning": "Use plastic wrap and vacuum bags."
+      }
+    ]
+  },
+  {
+    "id": "v713",
+    "hanzi": "冷藏",
+    "pinyin": "lěngcáng",
+    "thaiMeaning": "แช่เย็น (ช่องธรรมดา) / Refrigerate",
+    "englishMeaning": "refrigeration",
+    "example": {
+      "hanzi": "开封后请冷藏保存。",
+      "pinyin": "Kāifēng hòu qǐng lěngcáng bǎocún.",
+      "thaiMeaning": "เปิดฝาแล้วกรุณาเก็บแช่เย็นไว้",
+      "englishMeaning": "Please keep refrigerated after opening."
+    },
+    "examples": [
+      {
+        "scenario": "วิธีจัดเก็บ",
+        "hanzi": "牛奶和蔬菜需要冷藏。",
+        "pinyin": "Niúnǎi hé shūcài xūyào lěngcáng.",
+        "thaiMeaning": "นมสดและผักจำเป็นต้องแช่เย็น",
+        "englishMeaning": "Milk and vegetables need to be refrigerated."
+      }
+    ]
+  },
+  {
+    "id": "v714",
+    "hanzi": "冷冻",
+    "pinyin": "lěngdòng",
+    "thaiMeaning": "แช่แข็ง (ช่องฟรีซ) / Freeze / Deep freeze",
+    "englishMeaning": "freezing",
+    "example": {
+      "hanzi": "冷冻海鲜。",
+      "pinyin": "Lěngdòng hǎixiān.",
+      "thaiMeaning": "อาหารทะเลแช่แข็ง",
+      "englishMeaning": "Frozen seafood."
+    },
+    "examples": [
+      {
+        "scenario": "การเก็บเนื้อ",
+        "hanzi": "新鲜牛肉可以放入冷冻室。",
+        "pinyin": "Xīnxiān niúròu kěyǐ fàngrù lěngdòngshì.",
+        "thaiMeaning": "เนื้อวัวสดสามารถนำเข้าเก็บในช่องแช่แข็งได้",
+        "englishMeaning": "Fresh beef can be placed in the freezer."
+      }
+    ]
+  },
+  {
+    "id": "v715",
+    "hanzi": "优惠券",
+    "pinyin": "yōuhuìquàn",
+    "thaiMeaning": "คูปองส่วนลด / Discount coupon",
+    "englishMeaning": "Coupon",
+    "example": {
+      "hanzi": "使用五十元优惠券。",
+      "pinyin": "Shǐyòng wǔshí yuán yōuhuìquàn.",
+      "thaiMeaning": "ใช้คูปองส่วนลด 50 หยวน",
+      "englishMeaning": "Use the fifty dollar coupon."
+    },
+    "examples": [
+      {
+        "scenario": "โปรโมชันร้าน",
+        "hanzi": "扫码关注可以获得优惠券。",
+        "pinyin": "Sǎo mǎ guānzhù kěyǐ huòdé yōuhuìquàn.",
+        "thaiMeaning": "สแกนโค้ดติดตามรับคูปองส่วนลดได้",
+        "englishMeaning": "Scan the QR code and follow to get coupons."
+      }
+    ]
+  },
+  {
+    "id": "v716",
+    "hanzi": "满减",
+    "pinyin": "mǎnjiǎn",
+    "thaiMeaning": "ส่วนลดเมื่อยอดถึงเกณฑ์ / Spend X get Y discount",
+    "englishMeaning": "Full discount",
+    "example": {
+      "hanzi": "满一百减二十。",
+      "pinyin": "Mǎn yìbǎi jiǎn èrshí.",
+      "thaiMeaning": "ทานครบ 100 หยวน ลด 20 หยวน",
+      "englishMeaning": "Twenty minus one hundred."
+    },
+    "examples": [
+      {
+        "scenario": "แคมเปญร้านอาหาร",
+        "hanzi": "店里正在做满减促销活动。",
+        "pinyin": "Diànlǐ zhèngzài zuò mǎnjiǎn cùxiāo huódòng.",
+        "thaiMeaning": "ในร้านกำลังจัดกิจกรรมโปรโมชันลดเมื่อยอดถึงเกณฑ์อยู่",
+        "englishMeaning": "The store is doing a full discount promotion."
+      }
+    ]
+  },
+  {
+    "id": "v717",
+    "hanzi": "点评",
+    "pinyin": "diǎnpíng",
+    "thaiMeaning": "รีวิวให้คะแนนร้าน / Customer review & rating",
+    "englishMeaning": "Review",
+    "example": {
+      "hanzi": "在网上写美食点评。",
+      "pinyin": "Zài wǎngshang xiě měishí diǎnpíng.",
+      "thaiMeaning": "เขียนรีวิวอาหารบนอินเทอร์เน็ต",
+      "englishMeaning": "Write food reviews online."
+    },
+    "examples": [
+      {
+        "scenario": "ชวนรีวิว",
+        "hanzi": "好评如潮，点评得分很高。",
+        "pinyin": "Hǎopíng rú cháo, diǎnpíng défēn hěn gāo.",
+        "thaiMeaning": "คำชมหลั่งไหลมา คะแนนรีวิวสูงมาก",
+        "englishMeaning": "It has rave reviews and high review scores."
+      }
+    ]
+  },
+  {
+    "id": "v718",
+    "hanzi": "投诉",
+    "pinyin": "tóusù",
+    "thaiMeaning": "การร้องเรียน / Customer complaint",
+    "englishMeaning": "complaint",
+    "example": {
+      "hanzi": "处理顾客投诉。",
+      "pinyin": "Chǔlǐ gùkè tóusù.",
+      "thaiMeaning": "จัดการข้อร้องเรียนของลูกค้า",
+      "englishMeaning": "Handle customer complaints."
+    },
+    "examples": [
+      {
+        "scenario": "งานบริการ",
+        "hanzi": "经理认真听取并处理了投诉。",
+        "pinyin": "Jīnglǐ rènzhēn tīngqǔ bìng chǔlǐ le tóusù.",
+        "thaiMeaning": "ผู้จัดการตั้งใจรับฟังและจัดการข้อร้องเรียนอย่างตั้งใจ",
+        "englishMeaning": "The manager listened carefully and dealt with the complaint."
+      }
+    ]
+  },
+  {
+    "id": "v719",
+    "hanzi": "汤底",
+    "pinyin": "tāngdǐ",
+    "thaiMeaning": "น้ำซุปหัวเชื้อ / Broth base / Soup base",
+    "englishMeaning": "Soup base",
+    "example": {
+      "hanzi": "请问需要什么口味的汤底？",
+      "pinyin": "Qǐngwèn xūyào shénme kǒuwèi de tāngdǐ?",
+      "thaiMeaning": "ขอถามหน่อย คุณต้องการน้ำซุปรสชาติแบบไหนครับ?",
+      "englishMeaning": "What kind of soup base do you want?"
+    },
+    "examples": [
+      {
+        "scenario": "เลือกซุปหม้อไฟ",
+        "hanzi": "这款鸳鸯火锅有两种汤底。",
+        "pinyin": "Zhè kuǎn yuānyang huǒguō yǒu liǎng zhǒng tāngdǐ.",
+        "thaiMeaning": "หม้อไฟหยินหยางรุ่นนี้มีน้ำซุปหัวเชื้อ 2 แบบ",
+        "englishMeaning": "This Yuanyang hotpot has two soup bases."
+      }
+    ]
+  },
+  {
+    "id": "v720",
+    "hanzi": "高汤",
+    "pinyin": "gāotāng",
+    "thaiMeaning": "น้ำซุปกระดูกเคี่ยว / Stock broth",
+    "englishMeaning": "stock",
+    "example": {
+      "hanzi": "使用慢火熬制的高汤。",
+      "pinyin": "Shǐyòng mànhuǒ áozhì de gāotāng.",
+      "thaiMeaning": "ใช้น้ำซุปกระดูกเคี่ยวด้วยไฟอ่อนๆ",
+      "englishMeaning": "Use slow-simmered stock."
+    },
+    "examples": [
+      {
+        "scenario": "เชฟอธิบายน้ำซุป",
+        "hanzi": "鲜美的高汤是这道菜的灵魂。",
+        "pinyin": "Xiānměi de gāotāng shì zhè dào cài de línghún.",
+        "thaiMeaning": "น้ำซุปกระดูกเคี่ยวที่สดกลมกล่อมคือหัวใจของอาหารจานนี้",
+        "englishMeaning": "The delicious stock is the soul of this dish."
+      }
+    ]
+  },
+  {
+    "id": "v721",
+    "hanzi": "腌制",
+    "pinyin": "yānzhì",
+    "thaiMeaning": "หมัก (เนื้อสัตว์/ผัก) / Marinate",
+    "englishMeaning": "pickled",
+    "example": {
+      "hanzi": "牛肉需要提前腌制半小时。",
+      "pinyin": "Niúròu xūyào tíqián yānzhì bàn xiǎoshí.",
+      "thaiMeaning": "เนื้อวัวจำเป็นต้องหมักล่วงหน้าครึ่งชั่วโมง",
+      "englishMeaning": "The beef needs to be marinated for half an hour in advance."
+    },
+    "examples": [
+      {
+        "scenario": "สูตรลับความอร่อย",
+        "hanzi": "秘制酱料腌制的烧烤格外香。",
+        "pinyin": "Mìzhì jiàngliào yānzhì de shāokǎo géwài xiāng.",
+        "thaiMeaning": "ปิ้งย่างที่หมักด้วยซอสสูตรลับหอมเป็นพิเศษ",
+        "englishMeaning": "The barbecue marinated with secret sauce is particularly fragrant."
+      }
+    ]
+  },
+  {
+    "id": "v722",
+    "hanzi": "预制菜",
+    "pinyin": "yùzhìcài",
+    "thaiMeaning": "อาหารสำเร็จรูปพร้อมปรุง / Pre-cooked / Ready-to-heat dish",
+    "englishMeaning": "Prepared dishes",
+    "example": {
+      "hanzi": "预制菜方便快捷。",
+      "pinyin": "Yùzhìcài fāngbiàn kuàijié.",
+      "thaiMeaning": "อาหารสำเร็จรูปพร้อมปรุงสะดวกและรวดเร็ว",
+      "englishMeaning": "Pre-made dishes are quick and easy."
+    },
+    "examples": [
+      {
+        "scenario": "เทรนด์อุตสาหกรรม",
+        "hanzi": "预制菜行业发展非常迅速。",
+        "pinyin": "Yùzhìcài hángyè fāzhǎn fēicháng xùnsù.",
+        "thaiMeaning": "อุตสาหกรรมอาหารสำเร็จรูปพร้อมปรุงเติบโตอย่างรวดเร็ว",
+        "englishMeaning": "The prepared food industry is growing very rapidly."
+      }
+    ]
+  },
+  {
+    "id": "v723",
+    "hanzi": "保质期",
+    "pinyin": "bǎozhìqī",
+    "thaiMeaning": "วันหมดอายุ / ระยะเวลาเก็บรักษา / Shelf life / Expiration date",
+    "englishMeaning": "shelf life",
+    "example": {
+      "hanzi": "查看包装上的保质期。",
+      "pinyin": "Chákàn bāozhuāng shàng de bǎozhìqī.",
+      "thaiMeaning": "ตรวจเช็กวันหมดเกณฑ์รักษาบนบรรจุภัณฑ์",
+      "englishMeaning": "Check the shelf life on the packaging."
+    },
+    "examples": [
+      {
+        "scenario": "ตรวจคลังสินค้า",
+        "hanzi": "食品临近保质期需要及时处理。",
+        "pinyin": "Shípǐn línjìn bǎozhìqī xūyào jíshí chǔlǐ.",
+        "thaiMeaning": "อาหารที่ใกล้หมดอายุจำเป็นต้องจัดการโดยทันที",
+        "englishMeaning": "Food needs to be processed in time as it approaches its shelf life."
+      }
+    ]
+  },
+  {
+    "id": "v724",
+    "hanzi": "过期",
+    "pinyin": "guòqī",
+    "thaiMeaning": "หมดอายุ / Past expiration date",
+    "englishMeaning": "Expired",
+    "example": {
+      "hanzi": "严禁使用过期食材。",
+      "pinyin": "Yánjìn shǐyòng guòqī shícái.",
+      "thaiMeaning": "ห้ามใช้วัตถุดิบหมดอายุโดยเด็ดขาด",
+      "englishMeaning": "It is strictly prohibited to use expired ingredients."
+    },
+    "examples": [
+      {
+        "scenario": "กฎความปลอดภัย",
+        "hanzi": "过期的调料必须全部作废扔掉。",
+        "pinyin": "Guòqī de tiáoliào bìxū quánbù zuòfèi rēngdiào.",
+        "thaiMeaning": "เครื่องปรุงรสที่หมดอายุต้องนำไปทิ้งยกเลิกทั้งหมด",
+        "englishMeaning": "All expired condiments must be discarded."
+      }
+    ]
+  },
+  {
+    "id": "v725",
+    "hanzi": "出餐",
+    "pinyin": "chūcān",
+    "thaiMeaning": "การทำอาหารเสร็จพร้อมเสิร์ฟ / Kitchen dishing out",
+    "englishMeaning": "Dining out",
+    "example": {
+      "hanzi": "后厨出餐速度很快。",
+      "pinyin": "Hòuchú chūcān sùdù hěn kuài.",
+      "thaiMeaning": "ความเร็วในการทำอาหารเสร็จพร้อมเสิร์ฟของห้องครัวเร็วมาก",
+      "englishMeaning": "The kitchen prepares meals very quickly."
+    },
+    "examples": [
+      {
+        "scenario": "ช่วงพีคชั่วโมงด่วน",
+        "hanzi": "高峰期要保证出餐质量。",
+        "pinyin": "Gāofēngqī yào bǎozhèng chūcān zhìliàng.",
+        "thaiMeaning": "ช่วงเวลาลูกค้าแน่นต้องรับประกันคุณภาพของอาหารที่เสิร์ฟออกไป",
+        "englishMeaning": "The quality of meals must be ensured during peak periods."
+      }
+    ]
+  },
+  {
+    "id": "v726",
+    "hanzi": "摆盘",
+    "pinyin": "bǎipán",
+    "thaiMeaning": "การตกแต่งจัดจาน / Dish plating & presentation",
+    "englishMeaning": "plating",
+    "example": {
+      "hanzi": "这道菜摆盘非常精致。",
+      "pinyin": "Zhè dào cài bǎipán fēicháng jīngzhì.",
+      "thaiMeaning": "อาหารจานนี้จัดตกแต่งจานประณีตมากๆ",
+      "englishMeaning": "This dish is very beautifully presented."
+    },
+    "examples": [
+      {
+        "scenario": "ศิลปะอาหาร",
+        "hanzi": "美观的摆盘能增加顾客的食欲。",
+        "pinyin": "Měiguān de bǎipán néng zēngjiā gùkè de shíyù.",
+        "thaiMeaning": "การจัดจานที่สวยงามช่วยเพิ่มความอยากอาหารของลูกค้าได้",
+        "englishMeaning": "Beautiful presentation can increase customers' appetite."
+      }
+    ]
+  },
+  {
+    "id": "v727",
+    "hanzi": "估清",
+    "pinyin": "gūqīng",
+    "thaiMeaning": "สินค้าหมดประจำวัน / Out of stock for today / Sold out",
+    "englishMeaning": "Appraisal",
+    "example": {
+      "hanzi": "不好意思，招牌鸭肉已经估清了。",
+      "pinyin": "Bù hǎoyìsi, zhāopái yāròu yǐjīng gūqīng le.",
+      "thaiMeaning": "ขอโทษนะครับ เมนูเป็ดย่างเด็ดหมดประจำวันแล้วครับ",
+      "englishMeaning": "Sorry, the signature duck meat has been priced out."
+    },
+    "examples": [
+      {
+        "scenario": "แจ้งลูกค้า",
+        "hanzi": "请在POS系统里把这道菜设为估清。",
+        "pinyin": "Qǐng zài POS xìtǒng lǐ bǎ zhè dào cài shè wéi gūqīng.",
+        "thaiMeaning": "กรุณาตั้งค่าอาหารจานนี้ว่าหมดประจำวันในระบบ POS ด้วยนะ",
+        "englishMeaning": "Please set this dish as Qingqing in the POS system."
+      }
+    ]
+  },
+  {
+    "id": "v728",
+    "hanzi": "加菜",
+    "pinyin": "jiācài",
+    "thaiMeaning": "สั่งอาหารเพิ่ม / Add more dishes",
+    "englishMeaning": "Add vegetables",
+    "example": {
+      "hanzi": "服务员，我们想加菜。",
+      "pinyin": "Fúwùyuán, wǒmen xiǎng jiācài.",
+      "thaiMeaning": "น้องพนักงาน พวกเราอยากสั่งอาหารเพิ่มครับ",
+      "englishMeaning": "Waiter, we would like to add more dishes."
+    },
+    "examples": [
+      {
+        "scenario": "เพิ่มรายการอาหาร",
+        "hanzi": "请帮我再加一份牛肉和一份蔬菜。",
+        "pinyin": "Qǐng bāng wǒ zài jiā yí fèn niúròu hé yí fèn shūcài.",
+        "thaiMeaning": "ช่วยเพิ่มเนื้อวัวอีกหนึ่งจานและผักอีกหนึ่งจานให้ฉันที",
+        "englishMeaning": "Please help me add another piece of beef and one piece of vegetables."
+      }
+    ]
+  },
+  {
+    "id": "v729",
+    "hanzi": "退菜",
+    "pinyin": "tuìcài",
+    "thaiMeaning": "ยกเลิก/คืนรายการอาหาร / Cancel dish order",
+    "englishMeaning": "Withdrawal",
+    "example": {
+      "hanzi": "菜里有异物，顾客要求退菜。",
+      "pinyin": "Cài lǐ yǒu yìwù, gùkè yāoqiú tuìcài.",
+      "thaiMeaning": "ในอาหารมีสิ่งแปลกปลอม ลูกค้าขอคืนรายการอาหาร",
+      "englishMeaning": "There was a foreign object in the dish, and the customer asked for the dish to be returned."
+    },
+    "examples": [
+      {
+        "scenario": "การแก้ปัญหาลูกค้า",
+        "hanzi": "如果上错菜，可以给顾客退菜。",
+        "pinyin": "Rúguǒ shàng cuò cài, kěyǐ gěi gùkè tuìcài.",
+        "thaiMeaning": "หากเสิร์ฟอาหารผิด สามารถยกเลิกคืนรายการให้ลูกค้าได้",
+        "englishMeaning": "If the wrong dish is served, the dish can be returned to the customer."
+      }
+    ]
+  },
+  {
+    "id": "v730",
+    "hanzi": "换桌",
+    "pinyin": "huànzhuō",
+    "thaiMeaning": "ย้ายโต๊ะอาหาร / Change table",
+    "englishMeaning": "Change table",
+    "example": {
+      "hanzi": "请问可以帮我们换桌吗？",
+      "pinyin": "Qǐngwèn kěyǐ bāng wǒmen huànzhuō ma?",
+      "thaiMeaning": "ขอถามหน่อย ช่วยพวกเราย้ายโต๊ะได้ไหมครับ?",
+      "englishMeaning": "Could you please help us change the table?"
+    },
+    "examples": [
+      {
+        "scenario": "ขอย้ายไปริมหน้าต่าง",
+        "hanzi": "顾客想换到靠窗的桌位。",
+        "pinyin": "Gùkè xiǎng huàn dào kào chuāng de zhuōwèi.",
+        "thaiMeaning": "ลูกค้าอยากย้ายไปนั่งโต๊ะริมหน้าต่าง",
+        "englishMeaning": "The customer wants to move to a table by the window."
+      }
+    ]
+  },
+  {
+    "id": "v731",
+    "hanzi": "催菜",
+    "pinyin": "cuīcài",
+    "thaiMeaning": "เร่งอาหารกับครัว / Speed up dish / Urge kitchen",
+    "englishMeaning": "urge vegetables",
+    "example": {
+      "hanzi": "顾客在催菜了，请快一点。",
+      "pinyin": "Gùkè zài cuīcài le, qǐng kuài yìdiǎn.",
+      "thaiMeaning": "ลูกค้าเริ่มเร่งอาหารแล้ว กรุณาเร็วหน่อยนะครับ",
+      "englishMeaning": "The customer is asking for food, please hurry up."
+    },
+    "examples": [
+      {
+        "scenario": "บริการลูกค้าด่วน",
+        "hanzi": "请去后厨帮三号桌催一下菜。",
+        "pinyin": "Qǐng qù hòuchú bāng sān hào zhuō cuī yíxià cài.",
+        "thaiMeaning": "กรุณาไปที่ครัวช่วยเร่งอาหารให้โต๊ะหมายเลข 3 สักหน่อย",
+        "englishMeaning": "Please go to the back kitchen to order the dishes for table three."
+      }
+    ]
+  },
+  {
+    "id": "v732",
+    "hanzi": "错单",
+    "pinyin": "cuòdān",
+    "thaiMeaning": "คีย์บิลผิดพลาด / Wrong order",
+    "englishMeaning": "Wrong order",
+    "example": {
+      "hanzi": "避免打错单。",
+      "pinyin": "Bìmiǎn dǎ cuòdān.",
+      "thaiMeaning": "หลีกเลี่ยงการคีย์รายการบิลผิดพลาด",
+      "englishMeaning": "Avoid placing wrong orders."
+    },
+    "examples": [
+      {
+        "scenario": "ตรวจสอบรายการ",
+        "hanzi": "点完餐后请和顾客核对，防止错单。",
+        "pinyin": "Diǎn wán cān hòu qǐng hé gùkè héduì, fángzhǐ cuòdān.",
+        "thaiMeaning": "สั่งอาหารเสร็จแล้วกรุณาทวนกับลูกค้าเพื่อป้องกันคีย์รายการผิด",
+        "englishMeaning": "Please check with the customer after ordering to avoid ordering mistakes."
+      }
+    ]
+  },
+  {
+    "id": "v733",
+    "hanzi": "漏单",
+    "pinyin": "lòudān",
+    "thaiMeaning": "ตกหล่นรายการอาหาร / Missed dish order",
+    "englishMeaning": "Missed order",
+    "example": {
+      "hanzi": "检查是否有漏单的菜品。",
+      "pinyin": "Jiǎnchá shìfǒu yǒu lòudān de càipǐn.",
+      "thaiMeaning": "ตรวจเช็กว่ามีรายการอาหารตกหล่นบ้างไหม",
+      "englishMeaning": "Check if there are any missing items."
+    },
+    "examples": [
+      {
+        "scenario": "บริการลูกค้า",
+        "hanzi": "不好意思，刚才漏单了，现在马上补上。",
+        "pinyin": "Bù hǎoyìsi, gāngcái lòudān le, xiànzài mǎshàng bǔ shàng.",
+        "thaiMeaning": "ขอโทษนะครับ เมื่อสักครู่ตกหล่นไป เดี๋ยวนี้จะรีบเสิร์ฟชดเชยให้ทันที",
+        "englishMeaning": "Sorry, I missed the order just now, I will make it up now."
+      }
+    ]
+  },
+  {
+    "id": "v734",
+    "hanzi": "客满",
+    "pinyin": "kèmǎn",
+    "thaiMeaning": "โต๊ะเต็มทุกที่นั่ง / House full / Fully booked",
+    "englishMeaning": "Full house",
+    "example": {
+      "hanzi": "抱歉，今晚餐厅已客满。",
+      "pinyin": "Bàoqiàn, jīn wǎn cāntīng yǐ kèmǎn.",
+      "thaiMeaning": "ขออภัยนะครับ คืนนี้ร้านอาหารโต๊ะเต็มหมดแล้วครับ",
+      "englishMeaning": "Sorry, the restaurant is full tonight."
+    },
+    "examples": [
+      {
+        "scenario": "แจ้งลูกค้าหน้าร้าน",
+        "hanzi": "客满时请指引顾客到候餐区休息。",
+        "pinyin": "Kèmǎn shí qǐng zhǐyǐn gùkè dào hòucānqū xiūxi.",
+        "thaiMeaning": "เวลาโต๊ะเต็มกรุณาเชิญลูกค้าไปพักรอที่จุดรอคิว",
+        "englishMeaning": "When the restaurant is full, please direct customers to the waiting area to rest."
+      }
+    ]
+  },
+  {
+    "id": "v735",
+    "hanzi": "候餐区",
+    "pinyin": "hòucānqū",
+    "thaiMeaning": "โซนนั่งรอคิวอาหาร / Restaurant waiting area",
+    "englishMeaning": "Waiting area",
+    "example": {
+      "hanzi": "请在候餐区稍作休息。",
+      "pinyin": "Qǐng zài hòucānqū shāo zuò xiūxi.",
+      "thaiMeaning": "กรุณานั่งพักรอสักครู่ที่โซนนั่งรอคิวครับ",
+      "englishMeaning": "Please take a break in the waiting area."
+    },
+    "examples": [
+      {
+        "scenario": "บริการลูกค้าคิว",
+        "hanzi": "候餐区免费提供茶水和小吃。",
+        "pinyin": "Hòucānqū miǎnfèi tígōng cháshuǐ hé xiǎochī.",
+        "thaiMeaning": "โซนนั่งรอคิวมีบริการน้ำชาและขนมฟรี",
+        "englishMeaning": "Free tea and snacks are provided in the waiting area."
+      }
+    ]
+  },
+  {
+    "id": "v736",
+    "hanzi": "消毒",
+    "pinyin": "xiāodú",
+    "thaiMeaning": "ฆ่าเชื้อโรค / Sterilize / Disinfect",
+    "englishMeaning": "disinfect",
+    "example": {
+      "hanzi": "餐具均已严格消毒。",
+      "pinyin": "Cānjù jūn yǐ yángé xiāodú.",
+      "thaiMeaning": "จานชามช้อนส้อมผ่านการฆ่าเชื้อโรคอย่างเข้มงวดเรียบร้อย",
+      "englishMeaning": "Tableware has been strictly disinfected."
+    },
+    "examples": [
+      {
+        "scenario": "มาตรฐานสุขอนามัย",
+        "hanzi": "每桌客离后都会进行桌面消毒。",
+        "pinyin": "Měi zhuō kè lí hòu dōu huì jìnxíng zhuōmiàn xiāodú.",
+        "thaiMeaning": "หลังจากลูกค้าทุกโต๊ะลุกออกไป จะมีการฆ่าเชื้อบนหน้าโต๊ะเสมอ",
+        "englishMeaning": "Each table will be disinfected after guests leave."
       }
     ]
   }
